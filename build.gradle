@@ -1,4 +1,6 @@
-import cuchaz.enigma.command.ConvertMappingsCommand
+import net.fabricmc.mappingio.*
+import net.fabricmc.mappingio.format.*
+import net.fabricmc.mappingio.tree.*
 
 buildscript {
     repositories {
@@ -9,7 +11,7 @@ buildscript {
     }
 
     dependencies {
-        classpath "cuchaz:enigma:0.14.2.138"
+        classpath 'net.fabricmc:mapping-io:0.3.0'
     }
 }
 
@@ -62,12 +64,11 @@ file('mappings').eachFile {
         outputs.file(v2MappingFile)
 
         doLast {
-            new ConvertMappingsCommand().run(
-                    "tiny",
-                    v1MappingFile.path,
-                    "tinyv2:official:intermediary",
-                    v2MappingFile.path
-            )
+            def memoryMappingTree = new MemoryMappingTree()
+            MappingReader.read(v1MappingFile.toPath(), memoryMappingTree)
+            try (MappingWriter mappingWriter = MappingWriter.create(v2MappingFile.toPath(), MappingFormat.TINY_2)) {
+                memoryMappingTree.accept(mappingWriter)
+            }
         }
     }
 
