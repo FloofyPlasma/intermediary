@@ -42,11 +42,11 @@ def ENV = System.getenv()
 
 def published = false
 def localMappingsPath = "$buildDir/v2Mappings"
-def localv1NewMappingsPath = "$buildDir/v1NewMappings"
-def localv2NewMappingsPath = "$buildDir/v2NewMappings"
+def localv1UpstreamedMappingsPath = "$buildDir/v1UpstreamedMappings"
+def localv2UpstreamedMappingsPath = "$buildDir/v2UpstreamedMappings"
 new File(localMappingsPath).mkdirs()
-new File(localv1NewMappingsPath).mkdirs()
-new File(localv2NewMappingsPath).mkdirs()
+new File(localv1UpstreamedMappingsPath).mkdirs()
+new File(localv2UpstreamedMappingsPath).mkdirs()
 file('mappings').eachFile {
 	if (!it.name.endsWith(".tiny")) return
 
@@ -54,8 +54,8 @@ file('mappings').eachFile {
 
     File v1MappingFile = it
     File v2MappingFile = new File("$localMappingsPath/${it.name}")
-    File v1NewMappingFile = new File("$localv1NewMappingsPath/${it.name}")
-    File v2NewMappingFile = new File("$localv2NewMappingsPath/${it.name}")
+    File v1UpstreamedMappingFile = new File("$localv1UpstreamedMappingsPath/${it.name}")
+    File v2UpstreamedMappingFile = new File("$localv2UpstreamedMappingsPath/${it.name}")
 
 	def conversionTask = tasks.register("convert${it.name}ToV2") {
 		group = "V2 Conversion"
@@ -72,28 +72,28 @@ file('mappings').eachFile {
         }
     }
 
-    def newV1Task = "toNewV1"
-    tasks.register(newV1Task) {
-        group = "New V1 Conversion"
+    def V1UpstreamedTask = "toV1Upstreamed"
+    tasks.register(V1UpstreamedTask) {
+        group = "V1 Upstreamed Conversion"
         inputs.file(v1MappingFile)
-        outputs.file(v1NewMappingFile)
+        outputs.file(v1UpstreamedMappingFile)
 
         doLast {
             def memoryMappingTree = new MemoryMappingTree()
             MappingDstNsReorder reorder = new MappingDstNsReorder(memoryMappingTree, "clientOfficial", "serverOfficial")
             MappingNsRenamer renamer = new MappingNsRenamer(reorder, ["client": "clientOfficial", "server": "serverOfficial"])
             MappingReader.read(v1MappingFile.toPath(), renamer)
-            try (MappingWriter mappingWriter = MappingWriter.create(v1NewMappingFile.toPath(), MappingFormat.TINY_FILE)) {
+            try (MappingWriter mappingWriter = MappingWriter.create(v1UpstreamedMappingFile.toPath(), MappingFormat.TINY_FILE)) {
                 memoryMappingTree.accept(mappingWriter)
             }
         }
     }
 
-    def newV2Task = "toNewV2"
-    tasks.register(newV2Task) {
-        group = "New V2 Conversion"
+    def V2UpstreamedTask = "toV2Upstreamed"
+    tasks.register(V2UpstreamedTask) {
+        group = "V2 Upstreamed Conversion"
         inputs.file(v2MappingFile)
-        outputs.file(v2NewMappingFile)
+        outputs.file(v2UpstreamedMappingFile)
         dependsOn(conversionTask)
 
         doLast {
@@ -101,7 +101,7 @@ file('mappings').eachFile {
             MappingDstNsReorder reorder = new MappingDstNsReorder(memoryMappingTree, "clientOfficial", "serverOfficial")
             MappingNsRenamer renamer = new MappingNsRenamer(reorder, ["client": "clientOfficial", "server": "serverOfficial"])
             MappingReader.read(v2MappingFile.toPath(), renamer)
-            try (MappingWriter mappingWriter = MappingWriter.create(v2NewMappingFile.toPath(), MappingFormat.TINY_2_FILE)) {
+            try (MappingWriter mappingWriter = MappingWriter.create(v2UpstreamedMappingFile.toPath(), MappingFormat.TINY_2_FILE)) {
                 memoryMappingTree.accept(mappingWriter)
             }
 		}
@@ -109,12 +109,12 @@ file('mappings').eachFile {
 
     Jar makeV1Jar = makeJar(mcVer, v1MappingFile, false, false)
     Jar makeV2Jar = makeJar(mcVer, v2MappingFile, true, false)
-    Jar makeFixedV1Jar = makeJar(mcVer, v1NewMappingFile, false, true)
-    Jar makeFixedV2Jar = makeJar(mcVer, v2NewMappingFile, true, true)
+    Jar makeUpstreamedV1Jar = makeJar(mcVer, v1UpstreamedMappingFile, false, true)
+    Jar makeUpstreamedV2Jar = makeJar(mcVer, v2UpstreamedMappingFile, true, true)
 
     makeV2Jar.dependsOn conversionTask
-    makeFixedV1Jar.dependsOn newV1Task
-    makeFixedV2Jar.dependsOn newV2Task
+    makeUpstreamedV1Jar.dependsOn V1UpstreamedTask
+    makeUpstreamedV2Jar.dependsOn V2UpstreamedTask
 
     publishing {
         publications {
@@ -130,15 +130,15 @@ file('mappings').eachFile {
                     classifier = "v2"
                 }
             }
-            create("${mcVer.replace(" ", "")}Fixed_mavenJava", MavenPublication) {
+            create("${mcVer.replace(" ", "")}Upstreamed_mavenJava", MavenPublication) {
                 groupId "babric"
-                artifactId "intermediary-fixed"
+                artifactId "intermediary-upstreamed"
                 version mcVer
-                artifact(makeFixedV1Jar.archiveFile) {
-                    builtBy makeFixedV1Jar
+                artifact(makeUpstreamedV1Jar.archiveFile) {
+                    builtBy makeUpstreamedV1Jar
                 }
-                artifact(makeFixedV2Jar.archiveFile) {
-                    builtBy makeFixedV2Jar
+                artifact(makeUpstreamedV2Jar.archiveFile) {
+                    builtBy makeUpstreamedV2Jar
                     classifier = "v2"
                 }
             }
@@ -150,9 +150,9 @@ if (!published) {
     throw new RuntimeException("Nothing to publish, override with the FORCE_PUBLISH env")
 }
 
-def makeJar(String mcVersion, File mappings, boolean v2, boolean fixed) {
-    def jarFilename = "intermediary-" + (fixed ? "fixed-" : "") + mcVersion + (v2 ? "-v2" : "")
-    return task("${mcVersion}_makeJar" + (v2 ? "v2" : "") + (fixed ? "Fixed" : ""), type: Jar) {
+def makeJar(String mcVersion, File mappings, boolean v2, boolean upstreamed) {
+    def jarFilename = "intermediary-" + (upstreamed ? "upstreamed-" : "") + mcVersion + (v2 ? "-v2" : "")
+    return task("${mcVersion}_makeJar" + (v2 ? "v2" : "") + (upstreamed ? "Upstreamed" : ""), type: Jar) {
         baseName jarFilename
         from(file(mappings)) {
             into "mappings"
