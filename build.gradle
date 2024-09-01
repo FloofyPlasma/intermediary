@@ -42,8 +42,8 @@ def ENV = System.getenv()
 
 def published = false
 def localMappingsPath = "$buildDir/v2Mappings"
-def localv1UpstreamedMappingsPath = "$buildDir/v1UpstreamedMappings"
-def localv2UpstreamedMappingsPath = "$buildDir/v2UpstreamedMappings"
+def localv1UpstreamedMappingsPath = "$buildDir/v1UpstreamMappings"
+def localv2UpstreamedMappingsPath = "$buildDir/v2UpstreamMappings"
 new File(localMappingsPath).mkdirs()
 new File(localv1UpstreamedMappingsPath).mkdirs()
 new File(localv2UpstreamedMappingsPath).mkdirs()
@@ -72,9 +72,9 @@ file('mappings').eachFile {
         }
     }
 
-    def V1UpstreamedTask = "toV1Upstreamed"
+    def V1UpstreamedTask = "toV1Upstream"
     tasks.register(V1UpstreamedTask) {
-        group = "V1 Upstreamed Conversion"
+        group = "V1 Upstream Conversion"
         inputs.file(v1MappingFile)
         outputs.file(v1UpstreamedMappingFile)
 
@@ -89,9 +89,9 @@ file('mappings').eachFile {
         }
     }
 
-    def V2UpstreamedTask = "toV2Upstreamed"
+    def V2UpstreamedTask = "toV2Upstream"
     tasks.register(V2UpstreamedTask) {
-        group = "V2 Upstreamed Conversion"
+        group = "V2 Upstream Conversion"
         inputs.file(v2MappingFile)
         outputs.file(v2UpstreamedMappingFile)
         dependsOn(conversionTask)
@@ -130,9 +130,9 @@ file('mappings').eachFile {
                     classifier = "v2"
                 }
             }
-            create("${mcVer.replace(" ", "")}Upstreamed_mavenJava", MavenPublication) {
+            create("${mcVer.replace(" ", "")}Upstream_mavenJava", MavenPublication) {
                 groupId "babric"
-                artifactId "intermediary-upstreamed"
+                artifactId "intermediary-upstream"
                 version mcVer
                 artifact(makeUpstreamedV1Jar.archiveFile) {
                     builtBy makeUpstreamedV1Jar
@@ -151,8 +151,8 @@ if (!published) {
 }
 
 def makeJar(String mcVersion, File mappings, boolean v2, boolean upstreamed) {
-    def jarFilename = "intermediary-" + (upstreamed ? "upstreamed-" : "") + mcVersion + (v2 ? "-v2" : "")
-    return task("${mcVersion}_makeJar" + (v2 ? "v2" : "") + (upstreamed ? "Upstreamed" : ""), type: Jar) {
+    def jarFilename = "intermediary-" + (upstreamed ? "upstream-" : "") + mcVersion + (v2 ? "-v2" : "")
+    return task("${mcVersion}_makeJar" + (v2 ? "v2" : "") + (upstreamed ? "Upstream" : ""), type: Jar) {
         baseName jarFilename
         from(file(mappings)) {
             into "mappings"
