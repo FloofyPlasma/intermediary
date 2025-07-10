@@ -1,4 +1,4 @@
-v1	intermediary	glue	server	client
+v1	intermediary	glue	client	server
 CLASS	net/minecraft/src/PathPoint	net/minecraft/src/PathPoint		a
 FIELD	net/minecraft/src/PathPoint	I	xCoord	xCoord	a	a
 FIELD	net/minecraft/src/PathPoint	I	yCoord	yCoord	a	a
