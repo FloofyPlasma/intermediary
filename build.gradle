@@ -116,5 +116,9 @@ def makeJar(String mcVersion, File mappings, boolean v2) {
 publishing {
     repositories {
         mavenLocal()
+        maven {
+            name = "localDistribution"
+            url = uri("$buildDir/dist")
+        }
     }
 }
