@@ -66,7 +66,7 @@ file('mappings').eachFile {
 
         doLast {
             def memoryMappingTree = new MemoryMappingTree()
-            MappingNsCompleter nsCompleter = new MappingNsCompleter(memoryMappingTree, Map.of("glue", "intermediary", "server", "intermediary", "client", "intermediary"));
+            MappingNsCompleter nsCompleter = new MappingNsCompleter(memoryMappingTree, Map.of("named", "intermediary"));
             MappingReader.read(v1MappingFile.toPath(), nsCompleter)
             try (MappingWriter mappingWriter = MappingWriter.create(v2MappingFile.toPath(), MappingFormat.TINY_2)) {
                 memoryMappingTree.accept(mappingWriter)
