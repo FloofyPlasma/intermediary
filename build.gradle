@@ -82,7 +82,7 @@ file('mappings').eachFile {
     publishing {
         publications {
             create("${mcVer.replace(" ", "")}_mavenJava", MavenPublication) {
-                groupId "babric"
+                groupId "aabric"
                 artifactId "intermediary"
                 version mcVer
                 artifact(makeV1Jar.archiveFile) {
@@ -115,14 +115,6 @@ def makeJar(String mcVersion, File mappings, boolean v2) {
 
 publishing {
     repositories {
-        if (ENV.MAVEN_URL) {
-            maven {
-                url ENV.MAVEN_URL
-                credentials {
-                    username ENV.MAVEN_USERNAME
-                    password ENV.MAVEN_PASSWORD
-                }
-            }
-        }
+        mavenLocal()
     }
 }
