@@ -9,7 +9,7 @@ FIELD	f	F	totalPathDistance	a
 FIELD	g	F	distanceToNext	a
 FIELD	h	F	distanceToTarget	a
 FIELD	La;	La	previous	a
-FIELD	Z	j	isFirst	a
+FIELD	j	Z	isFirst	a
 METHOD	(III)V	<init>	<init>	a
 METHOD	()Z	a	isAssigned	a
 METHOD	(La;)F	a	distanceTo	a
