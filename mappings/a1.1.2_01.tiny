@@ -1,5 +1,5 @@
 v1	intermediary	glue	server	client
-CLASS	net/minecraft/class_1	net/minecraft/src/PathPoint	a	a	a
+CLASS	net/minecraft/class_1	net/minecraft/src/PathPoint	a	a
 FIELD	net/minecraft/class_1	I	field_001	field_001	a	a
 FIELD	net/minecraft/class_1	I	field_002	field_002	a	a
 FIELD	net/minecraft/class_1	I	field_003	field_003	a	a
@@ -14,14 +14,14 @@ METHOD	net/minecraft/class_1	(III)V	method_001	method_001	a	a
 METHOD	net/minecraft/class_1	()Z	method_002	method_002	a	a
 METHOD	net/minecraft/class_1	(La;)F	method_003	method_003	a	a
 METHOD	net/minecraft/class_1	(Ljava/lang/Object;)Z	method_004	method_004	a	a
-CLASS	net/minecraft/class_2	net/minecraft/src/TextureCompassFX	aa	aa	aa
+CLASS	net/minecraft/class_2	net/minecraft/src/TextureCompassFX	aa	aa
 FIELD	net/minecraft/class_2	[F	field_011	field_011	aa	aa
 FIELD	net/minecraft/class_2	[F	field_012	field_012	aa	aa
 FIELD	net/minecraft/class_2	Lnet/minecraft/client/Minecraft;	field_013	field_013	aa	aa
 FIELD	net/minecraft/class_2	[I	field_014	field_014	aa	aa
 FIELD	net/minecraft/class_2	D	field_015	field_015	aa	aa
 FIELD	net/minecraft/class_2	D	field_016	field_016	aa	aa
-CLASS	net/minecraft/class_3	net/minecraft/src/RenderItem	ab	ab	ab
+CLASS	net/minecraft/class_3	net/minecraft/src/RenderItem	ab	ab
 FIELD	net/minecraft/class_3	Lbc;	field_017	field_017	ab	ab
 FIELD	net/minecraft/class_3	Ljava/util/Random;	field_018	field_018	ab	ab
 METHOD	net/minecraft/class_3	(IIIIII)V	method_005	method_005	ab	ab
@@ -29,10 +29,10 @@ METHOD	net/minecraft/class_3	(Ldx;DDDFF)V	method_006	method_006	ab	ab
 METHOD	net/minecraft/class_3	(Lho;IIIII)V	method_007	method_007	ab	ab
 METHOD	net/minecraft/class_3	(Lkd;Ley;Lev;II)V	method_008	method_008	ab	ab
 METHOD	net/minecraft/class_3	(Lkd;Ley;Lev;II)V	method_009	method_009	ab	ab
-CLASS	net/minecraft/class_4	net/minecraft/src/ItemBucket	ac	ac	ac
+CLASS	net/minecraft/class_4	net/minecraft/src/ItemBucket	ac	ac
 FIELD	net/minecraft/class_4	I	field_019	field_019	ac	ac
 METHOD	net/minecraft/class_4	(II)V	method_010	method_010	ac	ac
-CLASS	net/minecraft/class_5	net/minecraft/src/CanvasIsomPreview	ad	ad	ad
+CLASS	net/minecraft/class_5	net/minecraft/src/CanvasIsomPreview	ad	ad
 FIELD	net/minecraft/class_5	I	field_020	field_020	ad	ad
 FIELD	net/minecraft/class_5	I	field_021	field_021	ad	ad
 FIELD	net/minecraft/class_5	Z	field_022	field_022	ad	ad
@@ -68,24 +68,24 @@ METHOD	net/minecraft/class_5	(Ljava/awt/event/MouseEvent;)V	method_030	method_03
 METHOD	net/minecraft/class_5	(Ljava/awt/event/MouseEvent;)V	method_031	method_031	ad	ad
 METHOD	net/minecraft/class_5	(Ljava/awt/Graphics;)V	method_032	method_032	ad	ad
 METHOD	net/minecraft/class_5	(Ljava/awt/Graphics;)V	method_033	method_033	ad	ad
-CLASS	net/minecraft/class_6	net/minecraft/src/WorldGenFlowers	ae	ae	ae
+CLASS	net/minecraft/class_6	net/minecraft/src/WorldGenFlowers	ae	ae
 FIELD	net/minecraft/class_6	I	field_032	field_032	ae	ae
-CLASS	net/minecraft/class_7	net/minecraft/src/IChunkLoader	af	af	af
+CLASS	net/minecraft/class_7	net/minecraft/src/IChunkLoader	af	af
 METHOD	net/minecraft/class_7	()V	method_034	method_034	af	af
 METHOD	net/minecraft/class_7	(Lcn;II)Lga;	method_035	method_035	af	af
 METHOD	net/minecraft/class_7	(Lcn;Lga;)V	method_036	method_036	af	af
 METHOD	net/minecraft/class_7	()V	method_037	method_037	af	af
 METHOD	net/minecraft/class_7	(Lcn;Lga;)V	method_038	method_038	af	af
-CLASS	net/minecraft/class_8	net/minecraft/src/EntityAnimal	ag	ag	ag
-CLASS	net/minecraft/class_9	net/minecraft/src/SoundPoolEntry	ah	ah	ah
+CLASS	net/minecraft/class_8	net/minecraft/src/EntityAnimal	ag	ag
+CLASS	net/minecraft/class_9	net/minecraft/src/SoundPoolEntry	ah	ah
 FIELD	net/minecraft/class_9	Ljava/lang/String;	field_033	field_033	ah	ah
 FIELD	net/minecraft/class_9	Ljava/net/URL;	field_034	field_034	ah	ah
-CLASS	net/minecraft/class_10	net/minecraft/src/BlockRedstoneOre	ai	ai	ai
+CLASS	net/minecraft/class_10	net/minecraft/src/BlockRedstoneOre	ai	ai
 FIELD	net/minecraft/class_10	Z	field_035	field_035	ai	ai
 METHOD	net/minecraft/class_10	(IIZ)V	method_039	method_039	ai	ai
 METHOD	net/minecraft/class_10	(Lcn;III)V	method_040	method_040	ai	ai
 METHOD	net/minecraft/class_10	(Lcn;III)V	method_041	method_041	ai	ai
-CLASS	net/minecraft/class_11	net/minecraft/src/VecFIELDD	aj	aj	aj
+CLASS	net/minecraft/class_11	net/minecraft/src/VecFIELDD	aj	aj
 FIELD	net/minecraft/class_11	D	field_036	field_036	aj	aj
 FIELD	net/minecraft/class_11	D	field_037	field_037	aj	aj
 FIELD	net/minecraft/class_11	D	field_038	field_038	aj	aj
@@ -109,7 +109,7 @@ METHOD	net/minecraft/class_11	(Laj;D)Laj;	method_056	method_056	aj	aj
 METHOD	net/minecraft/class_11	(DDD)D	method_057	method_057	aj	aj
 METHOD	net/minecraft/class_11	(Laj;)D	method_058	method_058	aj	aj
 METHOD	net/minecraft/class_11	(DDD)Laj;	method_059	method_059	aj	aj
-CLASS	net/minecraft/class_12	net/minecraft/src/Render	ak	ak	ak
+CLASS	net/minecraft/class_12	net/minecraft/src/Render	ak	ak
 FIELD	net/minecraft/class_12	Lkx;	field_041	field_041	ak	ak
 FIELD	net/minecraft/class_12	F	field_042	field_042	ak	ak
 FIELD	net/minecraft/class_12	F	field_043	field_043	ak	ak
@@ -127,16 +127,16 @@ METHOD	net/minecraft/class_12	(Lly;DDDIIIFFDDD)V	method_068	method_068	ak	ak
 METHOD	net/minecraft/class_12	()Lcn;	method_069	method_069	ak	ak
 METHOD	net/minecraft/class_12	(Lkh;DDDFF)V	method_070	method_070	ak	ak
 METHOD	net/minecraft/class_12	(Lkh;DDDFF)V	method_071	method_071	ak	ak
-CLASS	net/minecraft/class_13	net/minecraft/src/BlockPressurePlate	al	al	al
+CLASS	net/minecraft/class_13	net/minecraft/src/BlockPressurePlate	al	al
 FIELD	net/minecraft/class_13	Ljs;	field_046	field_046	al	al
 METHOD	net/minecraft/class_13	(IILjs;)V	method_072	method_072	al	al
 METHOD	net/minecraft/class_13	(Lcn;III)V	method_073	method_073	al	al
-CLASS	net/minecraft/class_14	net/minecraft/src/EntityCow	am	am	am
+CLASS	net/minecraft/class_14	net/minecraft/src/EntityCow	am	am
 FIELD	net/minecraft/class_14	Z	field_047	field_047	am	am
-CLASS	net/minecraft/class_15	net/minecraft/src/SlotCrafting	an	an	an
+CLASS	net/minecraft/class_15	net/minecraft/src/SlotCrafting	an	an
 FIELD	net/minecraft/class_15	Lgh;	field_048	field_048	an	an
 METHOD	net/minecraft/class_15	(Lee;Lgh;Lgh;III)V	method_074	method_074	an	an
-CLASS	net/minecraft/class_16	net/minecraft/src/EntitySnowball	ao	ao	ao
+CLASS	net/minecraft/class_16	net/minecraft/src/EntitySnowball	ao	ao
 FIELD	net/minecraft/class_16	I	field_049	field_049	ao	ao
 FIELD	net/minecraft/class_16	I	field_050	field_050	ao	ao
 FIELD	net/minecraft/class_16	I	field_051	field_051	ao	ao
@@ -147,37 +147,37 @@ FIELD	net/minecraft/class_16	Lge;	field_055	field_055	ao	ao
 FIELD	net/minecraft/class_16	I	field_056	field_056	ao	ao
 FIELD	net/minecraft/class_16	I	field_057	field_057	ao	ao
 METHOD	net/minecraft/class_16	(DDDFF)V	method_075	method_075	ao	ao
-CLASS	net/minecraft/class_17	net/minecraft/src/ItemSoup	ap	ap	ap
-CLASS	net/minecraft/class_18	net/minecraft/src/PanelCrashReport	aq	aq	aq
+CLASS	net/minecraft/class_17	net/minecraft/src/ItemSoup	ap	ap
+CLASS	net/minecraft/class_18	net/minecraft/src/PanelCrashReport	aq	aq
 METHOD	net/minecraft/class_18	(Lgo;)V	method_076	method_076	aq	aq
-CLASS	net/minecraft/class_19	net/minecraft/src/CraftingInventoryCB	ar	ar	ar
+CLASS	net/minecraft/class_19	net/minecraft/src/CraftingInventoryCB	ar	ar
 FIELD	net/minecraft/class_19	Ljava/util/List;	field_058	field_058	ar	ar
 METHOD	net/minecraft/class_19	(Ldm;)V	method_077	method_077	ar	ar
 METHOD	net/minecraft/class_19	(Lgh;)V	method_078	method_078	ar	ar
-CLASS	net/minecraft/class_20	net/minecraft/src/GuiErrorScreen	as	as	as
+CLASS	net/minecraft/class_20	net/minecraft/src/GuiErrorScreen	as	as
 FIELD	net/minecraft/class_20	Ljava/lang/String;	field_059	field_059	as	as
 FIELD	net/minecraft/class_20	Ljava/lang/String;	field_060	field_060	as	as
-CLASS	net/minecraft/class_21	net/minecraft/src/TextureLavaFX	at	at	at
+CLASS	net/minecraft/class_21	net/minecraft/src/TextureLavaFX	at	at
 FIELD	net/minecraft/class_21	[F	field_061	field_061	at	at
 FIELD	net/minecraft/class_21	[F	field_062	field_062	at	at
 FIELD	net/minecraft/class_21	[F	field_063	field_063	at	at
 FIELD	net/minecraft/class_21	[F	field_064	field_064	at	at
-CLASS	net/minecraft/class_22	net/minecraft/src/GuiGameOver	au	au	au
-CLASS	net/minecraft/class_23	net/minecraft/src/ItemBlock	av	av	av
+CLASS	net/minecraft/class_22	net/minecraft/src/GuiGameOver	au	au
+CLASS	net/minecraft/class_23	net/minecraft/src/ItemBlock	av	av
 FIELD	net/minecraft/class_23	I	field_065	field_065	av	av
-CLASS	net/minecraft/class_24	net/minecraft/src/IChunkProvider	aw	aw	aw
+CLASS	net/minecraft/class_24	net/minecraft/src/IChunkProvider	aw	aw
 METHOD	net/minecraft/class_24	()Z	method_079	method_079	aw	aw
 METHOD	net/minecraft/class_24	(II)Z	method_080	method_080	aw	aw
 METHOD	net/minecraft/class_24	(Law;II)V	method_081	method_081	aw	aw
 METHOD	net/minecraft/class_24	(ZLnu;)Z	method_082	method_082	aw	aw
 METHOD	net/minecraft/class_24	()Z	method_083	method_083	aw	aw
 METHOD	net/minecraft/class_24	(II)Lga;	method_084	method_084	aw	aw
-CLASS	net/minecraft/class_25	net/minecraft/src/EntitySpider	ax	ax	ax
-CLASS	net/minecraft/class_26	net/minecraft/src/GuiOptions	ay	ay	ay
+CLASS	net/minecraft/class_25	net/minecraft/src/EntitySpider	ax	ax
+CLASS	net/minecraft/class_26	net/minecraft/src/GuiOptions	ay	ay
 FIELD	net/minecraft/class_26	Ljava/lang/String;	field_066	field_066	ay	ay
 FIELD	net/minecraft/class_26	Lbh;	field_067	field_067	ay	ay
 FIELD	net/minecraft/class_26	Lfr;	field_068	field_068	ay	ay
-CLASS	net/minecraft/class_27	net/minecraft/src/SpawnerAnimals	az	az	az
+CLASS	net/minecraft/class_27	net/minecraft/src/SpawnerAnimals	az	az
 FIELD	net/minecraft/class_27	I	field_069	field_069	az	az
 FIELD	net/minecraft/class_27	Ljava/lang/CLASS;	field_070	field_070	az	az
 FIELD	net/minecraft/class_27	[Ljava/lang/CLASS;	field_071	field_071	az	az
@@ -185,12 +185,12 @@ FIELD	net/minecraft/class_27	Ljava/util/Set;	field_072	field_072	az	az
 METHOD	net/minecraft/class_27	(Lcn;)V	method_085	method_085	az	az
 METHOD	net/minecraft/class_27	(Lcn;II)Lmt;	method_086	method_086	az	az
 METHOD	net/minecraft/class_27	(Lcn;ILnu;)I	method_087	method_087	az	az
-CLASS	net/minecraft/class_28	net/minecraft/src/BlockChest	b	b	b
+CLASS	net/minecraft/class_28	net/minecraft/src/BlockChest	b	b
 FIELD	net/minecraft/class_28	Ljava/util/Random;	field_073	field_073	b	b
 METHOD	net/minecraft/class_28	(I)V	method_088	method_088	b	b
 METHOD	net/minecraft/class_28	(Lcn;III)Z	method_089	method_089	b	b
-CLASS	net/minecraft/class_29	net/minecraft/src/EntityBubbleFX	ba	ba	ba
-CLASS	net/minecraft/class_30	net/minecraft/src/StepSound	bb	bb	bb
+CLASS	net/minecraft/class_29	net/minecraft/src/EntityBubbleFX	ba	ba
+CLASS	net/minecraft/class_30	net/minecraft/src/StepSound	bb	bb
 FIELD	net/minecraft/class_30	Ljava/lang/String;	field_074	field_074	bb	bb
 FIELD	net/minecraft/class_30	F	field_075	field_075	bb	bb
 FIELD	net/minecraft/class_30	F	field_076	field_076	bb	bb
@@ -198,7 +198,7 @@ METHOD	net/minecraft/class_30	()Ljava/lang/String;	method_090	method_090	bb	bb
 METHOD	net/minecraft/class_30	()F	method_091	method_091	bb	bb
 METHOD	net/minecraft/class_30	()F	method_092	method_092	bb	bb
 METHOD	net/minecraft/class_30	()Ljava/lang/String;	method_093	method_093	bb	bb
-CLASS	net/minecraft/class_31	net/minecraft/src/RenderBlocks	bc	bc	bc
+CLASS	net/minecraft/class_31	net/minecraft/src/RenderBlocks	bc	bc
 FIELD	net/minecraft/class_31	Lnm;	field_077	field_077	bc	bc
 FIELD	net/minecraft/class_31	I	field_078	field_078	bc	bc
 FIELD	net/minecraft/class_31	Z	field_079	field_079	bc	bc
@@ -236,17 +236,17 @@ METHOD	net/minecraft/class_31	(Lly;III)Z	method_123	method_123	bc	bc
 METHOD	net/minecraft/class_31	(Lly;III)Z	method_124	method_124	bc	bc
 METHOD	net/minecraft/class_31	(Lly;III)Z	method_125	method_125	bc	bc
 METHOD	net/minecraft/class_31	(Lly;III)Z	method_126	method_126	bc	bc
-CLASS	net/minecraft/class_32	net/minecraft/src/TileEntityMobSpawner	bd	bd	bd
+CLASS	net/minecraft/class_32	net/minecraft/src/TileEntityMobSpawner	bd	bd
 FIELD	net/minecraft/class_32	I	field_081	field_081	bd	bd
 FIELD	net/minecraft/class_32	Ljava/lang/String;	field_082	field_082	bd	bd
 FIELD	net/minecraft/class_32	D	field_083	field_083	bd	bd
 FIELD	net/minecraft/class_32	D	field_084	field_084	bd	bd
 METHOD	net/minecraft/class_32	()Z	method_127	method_127	bd	bd
 METHOD	net/minecraft/class_32	()V	method_128	method_128	bd	bd
-CLASS	net/minecraft/class_33	net/minecraft/src/OpenGlCapsChecker	be	be	be
+CLASS	net/minecraft/class_33	net/minecraft/src/OpenGlCapsChecker	be	be
 FIELD	net/minecraft/class_33	Z	field_085	field_085	be	be
 METHOD	net/minecraft/class_33	()Z	method_129	method_129	be	be
-CLASS	net/minecraft/class_34	net/minecraft/src/ThreadDownloadResources	bf	bf	bf
+CLASS	net/minecraft/class_34	net/minecraft/src/ThreadDownloadResources	bf	bf
 FIELD	net/minecraft/class_34	Ljava/io/File;	field_086	field_086	bf	bf
 FIELD	net/minecraft/class_34	Lnet/minecraft/client/Minecraft;	field_087	field_087	bf	bf
 FIELD	net/minecraft/class_34	Z	field_088	field_088	bf	bf
@@ -256,13 +256,13 @@ METHOD	net/minecraft/class_34	(Ljava/io/File;Ljava/lang/String;)V	method_132	met
 METHOD	net/minecraft/class_34	(Ljava/net/URL;Ljava/io/File;J)V	method_133	method_133	bf	bf
 METHOD	net/minecraft/class_34	(Ljava/net/URL;Ljava/lang/String;JI)V	method_134	method_134	bf	bf
 METHOD	net/minecraft/class_34	()V	method_135	method_135	bf	bf
-CLASS	net/minecraft/class_35	net/minecraft/src/BlockRedstoneTorch	bg	bg	bg
+CLASS	net/minecraft/class_35	net/minecraft/src/BlockRedstoneTorch	bg	bg
 FIELD	net/minecraft/class_35	Z	field_089	field_089	bg	bg
 FIELD	net/minecraft/class_35	Ljava/util/List;	field_090	field_090	bg	bg
 METHOD	net/minecraft/class_35	(IIZ)V	method_136	method_136	bg	bg
 METHOD	net/minecraft/class_35	(Lcn;IIIZ)Z	method_137	method_137	bg	bg
 METHOD	net/minecraft/class_35	(Lcn;III)Z	method_138	method_138	bg	bg
-CLASS	net/minecraft/class_36	net/minecraft/src/GuiScreen	bh	bh	bh
+CLASS	net/minecraft/class_36	net/minecraft/src/GuiScreen	bh	bh
 FIELD	net/minecraft/class_36	Lfk;	field_091	field_091	bh	bh
 FIELD	net/minecraft/class_36	Lnet/minecraft/client/Minecraft;	field_092	field_092	bh	bh
 FIELD	net/minecraft/class_36	I	field_093	field_093	bh	bh
@@ -288,7 +288,7 @@ METHOD	net/minecraft/class_36	()V	method_153	method_153	bh	bh
 METHOD	net/minecraft/class_36	()V	method_154	method_154	bh	bh
 METHOD	net/minecraft/class_36	()V	method_155	method_155	bh	bh
 METHOD	net/minecraft/class_36	()V	method_156	method_156	bh	bh
-CLASS	net/minecraft/class_37	net/minecraft/src/EntityPlayerSP	bi	bi	bi
+CLASS	net/minecraft/class_37	net/minecraft/src/EntityPlayerSP	bi	bi
 FIELD	net/minecraft/class_37	Llv;	field_098	field_098	bi	bi
 FIELD	net/minecraft/class_37	Lnet/minecraft/client/Minecraft;	field_099	field_099	bi	bi
 METHOD	net/minecraft/class_37	(Lnet/minecraft/client/Minecraft;Lcn;Ldl;)V	method_157	method_157	bi	bi
@@ -298,10 +298,10 @@ METHOD	net/minecraft/class_37	(Lkh;)V	method_160	method_160	bi	bi
 METHOD	net/minecraft/class_37	()V	method_161	method_161	bi	bi
 METHOD	net/minecraft/class_37	()I	method_162	method_162	bi	bi
 METHOD	net/minecraft/class_37	()V	method_163	method_163	bi	bi
-CLASS	net/minecraft/class_38	net/minecraft/src/BlockMobSpawner	bj	bj	bj
+CLASS	net/minecraft/class_38	net/minecraft/src/BlockMobSpawner	bj	bj
 METHOD	net/minecraft/class_38	(II)V	method_164	method_164	bj	bj
-CLASS	net/minecraft/class_39	net/minecraft/src/NoiseGenerator	bk	bk	bk
-CLASS	net/minecraft/class_40	net/minecraft/src/PathEntity	bl	bl	bl
+CLASS	net/minecraft/class_39	net/minecraft/src/NoiseGenerator	bk	bk
+CLASS	net/minecraft/class_40	net/minecraft/src/PathEntity	bl	bl
 FIELD	net/minecraft/class_40	I	field_100	field_100	bl	bl
 FIELD	net/minecraft/class_40	[La;	field_101	field_101	bl	bl
 FIELD	net/minecraft/class_40	I	field_102	field_102	bl	bl
@@ -309,10 +309,10 @@ METHOD	net/minecraft/class_40	([La;)V	method_165	method_165	bl	bl
 METHOD	net/minecraft/class_40	()V	method_166	method_166	bl	bl
 METHOD	net/minecraft/class_40	(Lkh;)Laj;	method_167	method_167	bl	bl
 METHOD	net/minecraft/class_40	()Z	method_168	method_168	bl	bl
-CLASS	net/minecraft/class_41	net/minecraft/src/PacketCLASSCLASSCollect	bm	bm	bm
+CLASS	net/minecraft/class_41	net/minecraft/src/PacketCLASSCLASSCollect	bm	bm
 FIELD	net/minecraft/class_41	I	field_103	field_103	bm	bm
 FIELD	net/minecraft/class_41	I	field_104	field_104	bm	bm
-CLASS	net/minecraft/class_42	net/minecraft/src/WorldRenderer	bn	bn	bn
+CLASS	net/minecraft/class_42	net/minecraft/src/WorldRenderer	bn	bn
 FIELD	net/minecraft/class_42	Z	field_105	field_105	bn	bn
 FIELD	net/minecraft/class_42	Ljava/util/List;	field_106	field_106	bn	bn
 FIELD	net/minecraft/class_42	I	field_107	field_107	bn	bn
@@ -356,10 +356,10 @@ METHOD	net/minecraft/class_42	()V	method_176	method_176	bn	bn
 METHOD	net/minecraft/class_42	()Z	method_177	method_177	bn	bn
 METHOD	net/minecraft/class_42	()V	method_178	method_178	bn	bn
 METHOD	net/minecraft/class_42	()V	method_179	method_179	bn	bn
-CLASS	net/minecraft/class_43	net/minecraft/src/EntitySheep	bo	bo	bo
+CLASS	net/minecraft/class_43	net/minecraft/src/EntitySheep	bo	bo
 FIELD	net/minecraft/class_43	Z	field_137	field_137	bo	bo
-CLASS	net/minecraft/class_44	net/minecraft/src/ItemSnowball	bp	bp	bp
-CLASS	net/minecraft/class_45	net/minecraft/src/EffectRenderer	bq	bq	bq
+CLASS	net/minecraft/class_44	net/minecraft/src/ItemSnowball	bp	bp
+CLASS	net/minecraft/class_45	net/minecraft/src/EffectRenderer	bq	bq
 FIELD	net/minecraft/class_45	Lcn;	field_138	field_138	bq	bq
 FIELD	net/minecraft/class_45	[Ljava/util/List;	field_139	field_139	bq	bq
 FIELD	net/minecraft/class_45	Ley;	field_140	field_140	bq	bq
@@ -373,21 +373,21 @@ METHOD	net/minecraft/class_45	(Lkh;F)V	method_185	method_185	bq	bq
 METHOD	net/minecraft/class_45	(Lnq;)V	method_186	method_186	bq	bq
 METHOD	net/minecraft/class_45	()Ljava/lang/String;	method_187	method_187	bq	bq
 METHOD	net/minecraft/class_45	(Lkh;F)V	method_188	method_188	bq	bq
-CLASS	net/minecraft/class_46	net/minecraft/src/BlockLadder	br	br	br
+CLASS	net/minecraft/class_46	net/minecraft/src/BlockLadder	br	br
 METHOD	net/minecraft/class_46	(II)V	method_189	method_189	br	br
-CLASS	net/minecraft/class_47	net/minecraft/src/ItemTool	bs	bs	bs
+CLASS	net/minecraft/class_47	net/minecraft/src/ItemTool	bs	bs
 FIELD	net/minecraft/class_47	I	field_142	field_142	bs	bs
 FIELD	net/minecraft/class_47	[Lly;	field_143	field_143	bs	bs
 FIELD	net/minecraft/class_47	F	field_144	field_144	bs	bs
 FIELD	net/minecraft/class_47	I	field_145	field_145	bs	bs
 METHOD	net/minecraft/class_47	(III[Lly;)V	method_190	method_190	bs	bs
-CLASS	net/minecraft/class_48	net/minecraft/src/ClippingHelper	bt	bt	bt
+CLASS	net/minecraft/class_48	net/minecraft/src/ClippingHelper	bt	bt
 FIELD	net/minecraft/class_48	[[F	field_146	field_146	bt	bt
 FIELD	net/minecraft/class_48	[F	field_147	field_147	bt	bt
 FIELD	net/minecraft/class_48	[F	field_148	field_148	bt	bt
 FIELD	net/minecraft/class_48	[F	field_149	field_149	bt	bt
 METHOD	net/minecraft/class_48	(DDDDDD)Z	method_191	method_191	bt	bt
-CLASS	net/minecraft/class_49	net/minecraft/src/RenderPlayer	bu	bu	bu
+CLASS	net/minecraft/class_49	net/minecraft/src/RenderPlayer	bu	bu
 FIELD	net/minecraft/class_49	Lcr;	field_150	field_150	bu	bu
 FIELD	net/minecraft/class_49	Lcr;	field_151	field_151	bu	bu
 FIELD	net/minecraft/class_49	Lcr;	field_152	field_152	bu	bu
@@ -397,7 +397,7 @@ METHOD	net/minecraft/class_49	(Ldm;F)V	method_193	method_193	bu	bu
 METHOD	net/minecraft/class_49	(Ldm;I)Z	method_194	method_194	bu	bu
 METHOD	net/minecraft/class_49	()V	method_195	method_195	bu	bu
 METHOD	net/minecraft/class_49	(Ldm;F)V	method_196	method_196	bu	bu
-CLASS	net/minecraft/class_50	net/minecraft/src/CraftingRecipe	bv	bv	bv
+CLASS	net/minecraft/class_50	net/minecraft/src/CraftingRecipe	bv	bv
 FIELD	net/minecraft/class_50	I	field_154	field_154	bv	bv
 FIELD	net/minecraft/class_50	I	field_155	field_155	bv	bv
 FIELD	net/minecraft/class_50	I	field_156	field_156	bv	bv
@@ -408,17 +408,17 @@ METHOD	net/minecraft/class_50	()I	method_198	method_198	bv	bv
 METHOD	net/minecraft/class_50	([I)Z	method_199	method_199	bv	bv
 METHOD	net/minecraft/class_50	([IIIZ)Z	method_200	method_200	bv	bv
 METHOD	net/minecraft/class_50	([I)Lev;	method_201	method_201	bv	bv
-CLASS	net/minecraft/class_51	net/minecraft/src/RenderPainting	bw	bw	bw
+CLASS	net/minecraft/class_51	net/minecraft/src/RenderPainting	bw	bw
 FIELD	net/minecraft/class_51	Ljava/util/Random;	field_159	field_159	bw	bw
 METHOD	net/minecraft/class_51	(Ljc;DDDFF)V	method_202	method_202	bw	bw
 METHOD	net/minecraft/class_51	(Ljc;FF)V	method_203	method_203	bw	bw
 METHOD	net/minecraft/class_51	(Ljc;IIII)V	method_204	method_204	bw	bw
-CLASS	net/minecraft/class_52	net/minecraft/src/ModelSheepFur	bx	bx	bx
-CLASS	net/minecraft/class_53	net/minecraft/src/EnumSkyBlock	by	by	by
+CLASS	net/minecraft/class_52	net/minecraft/src/ModelSheepFur	bx	bx
+CLASS	net/minecraft/class_53	net/minecraft/src/EnumSkyBlock	by	by
 FIELD	net/minecraft/class_53	Lby;	field_160	field_160	by	by
 FIELD	net/minecraft/class_53	Lby;	field_161	field_161	by	by
 FIELD	net/minecraft/class_53	I	field_162	field_162	by	by
-CLASS	net/minecraft/class_54	net/minecraft/src/Packet5METHODMapChunk	bz	bz	bz
+CLASS	net/minecraft/class_54	net/minecraft/src/Packet5METHODMapChunk	bz	bz
 FIELD	net/minecraft/class_54	I	field_163	field_163	bz	bz
 FIELD	net/minecraft/class_54	I	field_164	field_164	bz	bz
 FIELD	net/minecraft/class_54	I	field_165	field_165	bz	bz
@@ -427,26 +427,26 @@ FIELD	net/minecraft/class_54	I	field_167	field_167	bz	bz
 FIELD	net/minecraft/class_54	I	field_168	field_168	bz	bz
 FIELD	net/minecraft/class_54	[B	field_169	field_169	bz	bz
 FIELD	net/minecraft/class_54	I	field_170	field_170	bz	bz
-CLASS	net/minecraft/class_55	net/minecraft/src/BlockOreBlock	c	c	c
+CLASS	net/minecraft/class_55	net/minecraft/src/BlockOreBlock	c	c
 METHOD	net/minecraft/class_55	(II)V	method_205	method_205	c	c
-CLASS	net/minecraft/class_56	net/minecraft/src/ModelPig	ca	ca	ca
-CLASS	net/minecraft/class_57	net/minecraft/src/ModelZombie	cb	cb	cb
-CLASS	net/minecraft/class_58	net/minecraft/src/ThreadDownloadImageData	cc	cc	cc
+CLASS	net/minecraft/class_56	net/minecraft/src/ModelPig	ca	ca
+CLASS	net/minecraft/class_57	net/minecraft/src/ModelZombie	cb	cb
+CLASS	net/minecraft/class_58	net/minecraft/src/ThreadDownloadImageData	cc	cc
 FIELD	net/minecraft/class_58	Ljava/awt/image/BufferedImage;	field_171	field_171	cc	cc
 FIELD	net/minecraft/class_58	I	field_172	field_172	cc	cc
 FIELD	net/minecraft/class_58	I	field_173	field_173	cc	cc
 FIELD	net/minecraft/class_58	Z	field_174	field_174	cc	cc
 METHOD	net/minecraft/class_58	(Ljava/lang/String;Lhb;)V	method_206	method_206	cc	cc
-CLASS	net/minecraft/class_59	net/minecraft/src/EntityPickupFX	cd	cd	cd
+CLASS	net/minecraft/class_59	net/minecraft/src/EntityPickupFX	cd	cd
 FIELD	net/minecraft/class_59	Lkh;	field_175	field_175	cd	cd
 FIELD	net/minecraft/class_59	Lkh;	field_176	field_176	cd	cd
 FIELD	net/minecraft/class_59	I	field_177	field_177	cd	cd
 FIELD	net/minecraft/class_59	I	field_178	field_178	cd	cd
 FIELD	net/minecraft/class_59	F	field_179	field_179	cd	cd
 METHOD	net/minecraft/class_59	(Lcn;Lkh;Lkh;F)V	method_207	method_207	cd	cd
-CLASS	net/minecraft/class_60	net/minecraft/src/BlockStone	ce	ce	ce
+CLASS	net/minecraft/class_60	net/minecraft/src/BlockStone	ce	ce
 METHOD	net/minecraft/class_60	(II)V	method_208	method_208	ce	ce
-CLASS	net/minecraft/class_61	net/minecraft/src/AxisAlignedBB	cf	cf	cf
+CLASS	net/minecraft/class_61	net/minecraft/src/AxisAlignedBB	cf	cf
 FIELD	net/minecraft/class_61	D	field_180	field_180	cf	cf
 FIELD	net/minecraft/class_61	D	field_181	field_181	cf	cf
 FIELD	net/minecraft/class_61	D	field_182	field_182	cf	cf
@@ -475,12 +475,12 @@ METHOD	net/minecraft/class_61	(DDDDDD)Lcf;	method_225	method_225	cf	cf
 METHOD	net/minecraft/class_61	(Laj;)Z	method_226	method_226	cf	cf
 METHOD	net/minecraft/class_61	(Lcf;D)D	method_227	method_227	cf	cf
 METHOD	net/minecraft/class_61	(DDD)Lcf;	method_228	method_228	cf	cf
-CLASS	net/minecraft/class_62	net/minecraft/src/WorldGenDungeons	cg	cg	cg
+CLASS	net/minecraft/class_62	net/minecraft/src/WorldGenDungeons	cg	cg
 METHOD	net/minecraft/class_62	(Ljava/util/Random;)Lev;	method_229	method_229	cg	cg
 METHOD	net/minecraft/class_62	(Ljava/util/Random;)Ljava/lang/String;	method_230	method_230	cg	cg
-CLASS	net/minecraft/class_63	net/minecraft/src/PacketMETHODFIELDPlayerLookMove	ch	ch	ch
+CLASS	net/minecraft/class_63	net/minecraft/src/PacketMETHODFIELDPlayerLookMove	ch	ch
 METHOD	net/minecraft/class_63	(DDDDFFZ)V	method_231	method_231	ch	ch
-CLASS	net/minecraft/class_64	net/minecraft/src/ChunkCache	ci	ci	ci
+CLASS	net/minecraft/class_64	net/minecraft/src/ChunkCache	ci	ci
 FIELD	net/minecraft/class_64	I	field_188	field_188	ci	ci
 FIELD	net/minecraft/class_64	I	field_189	field_189	ci	ci
 FIELD	net/minecraft/class_64	[[Lga;	field_190	field_190	ci	ci
@@ -488,21 +488,21 @@ FIELD	net/minecraft/class_64	Lcn;	field_191	field_191	ci	ci
 METHOD	net/minecraft/class_64	(Lcn;IIIIII)V	method_232	method_232	ci	ci
 METHOD	net/minecraft/class_64	(IIIZ)I	method_233	method_233	ci	ci
 METHOD	net/minecraft/class_64	(III)I	method_234	method_234	ci	ci
-CLASS	net/minecraft/class_65	net/minecraft/src/GuiConnectFailed	cj	cj	cj
+CLASS	net/minecraft/class_65	net/minecraft/src/GuiConnectFailed	cj	cj
 FIELD	net/minecraft/class_65	Ljava/lang/String;	field_192	field_192	cj	cj
 FIELD	net/minecraft/class_65	Ljava/lang/String;	field_193	field_193	cj	cj
 METHOD	net/minecraft/class_65	(Ljava/lang/String;Ljava/lang/String;)V	method_235	method_235	cj	cj
-CLASS	net/minecraft/class_66	net/minecraft/src/ChunkProviderIso	ck	ck	ck
+CLASS	net/minecraft/class_66	net/minecraft/src/ChunkProviderIso	ck	ck
 FIELD	net/minecraft/class_66	[B	field_194	field_194	ck	ck
 FIELD	net/minecraft/class_66	[Lga;	field_195	field_195	ck	ck
 FIELD	net/minecraft/class_66	Lcn;	field_196	field_196	ck	ck
 FIELD	net/minecraft/class_66	Laf;	field_197	field_197	ck	ck
 METHOD	net/minecraft/class_66	(Lcn;Laf;)V	method_236	method_236	ck	ck
 METHOD	net/minecraft/class_66	(II)Lga;	method_237	method_237	ck	ck
-CLASS	net/minecraft/class_67	net/minecraft/src/ModelBoat	cl	cl	cl
+CLASS	net/minecraft/class_67	net/minecraft/src/ModelBoat	cl	cl
 FIELD	net/minecraft/class_67	[Lip;	field_198	field_198	cl	cl
-CLASS	net/minecraft/class_68	net/minecraft/src/BlockObsidian	cm	cm	cm
-CLASS	net/minecraft/class_69	net/minecraft/src/World	cn	cn	cn
+CLASS	net/minecraft/class_68	net/minecraft/src/BlockObsidian	cm	cm
+CLASS	net/minecraft/class_69	net/minecraft/src/World	cn	cn
 FIELD	net/minecraft/class_69	Ljava/util/List;	field_199	field_199	cn	cn
 FIELD	net/minecraft/class_69	Ljava/util/TreeSet;	field_200	field_200	cn	cn
 FIELD	net/minecraft/class_69	Ljava/util/Set;	field_201	field_201	cn	cn
@@ -650,14 +650,14 @@ METHOD	net/minecraft/class_69	()V	method_342	method_342	cn	cn
 METHOD	net/minecraft/class_69	(III)V	method_343	method_343	cn	cn
 METHOD	net/minecraft/class_69	(III)Z	method_344	method_344	cn	cn
 METHOD	net/minecraft/class_69	(III)Z	method_345	method_345	cn	cn
-CLASS	net/minecraft/class_70	net/minecraft/src/IMobs	co	co	co
-CLASS	net/minecraft/class_71	net/minecraft/src/RenderBoat	cp	cp	cp
+CLASS	net/minecraft/class_70	net/minecraft/src/IMobs	co	co
+CLASS	net/minecraft/class_71	net/minecraft/src/RenderBoat	cp	cp
 FIELD	net/minecraft/class_71	Lfo;	field_238	field_238	cp	cp
 METHOD	net/minecraft/class_71	(Ldc;DDDFF)V	method_346	method_346	cp	cp
-CLASS	net/minecraft/class_72	net/minecraft/src/EntityLavaFX	cq	cq	cq
+CLASS	net/minecraft/class_72	net/minecraft/src/EntityLavaFX	cq	cq
 FIELD	net/minecraft/class_72	F	field_239	field_239	cq	cq
 METHOD	net/minecraft/class_72	(Lcn;DDD)V	method_347	method_347	cq	cq
-CLASS	net/minecraft/class_73	net/minecraft/src/ModelBiped	cr	cr	cr
+CLASS	net/minecraft/class_73	net/minecraft/src/ModelBiped	cr	cr
 FIELD	net/minecraft/class_73	Lip;	field_240	field_240	cr	cr
 FIELD	net/minecraft/class_73	Lip;	field_241	field_241	cr	cr
 FIELD	net/minecraft/class_73	Lip;	field_242	field_242	cr	cr
@@ -668,17 +668,17 @@ FIELD	net/minecraft/class_73	Lip;	field_246	field_246	cr	cr
 FIELD	net/minecraft/class_73	Z	field_247	field_247	cr	cr
 FIELD	net/minecraft/class_73	Z	field_248	field_248	cr	cr
 FIELD	net/minecraft/class_73	Z	field_249	field_249	cr	cr
-CLASS	net/minecraft/class_74	net/minecraft/src/BlockWorkbench	cs	cs	cs
+CLASS	net/minecraft/class_74	net/minecraft/src/BlockWorkbench	cs	cs
 METHOD	net/minecraft/class_74	(I)V	method_348	method_348	cs	cs
-CLASS	net/minecraft/class_75	net/minecraft/src/BlockGlass	ct	ct	ct
-CLASS	net/minecraft/class_76	net/minecraft/src/WorldGenMinable	cu	cu	cu
+CLASS	net/minecraft/class_75	net/minecraft/src/BlockGlass	ct	ct
+CLASS	net/minecraft/class_76	net/minecraft/src/WorldGenMinable	cu	cu
 FIELD	net/minecraft/class_76	I	field_250	field_250	cu	cu
 FIELD	net/minecraft/class_76	I	field_251	field_251	cu	cu
-CLASS	net/minecraft/class_77	net/minecraft/src/BlockJukeBox	cv	cv	cv
+CLASS	net/minecraft/class_77	net/minecraft/src/BlockJukeBox	cv	cv
 METHOD	net/minecraft/class_77	(II)V	method_349	method_349	cv	cv
 METHOD	net/minecraft/class_77	(Lcn;IIII)V	method_350	method_350	cv	cv
-CLASS	net/minecraft/class_78	net/minecraft/src/EntitySkeleton	cw	cw	cw
-CLASS	net/minecraft/class_79	net/minecraft/src/GuiMainMenu	cx	cx	cx
+CLASS	net/minecraft/class_78	net/minecraft/src/EntitySkeleton	cw	cw
+CLASS	net/minecraft/class_79	net/minecraft/src/GuiMainMenu	cx	cx
 FIELD	net/minecraft/class_79	[Ljava/lang/String;	field_252	field_252	cx	cx
 FIELD	net/minecraft/class_79	Ljava/util/Random;	field_253	field_253	cx	cx
 FIELD	net/minecraft/class_79	[[Lkc;	field_254	field_254	cx	cx
@@ -686,12 +686,12 @@ FIELD	net/minecraft/class_79	F	field_255	field_255	cx	cx
 FIELD	net/minecraft/class_79	Ljava/lang/String;	field_256	field_256	cx	cx
 METHOD	net/minecraft/class_79	(F)V	method_351	method_351	cx	cx
 METHOD	net/minecraft/class_79	()Ljava/util/Random;	method_352	method_352	cx	cx
-CLASS	net/minecraft/class_80	net/minecraft/src/MapGenBase	cy	cy	cy
+CLASS	net/minecraft/class_80	net/minecraft/src/MapGenBase	cy	cy
 FIELD	net/minecraft/class_80	I	field_257	field_257	cy	cy
 FIELD	net/minecraft/class_80	Ljava/util/Random;	field_258	field_258	cy	cy
 METHOD	net/minecraft/class_80	(Lcn;IIII[B)V	method_353	method_353	cy	cy
 METHOD	net/minecraft/class_80	(Lnw;Lcn;II[B)V	method_354	method_354	cy	cy
-CLASS	net/minecraft/class_81	net/minecraft/src/Pathfinder	cz	cz	cz
+CLASS	net/minecraft/class_81	net/minecraft/src/Pathfinder	cz	cz
 FIELD	net/minecraft/class_81	Lnm;	field_259	field_259	cz	cz
 FIELD	net/minecraft/class_81	Lfx;	field_260	field_260	cz	cz
 FIELD	net/minecraft/class_81	Lfi;	field_261	field_261	cz	cz
@@ -706,28 +706,28 @@ METHOD	net/minecraft/class_81	(Lkh;IIILa;I)La;	method_361	method_361	cz	cz
 METHOD	net/minecraft/class_81	(Lkh;La;La;La;F)Lbl;	method_362	method_362	cz	cz
 METHOD	net/minecraft/class_81	(Lkh;Lkh;F)Lbl;	method_363	method_363	cz	cz
 METHOD	net/minecraft/class_81	(Lkh;La;La;La;F)I	method_364	method_364	cz	cz
-CLASS	net/minecraft/class_82	net/minecraft/src/RenderCreeper	d	d	d
+CLASS	net/minecraft/class_82	net/minecraft/src/RenderCreeper	d	d
 METHOD	net/minecraft/class_82	(Ldd;F)V	method_365	method_365	d	d
 METHOD	net/minecraft/class_82	(Ldd;FF)I	method_366	method_366	d	d
-CLASS	net/minecraft/class_83	net/minecraft/src/WorldGenCactus	da	da	da
-CLASS	net/minecraft/class_84	net/minecraft/src/CanvasMojangLogo	db	db	db
+CLASS	net/minecraft/class_83	net/minecraft/src/WorldGenCactus	da	da
+CLASS	net/minecraft/class_84	net/minecraft/src/CanvasMojangLogo	db	db
 FIELD	net/minecraft/class_84	Ljava/awt/image/BufferedImage;	field_263	field_263	db	db
 METHOD	net/minecraft/class_84	(Ljava/awt/Graphics;)V	method_367	method_367	db	db
-CLASS	net/minecraft/class_85	net/minecraft/src/EntityBoat	dc	dc	dc
+CLASS	net/minecraft/class_85	net/minecraft/src/EntityBoat	dc	dc
 FIELD	net/minecraft/class_85	I	field_264	field_264	dc	dc
 FIELD	net/minecraft/class_85	I	field_265	field_265	dc	dc
 FIELD	net/minecraft/class_85	I	field_266	field_266	dc	dc
 METHOD	net/minecraft/class_85	(Lcn;DDD)V	method_368	method_368	dc	dc
-CLASS	net/minecraft/class_86	net/minecraft/src/EntityCreeper	dd	dd	dd
+CLASS	net/minecraft/class_86	net/minecraft/src/EntityCreeper	dd	dd
 FIELD	net/minecraft/class_86	I	field_267	field_267	dd	dd
 FIELD	net/minecraft/class_86	I	field_268	field_268	dd	dd
 FIELD	net/minecraft/class_86	I	field_269	field_269	dd	dd
 FIELD	net/minecraft/class_86	I	field_270	field_270	dd	dd
 METHOD	net/minecraft/class_86	(F)F	method_369	method_369	dd	dd
-CLASS	net/minecraft/class_87	net/minecraft/src/GuiChat	de	de	de
+CLASS	net/minecraft/class_87	net/minecraft/src/GuiChat	de	de
 FIELD	net/minecraft/class_87	Ljava/lang/String;	field_271	field_271	de	de
 FIELD	net/minecraft/class_87	I	field_272	field_272	de	de
-CLASS	net/minecraft/class_88	net/minecraft/src/GLAllocation	df	df	df
+CLASS	net/minecraft/class_88	net/minecraft/src/GLAllocation	df	df
 FIELD	net/minecraft/class_88	Ljava/util/List;	field_273	field_273	df	df
 FIELD	net/minecraft/class_88	Ljava/util/List;	field_274	field_274	df	df
 METHOD	net/minecraft/class_88	()V	method_370	method_370	df	df
@@ -736,16 +736,16 @@ METHOD	net/minecraft/class_88	(Ljava/nio/IntBuffer;)V	method_372	method_372	df	d
 METHOD	net/minecraft/class_88	(I)Ljava/nio/ByteBuffer;	method_373	method_373	df	df
 METHOD	net/minecraft/class_88	(I)Ljava/nio/IntBuffer;	method_374	method_374	df	df
 METHOD	net/minecraft/class_88	(I)Ljava/nio/FloatBuffer;	method_375	method_375	df	df
-CLASS	net/minecraft/class_89	net/minecraft/src/GuiDownloadTerrain	dg	dg	dg
+CLASS	net/minecraft/class_89	net/minecraft/src/GuiDownloadTerrain	dg	dg
 FIELD	net/minecraft/class_89	Lgy;	field_275	field_275	dg	dg
 FIELD	net/minecraft/class_89	I	field_276	field_276	dg	dg
 METHOD	net/minecraft/class_89	(Lgy;)V	method_376	method_376	dg	dg
-CLASS	net/minecraft/class_90	net/minecraft/src/BlockSand	dh	dh	dh
+CLASS	net/minecraft/class_90	net/minecraft/src/BlockSand	dh	dh
 FIELD	net/minecraft/class_90	Z	field_277	field_277	dh	dh
 METHOD	net/minecraft/class_90	(II)V	method_377	method_377	dh	dh
 METHOD	net/minecraft/class_90	(Lcn;III)Z	method_378	method_378	dh	dh
 METHOD	net/minecraft/class_90	(Lcn;III)V	method_379	method_379	dh	dh
-CLASS	net/minecraft/class_91	net/minecraft/src/Item	di	di	di
+CLASS	net/minecraft/class_91	net/minecraft/src/Item	di	di
 FIELD	net/minecraft/class_91	Ldi;	field_278	field_278	di	di
 FIELD	net/minecraft/class_91	Ldi;	field_279	field_279	di	di
 FIELD	net/minecraft/class_91	Ldi;	field_280	field_280	di	di
@@ -861,10 +861,10 @@ METHOD	net/minecraft/class_91	()I	method_391	method_391	di	di
 METHOD	net/minecraft/class_91	(Lev;Lge;)V	method_392	method_392	di	di
 METHOD	net/minecraft/class_91	()I	method_393	method_393	di	di
 METHOD	net/minecraft/class_91	()Ldi;	method_394	method_394	di	di
-CLASS	net/minecraft/class_92	net/minecraft/src/RenderFallingSand	dj	dj	dj
+CLASS	net/minecraft/class_92	net/minecraft/src/RenderFallingSand	dj	dj
 FIELD	net/minecraft/class_92	Lbc;	field_378	field_378	dj	dj
 METHOD	net/minecraft/class_92	(Lff;DDDFF)V	method_395	method_395	dj	dj
-CLASS	net/minecraft/class_93	net/minecraft/src/Slot	dk	dk	dk
+CLASS	net/minecraft/class_93	net/minecraft/src/Slot	dk	dk
 FIELD	net/minecraft/class_93	I	field_379	field_379	dk	dk
 FIELD	net/minecraft/class_93	Lgh;	field_380	field_380	dk	dk
 METHOD	net/minecraft/class_93	(Lgh;I)V	method_396	method_396	dk	dk
@@ -874,12 +874,12 @@ METHOD	net/minecraft/class_93	()Lev;	method_399	method_399	dk	dk
 METHOD	net/minecraft/class_93	(Lev;)V	method_400	method_400	dk	dk
 METHOD	net/minecraft/class_93	()I	method_401	method_401	dk	dk
 METHOD	net/minecraft/class_93	()V	method_402	method_402	dk	dk
-CLASS	net/minecraft/class_94	net/minecraft/src/Session	dl	dl	dl
+CLASS	net/minecraft/class_94	net/minecraft/src/Session	dl	dl
 FIELD	net/minecraft/class_94	Ljava/util/List;	field_381	field_381	dl	dl
 FIELD	net/minecraft/class_94	Ljava/lang/String;	field_382	field_382	dl	dl
 FIELD	net/minecraft/class_94	Ljava/lang/String;	field_383	field_383	dl	dl
 FIELD	net/minecraft/class_94	Ljava/lang/String;	field_384	field_384	dl	dl
-CLASS	net/minecraft/class_95	net/minecraft/src/EntityPlayer	dm	dm	dm
+CLASS	net/minecraft/class_95	net/minecraft/src/EntityPlayer	dm	dm
 FIELD	net/minecraft/class_95	I	field_385	field_385	dm	dm
 FIELD	net/minecraft/class_95	Leu;	field_386	field_386	dm	dm
 FIELD	net/minecraft/class_95	B	field_387	field_387	dm	dm
@@ -905,7 +905,7 @@ METHOD	net/minecraft/class_95	()I	method_415	method_415	dm	dm
 METHOD	net/minecraft/class_95	()Lev;	method_416	method_416	dm	dm
 METHOD	net/minecraft/class_95	()V	method_417	method_417	dm	dm
 METHOD	net/minecraft/class_95	()V	method_418	method_418	dm	dm
-CLASS	net/minecraft/class_96	net/minecraft/src/RenderLiving	dn	dn	dn
+CLASS	net/minecraft/class_96	net/minecraft/src/RenderLiving	dn	dn
 FIELD	net/minecraft/class_96	Lfo;	field_394	field_394	dn	dn
 FIELD	net/minecraft/class_96	Lfo;	field_395	field_395	dn	dn
 METHOD	net/minecraft/class_96	(Lfo;)V	method_419	method_419	dn	dn
@@ -917,36 +917,36 @@ METHOD	net/minecraft/class_96	(Lge;I)Z	method_424	method_424	dn	dn
 METHOD	net/minecraft/class_96	(Lge;F)V	method_425	method_425	dn	dn
 METHOD	net/minecraft/class_96	(Lge;F)F	method_426	method_426	dn	dn
 METHOD	net/minecraft/class_96	(Lge;F)F	method_427	method_427	dn	dn
-CLASS	net/minecraft/class_97	net/minecraft/src/PacketMETHOD5Place	do	do	do
+CLASS	net/minecraft/class_97	net/minecraft/src/PacketMETHOD5Place	do	do
 FIELD	net/minecraft/class_97	I	field_396	field_396	do	do
 FIELD	net/minecraft/class_97	I	field_397	field_397	do	do
 FIELD	net/minecraft/class_97	I	field_398	field_398	do	do
 FIELD	net/minecraft/class_97	I	field_399	field_399	do	do
 FIELD	net/minecraft/class_97	I	field_400	field_400	do	do
 METHOD	net/minecraft/class_97	(IIIII)V	method_428	method_428	do	do
-CLASS	net/minecraft/class_98	net/minecraft/src/EntityExplodeFX	dp	dp	dp
-CLASS	net/minecraft/class_99	net/minecraft/src/EntityMob	dq	dq	dq
+CLASS	net/minecraft/class_98	net/minecraft/src/EntityExplodeFX	dp	dp
+CLASS	net/minecraft/class_99	net/minecraft/src/EntityMob	dq	dq
 FIELD	net/minecraft/class_99	I	field_401	field_401	dq	dq
-CLASS	net/minecraft/class_100	net/minecraft/src/RecipesTools	dr	dr	dr
+CLASS	net/minecraft/class_100	net/minecraft/src/RecipesTools	dr	dr
 FIELD	net/minecraft/class_100	[[Ljava/lang/String;	field_402	field_402	dr	dr
 FIELD	net/minecraft/class_100	[[Ljava/lang/Object;	field_403	field_403	dr	dr
 METHOD	net/minecraft/class_100	(Ldw;)V	method_429	method_429	dr	dr
-CLASS	net/minecraft/class_101	net/minecraft/src/BlockBookshelf	ds	ds	ds
+CLASS	net/minecraft/class_101	net/minecraft/src/BlockBookshelf	ds	ds
 METHOD	net/minecraft/class_101	(II)V	method_430	method_430	ds	ds
-CLASS	net/minecraft/class_102	net/minecraft/src/BlockSapling	dt	dt	dt
-CLASS	net/minecraft/class_103	net/minecraft/src/Packet4UpdateTime	du	du	du
+CLASS	net/minecraft/class_102	net/minecraft/src/BlockSapling	dt	dt
+CLASS	net/minecraft/class_103	net/minecraft/src/Packet4UpdateTime	du	du
 FIELD	net/minecraft/class_103	J	field_404	field_404	du	du
-CLASS	net/minecraft/class_104	net/minecraft/src/ModelCow	dv	dv	dv
+CLASS	net/minecraft/class_104	net/minecraft/src/ModelCow	dv	dv
 FIELD	net/minecraft/class_104	Lip;	field_405	field_405	dv	dv
 FIELD	net/minecraft/class_104	Lip;	field_406	field_406	dv	dv
 FIELD	net/minecraft/class_104	Lip;	field_407	field_407	dv	dv
-CLASS	net/minecraft/class_105	net/minecraft/src/CraftingManager	dw	dw	dw
+CLASS	net/minecraft/class_105	net/minecraft/src/CraftingManager	dw	dw
 FIELD	net/minecraft/class_105	Ldw;	field_408	field_408	dw	dw
 FIELD	net/minecraft/class_105	Ljava/util/List;	field_409	field_409	dw	dw
 METHOD	net/minecraft/class_105	()Ldw;	method_431	method_431	dw	dw
 METHOD	net/minecraft/class_105	(Lev;[Ljava/lang/Object;)V	method_432	method_432	dw	dw
 METHOD	net/minecraft/class_105	([I)Lev;	method_433	method_433	dw	dw
-CLASS	net/minecraft/class_106	net/minecraft/src/EntityItem	dx	dx	dx
+CLASS	net/minecraft/class_106	net/minecraft/src/EntityItem	dx	dx
 FIELD	net/minecraft/class_106	Lev;	field_410	field_410	dx	dx
 FIELD	net/minecraft/class_106	I	field_411	field_411	dx	dx
 FIELD	net/minecraft/class_106	I	field_412	field_412	dx	dx
@@ -955,14 +955,14 @@ FIELD	net/minecraft/class_106	I	field_414	field_414	dx	dx
 FIELD	net/minecraft/class_106	I	field_415	field_415	dx	dx
 METHOD	net/minecraft/class_106	(Lcn;DDDLev;)V	method_434	method_434	dx	dx
 METHOD	net/minecraft/class_106	(DDD)Z	method_435	method_435	dx	dx
-CLASS	net/minecraft/class_107	net/minecraft/src/NBTTagByteArray	dy	dy	dy
+CLASS	net/minecraft/class_107	net/minecraft/src/NBTTagByteArray	dy	dy
 FIELD	net/minecraft/class_107	[B	field_416	field_416	dy	dy
 METHOD	net/minecraft/class_107	([B)V	method_436	method_436	dy	dy
-CLASS	net/minecraft/class_108	net/minecraft/src/PacketMETHOD6BlockItemSwitch	dz	dz	dz
+CLASS	net/minecraft/class_108	net/minecraft/src/PacketMETHOD6BlockItemSwitch	dz	dz
 FIELD	net/minecraft/class_108	I	field_417	field_417	dz	dz
 FIELD	net/minecraft/class_108	I	field_418	field_418	dz	dz
 METHOD	net/minecraft/class_108	(II)V	method_437	method_437	dz	dz
-CLASS	net/minecraft/class_109	net/minecraft/src/RenderGlobal	e	e	e
+CLASS	net/minecraft/class_109	net/minecraft/src/RenderGlobal	e	e
 FIELD	net/minecraft/class_109	I	field_419	field_419	e	e
 FIELD	net/minecraft/class_109	I	field_420	field_420	e	e
 FIELD	net/minecraft/class_109	I	field_421	field_421	e	e
@@ -1029,11 +1029,11 @@ METHOD	net/minecraft/class_109	()Ljava/lang/String;	method_455	method_455	e	e
 METHOD	net/minecraft/class_109	(F)V	method_456	method_456	e	e
 METHOD	net/minecraft/class_109	()V	method_457	method_457	e	e
 METHOD	net/minecraft/class_109	()V	method_458	method_458	e	e
-CLASS	net/minecraft/class_110	net/minecraft/src/GuiChest	ea	ea	ea
+CLASS	net/minecraft/class_110	net/minecraft/src/GuiChest	ea	ea
 FIELD	net/minecraft/class_110	Lgh;	field_464	field_464	ea	ea
 FIELD	net/minecraft/class_110	Lgh;	field_465	field_465	ea	ea
 FIELD	net/minecraft/class_110	I	field_466	field_466	ea	ea
-CLASS	net/minecraft/class_111	net/minecraft/src/SoundPool	eb	eb	eb
+CLASS	net/minecraft/class_111	net/minecraft/src/SoundPool	eb	eb
 FIELD	net/minecraft/class_111	I	field_467	field_467	eb	eb
 FIELD	net/minecraft/class_111	Z	field_468	field_468	eb	eb
 FIELD	net/minecraft/class_111	Ljava/util/Random;	field_469	field_469	eb	eb
@@ -1042,15 +1042,15 @@ FIELD	net/minecraft/class_111	Ljava/util/List;	field_471	field_471	eb	eb
 METHOD	net/minecraft/class_111	()Lah;	method_459	method_459	eb	eb
 METHOD	net/minecraft/class_111	(Ljava/lang/String;)Lah;	method_460	method_460	eb	eb
 METHOD	net/minecraft/class_111	(Ljava/lang/String;Ljava/io/File;)Lah;	method_461	method_461	eb	eb
-CLASS	net/minecraft/class_112	net/minecraft/src/ItemDoor	ec	ec	ec
+CLASS	net/minecraft/class_112	net/minecraft/src/ItemDoor	ec	ec
 FIELD	net/minecraft/class_112	Lgb;	field_472	field_472	ec	ec
 METHOD	net/minecraft/class_112	(ILgb;)V	method_462	method_462	ec	ec
-CLASS	net/minecraft/class_113	net/minecraft/src/PositionTexureVertex	ed	ed	ed
+CLASS	net/minecraft/class_113	net/minecraft/src/PositionTexureVertex	ed	ed
 FIELD	net/minecraft/class_113	Laj;	field_473	field_473	ed	ed
 FIELD	net/minecraft/class_113	F	field_474	field_474	ed	ed
 FIELD	net/minecraft/class_113	F	field_475	field_475	ed	ed
 METHOD	net/minecraft/class_113	(FF)Led;	method_463	method_463	ed	ed
-CLASS	net/minecraft/class_114	net/minecraft/src/GuiContainer	ee	ee	ee
+CLASS	net/minecraft/class_114	net/minecraft/src/GuiContainer	ee	ee
 FIELD	net/minecraft/class_114	I	field_476	field_476	ee	ee
 FIELD	net/minecraft/class_114	I	field_477	field_477	ee	ee
 FIELD	net/minecraft/class_114	Ljava/util/List;	field_478	field_478	ee	ee
@@ -1059,14 +1059,14 @@ METHOD	net/minecraft/class_114	(F)V	method_464	method_464	ee	ee
 METHOD	net/minecraft/class_114	(II)Ldk;	method_465	method_465	ee	ee
 METHOD	net/minecraft/class_114	(Lmm;)V	method_466	method_466	ee	ee
 METHOD	net/minecraft/class_114	()V	method_467	method_467	ee	ee
-CLASS	net/minecraft/class_115	net/minecraft/src/ItemRedstone	ef	ef	ef
-CLASS	net/minecraft/class_116	net/minecraft/src/TextureLavaFlowFX	eg	eg	eg
+CLASS	net/minecraft/class_115	net/minecraft/src/ItemRedstone	ef	ef
+CLASS	net/minecraft/class_116	net/minecraft/src/TextureLavaFlowFX	eg	eg
 FIELD	net/minecraft/class_116	[F	field_480	field_480	eg	eg
 FIELD	net/minecraft/class_116	[F	field_481	field_481	eg	eg
 FIELD	net/minecraft/class_116	[F	field_482	field_482	eg	eg
 FIELD	net/minecraft/class_116	[F	field_483	field_483	eg	eg
 FIELD	net/minecraft/class_116	I	field_484	field_484	eg	eg
-CLASS	net/minecraft/class_117	net/minecraft/src/PacketMETHOD0Flying	eh	eh	eh
+CLASS	net/minecraft/class_117	net/minecraft/src/PacketMETHOD0Flying	eh	eh
 FIELD	net/minecraft/class_117	D	field_485	field_485	eh	eh
 FIELD	net/minecraft/class_117	D	field_486	field_486	eh	eh
 FIELD	net/minecraft/class_117	D	field_487	field_487	eh	eh
@@ -1077,9 +1077,9 @@ FIELD	net/minecraft/class_117	Z	field_491	field_491	eh	eh
 FIELD	net/minecraft/class_117	Z	field_492	field_492	eh	eh
 FIELD	net/minecraft/class_117	Z	field_493	field_493	eh	eh
 METHOD	net/minecraft/class_117	(Z)V	method_468	method_468	eh	eh
-CLASS	net/minecraft/class_118	net/minecraft/src/RenderSnowball	ei	ei	ei
+CLASS	net/minecraft/class_118	net/minecraft/src/RenderSnowball	ei	ei
 METHOD	net/minecraft/class_118	(Lao;DDDFF)V	method_469	method_469	ei	ei
-CLASS	net/minecraft/class_119	net/minecraft/src/WorldGenBigTree	ej	ej	ej
+CLASS	net/minecraft/class_119	net/minecraft/src/WorldGenBigTree	ej	ej
 FIELD	net/minecraft/class_119	[B	field_494	field_494	ej	ej
 FIELD	net/minecraft/class_119	Ljava/util/Random;	field_495	field_495	ej	ej
 FIELD	net/minecraft/class_119	Lcn;	field_496	field_496	ej	ej
@@ -1107,14 +1107,14 @@ METHOD	net/minecraft/class_119	()V	method_478	method_478	ej	ej
 METHOD	net/minecraft/class_119	(I)Z	method_479	method_479	ej	ej
 METHOD	net/minecraft/class_119	()V	method_480	method_480	ej	ej
 METHOD	net/minecraft/class_119	()Z	method_481	method_481	ej	ej
-CLASS	net/minecraft/class_120	net/minecraft/src/EntityCreature	ek	ek	ek
+CLASS	net/minecraft/class_120	net/minecraft/src/EntityCreature	ek	ek
 FIELD	net/minecraft/class_120	Lbl;	field_509	field_509	ek	ek
 FIELD	net/minecraft/class_120	Lkh;	field_510	field_510	ek	ek
 FIELD	net/minecraft/class_120	Z	field_511	field_511	ek	ek
 METHOD	net/minecraft/class_120	(III)F	method_482	method_482	ek	ek
 METHOD	net/minecraft/class_120	(Lkh;F)V	method_483	method_483	ek	ek
 METHOD	net/minecraft/class_120	()Lkh;	method_484	method_484	ek	ek
-CLASS	net/minecraft/class_121	net/minecraft/src/NBTBase	el	el	el
+CLASS	net/minecraft/class_121	net/minecraft/src/NBTBase	el	el
 FIELD	net/minecraft/class_121	Ljava/lang/String;	field_512	field_512	el	el
 METHOD	net/minecraft/class_121	()B	method_485	method_485	el	el
 METHOD	net/minecraft/class_121	(B)Lel;	method_486	method_486	el	el
@@ -1125,7 +1125,7 @@ METHOD	net/minecraft/class_121	(Ljava/lang/String;)Lel;	method_490	method_490	el
 METHOD	net/minecraft/class_121	()Ljava/lang/String;	method_491	method_491	el	el
 METHOD	net/minecraft/class_121	(B)Ljava/lang/String;	method_492	method_492	el	el
 METHOD	net/minecraft/class_121	(Ljava/io/DataInput;)Lel;	method_493	method_493	el	el
-CLASS	net/minecraft/class_122	net/minecraft/src/ModelCreeper	em	em	em
+CLASS	net/minecraft/class_122	net/minecraft/src/ModelCreeper	em	em
 FIELD	net/minecraft/class_122	Lip;	field_513	field_513	em	em
 FIELD	net/minecraft/class_122	Lip;	field_514	field_514	em	em
 FIELD	net/minecraft/class_122	Lip;	field_515	field_515	em	em
@@ -1133,9 +1133,9 @@ FIELD	net/minecraft/class_122	Lip;	field_516	field_516	em	em
 FIELD	net/minecraft/class_122	Lip;	field_517	field_517	em	em
 FIELD	net/minecraft/class_122	Lip;	field_518	field_518	em	em
 FIELD	net/minecraft/class_122	Lip;	field_519	field_519	em	em
-CLASS	net/minecraft/class_123	net/minecraft/src/EntityReddustFX	en	en	en
+CLASS	net/minecraft/class_123	net/minecraft/src/EntityReddustFX	en	en
 FIELD	net/minecraft/class_123	F	field_520	field_520	en	en
-CLASS	net/minecraft/class_124	net/minecraft/src/MathHelper	eo	eo	eo
+CLASS	net/minecraft/class_124	net/minecraft/src/MathHelper	eo	eo
 FIELD	net/minecraft/class_124	[F	field_521	field_521	eo	eo
 METHOD	net/minecraft/class_124	(D)F	method_494	method_494	eo	eo
 METHOD	net/minecraft/class_124	(DD)D	method_495	method_495	eo	eo
@@ -1146,11 +1146,11 @@ METHOD	net/minecraft/class_124	(F)F	method_499	method_499	eo	eo
 METHOD	net/minecraft/class_124	(F)F	method_500	method_500	eo	eo
 METHOD	net/minecraft/class_124	(F)I	method_501	method_501	eo	eo
 METHOD	net/minecraft/class_124	(F)F	method_502	method_502	eo	eo
-CLASS	net/minecraft/class_125	net/minecraft/src/CodecMus	ep	ep	ep
-CLASS	net/minecraft/class_126	net/minecraft/src/RenderChicken	eq	eq	eq
+CLASS	net/minecraft/class_125	net/minecraft/src/CodecMus	ep	ep
+CLASS	net/minecraft/class_126	net/minecraft/src/RenderChicken	eq	eq
 METHOD	net/minecraft/class_126	(Lmz;DDDFF)V	method_503	method_503	eq	eq
 METHOD	net/minecraft/class_126	(Lmz;F)F	method_504	method_504	eq	eq
-CLASS	net/minecraft/class_127	net/minecraft/src/EnumArt	er	er	er
+CLASS	net/minecraft/class_127	net/minecraft/src/EnumArt	er	er
 FIELD	net/minecraft/class_127	I	field_522	field_522	er	er
 FIELD	net/minecraft/class_127	I	field_523	field_523	er	er
 FIELD	net/minecraft/class_127	I	field_524	field_524	er	er
@@ -1181,11 +1181,11 @@ FIELD	net/minecraft/class_127	Ler;	field_548	field_548	er	er
 FIELD	net/minecraft/class_127	Ljava/lang/String;	field_549	field_549	er	er
 FIELD	net/minecraft/class_127	I	field_550	field_550	er	er
 METHOD	net/minecraft/class_127	(Ljava/lang/String;ILjava/lang/String;IIII)V	method_505	method_505	er	er
-CLASS	net/minecraft/class_128	net/minecraft/src/WorldGenReed	es	es	es
-CLASS	net/minecraft/class_129	net/minecraft/src/CraftingInventoryWorkbenchCB	et	et	et
+CLASS	net/minecraft/class_128	net/minecraft/src/WorldGenReed	es	es
+CLASS	net/minecraft/class_129	net/minecraft/src/CraftingInventoryWorkbenchCB	et	et
 FIELD	net/minecraft/class_129	Lgu;	field_551	field_551	et	et
 FIELD	net/minecraft/class_129	Lgh;	field_552	field_552	et	et
-CLASS	net/minecraft/class_130	net/minecraft/src/InventoryPlayer	eu	eu	eu
+CLASS	net/minecraft/class_130	net/minecraft/src/InventoryPlayer	eu	eu
 FIELD	net/minecraft/class_130	[Lev;	field_553	field_553	eu	eu
 FIELD	net/minecraft/class_130	[Lev;	field_554	field_554	eu	eu
 FIELD	net/minecraft/class_130	[Lev;	field_555	field_555	eu	eu
@@ -1215,7 +1215,7 @@ METHOD	net/minecraft/class_130	()V	method_524	method_524	eu	eu
 METHOD	net/minecraft/class_130	(I)I	method_525	method_525	eu	eu
 METHOD	net/minecraft/class_130	()Leu;	method_526	method_526	eu	eu
 METHOD	net/minecraft/class_130	()I	method_527	method_527	eu	eu
-CLASS	net/minecraft/class_131	net/minecraft/src/ItemStack	ev	ev	ev
+CLASS	net/minecraft/class_131	net/minecraft/src/ItemStack	ev	ev
 FIELD	net/minecraft/class_131	I	field_560	field_560	ev	ev
 FIELD	net/minecraft/class_131	I	field_561	field_561	ev	ev
 FIELD	net/minecraft/class_131	I	field_562	field_562	ev	ev
@@ -1246,7 +1246,7 @@ METHOD	net/minecraft/class_131	(Lly;)Z	method_550	method_550	ev	ev
 METHOD	net/minecraft/class_131	()I	method_551	method_551	ev	ev
 METHOD	net/minecraft/class_131	()I	method_552	method_552	ev	ev
 METHOD	net/minecraft/class_131	()Lev;	method_553	method_553	ev	ev
-CLASS	net/minecraft/class_132	net/minecraft/src/EntityList	ew	ew	ew
+CLASS	net/minecraft/class_132	net/minecraft/src/EntityList	ew	ew
 FIELD	net/minecraft/class_132	Ljava/util/Map;	field_564	field_564	ew	ew
 FIELD	net/minecraft/class_132	Ljava/util/Map;	field_565	field_565	ew	ew
 FIELD	net/minecraft/class_132	Ljava/util/Map;	field_566	field_566	ew	ew
@@ -1257,13 +1257,13 @@ METHOD	net/minecraft/class_132	(Ljava/lang/CLASS;Ljava/lang/String;I)V	method_55
 METHOD	net/minecraft/class_132	(Ljava/lang/String;Lcn;)Lkh;	method_557	method_557	ew	ew
 METHOD	net/minecraft/class_132	(Lkh;)I	method_558	method_558	ew	ew
 METHOD	net/minecraft/class_132	(Lkh;)Ljava/lang/String;	method_559	method_559	ew	ew
-CLASS	net/minecraft/class_133	net/minecraft/src/TileEntitySpecialRenderer	ex	ex	ex
+CLASS	net/minecraft/class_133	net/minecraft/src/TileEntitySpecialRenderer	ex	ex
 FIELD	net/minecraft/class_133	Lfz;	field_568	field_568	ex	ex
 METHOD	net/minecraft/class_133	()Lkd;	method_560	method_560	ex	ex
 METHOD	net/minecraft/class_133	(Lfz;)V	method_561	method_561	ex	ex
 METHOD	net/minecraft/class_133	(Lic;DDDF)V	method_562	method_562	ex	ex
 METHOD	net/minecraft/class_133	(Ljava/lang/String;)V	method_563	method_563	ex	ex
-CLASS	net/minecraft/class_134	net/minecraft/src/RenderEngine	ey	ey	ey
+CLASS	net/minecraft/class_134	net/minecraft/src/RenderEngine	ey	ey
 FIELD	net/minecraft/class_134	Z	field_569	field_569	ey	ey
 FIELD	net/minecraft/class_134	Ljava/util/HashMap;	field_570	field_570	ey	ey
 FIELD	net/minecraft/class_134	Ljava/util/HashMap;	field_571	field_571	ey	ey
@@ -1287,7 +1287,7 @@ METHOD	net/minecraft/class_134	(I)V	method_574	method_574	ey	ey
 METHOD	net/minecraft/class_134	(II)I	method_575	method_575	ey	ey
 METHOD	net/minecraft/class_134	(Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;	method_576	method_576	ey	ey
 METHOD	net/minecraft/class_134	(Ljava/lang/String;)V	method_577	method_577	ey	ey
-CLASS	net/minecraft/class_135	net/minecraft/src/PacketCLASS4MobSpawn	ez	ez	ez
+CLASS	net/minecraft/class_135	net/minecraft/src/PacketCLASS4MobSpawn	ez	ez
 FIELD	net/minecraft/class_135	I	field_578	field_578	ez	ez
 FIELD	net/minecraft/class_135	B	field_579	field_579	ez	ez
 FIELD	net/minecraft/class_135	I	field_580	field_580	ez	ez
@@ -1296,41 +1296,41 @@ FIELD	net/minecraft/class_135	I	field_582	field_582	ez	ez
 FIELD	net/minecraft/class_135	B	field_583	field_583	ez	ez
 FIELD	net/minecraft/class_135	B	field_584	field_584	ez	ez
 METHOD	net/minecraft/class_135	(Lge;)V	method_578	method_578	ez	ez
-CLASS	net/minecraft/class_136	net/minecraft/src/NBTTagFloat	f	f	f
+CLASS	net/minecraft/class_136	net/minecraft/src/NBTTagFloat	f	f
 FIELD	net/minecraft/class_136	F	field_585	field_585	f	f
 METHOD	net/minecraft/class_136	(F)V	method_579	method_579	f	f
-CLASS	net/minecraft/class_137	net/minecraft/src/EnumOSIsom	fa	fa	fa
+CLASS	net/minecraft/class_137	net/minecraft/src/EnumOSIsom	fa	fa
 FIELD	net/minecraft/class_137	Lfa;	field_586	field_586	fa	fa
 FIELD	net/minecraft/class_137	Lfa;	field_587	field_587	fa	fa
 FIELD	net/minecraft/class_137	Lfa;	field_588	field_588	fa	fa
 FIELD	net/minecraft/class_137	Lfa;	field_589	field_589	fa	fa
 FIELD	net/minecraft/class_137	Lfa;	field_590	field_590	fa	fa
-CLASS	net/minecraft/class_138	net/minecraft/src/EntitySorter	fb	fb	fb
+CLASS	net/minecraft/class_138	net/minecraft/src/EntitySorter	fb	fb
 FIELD	net/minecraft/class_138	Lkh;	field_591	field_591	fb	fb
 METHOD	net/minecraft/class_138	(Lbn;Lbn;)I	method_580	method_580	fb	fb
-CLASS	net/minecraft/class_139	net/minecraft/src/BlockBreakable	fc	fc	fc
+CLASS	net/minecraft/class_139	net/minecraft/src/BlockBreakable	fc	fc
 FIELD	net/minecraft/class_139	Z	field_592	field_592	fc	fc
 METHOD	net/minecraft/class_139	(IILgb;Z)V	method_581	method_581	fc	fc
-CLASS	net/minecraft/class_140	net/minecraft/src/BlockSnow	fd	fd	fd
+CLASS	net/minecraft/class_140	net/minecraft/src/BlockSnow	fd	fd
 METHOD	net/minecraft/class_140	(II)V	method_582	method_582	fd	fd
 METHOD	net/minecraft/class_140	(Lcn;III)Z	method_583	method_583	fd	fd
-CLASS	net/minecraft/class_141	net/minecraft/src/TileEntityChest	fe	fe	fe
+CLASS	net/minecraft/class_141	net/minecraft/src/TileEntityChest	fe	fe
 FIELD	net/minecraft/class_141	[Lev;	field_593	field_593	fe	fe
-CLASS	net/minecraft/class_142	net/minecraft/src/EntityFallingSand	ff	ff	ff
+CLASS	net/minecraft/class_142	net/minecraft/src/EntityFallingSand	ff	ff
 FIELD	net/minecraft/class_142	I	field_594	field_594	ff	ff
 FIELD	net/minecraft/class_142	I	field_595	field_595	ff	ff
 METHOD	net/minecraft/class_142	(Lcn;FFFI)V	method_584	method_584	ff	ff
 METHOD	net/minecraft/class_142	()Lcn;	method_585	method_585	ff	ff
-CLASS	net/minecraft/class_143	net/minecraft/src/PacketMETHOD4BlockDig	fg	fg	fg
+CLASS	net/minecraft/class_143	net/minecraft/src/PacketMETHOD4BlockDig	fg	fg
 FIELD	net/minecraft/class_143	I	field_596	field_596	fg	fg
 FIELD	net/minecraft/class_143	I	field_597	field_597	fg	fg
 FIELD	net/minecraft/class_143	I	field_598	field_598	fg	fg
 FIELD	net/minecraft/class_143	I	field_599	field_599	fg	fg
 FIELD	net/minecraft/class_143	I	field_600	field_600	fg	fg
 METHOD	net/minecraft/class_143	(IIIII)V	method_586	method_586	fg	fg
-CLASS	net/minecraft/class_144	net/minecraft/src/BlockFence	fh	fh	fh
+CLASS	net/minecraft/class_144	net/minecraft/src/BlockFence	fh	fh
 METHOD	net/minecraft/class_144	(II)V	method_587	method_587	fh	fh
-CLASS	net/minecraft/class_145	net/minecraft/src/MCHashTable	fi	fi	fi
+CLASS	net/minecraft/class_145	net/minecraft/src/MCHashTable	fi	fi
 FIELD	net/minecraft/class_145	[Lmx;	field_601	field_601	fi	fi
 FIELD	net/minecraft/class_145	I	field_602	field_602	fi	fi
 FIELD	net/minecraft/class_145	I	field_603	field_603	fi	fi
@@ -1347,9 +1347,9 @@ METHOD	net/minecraft/class_145	(I)Lmx;	method_595	method_595	fi	fi
 METHOD	net/minecraft/class_145	(I)I	method_596	method_596	fi	fi
 METHOD	net/minecraft/class_145	(I)I	method_597	method_597	fi	fi
 METHOD	net/minecraft/class_145	(I)V	method_598	method_598	fi	fi
-CLASS	net/minecraft/class_146	net/minecraft/src/RecipesCrafting	fj	fj	fj
+CLASS	net/minecraft/class_146	net/minecraft/src/RecipesCrafting	fj	fj
 METHOD	net/minecraft/class_146	(Ldw;)V	method_599	method_599	fj	fj
-CLASS	net/minecraft/class_147	net/minecraft/src/GuiButton	fk	fk	fk
+CLASS	net/minecraft/class_147	net/minecraft/src/GuiButton	fk	fk
 FIELD	net/minecraft/class_147	I	field_606	field_606	fk	fk
 FIELD	net/minecraft/class_147	I	field_607	field_607	fk	fk
 FIELD	net/minecraft/class_147	I	field_608	field_608	fk	fk
@@ -1363,13 +1363,13 @@ METHOD	net/minecraft/class_147	(Lnet/minecraft/client/Minecraft;II)V	method_601	
 METHOD	net/minecraft/class_147	(Z)I	method_602	method_602	fk	fk
 METHOD	net/minecraft/class_147	(Lnet/minecraft/client/Minecraft;II)V	method_603	method_603	fk	fk
 METHOD	net/minecraft/class_147	(Lnet/minecraft/client/Minecraft;II)Z	method_604	method_604	fk	fk
-CLASS	net/minecraft/class_148	net/minecraft/src/ThreadSleepForever	fl	fl	fl
+CLASS	net/minecraft/class_148	net/minecraft/src/ThreadSleepForever	fl	fl
 FIELD	net/minecraft/class_148	Lnet/minecraft/client/Minecraft;	field_614	field_614	fl	fl
 METHOD	net/minecraft/class_148	(Lnet/minecraft/client/Minecraft;Ljava/lang/String;)V	method_605	method_605	fl	fl
-CLASS	net/minecraft/class_149	net/minecraft/src/MinecraftImpl	fm	fm	fm
+CLASS	net/minecraft/class_149	net/minecraft/src/MinecraftImpl	fm	fm
 FIELD	net/minecraft/class_149	Ljava/awt/Frame;	field_615	field_615	fm	fm
 METHOD	net/minecraft/class_149	(Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZLjava/awt/Frame;)V	method_606	method_606	fm	fm
-CLASS	net/minecraft/class_150	net/minecraft/src/Packet	fn	fn	fn
+CLASS	net/minecraft/class_150	net/minecraft/src/Packet	fn	fn
 FIELD	net/minecraft/class_150	Ljava/util/Map;	field_616	field_616	fn	fn
 FIELD	net/minecraft/class_150	Ljava/util/Map;	field_617	field_617	fn	fn
 FIELD	net/minecraft/class_150	Z	field_618	field_618	fn	fn
@@ -1382,17 +1382,17 @@ METHOD	net/minecraft/class_150	(Ljava/io/DataOutputStream;)V	method_612	method_6
 METHOD	net/minecraft/class_150	(Llb;)V	method_613	method_613	fn	fn
 METHOD	net/minecraft/class_150	()I	method_614	method_614	fn	fn
 METHOD	net/minecraft/class_150	(Ljava/io/DataInputStream;)Lfn;	method_615	method_615	fn	fn
-CLASS	net/minecraft/class_151	net/minecraft/src/ModelBase	fo	fo	fo
+CLASS	net/minecraft/class_151	net/minecraft/src/ModelBase	fo	fo
 FIELD	net/minecraft/class_151	F	field_619	field_619	fo	fo
 FIELD	net/minecraft/class_151	Z	field_620	field_620	fo	fo
 METHOD	net/minecraft/class_151	(FFFFFF)V	method_616	method_616	fo	fo
 METHOD	net/minecraft/class_151	(FFFFFF)V	method_617	method_617	fo	fo
-CLASS	net/minecraft/class_152	net/minecraft/src/GameWindowListener	fp	fp	fp
+CLASS	net/minecraft/class_152	net/minecraft/src/GameWindowListener	fp	fp
 FIELD	net/minecraft/class_152	Lnet/minecraft/client/Minecraft;	field_621	field_621	fp	fp
 FIELD	net/minecraft/class_152	Ljava/lang/Thread;	field_622	field_622	fp	fp
-CLASS	net/minecraft/class_153	net/minecraft/src/OSMap	fq	fq	fq
+CLASS	net/minecraft/class_153	net/minecraft/src/OSMap	fq	fq
 FIELD	net/minecraft/class_153	[I	field_623	field_623	fq	fq
-CLASS	net/minecraft/class_154	net/minecraft/src/GameSettings	fr	fr	fr
+CLASS	net/minecraft/class_154	net/minecraft/src/GameSettings	fr	fr
 FIELD	net/minecraft/class_154	Ljava/io/File;	field_624	field_624	fr	fr
 FIELD	net/minecraft/class_154	F	field_625	field_625	fr	fr
 FIELD	net/minecraft/class_154	F	field_626	field_626	fr	fr
@@ -1431,11 +1431,11 @@ METHOD	net/minecraft/class_154	(I)I	method_625	method_625	fr	fr
 METHOD	net/minecraft/class_154	(II)V	method_626	method_626	fr	fr
 METHOD	net/minecraft/class_154	(I)F	method_627	method_627	fr	fr
 METHOD	net/minecraft/class_154	(I)Ljava/lang/String;	method_628	method_628	fr	fr
-CLASS	net/minecraft/class_155	net/minecraft/src/RecipeSorter	fs	fs	fs
+CLASS	net/minecraft/class_155	net/minecraft/src/RecipeSorter	fs	fs
 FIELD	net/minecraft/class_155	Ldw;	field_651	field_651	fs	fs
 METHOD	net/minecraft/class_155	(Ldw;)V	method_629	method_629	fs	fs
 METHOD	net/minecraft/class_155	(Lbv;Lbv;)I	method_630	method_630	fs	fs
-CLASS	net/minecraft/class_156	net/minecraft/src/ChunkProviderLoadOrGenerate	ft	ft	ft
+CLASS	net/minecraft/class_156	net/minecraft/src/ChunkProviderLoadOrGenerate	ft	ft
 FIELD	net/minecraft/class_156	I	field_652	field_652	ft	ft
 FIELD	net/minecraft/class_156	I	field_653	field_653	ft	ft
 FIELD	net/minecraft/class_156	Lga;	field_654	field_654	ft	ft
@@ -1448,14 +1448,14 @@ METHOD	net/minecraft/class_156	(Lcn;Laf;Law;)V	method_631	method_631	ft	ft
 METHOD	net/minecraft/class_156	(Lga;)V	method_632	method_632	ft	ft
 METHOD	net/minecraft/class_156	(Lga;)V	method_633	method_633	ft	ft
 METHOD	net/minecraft/class_156	(II)Lga;	method_634	method_634	ft	ft
-CLASS	net/minecraft/class_157	net/minecraft/src/ItemHoe	fu	fu	fu
+CLASS	net/minecraft/class_157	net/minecraft/src/ItemHoe	fu	fu
 METHOD	net/minecraft/class_157	(II)V	method_635	method_635	fu	fu
-CLASS	net/minecraft/class_158	net/minecraft/src/ModelSkeleton	fv	fv	fv
-CLASS	net/minecraft/class_159	net/minecraft/src/BlockDoor	fw	fw	fw
+CLASS	net/minecraft/class_158	net/minecraft/src/ModelSkeleton	fv	fv
+CLASS	net/minecraft/class_159	net/minecraft/src/BlockDoor	fw	fw
 METHOD	net/minecraft/class_159	(Lcn;IIIZ)V	method_636	method_636	fw	fw
 METHOD	net/minecraft/class_159	(I)V	method_637	method_637	fw	fw
 METHOD	net/minecraft/class_159	(I)I	method_638	method_638	fw	fw
-CLASS	net/minecraft/class_160	net/minecraft/src/Path	fx	fx	fx
+CLASS	net/minecraft/class_160	net/minecraft/src/Path	fx	fx
 FIELD	net/minecraft/class_160	[La;	field_660	field_660	fx	fx
 FIELD	net/minecraft/class_160	I	field_661	field_661	fx	fx
 METHOD	net/minecraft/class_160	()V	method_639	method_639	fx	fx
@@ -1465,8 +1465,8 @@ METHOD	net/minecraft/class_160	(La;F)V	method_642	method_642	fx	fx
 METHOD	net/minecraft/class_160	()La;	method_643	method_643	fx	fx
 METHOD	net/minecraft/class_160	(I)V	method_644	method_644	fx	fx
 METHOD	net/minecraft/class_160	()Z	method_645	method_645	fx	fx
-CLASS	net/minecraft/class_161	net/minecraft/src/NBTTagEnd	fy	fy	fy
-CLASS	net/minecraft/class_162	net/minecraft/src/TileEntityRenderer	fz	fz	fz
+CLASS	net/minecraft/class_161	net/minecraft/src/NBTTagEnd	fy	fy
+CLASS	net/minecraft/class_162	net/minecraft/src/TileEntityRenderer	fz	fz
 FIELD	net/minecraft/class_162	Lfz;	field_662	field_662	fz	fz
 FIELD	net/minecraft/class_162	D	field_663	field_663	fz	fz
 FIELD	net/minecraft/class_162	D	field_664	field_664	fz	fz
@@ -1488,10 +1488,10 @@ METHOD	net/minecraft/class_162	(Lic;DDDF)V	method_649	method_649	fz	fz
 METHOD	net/minecraft/class_162	(Lic;F)V	method_650	method_650	fz	fz
 METHOD	net/minecraft/class_162	(Ljava/lang/CLASS;)Lex;	method_651	method_651	fz	fz
 METHOD	net/minecraft/class_162	(Lic;)Lex;	method_652	method_652	fz	fz
-CLASS	net/minecraft/class_163	net/minecraft/src/MinecraftAppletImpl	g	g	g
+CLASS	net/minecraft/class_163	net/minecraft/src/MinecraftAppletImpl	g	g
 FIELD	net/minecraft/class_163	Lnet/minecraft/client/MinecraftApplet;	field_676	field_676	g	g
 METHOD	net/minecraft/class_163	(Lnet/minecraft/client/MinecraftApplet;Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V	method_653	method_653	g	g
-CLASS	net/minecraft/class_164	net/minecraft/src/Chunk	ga	ga	ga
+CLASS	net/minecraft/class_164	net/minecraft/src/Chunk	ga	ga
 FIELD	net/minecraft/class_164	Z	field_677	field_677	ga	ga
 FIELD	net/minecraft/class_164	[B	field_678	field_678	ga	ga
 FIELD	net/minecraft/class_164	Z	field_679	field_679	ga	ga
@@ -1545,7 +1545,7 @@ METHOD	net/minecraft/class_164	(III)V	method_684	method_684	ga	ga
 METHOD	net/minecraft/class_164	()V	method_685	method_685	ga	ga
 METHOD	net/minecraft/class_164	(III)V	method_686	method_686	ga	ga
 METHOD	net/minecraft/class_164	(III)V	method_687	method_687	ga	ga
-CLASS	net/minecraft/class_165	net/minecraft/src/Material	gb	gb	gb
+CLASS	net/minecraft/class_165	net/minecraft/src/Material	gb	gb
 FIELD	net/minecraft/class_165	Lgb;	field_696	field_696	gb	gb
 FIELD	net/minecraft/class_165	Lgb;	field_697	field_697	gb	gb
 FIELD	net/minecraft/class_165	Lgb;	field_698	field_698	gb	gb
@@ -1575,15 +1575,15 @@ METHOD	net/minecraft/class_165	()Z	method_690	method_690	gb	gb
 METHOD	net/minecraft/class_165	()Z	method_691	method_691	gb	gb
 METHOD	net/minecraft/class_165	()Z	method_692	method_692	gb	gb
 METHOD	net/minecraft/class_165	()Lgb;	method_693	method_693	gb	gb
-CLASS	net/minecraft/class_166	net/minecraft/src/GuiMultiplayer	gc	gc	gc
+CLASS	net/minecraft/class_166	net/minecraft/src/GuiMultiplayer	gc	gc
 FIELD	net/minecraft/class_166	Lbh;	field_719	field_719	gc	gc
 FIELD	net/minecraft/class_166	I	field_720	field_720	gc	gc
 FIELD	net/minecraft/class_166	Ljava/lang/String;	field_721	field_721	gc	gc
-CLASS	net/minecraft/class_167	net/minecraft/src/MovementInputFromOptions	gd	gd	gd
+CLASS	net/minecraft/class_167	net/minecraft/src/MovementInputFromOptions	gd	gd
 FIELD	net/minecraft/class_167	[Z	field_722	field_722	gd	gd
 FIELD	net/minecraft/class_167	Lfr;	field_723	field_723	gd	gd
 METHOD	net/minecraft/class_167	(Lfr;)V	method_694	method_694	gd	gd
-CLASS	net/minecraft/class_168	net/minecraft/src/EntityLiving	ge	ge	ge
+CLASS	net/minecraft/class_168	net/minecraft/src/EntityLiving	ge	ge
 FIELD	net/minecraft/class_168	F	field_724	field_724	ge	ge
 FIELD	net/minecraft/class_168	Z	field_725	field_725	ge	ge
 FIELD	net/minecraft/class_168	F	field_726	field_726	ge	ge
@@ -1661,11 +1661,11 @@ METHOD	net/minecraft/class_168	(F)Laj;	method_715	method_715	ge	ge
 METHOD	net/minecraft/class_168	()I	method_716	method_716	ge	ge
 METHOD	net/minecraft/class_168	()V	method_717	method_717	ge	ge
 METHOD	net/minecraft/class_168	()V	method_718	method_718	ge	ge
-CLASS	net/minecraft/class_169	net/minecraft/src/ItemReed	gf	gf	gf
+CLASS	net/minecraft/class_169	net/minecraft/src/ItemReed	gf	gf
 FIELD	net/minecraft/class_169	I	field_777	field_777	gf	gf
 METHOD	net/minecraft/class_169	(ILly;)V	method_719	method_719	gf	gf
-CLASS	net/minecraft/class_170	net/minecraft/src/MaterialTransparent	gg	gg	gg
-CLASS	net/minecraft/class_171	net/minecraft/src/IInventory	gh	gh	gh
+CLASS	net/minecraft/class_170	net/minecraft/src/MaterialTransparent	gg	gg
+CLASS	net/minecraft/class_171	net/minecraft/src/IInventory	gh	gh
 METHOD	net/minecraft/class_171	(II)Lev;	method_720	method_720	gh	gh
 METHOD	net/minecraft/class_171	(ILev;)V	method_721	method_721	gh	gh
 METHOD	net/minecraft/class_171	()I	method_722	method_722	gh	gh
@@ -1673,23 +1673,23 @@ METHOD	net/minecraft/class_171	(I)Lev;	method_723	method_723	gh	gh
 METHOD	net/minecraft/class_171	()Ljava/lang/String;	method_724	method_724	gh	gh
 METHOD	net/minecraft/class_171	()I	method_725	method_725	gh	gh
 METHOD	net/minecraft/class_171	()V	method_726	method_726	gh	gh
-CLASS	net/minecraft/class_172	net/minecraft/src/Packet0KeepAlive	gi	gi	gi
-CLASS	net/minecraft/class_173	net/minecraft/src/RenderEntity	gj	gj	gj
-CLASS	net/minecraft/class_174	net/minecraft/src/RenderArrow	gk	gk	gk
+CLASS	net/minecraft/class_172	net/minecraft/src/Packet0KeepAlive	gi	gi
+CLASS	net/minecraft/class_173	net/minecraft/src/RenderEntity	gj	gj
+CLASS	net/minecraft/class_174	net/minecraft/src/RenderArrow	gk	gk
 METHOD	net/minecraft/class_174	(Lkg;DDDFF)V	method_727	method_727	gk	gk
-CLASS	net/minecraft/class_175	net/minecraft/src/RenderSorter	gl	gl	gl
+CLASS	net/minecraft/class_175	net/minecraft/src/RenderSorter	gl	gl
 FIELD	net/minecraft/class_175	Ldm;	field_778	field_778	gl	gl
 METHOD	net/minecraft/class_175	(Lbn;Lbn;)I	method_728	method_728	gl	gl
-CLASS	net/minecraft/class_176	net/minecraft/src/RenderPig	gm	gm	gm
+CLASS	net/minecraft/class_176	net/minecraft/src/RenderPig	gm	gm
 METHOD	net/minecraft/class_176	(Lmv;I)Z	method_729	method_729	gm	gm
-CLASS	net/minecraft/class_177	net/minecraft/src/NBTTagLong	gn	gn	gn
+CLASS	net/minecraft/class_177	net/minecraft/src/NBTTagLong	gn	gn
 FIELD	net/minecraft/class_177	J	field_779	field_779	gn	gn
 METHOD	net/minecraft/class_177	(J)V	method_730	method_730	gn	gn
-CLASS	net/minecraft/class_178	net/minecraft/src/UnexpectedThrowable	go	go	go
+CLASS	net/minecraft/class_178	net/minecraft/src/UnexpectedThrowable	go	go
 FIELD	net/minecraft/class_178	Ljava/lang/String;	field_780	field_780	go	go
 FIELD	net/minecraft/class_178	Ljava/lang/Throwable;	field_781	field_781	go	go
 METHOD	net/minecraft/class_178	(Ljava/lang/String;Ljava/lang/Throwable;)V	method_731	method_731	go	go
-CLASS	net/minecraft/class_179	net/minecraft/src/PacketCLASS0NamedEntitySpawn	gp	gp	gp
+CLASS	net/minecraft/class_179	net/minecraft/src/PacketCLASS0NamedEntitySpawn	gp	gp
 FIELD	net/minecraft/class_179	I	field_782	field_782	gp	gp
 FIELD	net/minecraft/class_179	Ljava/lang/String;	field_783	field_783	gp	gp
 FIELD	net/minecraft/class_179	I	field_784	field_784	gp	gp
@@ -1699,11 +1699,11 @@ FIELD	net/minecraft/class_179	B	field_787	field_787	gp	gp
 FIELD	net/minecraft/class_179	B	field_788	field_788	gp	gp
 FIELD	net/minecraft/class_179	I	field_789	field_789	gp	gp
 METHOD	net/minecraft/class_179	(Ldm;)V	method_732	method_732	gp	gp
-CLASS	net/minecraft/class_180	net/minecraft/src/RenderSlime	gq	gq	gq
+CLASS	net/minecraft/class_180	net/minecraft/src/RenderSlime	gq	gq
 FIELD	net/minecraft/class_180	Lfo;	field_790	field_790	gq	gq
 METHOD	net/minecraft/class_180	(Lma;F)V	method_733	method_733	gq	gq
 METHOD	net/minecraft/class_180	(Lma;I)Z	method_734	method_734	gq	gq
-CLASS	net/minecraft/class_181	net/minecraft/src/LoadingScreenRenderer	gr	gr	gr
+CLASS	net/minecraft/class_181	net/minecraft/src/LoadingScreenRenderer	gr	gr
 FIELD	net/minecraft/class_181	Ljava/lang/String;	field_791	field_791	gr	gr
 FIELD	net/minecraft/class_181	Lnet/minecraft/client/Minecraft;	field_792	field_792	gr	gr
 FIELD	net/minecraft/class_181	Ljava/lang/String;	field_793	field_793	gr	gr
@@ -1712,7 +1712,7 @@ FIELD	net/minecraft/class_181	Z	field_795	field_795	gr	gr
 METHOD	net/minecraft/class_181	(Lnet/minecraft/client/Minecraft;)V	method_735	method_735	gr	gr
 METHOD	net/minecraft/class_181	(Ljava/lang/String;)V	method_736	method_736	gr	gr
 METHOD	net/minecraft/class_181	(Ljava/lang/String;)V	method_737	method_737	gr	gr
-CLASS	net/minecraft/class_182	net/minecraft/src/WorldClient	gs	gs	gs
+CLASS	net/minecraft/class_182	net/minecraft/src/WorldClient	gs	gs
 FIELD	net/minecraft/class_182	Lgy;	field_796	field_796	gs	gs
 FIELD	net/minecraft/class_182	Llz;	field_797	field_797	gs	gs
 FIELD	net/minecraft/class_182	Z	field_798	field_798	gs	gs
@@ -1727,20 +1727,20 @@ METHOD	net/minecraft/class_182	(I)Lkh;	method_741	method_741	gs	gs
 METHOD	net/minecraft/class_182	(I)Lkh;	method_742	method_742	gs	gs
 METHOD	net/minecraft/class_182	(IIIII)Z	method_743	method_743	gs	gs
 METHOD	net/minecraft/class_182	(IIIIII)V	method_744	method_744	gs	gs
-CLASS	net/minecraft/class_183	net/minecraft/src/PacketCLASSHandshake	gt	gt	gt
+CLASS	net/minecraft/class_183	net/minecraft/src/PacketCLASSHandshake	gt	gt
 FIELD	net/minecraft/class_183	Ljava/lang/String;	field_803	field_803	gt	gt
 METHOD	net/minecraft/class_183	(Ljava/lang/String;)V	method_745	method_745	gt	gt
-CLASS	net/minecraft/class_184	net/minecraft/src/InventoryCrafting	gu	gu	gu
+CLASS	net/minecraft/class_184	net/minecraft/src/InventoryCrafting	gu	gu
 FIELD	net/minecraft/class_184	[Lev;	field_804	field_804	gu	gu
 FIELD	net/minecraft/class_184	I	field_805	field_805	gu	gu
 FIELD	net/minecraft/class_184	Lar;	field_806	field_806	gu	gu
-CLASS	net/minecraft/class_185	net/minecraft/src/WorldGenClay	gv	gv	gv
+CLASS	net/minecraft/class_185	net/minecraft/src/WorldGenClay	gv	gv
 FIELD	net/minecraft/class_185	I	field_807	field_807	gv	gv
 FIELD	net/minecraft/class_185	I	field_808	field_808	gv	gv
-CLASS	net/minecraft/class_186	net/minecraft/src/BlockOre	gw	gw	gw
+CLASS	net/minecraft/class_186	net/minecraft/src/BlockOre	gw	gw
 METHOD	net/minecraft/class_186	(II)V	method_746	method_746	gw	gw
-CLASS	net/minecraft/class_187	net/minecraft/src/ModelSheep	gx	gx	gx
-CLASS	net/minecraft/class_188	net/minecraft/src/NetClientHandler	gy	gy	gy
+CLASS	net/minecraft/class_187	net/minecraft/src/ModelSheep	gx	gx
+CLASS	net/minecraft/class_188	net/minecraft/src/NetClientHandler	gy	gy
 FIELD	net/minecraft/class_188	Ljava/lang/String;	field_809	field_809	gy	gy
 FIELD	net/minecraft/class_188	Ljava/util/Random;	field_810	field_810	gy	gy
 FIELD	net/minecraft/class_188	Z	field_811	field_811	gy	gy
@@ -1752,11 +1752,11 @@ METHOD	net/minecraft/class_188	(Lnet/minecraft/client/Minecraft;Ljava/lang/Strin
 METHOD	net/minecraft/class_188	()V	method_748	method_748	gy	gy
 METHOD	net/minecraft/class_188	(Lfn;)V	method_749	method_749	gy	gy
 METHOD	net/minecraft/class_188	()V	method_750	method_750	gy	gy
-CLASS	net/minecraft/class_189	net/minecraft/src/BlockGravel	gz	gz	gz
-CLASS	net/minecraft/class_190	net/minecraft/src/CanvasMinecraftApplet	h	h	h
+CLASS	net/minecraft/class_189	net/minecraft/src/BlockGravel	gz	gz
+CLASS	net/minecraft/class_190	net/minecraft/src/CanvasMinecraftApplet	h	h
 FIELD	net/minecraft/class_190	Lnet/minecraft/client/MinecraftApplet;	field_816	field_816	h	h
 METHOD	net/minecraft/class_190	(Lnet/minecraft/client/MinecraftApplet;)V	method_751	method_751	h	h
-CLASS	net/minecraft/class_191	net/minecraft/src/PacketCLASSMETHODPickupSpawn	ha	ha	ha
+CLASS	net/minecraft/class_191	net/minecraft/src/PacketCLASSMETHODPickupSpawn	ha	ha
 FIELD	net/minecraft/class_191	I	field_817	field_817	ha	ha
 FIELD	net/minecraft/class_191	I	field_818	field_818	ha	ha
 FIELD	net/minecraft/class_191	I	field_819	field_819	ha	ha
@@ -1767,46 +1767,46 @@ FIELD	net/minecraft/class_191	B	field_823	field_823	ha	ha
 FIELD	net/minecraft/class_191	I	field_824	field_824	ha	ha
 FIELD	net/minecraft/class_191	I	field_825	field_825	ha	ha
 METHOD	net/minecraft/class_191	(Ldx;)V	method_752	method_752	ha	ha
-CLASS	net/minecraft/class_192	net/minecraft/src/ImageBuffer	hb	hb	hb
+CLASS	net/minecraft/class_192	net/minecraft/src/ImageBuffer	hb	hb
 METHOD	net/minecraft/class_192	(Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;	method_753	method_753	hb	hb
-CLASS	net/minecraft/class_193	net/minecraft/src/ChunkCoordinates	hc	hc	hc
+CLASS	net/minecraft/class_193	net/minecraft/src/ChunkCoordinates	hc	hc
 FIELD	net/minecraft/class_193	I	field_826	field_826	hc	hc
 FIELD	net/minecraft/class_193	I	field_827	field_827	hc	hc
 METHOD	net/minecraft/class_193	(II)V	method_754	method_754	hc	hc
 METHOD	net/minecraft/class_193	(Ljava/lang/Object;)Z	method_755	method_755	hc	hc
-CLASS	net/minecraft/class_194	net/minecraft/src/BlockCrops	hd	hd	hd
+CLASS	net/minecraft/class_194	net/minecraft/src/BlockCrops	hd	hd
 METHOD	net/minecraft/class_194	(Lcn;III)F	method_756	method_756	hd	hd
-CLASS	net/minecraft/class_195	net/minecraft/src/BlockIce	he	he	he
+CLASS	net/minecraft/class_195	net/minecraft/src/BlockIce	he	he
 METHOD	net/minecraft/class_195	(II)V	method_757	method_757	he	he
-CLASS	net/minecraft/class_196	net/minecraft/src/PacketMETHOD8ArmAnimation	hf	hf	hf
+CLASS	net/minecraft/class_196	net/minecraft/src/PacketMETHOD8ArmAnimation	hf	hf
 FIELD	net/minecraft/class_196	I	field_828	field_828	hf	hf
 FIELD	net/minecraft/class_196	I	field_829	field_829	hf	hf
 METHOD	net/minecraft/class_196	(Lkh;I)V	method_758	method_758	hf	hf
-CLASS	net/minecraft/class_197	net/minecraft/src/ModelQuadraped	hg	hg	hg
+CLASS	net/minecraft/class_197	net/minecraft/src/ModelQuadraped	hg	hg
 FIELD	net/minecraft/class_197	Lip;	field_830	field_830	hg	hg
 FIELD	net/minecraft/class_197	Lip;	field_831	field_831	hg	hg
 FIELD	net/minecraft/class_197	Lip;	field_832	field_832	hg	hg
 FIELD	net/minecraft/class_197	Lip;	field_833	field_833	hg	hg
 FIELD	net/minecraft/class_197	Lip;	field_834	field_834	hg	hg
 FIELD	net/minecraft/class_197	Lip;	field_835	field_835	hg	hg
-CLASS	net/minecraft/class_198	net/minecraft/src/ModelSlime	hh	hh	hh
+CLASS	net/minecraft/class_198	net/minecraft/src/ModelSlime	hh	hh
 FIELD	net/minecraft/class_198	Lip;	field_836	field_836	hh	hh
 FIELD	net/minecraft/class_198	Lip;	field_837	field_837	hh	hh
 FIELD	net/minecraft/class_198	Lip;	field_838	field_838	hh	hh
 FIELD	net/minecraft/class_198	Lip;	field_839	field_839	hh	hh
-CLASS	net/minecraft/class_199	net/minecraft/src/BlockLeavesBase	hi	hi	hi
+CLASS	net/minecraft/class_199	net/minecraft/src/BlockLeavesBase	hi	hi
 FIELD	net/minecraft/class_199	Z	field_840	field_840	hi	hi
 METHOD	net/minecraft/class_199	(IILgb;Z)V	method_759	method_759	hi	hi
-CLASS	net/minecraft/class_200	net/minecraft/src/ModelMinecart	hj	hj	hj
+CLASS	net/minecraft/class_200	net/minecraft/src/ModelMinecart	hj	hj
 FIELD	net/minecraft/class_200	[Lip;	field_841	field_841	hj	hj
-CLASS	net/minecraft/class_201	net/minecraft/src/MusInputStream	hk	hk	hk
+CLASS	net/minecraft/class_201	net/minecraft/src/MusInputStream	hk	hk
 FIELD	net/minecraft/class_201	[B	field_842	field_842	hk	hk
 FIELD	net/minecraft/class_201	Lep;	field_843	field_843	hk	hk
 FIELD	net/minecraft/class_201	I	field_844	field_844	hk	hk
 FIELD	net/minecraft/class_201	Ljava/io/InputStream;	field_845	field_845	hk	hk
 METHOD	net/minecraft/class_201	(Lep;Ljava/net/URL;Ljava/io/InputStream;)V	method_760	method_760	hk	hk
-CLASS	net/minecraft/class_202	net/minecraft/src/EntityGiantZombie	hl	hl	hl
-CLASS	net/minecraft/class_203	net/minecraft/src/NBTTagCompound	hm	hm	hm
+CLASS	net/minecraft/class_202	net/minecraft/src/EntityGiantZombie	hl	hl
+CLASS	net/minecraft/class_203	net/minecraft/src/NBTTagCompound	hm	hm
 FIELD	net/minecraft/class_203	Ljava/util/Map;	field_846	field_846	hm	hm
 METHOD	net/minecraft/class_203	(Ljava/lang/String;B)V	method_761	method_761	hm	hm
 METHOD	net/minecraft/class_203	(Ljava/lang/String;D)V	method_762	method_762	hm	hm
@@ -1831,10 +1831,10 @@ METHOD	net/minecraft/class_203	(Ljava/lang/String;)[B	method_780	method_780	hm	h
 METHOD	net/minecraft/class_203	(Ljava/lang/String;)Lhm;	method_781	method_781	hm	hm
 METHOD	net/minecraft/class_203	(Ljava/lang/String;)Lki;	method_782	method_782	hm	hm
 METHOD	net/minecraft/class_203	(Ljava/lang/String;)Z	method_783	method_783	hm	hm
-CLASS	net/minecraft/class_204	net/minecraft/src/BlockStationary	hn	hn	hn
+CLASS	net/minecraft/class_204	net/minecraft/src/BlockStationary	hn	hn
 METHOD	net/minecraft/class_204	(Lcn;III)V	method_784	method_784	hn	hn
 METHOD	net/minecraft/class_204	(Lcn;III)Z	method_785	method_785	hn	hn
-CLASS	net/minecraft/class_205	net/minecraft/src/Tessellator	ho	ho	ho
+CLASS	net/minecraft/class_205	net/minecraft/src/Tessellator	ho	ho
 FIELD	net/minecraft/class_205	I	field_847	field_847	ho	ho
 FIELD	net/minecraft/class_205	I	field_848	field_848	ho	ho
 FIELD	net/minecraft/class_205	Lho;	field_849	field_849	ho	ho
@@ -1879,12 +1879,12 @@ METHOD	net/minecraft/class_205	(I)V	method_798	method_798	ho	ho
 METHOD	net/minecraft/class_205	()V	method_799	method_799	ho	ho
 METHOD	net/minecraft/class_205	(FFF)V	method_800	method_800	ho	ho
 METHOD	net/minecraft/class_205	()V	method_801	method_801	ho	ho
-CLASS	net/minecraft/class_206	net/minecraft/src/PacketMETHODLogin	hp	hp	hp
+CLASS	net/minecraft/class_206	net/minecraft/src/PacketMETHODLogin	hp	hp
 FIELD	net/minecraft/class_206	I	field_875	field_875	hp	hp
 FIELD	net/minecraft/class_206	Ljava/lang/String;	field_876	field_876	hp	hp
 FIELD	net/minecraft/class_206	Ljava/lang/String;	field_877	field_877	hp	hp
 METHOD	net/minecraft/class_206	(Ljava/lang/String;Ljava/lang/String;I)V	method_802	method_802	hp	hp
-CLASS	net/minecraft/class_207	net/minecraft/src/PlayerController	hq	hq	hq
+CLASS	net/minecraft/class_207	net/minecraft/src/PlayerController	hq	hq
 FIELD	net/minecraft/class_207	Lnet/minecraft/client/Minecraft;	field_878	field_878	hq	hq
 FIELD	net/minecraft/class_207	Z	field_879	field_879	hq	hq
 METHOD	net/minecraft/class_207	(Lnet/minecraft/client/Minecraft;)V	method_803	method_803	hq	hq
@@ -1901,22 +1901,22 @@ METHOD	net/minecraft/class_207	(Ldm;)V	method_813	method_813	hq	hq
 METHOD	net/minecraft/class_207	()V	method_814	method_814	hq	hq
 METHOD	net/minecraft/class_207	(IIII)V	method_815	method_815	hq	hq
 METHOD	net/minecraft/class_207	()Z	method_816	method_816	hq	hq
-CLASS	net/minecraft/class_208	net/minecraft/src/RecipesFood	hr	hr	hr
+CLASS	net/minecraft/class_208	net/minecraft/src/RecipesFood	hr	hr
 METHOD	net/minecraft/class_208	(Ldw;)V	method_817	method_817	hr	hr
-CLASS	net/minecraft/class_209	net/minecraft/src/InventoryLargeChest	hs	hs	hs
+CLASS	net/minecraft/class_209	net/minecraft/src/InventoryLargeChest	hs	hs
 FIELD	net/minecraft/class_209	Ljava/lang/String;	field_880	field_880	hs	hs
 FIELD	net/minecraft/class_209	Lgh;	field_881	field_881	hs	hs
 FIELD	net/minecraft/class_209	Lgh;	field_882	field_882	hs	hs
-CLASS	net/minecraft/class_210	net/minecraft/src/TextureWaterFlowFX	ht	ht	ht
+CLASS	net/minecraft/class_210	net/minecraft/src/TextureWaterFlowFX	ht	ht
 FIELD	net/minecraft/class_210	[F	field_883	field_883	ht	ht
 FIELD	net/minecraft/class_210	[F	field_884	field_884	ht	ht
 FIELD	net/minecraft/class_210	[F	field_885	field_885	ht	ht
 FIELD	net/minecraft/class_210	[F	field_886	field_886	ht	ht
 FIELD	net/minecraft/class_210	I	field_887	field_887	ht	ht
-CLASS	net/minecraft/class_211	net/minecraft/src/BlockButton	hu	hu	hu
+CLASS	net/minecraft/class_211	net/minecraft/src/BlockButton	hu	hu
 METHOD	net/minecraft/class_211	(II)V	method_818	method_818	hu	hu
 METHOD	net/minecraft/class_211	(Lcn;III)Z	method_819	method_819	hu	hu
-CLASS	net/minecraft/class_212	net/minecraft/src/BlockFlowing	hv	hv	hv
+CLASS	net/minecraft/class_212	net/minecraft/src/BlockFlowing	hv	hv
 FIELD	net/minecraft/class_212	I	field_888	field_888	hv	hv
 FIELD	net/minecraft/class_212	[Z	field_889	field_889	hv	hv
 FIELD	net/minecraft/class_212	[I	field_890	field_890	hv	hv
@@ -1927,22 +1927,22 @@ METHOD	net/minecraft/class_212	(Lcn;III)V	method_823	method_823	hv	hv
 METHOD	net/minecraft/class_212	(Lcn;III)[Z	method_824	method_824	hv	hv
 METHOD	net/minecraft/class_212	(Lcn;III)Z	method_825	method_825	hv	hv
 METHOD	net/minecraft/class_212	(Lcn;III)Z	method_826	method_826	hv	hv
-CLASS	net/minecraft/class_213	net/minecraft/src/RenderTNTPrimed	hw	hw	hw
+CLASS	net/minecraft/class_213	net/minecraft/src/RenderTNTPrimed	hw	hw
 FIELD	net/minecraft/class_213	Lbc;	field_891	field_891	hw	hw
 METHOD	net/minecraft/class_213	(Ljd;DDDFF)V	method_827	method_827	hw	hw
-CLASS	net/minecraft/class_214	net/minecraft/src/GuiCrafting	hx	hx	hx
+CLASS	net/minecraft/class_214	net/minecraft/src/GuiCrafting	hx	hx
 FIELD	net/minecraft/class_214	Let;	field_892	field_892	hx	hx
-CLASS	net/minecraft/class_215	net/minecraft/src/BlockCactus	hy	hy	hy
+CLASS	net/minecraft/class_215	net/minecraft/src/BlockCactus	hy	hy
 METHOD	net/minecraft/class_215	(II)V	method_828	method_828	hy	hy
-CLASS	net/minecraft/class_216	net/minecraft/src/BlockDirt	hz	hz	hz
+CLASS	net/minecraft/class_216	net/minecraft/src/BlockDirt	hz	hz
 METHOD	net/minecraft/class_216	(II)V	method_829	method_829	hz	hz
-CLASS	net/minecraft/class_217	net/minecraft/src/RenderHelper	i	i	i
+CLASS	net/minecraft/class_217	net/minecraft/src/RenderHelper	i	i
 FIELD	net/minecraft/class_217	Ljava/nio/FloatBuffer;	field_893	field_893	i	i
 METHOD	net/minecraft/class_217	()V	method_830	method_830	i	i
 METHOD	net/minecraft/class_217	(DDDD)Ljava/nio/FloatBuffer;	method_831	method_831	i	i
 METHOD	net/minecraft/class_217	(FFFF)Ljava/nio/FloatBuffer;	method_832	method_832	i	i
 METHOD	net/minecraft/class_217	()V	method_833	method_833	i	i
-CLASS	net/minecraft/class_218	net/minecraft/src/PlayerControllerSP	ia	ia	ia
+CLASS	net/minecraft/class_218	net/minecraft/src/PlayerControllerSP	ia	ia
 FIELD	net/minecraft/class_218	I	field_894	field_894	ia	ia
 FIELD	net/minecraft/class_218	I	field_895	field_895	ia	ia
 FIELD	net/minecraft/class_218	I	field_896	field_896	ia	ia
@@ -1952,8 +1952,8 @@ FIELD	net/minecraft/class_218	F	field_899	field_899	ia	ia
 FIELD	net/minecraft/class_218	I	field_900	field_900	ia	ia
 FIELD	net/minecraft/class_218	Laz;	field_901	field_901	ia	ia
 FIELD	net/minecraft/class_218	Laz;	field_902	field_902	ia	ia
-CLASS	net/minecraft/class_219	net/minecraft/src/GuiDeleteWorld	ib	ib	ib
-CLASS	net/minecraft/class_220	net/minecraft/src/TileEntity	ic	ic	ic
+CLASS	net/minecraft/class_219	net/minecraft/src/GuiDeleteWorld	ib	ib
+CLASS	net/minecraft/class_220	net/minecraft/src/TileEntity	ic	ic
 FIELD	net/minecraft/class_220	Ljava/util/Map;	field_903	field_903	ic	ic
 FIELD	net/minecraft/class_220	Ljava/util/Map;	field_904	field_904	ic	ic
 FIELD	net/minecraft/class_220	Lcn;	field_905	field_905	ic	ic
@@ -1969,22 +1969,22 @@ METHOD	net/minecraft/class_220	(Lhm;)Lic;	method_839	method_839	ic	ic
 METHOD	net/minecraft/class_220	()I	method_840	method_840	ic	ic
 METHOD	net/minecraft/class_220	()Lly;	method_841	method_841	ic	ic
 METHOD	net/minecraft/class_220	()V	method_842	method_842	ic	ic
-CLASS	net/minecraft/class_221	net/minecraft/src/GuiFurnace	id	id	id
+CLASS	net/minecraft/class_221	net/minecraft/src/GuiFurnace	id	id
 FIELD	net/minecraft/class_221	Lke;	field_909	field_909	id	id
-CLASS	net/minecraft/class_222	net/minecraft/src/GuiIngameMenu	ie	ie	ie
+CLASS	net/minecraft/class_222	net/minecraft/src/GuiIngameMenu	ie	ie
 FIELD	net/minecraft/class_222	I	field_910	field_910	ie	ie
 FIELD	net/minecraft/class_222	I	field_911	field_911	ie	ie
-CLASS	net/minecraft/class_223	net/minecraft/src/BlockMinecartTrack	if	if	if
+CLASS	net/minecraft/class_223	net/minecraft/src/BlockMinecartTrack	if	if
 METHOD	net/minecraft/class_223	(II)V	method_843	method_843	if	if
 METHOD	net/minecraft/class_223	(Lcn;III)V	method_844	method_844	if	if
-CLASS	net/minecraft/class_224	net/minecraft/src/EntitySlimeFX	ig	ig	ig
-CLASS	net/minecraft/class_225	net/minecraft/src/EnumOS	ih	ih	ih
+CLASS	net/minecraft/class_224	net/minecraft/src/EntitySlimeFX	ig	ig
+CLASS	net/minecraft/class_225	net/minecraft/src/EnumOS	ih	ih
 FIELD	net/minecraft/class_225	Lih;	field_912	field_912	ih	ih
 FIELD	net/minecraft/class_225	Lih;	field_913	field_913	ih	ih
 FIELD	net/minecraft/class_225	Lih;	field_914	field_914	ih	ih
 FIELD	net/minecraft/class_225	Lih;	field_915	field_915	ih	ih
 FIELD	net/minecraft/class_225	Lih;	field_916	field_916	ih	ih
-CLASS	net/minecraft/class_226	net/minecraft/src/NetworkManager	ii	ii	ii
+CLASS	net/minecraft/class_226	net/minecraft/src/NetworkManager	ii	ii
 FIELD	net/minecraft/class_226	Ljava/lang/Object;	field_917	field_917	ii	ii
 FIELD	net/minecraft/class_226	I	field_918	field_918	ii	ii
 FIELD	net/minecraft/class_226	I	field_919	field_919	ii	ii
@@ -2018,14 +2018,14 @@ METHOD	net/minecraft/class_226	(Lii;)V	method_854	method_854	ii	ii
 METHOD	net/minecraft/class_226	(Lii;)V	method_855	method_855	ii	ii
 METHOD	net/minecraft/class_226	(Lii;)Ljava/lang/Thread;	method_856	method_856	ii	ii
 METHOD	net/minecraft/class_226	(Lii;)Ljava/lang/Thread;	method_857	method_857	ii	ii
-CLASS	net/minecraft/class_227	net/minecraft/src/PacketFIELDChat	ij	ij	ij
+CLASS	net/minecraft/class_227	net/minecraft/src/PacketFIELDChat	ij	ij
 FIELD	net/minecraft/class_227	Ljava/lang/String;	field_937	field_937	ij	ij
 METHOD	net/minecraft/class_227	(Ljava/lang/String;)V	method_858	method_858	ij	ij
-CLASS	net/minecraft/class_228	net/minecraft/src/WorldGenerator	ik	ik	ik
+CLASS	net/minecraft/class_228	net/minecraft/src/WorldGenerator	ik	ik
 METHOD	net/minecraft/class_228	(DDD)V	method_859	method_859	ik	ik
 METHOD	net/minecraft/class_228	(Lcn;Ljava/util/Random;III)Z	method_860	method_860	ik	ik
-CLASS	net/minecraft/class_229	net/minecraft/src/PlayerControllerCreative	il	il	il
-CLASS	net/minecraft/class_230	net/minecraft/src/IWorldAccess	im	im	im
+CLASS	net/minecraft/class_229	net/minecraft/src/PlayerControllerCreative	il	il
+CLASS	net/minecraft/class_230	net/minecraft/src/IWorldAccess	im	im
 METHOD	net/minecraft/class_230	(III)V	method_861	method_861	im	im
 METHOD	net/minecraft/class_230	(IIILic;)V	method_862	method_862	im	im
 METHOD	net/minecraft/class_230	(Ljava/lang/String;DDDDDD)V	method_863	method_863	im	im
@@ -2035,13 +2035,13 @@ METHOD	net/minecraft/class_230	(Lkh;)V	method_866	method_866	im	im
 METHOD	net/minecraft/class_230	(IIIIII)V	method_867	method_867	im	im
 METHOD	net/minecraft/class_230	(Lkh;)V	method_868	method_868	im	im
 METHOD	net/minecraft/class_230	()V	method_869	method_869	im	im
-CLASS	net/minecraft/class_231	net/minecraft/src/TileEntitySignRenderer	in	in	in
+CLASS	net/minecraft/class_231	net/minecraft/src/TileEntitySignRenderer	in	in
 FIELD	net/minecraft/class_231	Ljk;	field_938	field_938	in	in
 METHOD	net/minecraft/class_231	(Lob;DDDF)V	method_870	method_870	in	in
-CLASS	net/minecraft/class_232	net/minecraft/src/NBTTagInt	io	io	io
+CLASS	net/minecraft/class_232	net/minecraft/src/NBTTagInt	io	io
 FIELD	net/minecraft/class_232	I	field_939	field_939	io	io
 METHOD	net/minecraft/class_232	(I)V	method_871	method_871	io	io
-CLASS	net/minecraft/class_233	net/minecraft/src/ModelRenderer	ip	ip	ip
+CLASS	net/minecraft/class_233	net/minecraft/src/ModelRenderer	ip	ip
 FIELD	net/minecraft/class_233	F	field_940	field_940	ip	ip
 FIELD	net/minecraft/class_233	F	field_941	field_941	ip	ip
 FIELD	net/minecraft/class_233	F	field_942	field_942	ip	ip
@@ -2063,7 +2063,7 @@ METHOD	net/minecraft/class_233	(FFFIII)V	method_874	method_874	ip	ip
 METHOD	net/minecraft/class_233	(FFFIIIF)V	method_875	method_875	ip	ip
 METHOD	net/minecraft/class_233	(F)V	method_876	method_876	ip	ip
 METHOD	net/minecraft/class_233	(F)V	method_877	method_877	ip	ip
-CLASS	net/minecraft/class_234	net/minecraft/src/EntityRenderer	iq	iq	iq
+CLASS	net/minecraft/class_234	net/minecraft/src/EntityRenderer	iq	iq
 FIELD	net/minecraft/class_234	Ljh;	field_955	field_955	iq	iq
 FIELD	net/minecraft/class_234	I	field_956	field_956	iq	iq
 FIELD	net/minecraft/class_234	I	field_957	field_957	iq	iq
@@ -2096,7 +2096,7 @@ METHOD	net/minecraft/class_234	(F)V	method_891	method_891	iq	iq
 METHOD	net/minecraft/class_234	(F)V	method_892	method_892	iq	iq
 METHOD	net/minecraft/class_234	(F)V	method_893	method_893	iq	iq
 METHOD	net/minecraft/class_234	(F)V	method_894	method_894	iq	iq
-CLASS	net/minecraft/class_235	net/minecraft/src/Timer	ir	ir	ir
+CLASS	net/minecraft/class_235	net/minecraft/src/Timer	ir	ir
 FIELD	net/minecraft/class_235	F	field_970	field_970	ir	ir
 FIELD	net/minecraft/class_235	I	field_971	field_971	ir	ir
 FIELD	net/minecraft/class_235	F	field_972	field_972	ir	ir
@@ -2108,28 +2108,28 @@ FIELD	net/minecraft/class_235	J	field_977	field_977	ir	ir
 FIELD	net/minecraft/class_235	D	field_978	field_978	ir	ir
 METHOD	net/minecraft/class_235	(F)V	method_895	method_895	ir	ir
 METHOD	net/minecraft/class_235	()V	method_896	method_896	ir	ir
-CLASS	net/minecraft/class_236	net/minecraft/src/PacketFIELDFIELDRelEntityMoveLook	is	is	is
-CLASS	net/minecraft/class_237	net/minecraft/src/KeyBinding	it	it	it
+CLASS	net/minecraft/class_236	net/minecraft/src/PacketFIELDFIELDRelEntityMoveLook	is	is
+CLASS	net/minecraft/class_237	net/minecraft/src/KeyBinding	it	it
 FIELD	net/minecraft/class_237	Ljava/lang/String;	field_979	field_979	it	it
 FIELD	net/minecraft/class_237	I	field_980	field_980	it	it
 METHOD	net/minecraft/class_237	(Ljava/lang/String;I)V	method_897	method_897	it	it
-CLASS	net/minecraft/class_238	net/minecraft/src/ItemSword	iu	iu	iu
+CLASS	net/minecraft/class_238	net/minecraft/src/ItemSword	iu	iu
 FIELD	net/minecraft/class_238	I	field_981	field_981	iu	iu
 METHOD	net/minecraft/class_238	(II)V	method_898	method_898	iu	iu
-CLASS	net/minecraft/class_239	net/minecraft/src/GuiConflictWarning	iv	iv	iv
+CLASS	net/minecraft/class_239	net/minecraft/src/GuiConflictWarning	iv	iv
 FIELD	net/minecraft/class_239	I	field_982	field_982	iv	iv
-CLASS	net/minecraft/class_240	net/minecraft/src/EntityDiggingFX	iw	iw	iw
+CLASS	net/minecraft/class_240	net/minecraft/src/EntityDiggingFX	iw	iw
 METHOD	net/minecraft/class_240	(Lcn;DDDDDDLly;)V	method_899	method_899	iw	iw
-CLASS	net/minecraft/class_241	net/minecraft/src/NBTTagByte	ix	ix	ix
+CLASS	net/minecraft/class_241	net/minecraft/src/NBTTagByte	ix	ix
 FIELD	net/minecraft/class_241	B	field_983	field_983	ix	ix
 METHOD	net/minecraft/class_241	(B)V	method_900	method_900	ix	ix
-CLASS	net/minecraft/class_242	net/minecraft/src/ScaledResolution	iy	iy	iy
+CLASS	net/minecraft/class_242	net/minecraft/src/ScaledResolution	iy	iy
 FIELD	net/minecraft/class_242	I	field_984	field_984	iy	iy
 FIELD	net/minecraft/class_242	I	field_985	field_985	iy	iy
 FIELD	net/minecraft/class_242	I	field_986	field_986	iy	iy
 METHOD	net/minecraft/class_242	()I	method_901	method_901	iy	iy
 METHOD	net/minecraft/class_242	()I	method_902	method_902	iy	iy
-CLASS	net/minecraft/class_243	net/minecraft/src/BlockLeaves	iz	iz	iz
+CLASS	net/minecraft/class_243	net/minecraft/src/BlockLeaves	iz	iz
 FIELD	net/minecraft/class_243	I	field_987	field_987	iz	iz
 FIELD	net/minecraft/class_243	I	field_988	field_988	iz	iz
 METHOD	net/minecraft/class_243	(II)V	method_903	method_903	iz	iz
@@ -2138,7 +2138,7 @@ METHOD	net/minecraft/class_243	(Lcn;IIII)V	method_905	method_905	iz	iz
 METHOD	net/minecraft/class_243	(Lcn;IIII)I	method_906	method_906	iz	iz
 METHOD	net/minecraft/class_243	(Lcn;III)V	method_907	method_907	iz	iz
 METHOD	net/minecraft/class_243	(Lcn;III)V	method_908	method_908	iz	iz
-CLASS	net/minecraft/class_244	net/minecraft/src/ClippingHelperImplementation	j	j	j
+CLASS	net/minecraft/class_244	net/minecraft/src/ClippingHelperImplementation	j	j
 FIELD	net/minecraft/class_244	Lj;	field_989	field_989	j	j
 FIELD	net/minecraft/class_244	Ljava/nio/FloatBuffer;	field_990	field_990	j	j
 FIELD	net/minecraft/class_244	Ljava/nio/FloatBuffer;	field_991	field_991	j	j
@@ -2146,14 +2146,14 @@ FIELD	net/minecraft/class_244	Ljava/nio/FloatBuffer;	field_992	field_992	j	j
 METHOD	net/minecraft/class_244	()Lbt;	method_909	method_909	j	j
 METHOD	net/minecraft/class_244	([[FI)V	method_910	method_910	j	j
 METHOD	net/minecraft/class_244	()V	method_911	method_911	j	j
-CLASS	net/minecraft/class_245	net/minecraft/src/GuiYesNo	ja	ja	ja
+CLASS	net/minecraft/class_245	net/minecraft/src/GuiYesNo	ja	ja
 FIELD	net/minecraft/class_245	Lbh;	field_993	field_993	ja	ja
 FIELD	net/minecraft/class_245	Ljava/lang/String;	field_994	field_994	ja	ja
 FIELD	net/minecraft/class_245	Ljava/lang/String;	field_995	field_995	ja	ja
 FIELD	net/minecraft/class_245	I	field_996	field_996	ja	ja
-CLASS	net/minecraft/class_246	net/minecraft/src/EntityFlameFX	jb	jb	jb
+CLASS	net/minecraft/class_246	net/minecraft/src/EntityFlameFX	jb	jb
 FIELD	net/minecraft/class_246	F	field_997	field_997	jb	jb
-CLASS	net/minecraft/class_247	net/minecraft/src/EntityPainting	jc	jc	jc
+CLASS	net/minecraft/class_247	net/minecraft/src/EntityPainting	jc	jc
 FIELD	net/minecraft/class_247	I	field_998	field_998	jc	jc
 FIELD	net/minecraft/class_247	Ler;	field_999	field_999	jc	jc
 FIELD	net/minecraft/class_247	I	field_1000	field_1000	jc	jc
@@ -2164,12 +2164,12 @@ METHOD	net/minecraft/class_247	(Lcn;IIII)V	method_912	method_912	jc	jc
 METHOD	net/minecraft/class_247	(I)V	method_913	method_913	jc	jc
 METHOD	net/minecraft/class_247	(I)F	method_914	method_914	jc	jc
 METHOD	net/minecraft/class_247	()Z	method_915	method_915	jc	jc
-CLASS	net/minecraft/class_248	net/minecraft/src/EntityTNTPrimed	jd	jd	jd
+CLASS	net/minecraft/class_248	net/minecraft/src/EntityTNTPrimed	jd	jd
 FIELD	net/minecraft/class_248	I	field_1004	field_1004	jd	jd
 METHOD	net/minecraft/class_248	()V	method_916	method_916	jd	jd
-CLASS	net/minecraft/class_249	net/minecraft/src/Explosion	je	je	je
+CLASS	net/minecraft/class_249	net/minecraft/src/Explosion	je	je
 METHOD	net/minecraft/class_249	(Lcn;Lkh;DDDF)V	method_917	method_917	je	je
-CLASS	net/minecraft/class_250	net/minecraft/src/NextTickListEntry	jf	jf	jf
+CLASS	net/minecraft/class_250	net/minecraft/src/NextTickListEntry	jf	jf
 FIELD	net/minecraft/class_250	I	field_1005	field_1005	jf	jf
 FIELD	net/minecraft/class_250	I	field_1006	field_1006	jf	jf
 FIELD	net/minecraft/class_250	I	field_1007	field_1007	jf	jf
@@ -2182,8 +2182,8 @@ METHOD	net/minecraft/class_250	(J)Ljf;	method_919	method_919	jf	jf
 METHOD	net/minecraft/class_250	(Ljf;)I	method_920	method_920	jf	jf
 METHOD	net/minecraft/class_250	(Ljava/lang/Object;)I	method_921	method_921	jf	jf
 METHOD	net/minecraft/class_250	(Ljava/lang/Object;)Z	method_922	method_922	jf	jf
-CLASS	net/minecraft/class_251	net/minecraft/src/ItemBow	jg	jg	jg
-CLASS	net/minecraft/class_252	net/minecraft/src/ItemRenderer	jh	jh	jh
+CLASS	net/minecraft/class_251	net/minecraft/src/ItemBow	jg	jg
+CLASS	net/minecraft/class_252	net/minecraft/src/ItemRenderer	jh	jh
 FIELD	net/minecraft/class_252	Lnet/minecraft/client/Minecraft;	field_1012	field_1012	jh	jh
 FIELD	net/minecraft/class_252	Lev;	field_1013	field_1013	jh	jh
 FIELD	net/minecraft/class_252	F	field_1014	field_1014	jh	jh
@@ -2199,11 +2199,11 @@ METHOD	net/minecraft/class_252	(F)V	method_929	method_929	jh	jh
 METHOD	net/minecraft/class_252	()V	method_930	method_930	jh	jh
 METHOD	net/minecraft/class_252	(F)V	method_931	method_931	jh	jh
 METHOD	net/minecraft/class_252	(F)V	method_932	method_932	jh	jh
-CLASS	net/minecraft/class_253	net/minecraft/src/Packet6SpawnPosition	ji	ji	ji
+CLASS	net/minecraft/class_253	net/minecraft/src/Packet6SpawnPosition	ji	ji
 FIELD	net/minecraft/class_253	I	field_1017	field_1017	ji	ji
 FIELD	net/minecraft/class_253	I	field_1018	field_1018	ji	ji
 FIELD	net/minecraft/class_253	I	field_1019	field_1019	ji	ji
-CLASS	net/minecraft/class_254	net/minecraft/src/IsoImageBuffer	jj	jj	jj
+CLASS	net/minecraft/class_254	net/minecraft/src/IsoImageBuffer	jj	jj
 FIELD	net/minecraft/class_254	Ljava/awt/image/BufferedImage;	field_1020	field_1020	jj	jj
 FIELD	net/minecraft/class_254	Lcn;	field_1021	field_1021	jj	jj
 FIELD	net/minecraft/class_254	I	field_1022	field_1022	jj	jj
@@ -2214,11 +2214,11 @@ FIELD	net/minecraft/class_254	I	field_1026	field_1026	jj	jj
 FIELD	net/minecraft/class_254	Z	field_1027	field_1027	jj	jj
 METHOD	net/minecraft/class_254	(II)V	method_933	method_933	jj	jj
 METHOD	net/minecraft/class_254	(Lcn;II)V	method_934	method_934	jj	jj
-CLASS	net/minecraft/class_255	net/minecraft/src/SignModel	jk	jk	jk
+CLASS	net/minecraft/class_255	net/minecraft/src/SignModel	jk	jk
 FIELD	net/minecraft/class_255	Lip;	field_1028	field_1028	jk	jk
 FIELD	net/minecraft/class_255	Lip;	field_1029	field_1029	jk	jk
 METHOD	net/minecraft/class_255	()V	method_935	method_935	jk	jk
-CLASS	net/minecraft/class_256	net/minecraft/src/PacketFIELD4EntityTeleport	jl	jl	jl
+CLASS	net/minecraft/class_256	net/minecraft/src/PacketFIELD4EntityTeleport	jl	jl
 FIELD	net/minecraft/class_256	I	field_1030	field_1030	jl	jl
 FIELD	net/minecraft/class_256	I	field_1031	field_1031	jl	jl
 FIELD	net/minecraft/class_256	I	field_1032	field_1032	jl	jl
@@ -2226,16 +2226,16 @@ FIELD	net/minecraft/class_256	I	field_1033	field_1033	jl	jl
 FIELD	net/minecraft/class_256	B	field_1034	field_1034	jl	jl
 FIELD	net/minecraft/class_256	B	field_1035	field_1035	jl	jl
 METHOD	net/minecraft/class_256	(Lkh;)V	method_936	method_936	jl	jl
-CLASS	net/minecraft/class_257	net/minecraft/src/BlockReed	jm	jm	jm
+CLASS	net/minecraft/class_257	net/minecraft/src/BlockReed	jm	jm
 METHOD	net/minecraft/class_257	(II)V	method_937	method_937	jm	jm
 METHOD	net/minecraft/class_257	(Lcn;III)V	method_938	method_938	jm	jm
-CLASS	net/minecraft/class_258	net/minecraft/src/ItemSeeds	jn	jn	jn
+CLASS	net/minecraft/class_258	net/minecraft/src/ItemSeeds	jn	jn
 FIELD	net/minecraft/class_258	I	field_1036	field_1036	jn	jn
 METHOD	net/minecraft/class_258	(II)V	method_939	method_939	jn	jn
-CLASS	net/minecraft/class_259	net/minecraft/src/ItemMinecart	jo	jo	jo
+CLASS	net/minecraft/class_259	net/minecraft/src/ItemMinecart	jo	jo
 FIELD	net/minecraft/class_259	I	field_1037	field_1037	jo	jo
 METHOD	net/minecraft/class_259	(II)V	method_940	method_940	jo	jo
-CLASS	net/minecraft/class_260	net/minecraft/src/BlockFluid	jp	jp	jp
+CLASS	net/minecraft/class_260	net/minecraft/src/BlockFluid	jp	jp
 FIELD	net/minecraft/class_260	I	field_1038	field_1038	jp	jp
 METHOD	net/minecraft/class_260	(Lnm;IIILgb;)D	method_941	method_941	jp	jp
 METHOD	net/minecraft/class_260	(I)F	method_942	method_942	jp	jp
@@ -2244,33 +2244,33 @@ METHOD	net/minecraft/class_260	(Lnm;III)Laj;	method_944	method_944	jp	jp
 METHOD	net/minecraft/class_260	(Lcn;III)I	method_945	method_945	jp	jp
 METHOD	net/minecraft/class_260	(Lcn;III)V	method_946	method_946	jp	jp
 METHOD	net/minecraft/class_260	(Lcn;III)V	method_947	method_947	jp	jp
-CLASS	net/minecraft/class_261	net/minecraft/src/GuiSelectWorld	jq	jq	jq
+CLASS	net/minecraft/class_261	net/minecraft/src/GuiSelectWorld	jq	jq
 FIELD	net/minecraft/class_261	Lbh;	field_1039	field_1039	jq	jq
 FIELD	net/minecraft/class_261	Ljava/lang/String;	field_1040	field_1040	jq	jq
 FIELD	net/minecraft/class_261	Z	field_1041	field_1041	jq	jq
 METHOD	net/minecraft/class_261	(I)V	method_948	method_948	jq	jq
 METHOD	net/minecraft/class_261	(I)Ljava/lang/String;	method_949	method_949	jq	jq
 METHOD	net/minecraft/class_261	()V	method_950	method_950	jq	jq
-CLASS	net/minecraft/class_262	net/minecraft/src/ImageBufferDownload	jr	jr	jr
+CLASS	net/minecraft/class_262	net/minecraft/src/ImageBufferDownload	jr	jr
 FIELD	net/minecraft/class_262	[I	field_1042	field_1042	jr	jr
 FIELD	net/minecraft/class_262	I	field_1043	field_1043	jr	jr
 FIELD	net/minecraft/class_262	I	field_1044	field_1044	jr	jr
 METHOD	net/minecraft/class_262	(IIII)V	method_951	method_951	jr	jr
 METHOD	net/minecraft/class_262	(IIII)V	method_952	method_952	jr	jr
 METHOD	net/minecraft/class_262	(IIII)Z	method_953	method_953	jr	jr
-CLASS	net/minecraft/class_263	net/minecraft/src/EnumMobType	js	js	js
+CLASS	net/minecraft/class_263	net/minecraft/src/EnumMobType	js	js
 FIELD	net/minecraft/class_263	Ljs;	field_1045	field_1045	js	js
 FIELD	net/minecraft/class_263	Ljs;	field_1046	field_1046	js	js
 FIELD	net/minecraft/class_263	Ljs;	field_1047	field_1047	js	js
-CLASS	net/minecraft/class_264	net/minecraft/src/BlockContainer	jt	jt	jt
+CLASS	net/minecraft/class_264	net/minecraft/src/BlockContainer	jt	jt
 METHOD	net/minecraft/class_264	()Lic;	method_954	method_954	jt	jt
-CLASS	net/minecraft/class_265	net/minecraft/src/PacketCLASS9DestroyEntity	ju	ju	ju
+CLASS	net/minecraft/class_265	net/minecraft/src/PacketCLASS9DestroyEntity	ju	ju
 FIELD	net/minecraft/class_265	I	field_1048	field_1048	ju	ju
-CLASS	net/minecraft/class_266	net/minecraft/src/BlockClay	jv	jv	jv
+CLASS	net/minecraft/class_266	net/minecraft/src/BlockClay	jv	jv
 METHOD	net/minecraft/class_266	(II)V	method_955	method_955	jv	jv
-CLASS	net/minecraft/class_267	net/minecraft/src/ItemSaddle	jw	jw	jw
-CLASS	net/minecraft/class_268	net/minecraft/src/PacketFIELDCLASSEntityLook	jx	jx	jx
-CLASS	net/minecraft/class_269	net/minecraft/src/ModelSpider	jy	jy	jy
+CLASS	net/minecraft/class_267	net/minecraft/src/ItemSaddle	jw	jw
+CLASS	net/minecraft/class_268	net/minecraft/src/PacketFIELDCLASSEntityLook	jx	jx
+CLASS	net/minecraft/class_269	net/minecraft/src/ModelSpider	jy	jy
 FIELD	net/minecraft/class_269	Lip;	field_1049	field_1049	jy	jy
 FIELD	net/minecraft/class_269	Lip;	field_1050	field_1050	jy	jy
 FIELD	net/minecraft/class_269	Lip;	field_1051	field_1051	jy	jy
@@ -2282,24 +2282,24 @@ FIELD	net/minecraft/class_269	Lip;	field_1056	field_1056	jy	jy
 FIELD	net/minecraft/class_269	Lip;	field_1057	field_1057	jy	jy
 FIELD	net/minecraft/class_269	Lip;	field_1058	field_1058	jy	jy
 FIELD	net/minecraft/class_269	Lip;	field_1059	field_1059	jy	jy
-CLASS	net/minecraft/class_270	net/minecraft/src/TextureFlamesFX	jz	jz	jz
+CLASS	net/minecraft/class_270	net/minecraft/src/TextureFlamesFX	jz	jz
 FIELD	net/minecraft/class_270	[F	field_1060	field_1060	jz	jz
 FIELD	net/minecraft/class_270	[F	field_1061	field_1061	jz	jz
-CLASS	net/minecraft/class_271	net/minecraft/src/SpawnerClient	k	k	k
+CLASS	net/minecraft/class_271	net/minecraft/src/SpawnerClient	k	k
 FIELD	net/minecraft/class_271	Lia;	field_1062	field_1062	k	k
-CLASS	net/minecraft/class_272	net/minecraft/src/Packet50PreChunk	ka	ka	ka
+CLASS	net/minecraft/class_272	net/minecraft/src/Packet50PreChunk	ka	ka
 FIELD	net/minecraft/class_272	I	field_1063	field_1063	ka	ka
 FIELD	net/minecraft/class_272	I	field_1064	field_1064	ka	ka
 FIELD	net/minecraft/class_272	Z	field_1065	field_1065	ka	ka
-CLASS	net/minecraft/class_273	net/minecraft/src/MaterialLiquid	kb	kb	kb
-CLASS	net/minecraft/class_274	net/minecraft/src/LogoEffectRandomizer	kc	kc	kc
+CLASS	net/minecraft/class_273	net/minecraft/src/MaterialLiquid	kb	kb
+CLASS	net/minecraft/class_274	net/minecraft/src/LogoEffectRandomizer	kc	kc
 FIELD	net/minecraft/class_274	D	field_1066	field_1066	kc	kc
 FIELD	net/minecraft/class_274	D	field_1067	field_1067	kc	kc
 FIELD	net/minecraft/class_274	D	field_1068	field_1068	kc	kc
 FIELD	net/minecraft/class_274	Lcx;	field_1069	field_1069	kc	kc
 METHOD	net/minecraft/class_274	(Lcx;II)V	method_956	method_956	kc	kc
 METHOD	net/minecraft/class_274	()V	method_957	method_957	kc	kc
-CLASS	net/minecraft/class_275	net/minecraft/src/FontRenderer	kd	kd	kd
+CLASS	net/minecraft/class_275	net/minecraft/src/FontRenderer	kd	kd
 FIELD	net/minecraft/class_275	I	field_1070	field_1070	kd	kd
 FIELD	net/minecraft/class_275	[I	field_1071	field_1071	kd	kd
 FIELD	net/minecraft/class_275	I	field_1072	field_1072	kd	kd
@@ -2308,7 +2308,7 @@ METHOD	net/minecraft/class_275	(Ljava/lang/String;)I	method_958	method_958	kd	kd
 METHOD	net/minecraft/class_275	(Ljava/lang/String;III)V	method_959	method_959	kd	kd
 METHOD	net/minecraft/class_275	(Ljava/lang/String;IIIZ)V	method_960	method_960	kd	kd
 METHOD	net/minecraft/class_275	(Ljava/lang/String;III)V	method_961	method_961	kd	kd
-CLASS	net/minecraft/class_276	net/minecraft/src/TileEntityFurnace	ke	ke	ke
+CLASS	net/minecraft/class_276	net/minecraft/src/TileEntityFurnace	ke	ke
 FIELD	net/minecraft/class_276	[Lev;	field_1074	field_1074	ke	ke
 FIELD	net/minecraft/class_276	I	field_1075	field_1075	ke	ke
 FIELD	net/minecraft/class_276	I	field_1076	field_1076	ke	ke
@@ -2320,14 +2320,14 @@ METHOD	net/minecraft/class_276	(I)I	method_965	method_965	ke	ke
 METHOD	net/minecraft/class_276	(I)I	method_966	method_966	ke	ke
 METHOD	net/minecraft/class_276	()V	method_967	method_967	ke	ke
 METHOD	net/minecraft/class_276	()Z	method_968	method_968	ke	ke
-CLASS	net/minecraft/class_277	net/minecraft/src/BlockRedstoneWire	kf	kf	kf
+CLASS	net/minecraft/class_277	net/minecraft/src/BlockRedstoneWire	kf	kf
 FIELD	net/minecraft/class_277	Z	field_1078	field_1078	kf	kf
 METHOD	net/minecraft/class_277	(II)V	method_969	method_969	kf	kf
 METHOD	net/minecraft/class_277	(Lnm;III)Z	method_970	method_970	kf	kf
 METHOD	net/minecraft/class_277	(Lcn;IIII)I	method_971	method_971	kf	kf
 METHOD	net/minecraft/class_277	(Lcn;III)V	method_972	method_972	kf	kf
 METHOD	net/minecraft/class_277	(Lcn;III)V	method_973	method_973	kf	kf
-CLASS	net/minecraft/class_278	net/minecraft/src/EntityArrow	kg	kg	kg
+CLASS	net/minecraft/class_278	net/minecraft/src/EntityArrow	kg	kg
 FIELD	net/minecraft/class_278	I	field_1079	field_1079	kg	kg
 FIELD	net/minecraft/class_278	I	field_1080	field_1080	kg	kg
 FIELD	net/minecraft/class_278	I	field_1081	field_1081	kg	kg
@@ -2339,7 +2339,7 @@ FIELD	net/minecraft/class_278	I	field_1086	field_1086	kg	kg
 FIELD	net/minecraft/class_278	I	field_1087	field_1087	kg	kg
 METHOD	net/minecraft/class_278	(Lcn;Lge;)V	method_974	method_974	kg	kg
 METHOD	net/minecraft/class_278	(DDDFF)V	method_975	method_975	kg	kg
-CLASS	net/minecraft/class_279	net/minecraft/src/Entity	kh	kh	kh
+CLASS	net/minecraft/class_279	net/minecraft/src/Entity	kh	kh
 FIELD	net/minecraft/class_279	Z	field_1088	field_1088	kh	kh
 FIELD	net/minecraft/class_279	F	field_1089	field_1089	kh	kh
 FIELD	net/minecraft/class_279	F	field_1090	field_1090	kh	kh
@@ -2463,34 +2463,34 @@ METHOD	net/minecraft/class_279	()F	method_1033	method_1033	kh	kh
 METHOD	net/minecraft/class_279	()D	method_1034	method_1034	kh	kh
 METHOD	net/minecraft/class_279	()Ljava/lang/String;	method_1035	method_1035	kh	kh
 METHOD	net/minecraft/class_279	()V	method_1036	method_1036	kh	kh
-CLASS	net/minecraft/class_280	net/minecraft/src/NBTTagList	ki	ki	ki
+CLASS	net/minecraft/class_280	net/minecraft/src/NBTTagList	ki	ki
 FIELD	net/minecraft/class_280	Ljava/util/List;	field_1150	field_1150	ki	ki
 FIELD	net/minecraft/class_280	B	field_1151	field_1151	ki	ki
 METHOD	net/minecraft/class_280	(I)Lel;	method_1037	method_1037	ki	ki
 METHOD	net/minecraft/class_280	(Lel;)V	method_1038	method_1038	ki	ki
 METHOD	net/minecraft/class_280	()I	method_1039	method_1039	ki	ki
-CLASS	net/minecraft/class_281	net/minecraft/src/PacketCLASSFIELDVehicleSpawn	kj	kj	kj
+CLASS	net/minecraft/class_281	net/minecraft/src/PacketCLASSFIELDVehicleSpawn	kj	kj
 FIELD	net/minecraft/class_281	I	field_1152	field_1152	kj	kj
 FIELD	net/minecraft/class_281	I	field_1153	field_1153	kj	kj
 FIELD	net/minecraft/class_281	I	field_1154	field_1154	kj	kj
 FIELD	net/minecraft/class_281	I	field_1155	field_1155	kj	kj
 FIELD	net/minecraft/class_281	I	field_1156	field_1156	kj	kj
-CLASS	net/minecraft/class_282	net/minecraft/src/MapGenCaves	kk	kk	kk
+CLASS	net/minecraft/class_282	net/minecraft/src/MapGenCaves	kk	kk
 METHOD	net/minecraft/class_282	(II[BDDD)V	method_1040	method_1040	kk	kk
 METHOD	net/minecraft/class_282	(II[BDDDFFFIID)V	method_1041	method_1041	kk	kk
-CLASS	net/minecraft/class_283	net/minecraft/src/Frustum	kl	kl	kl
+CLASS	net/minecraft/class_283	net/minecraft/src/Frustum	kl	kl
 FIELD	net/minecraft/class_283	Lbt;	field_1157	field_1157	kl	kl
 FIELD	net/minecraft/class_283	D	field_1158	field_1158	kl	kl
 FIELD	net/minecraft/class_283	D	field_1159	field_1159	kl	kl
 FIELD	net/minecraft/class_283	D	field_1160	field_1160	kl	kl
 METHOD	net/minecraft/class_283	(DDDDDD)Z	method_1042	method_1042	kl	kl
-CLASS	net/minecraft/class_284	net/minecraft/src/BlockStairs	km	km	km
+CLASS	net/minecraft/class_284	net/minecraft/src/BlockStairs	km	km
 FIELD	net/minecraft/class_284	Lly;	field_1161	field_1161	km	km
 METHOD	net/minecraft/class_284	(ILly;)V	method_1043	method_1043	km	km
 METHOD	net/minecraft/class_284	(Lcn;III)V	method_1044	method_1044	km	km
 METHOD	net/minecraft/class_284	(Lcn;III)Z	method_1045	method_1045	km	km
 METHOD	net/minecraft/class_284	(Lcn;III)Z	method_1046	method_1046	km	km
-CLASS	net/minecraft/class_285	net/minecraft/src/MetadataChunkBlock	kn	kn	kn
+CLASS	net/minecraft/class_285	net/minecraft/src/MetadataChunkBlock	kn	kn
 FIELD	net/minecraft/class_285	Lby;	field_1162	field_1162	kn	kn
 FIELD	net/minecraft/class_285	I	field_1163	field_1163	kn	kn
 FIELD	net/minecraft/class_285	I	field_1164	field_1164	kn	kn
@@ -2501,27 +2501,27 @@ FIELD	net/minecraft/class_285	I	field_1168	field_1168	kn	kn
 METHOD	net/minecraft/class_285	(Lby;IIIIII)V	method_1047	method_1047	kn	kn
 METHOD	net/minecraft/class_285	(IIIIII)Z	method_1048	method_1048	kn	kn
 METHOD	net/minecraft/class_285	(Lcn;)V	method_1049	method_1049	kn	kn
-CLASS	net/minecraft/class_286	net/minecraft/src/ChatLine	ko	ko	ko
+CLASS	net/minecraft/class_286	net/minecraft/src/ChatLine	ko	ko
 FIELD	net/minecraft/class_286	Ljava/lang/String;	field_1169	field_1169	ko	ko
 FIELD	net/minecraft/class_286	I	field_1170	field_1170	ko	ko
 METHOD	net/minecraft/class_286	(Ljava/lang/String;)V	method_1050	method_1050	ko	ko
-CLASS	net/minecraft/class_287	net/minecraft/src/PacketFIELDMETHODRelEntityMove	kp	kp	kp
-CLASS	net/minecraft/class_288	net/minecraft/src/EntitySplashFX	kq	kq	kq
-CLASS	net/minecraft/class_289	net/minecraft/src/NBTTagDouble	kr	kr	kr
+CLASS	net/minecraft/class_287	net/minecraft/src/PacketFIELDMETHODRelEntityMove	kp	kp
+CLASS	net/minecraft/class_288	net/minecraft/src/EntitySplashFX	kq	kq
+CLASS	net/minecraft/class_289	net/minecraft/src/NBTTagDouble	kr	kr
 FIELD	net/minecraft/class_289	D	field_1171	field_1171	kr	kr
 METHOD	net/minecraft/class_289	(D)V	method_1051	method_1051	kr	kr
-CLASS	net/minecraft/class_290	net/minecraft/src/ItemAxe	ks	ks	ks
+CLASS	net/minecraft/class_290	net/minecraft/src/ItemAxe	ks	ks
 FIELD	net/minecraft/class_290	[Lly;	field_1172	field_1172	ks	ks
 METHOD	net/minecraft/class_290	(II)V	method_1052	method_1052	ks	ks
-CLASS	net/minecraft/class_291	net/minecraft/src/RenderMinecart	kt	kt	kt
+CLASS	net/minecraft/class_291	net/minecraft/src/RenderMinecart	kt	kt
 FIELD	net/minecraft/class_291	Lfo;	field_1173	field_1173	kt	kt
 METHOD	net/minecraft/class_291	(Loc;DDDFF)V	method_1053	method_1053	kt	kt
-CLASS	net/minecraft/class_292	net/minecraft/src/BlockFurnace	ku	ku	ku
+CLASS	net/minecraft/class_292	net/minecraft/src/BlockFurnace	ku	ku
 FIELD	net/minecraft/class_292	Z	field_1174	field_1174	ku	ku
 METHOD	net/minecraft/class_292	(IZ)V	method_1054	method_1054	ku	ku
 METHOD	net/minecraft/class_292	(ZLcn;III)V	method_1055	method_1055	ku	ku
 METHOD	net/minecraft/class_292	(Lcn;III)V	method_1056	method_1056	ku	ku
-CLASS	net/minecraft/class_293	net/minecraft/src/ModelChicken	kv	kv	kv
+CLASS	net/minecraft/class_293	net/minecraft/src/ModelChicken	kv	kv
 FIELD	net/minecraft/class_293	Lip;	field_1175	field_1175	kv	kv
 FIELD	net/minecraft/class_293	Lip;	field_1176	field_1176	kv	kv
 FIELD	net/minecraft/class_293	Lip;	field_1177	field_1177	kv	kv
@@ -2530,7 +2530,7 @@ FIELD	net/minecraft/class_293	Lip;	field_1179	field_1179	kv	kv
 FIELD	net/minecraft/class_293	Lip;	field_1180	field_1180	kv	kv
 FIELD	net/minecraft/class_293	Lip;	field_1181	field_1181	kv	kv
 FIELD	net/minecraft/class_293	Lip;	field_1182	field_1182	kv	kv
-CLASS	net/minecraft/class_294	net/minecraft/src/RenderList	kw	kw	kw
+CLASS	net/minecraft/class_294	net/minecraft/src/RenderList	kw	kw
 FIELD	net/minecraft/class_294	I	field_1183	field_1183	kw	kw
 FIELD	net/minecraft/class_294	I	field_1184	field_1184	kw	kw
 FIELD	net/minecraft/class_294	I	field_1185	field_1185	kw	kw
@@ -2545,7 +2545,7 @@ METHOD	net/minecraft/class_294	(I)V	method_1058	method_1058	kw	kw
 METHOD	net/minecraft/class_294	(III)Z	method_1059	method_1059	kw	kw
 METHOD	net/minecraft/class_294	(IIIDDD)V	method_1060	method_1060	kw	kw
 METHOD	net/minecraft/class_294	()V	method_1061	method_1061	kw	kw
-CLASS	net/minecraft/class_295	net/minecraft/src/RenderManager	kx	kx	kx
+CLASS	net/minecraft/class_295	net/minecraft/src/RenderManager	kx	kx
 FIELD	net/minecraft/class_295	Lkx;	field_1192	field_1192	kx	kx
 FIELD	net/minecraft/class_295	D	field_1193	field_1193	kx	kx
 FIELD	net/minecraft/class_295	D	field_1194	field_1194	kx	kx
@@ -2570,17 +2570,17 @@ METHOD	net/minecraft/class_295	(Ljava/lang/CLASS;)Lak;	method_1066	method_1066	k
 METHOD	net/minecraft/class_295	(Lkh;)Lak;	method_1067	method_1067	kx	kx
 METHOD	net/minecraft/class_295	(Lkh;DDDFF)V	method_1068	method_1068	kx	kx
 METHOD	net/minecraft/class_295	(Lkh;F)V	method_1069	method_1069	kx	kx
-CLASS	net/minecraft/class_296	net/minecraft/src/BlockMushroom	ky	ky	ky
-CLASS	net/minecraft/class_297	net/minecraft/src/ThreadDownloadImage	kz	kz	kz
+CLASS	net/minecraft/class_296	net/minecraft/src/BlockMushroom	ky	ky
+CLASS	net/minecraft/class_297	net/minecraft/src/ThreadDownloadImage	kz	kz
 FIELD	net/minecraft/class_297	Ljava/lang/String;	field_1208	field_1208	kz	kz
 FIELD	net/minecraft/class_297	Lhb;	field_1209	field_1209	kz	kz
 FIELD	net/minecraft/class_297	Lcc;	field_1210	field_1210	kz	kz
 METHOD	net/minecraft/class_297	(Lcc;Ljava/lang/String;Lhb;)V	method_1070	method_1070	kz	kz
-CLASS	net/minecraft/class_298	net/minecraft/src/RecipesArmor	l	l	l
+CLASS	net/minecraft/class_298	net/minecraft/src/RecipesArmor	l	l
 FIELD	net/minecraft/class_298	[[Ljava/lang/String;	field_1211	field_1211	l	l
 FIELD	net/minecraft/class_298	[[Ljava/lang/Object;	field_1212	field_1212	l	l
 METHOD	net/minecraft/class_298	(Ldw;)V	method_1071	method_1071	l	l
-CLASS	net/minecraft/class_299	net/minecraft/src/EntityClientPlayerMP	la	la	la
+CLASS	net/minecraft/class_299	net/minecraft/src/EntityClientPlayerMP	la	la
 FIELD	net/minecraft/class_299	Lgy;	field_1213	field_1213	la	la
 FIELD	net/minecraft/class_299	I	field_1214	field_1214	la	la
 FIELD	net/minecraft/class_299	D	field_1215	field_1215	la	la
@@ -2592,7 +2592,7 @@ FIELD	net/minecraft/class_299	F	field_1220	field_1220	la	la
 FIELD	net/minecraft/class_299	Leu;	field_1221	field_1221	la	la
 METHOD	net/minecraft/class_299	(Lnet/minecraft/client/Minecraft;Lcn;Ldl;Lgy;)V	method_1072	method_1072	la	la
 METHOD	net/minecraft/class_299	()V	method_1073	method_1073	la	la
-CLASS	net/minecraft/class_300	net/minecraft/src/NetHandler	lb	lb	lb
+CLASS	net/minecraft/class_300	net/minecraft/src/NetHandler	lb	lb
 METHOD	net/minecraft/class_300	(Lbm;)V	method_1074	method_1074	lb	lb
 METHOD	net/minecraft/class_300	(Lbz;)V	method_1075	method_1075	lb	lb
 METHOD	net/minecraft/class_300	(Ldo;)V	method_1076	method_1076	lb	lb
@@ -2621,7 +2621,7 @@ METHOD	net/minecraft/class_300	(Lna;)V	method_1098	method_1098	lb	lb
 METHOD	net/minecraft/class_300	(Lny;)V	method_1099	method_1099	lb	lb
 METHOD	net/minecraft/class_300	(Loh;)V	method_1100	method_1100	lb	lb
 METHOD	net/minecraft/class_300	(Lfn;)V	method_1101	method_1101	lb	lb
-CLASS	net/minecraft/class_301	net/minecraft/src/WorldBlockPositionType	lc	lc	lc
+CLASS	net/minecraft/class_301	net/minecraft/src/WorldBlockPositionType	lc	lc
 FIELD	net/minecraft/class_301	I	field_1222	field_1222	lc	lc
 FIELD	net/minecraft/class_301	I	field_1223	field_1223	lc	lc
 FIELD	net/minecraft/class_301	I	field_1224	field_1224	lc	lc
@@ -2630,63 +2630,63 @@ FIELD	net/minecraft/class_301	I	field_1226	field_1226	lc	lc
 FIELD	net/minecraft/class_301	I	field_1227	field_1227	lc	lc
 FIELD	net/minecraft/class_301	Lgs;	field_1228	field_1228	lc	lc
 METHOD	net/minecraft/class_301	(Lgs;IIIII)V	method_1102	method_1102	lc	lc
-CLASS	net/minecraft/class_302	net/minecraft/src/PacketMETHOD7AddToInventory	ld	ld	ld
+CLASS	net/minecraft/class_302	net/minecraft/src/PacketMETHOD7AddToInventory	ld	ld
 FIELD	net/minecraft/class_302	I	field_1229	field_1229	ld	ld
 FIELD	net/minecraft/class_302	I	field_1230	field_1230	ld	ld
 FIELD	net/minecraft/class_302	I	field_1231	field_1231	ld	ld
-CLASS	net/minecraft/class_303	net/minecraft/src/ChunkLoader	le	le	le
+CLASS	net/minecraft/class_303	net/minecraft/src/ChunkLoader	le	le
 FIELD	net/minecraft/class_303	Ljava/io/File;	field_1232	field_1232	le	le
 FIELD	net/minecraft/class_303	Z	field_1233	field_1233	le	le
 METHOD	net/minecraft/class_303	(Ljava/io/File;Z)V	method_1103	method_1103	le	le
 METHOD	net/minecraft/class_303	(II)Ljava/io/File;	method_1104	method_1104	le	le
 METHOD	net/minecraft/class_303	(Lcn;Lhm;)Lga;	method_1105	method_1105	le	le
 METHOD	net/minecraft/class_303	(Lga;Lcn;Lhm;)V	method_1106	method_1106	le	le
-CLASS	net/minecraft/class_304	net/minecraft/src/RecipesIngots	lf	lf	lf
+CLASS	net/minecraft/class_304	net/minecraft/src/RecipesIngots	lf	lf
 FIELD	net/minecraft/class_304	[[Ljava/lang/Object;	field_1234	field_1234	lf	lf
 METHOD	net/minecraft/class_304	(Ldw;)V	method_1107	method_1107	lf	lf
-CLASS	net/minecraft/class_305	net/minecraft/src/ItemRecord	lg	lg	lg
+CLASS	net/minecraft/class_305	net/minecraft/src/ItemRecord	lg	lg
 FIELD	net/minecraft/class_305	Ljava/lang/String;	field_1235	field_1235	lg	lg
 METHOD	net/minecraft/class_305	(ILjava/lang/String;)V	method_1108	method_1108	lg	lg
-CLASS	net/minecraft/class_306	net/minecraft/src/ThreadRunIsoClient	lh	lh	lh
+CLASS	net/minecraft/class_306	net/minecraft/src/ThreadRunIsoClient	lh	lh
 FIELD	net/minecraft/class_306	Lad;	field_1236	field_1236	lh	lh
 METHOD	net/minecraft/class_306	(Lad;)V	method_1109	method_1109	lh	lh
-CLASS	net/minecraft/class_307	net/minecraft/src/Packet5FIELDBlockChange	li	li	li
+CLASS	net/minecraft/class_307	net/minecraft/src/Packet5FIELDBlockChange	li	li
 FIELD	net/minecraft/class_307	I	field_1237	field_1237	li	li
 FIELD	net/minecraft/class_307	I	field_1238	field_1238	li	li
 FIELD	net/minecraft/class_307	I	field_1239	field_1239	li	li
 FIELD	net/minecraft/class_307	I	field_1240	field_1240	li	li
 FIELD	net/minecraft/class_307	I	field_1241	field_1241	li	li
-CLASS	net/minecraft/class_308	net/minecraft/src/SlotArmor	lj	lj	lj
+CLASS	net/minecraft/class_308	net/minecraft/src/SlotArmor	lj	lj
 FIELD	net/minecraft/class_308	I	field_1242	field_1242	lj	lj
 FIELD	net/minecraft/class_308	Llo;	field_1243	field_1243	lj	lj
-CLASS	net/minecraft/class_309	net/minecraft/src/WorldIso	lk	lk	lk
+CLASS	net/minecraft/class_309	net/minecraft/src/WorldIso	lk	lk
 FIELD	net/minecraft/class_309	Lad;	field_1244	field_1244	lk	lk
-CLASS	net/minecraft/class_310	net/minecraft/src/TexturedQuad	ll	ll	ll
+CLASS	net/minecraft/class_310	net/minecraft/src/TexturedQuad	ll	ll
 FIELD	net/minecraft/class_310	[Led;	field_1245	field_1245	ll	ll
 FIELD	net/minecraft/class_310	I	field_1246	field_1246	ll	ll
 FIELD	net/minecraft/class_310	Z	field_1247	field_1247	ll	ll
 METHOD	net/minecraft/class_310	()V	method_1110	method_1110	ll	ll
 METHOD	net/minecraft/class_310	(Lho;F)V	method_1111	method_1111	ll	ll
-CLASS	net/minecraft/class_311	net/minecraft/src/Gui	lm	lm	lm
+CLASS	net/minecraft/class_311	net/minecraft/src/Gui	lm	lm
 FIELD	net/minecraft/class_311	F	field_1248	field_1248	lm	lm
 METHOD	net/minecraft/class_311	(IIIII)V	method_1112	method_1112	lm	lm
 METHOD	net/minecraft/class_311	(IIIIII)V	method_1113	method_1113	lm	lm
 METHOD	net/minecraft/class_311	(Lkd;Ljava/lang/String;III)V	method_1114	method_1114	lm	lm
 METHOD	net/minecraft/class_311	(IIIIII)V	method_1115	method_1115	lm	lm
 METHOD	net/minecraft/class_311	(Lkd;Ljava/lang/String;III)V	method_1116	method_1116	lm	lm
-CLASS	net/minecraft/class_312	net/minecraft/src/OSMapIsom	ln	ln	ln
+CLASS	net/minecraft/class_312	net/minecraft/src/OSMapIsom	ln	ln
 FIELD	net/minecraft/class_312	[I	field_1249	field_1249	ln	ln
-CLASS	net/minecraft/class_313	net/minecraft/src/GuiInventory	lo	lo	lo
+CLASS	net/minecraft/class_313	net/minecraft/src/GuiInventory	lo	lo
 FIELD	net/minecraft/class_313	Ln;	field_1250	field_1250	lo	lo
 FIELD	net/minecraft/class_313	F	field_1251	field_1251	lo	lo
 FIELD	net/minecraft/class_313	F	field_1252	field_1252	lo	lo
-CLASS	net/minecraft/class_314	net/minecraft/src/NoiseGeneratorOctaves	lp	lp	lp
+CLASS	net/minecraft/class_314	net/minecraft/src/NoiseGeneratorOctaves	lp	lp
 FIELD	net/minecraft/class_314	[Lv;	field_1253	field_1253	lp	lp
 FIELD	net/minecraft/class_314	I	field_1254	field_1254	lp	lp
 METHOD	net/minecraft/class_314	(Ljava/util/Random;I)V	method_1117	method_1117	lp	lp
 METHOD	net/minecraft/class_314	(DD)D	method_1118	method_1118	lp	lp
 METHOD	net/minecraft/class_314	([DDDDIIIDDD)[D	method_1119	method_1119	lp	lp
-CLASS	net/minecraft/class_315	net/minecraft/src/PacketFIELD0Entity	lq	lq	lq
+CLASS	net/minecraft/class_315	net/minecraft/src/PacketFIELD0Entity	lq	lq
 FIELD	net/minecraft/class_315	I	field_1255	field_1255	lq	lq
 FIELD	net/minecraft/class_315	B	field_1256	field_1256	lq	lq
 FIELD	net/minecraft/class_315	B	field_1257	field_1257	lq	lq
@@ -2694,14 +2694,14 @@ FIELD	net/minecraft/class_315	B	field_1258	field_1258	lq	lq
 FIELD	net/minecraft/class_315	B	field_1259	field_1259	lq	lq
 FIELD	net/minecraft/class_315	B	field_1260	field_1260	lq	lq
 FIELD	net/minecraft/class_315	Z	field_1261	field_1261	lq	lq
-CLASS	net/minecraft/class_316	net/minecraft/src/BlockSign	lr	lr	lr
+CLASS	net/minecraft/class_316	net/minecraft/src/BlockSign	lr	lr
 FIELD	net/minecraft/class_316	Ljava/lang/CLASS;	field_1262	field_1262	lr	lr
 FIELD	net/minecraft/class_316	Z	field_1263	field_1263	lr	lr
 METHOD	net/minecraft/class_316	(ILjava/lang/CLASS;Z)V	method_1120	method_1120	lr	lr
-CLASS	net/minecraft/class_317	net/minecraft/src/NBTTagShort	ls	ls	ls
+CLASS	net/minecraft/class_317	net/minecraft/src/NBTTagShort	ls	ls
 FIELD	net/minecraft/class_317	S	field_1264	field_1264	ls	ls
 METHOD	net/minecraft/class_317	(S)V	method_1121	method_1121	ls	ls
-CLASS	net/minecraft/class_318	net/minecraft/src/TerrainTextureManager	lt	lt	lt
+CLASS	net/minecraft/class_318	net/minecraft/src/TerrainTextureManager	lt	lt
 FIELD	net/minecraft/class_318	[F	field_1265	field_1265	lt	lt
 FIELD	net/minecraft/class_318	[I	field_1266	field_1266	lt	lt
 FIELD	net/minecraft/class_318	[I	field_1267	field_1267	lt	lt
@@ -2711,7 +2711,7 @@ FIELD	net/minecraft/class_318	[I	field_1270	field_1270	lt	lt
 FIELD	net/minecraft/class_318	[I	field_1271	field_1271	lt	lt
 METHOD	net/minecraft/class_318	()V	method_1122	method_1122	lt	lt
 METHOD	net/minecraft/class_318	(Ljj;)V	method_1123	method_1123	lt	lt
-CLASS	net/minecraft/class_319	net/minecraft/src/GuiIngame	lu	lu	lu
+CLASS	net/minecraft/class_319	net/minecraft/src/GuiIngame	lu	lu
 FIELD	net/minecraft/class_319	Ljava/lang/String;	field_1272	field_1272	lu	lu
 FIELD	net/minecraft/class_319	F	field_1273	field_1273	lu	lu
 FIELD	net/minecraft/class_319	F	field_1274	field_1274	lu	lu
@@ -2729,7 +2729,7 @@ METHOD	net/minecraft/class_319	(FZII)V	method_1127	method_1127	lu	lu
 METHOD	net/minecraft/class_319	(IIIF)V	method_1128	method_1128	lu	lu
 METHOD	net/minecraft/class_319	(Ljava/lang/String;)V	method_1129	method_1129	lu	lu
 METHOD	net/minecraft/class_319	(Ljava/lang/String;)V	method_1130	method_1130	lu	lu
-CLASS	net/minecraft/class_320	net/minecraft/src/MovementInput	lv	lv	lv
+CLASS	net/minecraft/class_320	net/minecraft/src/MovementInput	lv	lv
 FIELD	net/minecraft/class_320	F	field_1282	field_1282	lv	lv
 FIELD	net/minecraft/class_320	F	field_1283	field_1283	lv	lv
 FIELD	net/minecraft/class_320	Z	field_1284	field_1284	lv	lv
@@ -2738,15 +2738,15 @@ FIELD	net/minecraft/class_320	Z	field_1286	field_1286	lv	lv
 METHOD	net/minecraft/class_320	()V	method_1131	method_1131	lv	lv
 METHOD	net/minecraft/class_320	(IZ)V	method_1132	method_1132	lv	lv
 METHOD	net/minecraft/class_320	(Ldm;)V	method_1133	method_1133	lv	lv
-CLASS	net/minecraft/class_321	net/minecraft/src/GuiControls	lw	lw	lw
+CLASS	net/minecraft/class_321	net/minecraft/src/GuiControls	lw	lw
 FIELD	net/minecraft/class_321	Ljava/lang/String;	field_1287	field_1287	lw	lw
 FIELD	net/minecraft/class_321	Lbh;	field_1288	field_1288	lw	lw
 FIELD	net/minecraft/class_321	Lfr;	field_1289	field_1289	lw	lw
 FIELD	net/minecraft/class_321	I	field_1290	field_1290	lw	lw
 METHOD	net/minecraft/class_321	(Lbh;Lfr;)V	method_1134	method_1134	lw	lw
-CLASS	net/minecraft/class_322	net/minecraft/src/MinecraftException	lx	lx	lx
+CLASS	net/minecraft/class_322	net/minecraft/src/MinecraftException	lx	lx
 METHOD	net/minecraft/class_322	(Ljava/lang/String;)V	method_1135	method_1135	lx	lx
-CLASS	net/minecraft/class_323	net/minecraft/src/Block	ly	ly	ly
+CLASS	net/minecraft/class_323	net/minecraft/src/Block	ly	ly
 FIELD	net/minecraft/class_323	Lly;	field_1291	field_1291	ly	ly
 FIELD	net/minecraft/class_323	Lly;	field_1292	field_1292	ly	ly
 FIELD	net/minecraft/class_323	Lly;	field_1293	field_1293	ly	ly
@@ -2919,7 +2919,7 @@ METHOD	net/minecraft/class_323	()I	method_1189	method_1189	ly	ly
 METHOD	net/minecraft/class_323	(Lcn;III)Z	method_1190	method_1190	ly	ly
 METHOD	net/minecraft/class_323	()Z	method_1191	method_1191	ly	ly
 METHOD	net/minecraft/class_323	()Z	method_1192	method_1192	ly	ly
-CLASS	net/minecraft/class_324	net/minecraft/src/ChunkProviderClient	lz	lz	lz
+CLASS	net/minecraft/class_324	net/minecraft/src/ChunkProviderClient	lz	lz
 FIELD	net/minecraft/class_324	Lga;	field_1406	field_1406	lz	lz
 FIELD	net/minecraft/class_324	Ljava/util/Map;	field_1407	field_1407	lz	lz
 FIELD	net/minecraft/class_324	Ljava/util/List;	field_1408	field_1408	lz	lz
@@ -2927,22 +2927,22 @@ FIELD	net/minecraft/class_324	Lcn;	field_1409	field_1409	lz	lz
 METHOD	net/minecraft/class_324	(Lcn;)V	method_1193	method_1193	lz	lz
 METHOD	net/minecraft/class_324	(II)V	method_1194	method_1194	lz	lz
 METHOD	net/minecraft/class_324	(II)Lga;	method_1195	method_1195	lz	lz
-CLASS	net/minecraft/class_325	net/minecraft/src/Packet5PlayerInventory	m	m	m
+CLASS	net/minecraft/class_325	net/minecraft/src/Packet5PlayerInventory	m	m
 FIELD	net/minecraft/class_325	I	field_1410	field_1410	m	m
 FIELD	net/minecraft/class_325	[Lev;	field_1411	field_1411	m	m
 METHOD	net/minecraft/class_325	(I[Lev;)V	method_1196	method_1196	m	m
-CLASS	net/minecraft/class_326	net/minecraft/src/EntitySlime	ma	ma	ma
+CLASS	net/minecraft/class_326	net/minecraft/src/EntitySlime	ma	ma
 FIELD	net/minecraft/class_326	F	field_1412	field_1412	ma	ma
 FIELD	net/minecraft/class_326	F	field_1413	field_1413	ma	ma
 FIELD	net/minecraft/class_326	I	field_1414	field_1414	ma	ma
 FIELD	net/minecraft/class_326	I	field_1415	field_1415	ma	ma
 METHOD	net/minecraft/class_326	(I)V	method_1197	method_1197	ma	ma
-CLASS	net/minecraft/class_327	net/minecraft/src/EntityZombie	mb	mb	mb
-CLASS	net/minecraft/class_328	net/minecraft/src/RenderCow	mc	mc	mc
+CLASS	net/minecraft/class_327	net/minecraft/src/EntityZombie	mb	mb
+CLASS	net/minecraft/class_328	net/minecraft/src/RenderCow	mc	mc
 METHOD	net/minecraft/class_328	(Lam;DDDFF)V	method_1198	method_1198	mc	mc
-CLASS	net/minecraft/class_329	net/minecraft/src/ItemSign	md	md	md
-CLASS	net/minecraft/class_330	net/minecraft/src/ItemBoat	me	me	me
-CLASS	net/minecraft/class_331	net/minecraft/src/MovingObjectPosition	mf	mf	mf
+CLASS	net/minecraft/class_329	net/minecraft/src/ItemSign	md	md
+CLASS	net/minecraft/class_330	net/minecraft/src/ItemBoat	me	me
+CLASS	net/minecraft/class_331	net/minecraft/src/MovingObjectPosition	mf	mf
 FIELD	net/minecraft/class_331	I	field_1416	field_1416	mf	mf
 FIELD	net/minecraft/class_331	I	field_1417	field_1417	mf	mf
 FIELD	net/minecraft/class_331	I	field_1418	field_1418	mf	mf
@@ -2952,18 +2952,18 @@ FIELD	net/minecraft/class_331	Laj;	field_1421	field_1421	mf	mf
 FIELD	net/minecraft/class_331	Lkh;	field_1422	field_1422	mf	mf
 METHOD	net/minecraft/class_331	(IIIILaj;)V	method_1199	method_1199	mf	mf
 METHOD	net/minecraft/class_331	(Lkh;)V	method_1200	method_1200	mf	mf
-CLASS	net/minecraft/class_332	net/minecraft/src/BlockLog	mg	mg	mg
+CLASS	net/minecraft/class_332	net/minecraft/src/BlockLog	mg	mg
 METHOD	net/minecraft/class_332	(I)V	method_1201	method_1201	mg	mg
-CLASS	net/minecraft/class_333	net/minecraft/src/PacketMETHODCLASSPlayerLook	mh	mh	mh
+CLASS	net/minecraft/class_333	net/minecraft/src/PacketMETHODCLASSPlayerLook	mh	mh
 METHOD	net/minecraft/class_333	(FFZ)V	method_1202	method_1202	mh	mh
-CLASS	net/minecraft/class_334	net/minecraft/src/BlockFarmland	mi	mi	mi
+CLASS	net/minecraft/class_334	net/minecraft/src/BlockFarmland	mi	mi
 METHOD	net/minecraft/class_334	(I)V	method_1203	method_1203	mi	mi
 METHOD	net/minecraft/class_334	(Lcn;III)Z	method_1204	method_1204	mi	mi
 METHOD	net/minecraft/class_334	(Lcn;III)Z	method_1205	method_1205	mi	mi
-CLASS	net/minecraft/class_335	net/minecraft/src/BlockTorch	mj	mj	mj
+CLASS	net/minecraft/class_335	net/minecraft/src/BlockTorch	mj	mj
 METHOD	net/minecraft/class_335	(II)V	method_1206	method_1206	mj	mj
 METHOD	net/minecraft/class_335	(Lcn;III)Z	method_1207	method_1207	mj	mj
-CLASS	net/minecraft/class_336	net/minecraft/src/MinecartTrackLogic	mk	mk	mk
+CLASS	net/minecraft/class_336	net/minecraft/src/MinecartTrackLogic	mk	mk
 FIELD	net/minecraft/class_336	Lif;	field_1423	field_1423	mk	mk
 FIELD	net/minecraft/class_336	Lcn;	field_1424	field_1424	mk	mk
 FIELD	net/minecraft/class_336	I	field_1425	field_1425	mk	mk
@@ -2984,29 +2984,29 @@ METHOD	net/minecraft/class_336	()I	method_1217	method_1217	mk	mk
 METHOD	net/minecraft/class_336	(III)Z	method_1218	method_1218	mk	mk
 METHOD	net/minecraft/class_336	(Lmk;)Z	method_1219	method_1219	mk	mk
 METHOD	net/minecraft/class_336	(Lmk;)V	method_1220	method_1220	mk	mk
-CLASS	net/minecraft/class_337	net/minecraft/src/TextureWaterFX	ml	ml	ml
+CLASS	net/minecraft/class_337	net/minecraft/src/TextureWaterFX	ml	ml
 FIELD	net/minecraft/class_337	[F	field_1430	field_1430	ml	ml
 FIELD	net/minecraft/class_337	[F	field_1431	field_1431	ml	ml
 FIELD	net/minecraft/class_337	[F	field_1432	field_1432	ml	ml
 FIELD	net/minecraft/class_337	[F	field_1433	field_1433	ml	ml
 FIELD	net/minecraft/class_337	I	field_1434	field_1434	ml	ml
-CLASS	net/minecraft/class_338	net/minecraft/src/SlotInventory	mm	mm	mm
+CLASS	net/minecraft/class_338	net/minecraft/src/SlotInventory	mm	mm
 FIELD	net/minecraft/class_338	Lee;	field_1435	field_1435	mm	mm
 FIELD	net/minecraft/class_338	I	field_1436	field_1436	mm	mm
 FIELD	net/minecraft/class_338	I	field_1437	field_1437	mm	mm
 METHOD	net/minecraft/class_338	(Lee;Lgh;III)V	method_1221	method_1221	mm	mm
 METHOD	net/minecraft/class_338	(II)Z	method_1222	method_1222	mm	mm
-CLASS	net/minecraft/class_339	net/minecraft/src/GuiConnecting	mn	mn	mn
+CLASS	net/minecraft/class_339	net/minecraft/src/GuiConnecting	mn	mn
 FIELD	net/minecraft/class_339	Lgy;	field_1438	field_1438	mn	mn
 FIELD	net/minecraft/class_339	Z	field_1439	field_1439	mn	mn
 METHOD	net/minecraft/class_339	(Lmn;)Z	method_1223	method_1223	mn	mn
 METHOD	net/minecraft/class_339	(Lmn;Lgy;)Lgy;	method_1224	method_1224	mn	mn
 METHOD	net/minecraft/class_339	(Lmn;)Lgy;	method_1225	method_1225	mn	mn
-CLASS	net/minecraft/class_340	net/minecraft/src/GuiSlider	mo	mo	mo
+CLASS	net/minecraft/class_340	net/minecraft/src/GuiSlider	mo	mo
 FIELD	net/minecraft/class_340	F	field_1440	field_1440	mo	mo
 FIELD	net/minecraft/class_340	Z	field_1441	field_1441	mo	mo
 FIELD	net/minecraft/class_340	I	field_1442	field_1442	mo	mo
-CLASS	net/minecraft/class_341	net/minecraft/src/MouseHelper	mp	mp	mp
+CLASS	net/minecraft/class_341	net/minecraft/src/MouseHelper	mp	mp
 FIELD	net/minecraft/class_341	I	field_1443	field_1443	mp	mp
 FIELD	net/minecraft/class_341	I	field_1444	field_1444	mp	mp
 FIELD	net/minecraft/class_341	Ljava/awt/Component;	field_1445	field_1445	mp	mp
@@ -3016,11 +3016,11 @@ METHOD	net/minecraft/class_341	(Ljava/awt/Component;)V	method_1226	method_1226	m
 METHOD	net/minecraft/class_341	()V	method_1227	method_1227	mp	mp
 METHOD	net/minecraft/class_341	()V	method_1228	method_1228	mp	mp
 METHOD	net/minecraft/class_341	()V	method_1229	method_1229	mp	mp
-CLASS	net/minecraft/class_342	net/minecraft/src/BlockFlower	mq	mq	mq
+CLASS	net/minecraft/class_342	net/minecraft/src/BlockFlower	mq	mq
 METHOD	net/minecraft/class_342	(II)V	method_1230	method_1230	mq	mq
 METHOD	net/minecraft/class_342	(I)Z	method_1231	method_1231	mq	mq
 METHOD	net/minecraft/class_342	(Lcn;III)V	method_1232	method_1232	mq	mq
-CLASS	net/minecraft/class_343	net/minecraft/src/ItemArmor	mr	mr	mr
+CLASS	net/minecraft/class_343	net/minecraft/src/ItemArmor	mr	mr
 FIELD	net/minecraft/class_343	I	field_1448	field_1448	mr	mr
 FIELD	net/minecraft/class_343	I	field_1449	field_1449	mr	mr
 FIELD	net/minecraft/class_343	I	field_1450	field_1450	mr	mr
@@ -3028,36 +3028,36 @@ FIELD	net/minecraft/class_343	I	field_1451	field_1451	mr	mr
 FIELD	net/minecraft/class_343	[I	field_1452	field_1452	mr	mr
 FIELD	net/minecraft/class_343	[I	field_1453	field_1453	mr	mr
 METHOD	net/minecraft/class_343	(IIII)V	method_1233	method_1233	mr	mr
-CLASS	net/minecraft/class_344	net/minecraft/src/ItemSpade	ms	ms	ms
+CLASS	net/minecraft/class_344	net/minecraft/src/ItemSpade	ms	ms
 FIELD	net/minecraft/class_344	[Lly;	field_1454	field_1454	ms	ms
 METHOD	net/minecraft/class_344	(II)V	method_1234	method_1234	ms	ms
-CLASS	net/minecraft/class_345	net/minecraft/src/ChunkPosition	mt	mt	mt
+CLASS	net/minecraft/class_345	net/minecraft/src/ChunkPosition	mt	mt
 FIELD	net/minecraft/class_345	I	field_1455	field_1455	mt	mt
 FIELD	net/minecraft/class_345	I	field_1456	field_1456	mt	mt
 FIELD	net/minecraft/class_345	I	field_1457	field_1457	mt	mt
 METHOD	net/minecraft/class_345	(III)V	method_1235	method_1235	mt	mt
 METHOD	net/minecraft/class_345	(Ljava/lang/Object;)Z	method_1236	method_1236	mt	mt
-CLASS	net/minecraft/class_346	net/minecraft/src/NibbleArray	mu	mu	mu
+CLASS	net/minecraft/class_346	net/minecraft/src/NibbleArray	mu	mu
 FIELD	net/minecraft/class_346	[B	field_1458	field_1458	mu	mu
 METHOD	net/minecraft/class_346	(I)V	method_1237	method_1237	mu	mu
 METHOD	net/minecraft/class_346	([B)V	method_1238	method_1238	mu	mu
 METHOD	net/minecraft/class_346	()Z	method_1239	method_1239	mu	mu
 METHOD	net/minecraft/class_346	(III)I	method_1240	method_1240	mu	mu
 METHOD	net/minecraft/class_346	(IIII)V	method_1241	method_1241	mu	mu
-CLASS	net/minecraft/class_347	net/minecraft/src/EntityPig	mv	mv	mv
+CLASS	net/minecraft/class_347	net/minecraft/src/EntityPig	mv	mv
 FIELD	net/minecraft/class_347	Z	field_1459	field_1459	mv	mv
-CLASS	net/minecraft/class_348	net/minecraft/src/InventoryCraftResult	mw	mw	mw
+CLASS	net/minecraft/class_348	net/minecraft/src/InventoryCraftResult	mw	mw
 FIELD	net/minecraft/class_348	[Lev;	field_1460	field_1460	mw	mw
-CLASS	net/minecraft/class_349	net/minecraft/src/MCHashEntry	mx	mx	mx
+CLASS	net/minecraft/class_349	net/minecraft/src/MCHashEntry	mx	mx
 FIELD	net/minecraft/class_349	I	field_1461	field_1461	mx	mx
 FIELD	net/minecraft/class_349	Ljava/lang/Object;	field_1462	field_1462	mx	mx
 FIELD	net/minecraft/class_349	Lmx;	field_1463	field_1463	mx	mx
 FIELD	net/minecraft/class_349	I	field_1464	field_1464	mx	mx
 METHOD	net/minecraft/class_349	()I	method_1242	method_1242	mx	mx
 METHOD	net/minecraft/class_349	()Ljava/lang/Object;	method_1243	method_1243	mx	mx
-CLASS	net/minecraft/class_350	net/minecraft/src/BlockGrass	my	my	my
+CLASS	net/minecraft/class_350	net/minecraft/src/BlockGrass	my	my
 METHOD	net/minecraft/class_350	(I)V	method_1244	method_1244	my	my
-CLASS	net/minecraft/class_351	net/minecraft/src/EntityChicken	mz	mz	mz
+CLASS	net/minecraft/class_351	net/minecraft/src/EntityChicken	mz	mz
 FIELD	net/minecraft/class_351	Z	field_1465	field_1465	mz	mz
 FIELD	net/minecraft/class_351	F	field_1466	field_1466	mz	mz
 FIELD	net/minecraft/class_351	F	field_1467	field_1467	mz	mz
@@ -3065,41 +3065,41 @@ FIELD	net/minecraft/class_351	F	field_1468	field_1468	mz	mz
 FIELD	net/minecraft/class_351	F	field_1469	field_1469	mz	mz
 FIELD	net/minecraft/class_351	F	field_1470	field_1470	mz	mz
 FIELD	net/minecraft/class_351	I	field_1471	field_1471	mz	mz
-CLASS	net/minecraft/class_352	net/minecraft/src/CraftingInventoryPlayerCB	n	n	n
+CLASS	net/minecraft/class_352	net/minecraft/src/CraftingInventoryPlayerCB	n	n
 FIELD	net/minecraft/class_352	Lgu;	field_1472	field_1472	n	n
 FIELD	net/minecraft/class_352	Lgh;	field_1473	field_1473	n	n
-CLASS	net/minecraft/class_353	net/minecraft/src/Packet5CLASSMultiBlockChange	na	na	na
+CLASS	net/minecraft/class_353	net/minecraft/src/Packet5CLASSMultiBlockChange	na	na
 FIELD	net/minecraft/class_353	I	field_1474	field_1474	na	na
 FIELD	net/minecraft/class_353	I	field_1475	field_1475	na	na
 FIELD	net/minecraft/class_353	[S	field_1476	field_1476	na	na
 FIELD	net/minecraft/class_353	[B	field_1477	field_1477	na	na
 FIELD	net/minecraft/class_353	[B	field_1478	field_1478	na	na
 FIELD	net/minecraft/class_353	I	field_1479	field_1479	na	na
-CLASS	net/minecraft/class_354	net/minecraft/src/CanvasCrashReport	nb	nb	nb
+CLASS	net/minecraft/class_354	net/minecraft/src/CanvasCrashReport	nb	nb
 METHOD	net/minecraft/class_354	(I)V	method_1245	method_1245	nb	nb
-CLASS	net/minecraft/class_355	net/minecraft/src/ThreadConnectToServer	nc	nc	nc
+CLASS	net/minecraft/class_355	net/minecraft/src/ThreadConnectToServer	nc	nc
 FIELD	net/minecraft/class_355	Lnet/minecraft/client/Minecraft;	field_1480	field_1480	nc	nc
 FIELD	net/minecraft/class_355	Ljava/lang/String;	field_1481	field_1481	nc	nc
 FIELD	net/minecraft/class_355	I	field_1482	field_1482	nc	nc
 FIELD	net/minecraft/class_355	Lmn;	field_1483	field_1483	nc	nc
 METHOD	net/minecraft/class_355	(Lmn;Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V	method_1246	method_1246	nc	nc
-CLASS	net/minecraft/class_356	net/minecraft/src/RecipesWeapons	nd	nd	nd
+CLASS	net/minecraft/class_356	net/minecraft/src/RecipesWeapons	nd	nd
 FIELD	net/minecraft/class_356	[[Ljava/lang/String;	field_1484	field_1484	nd	nd
 FIELD	net/minecraft/class_356	[[Ljava/lang/Object;	field_1485	field_1485	nd	nd
 METHOD	net/minecraft/class_356	(Ldw;)V	method_1247	method_1247	nd	nd
-CLASS	net/minecraft/class_357	net/minecraft/src/NBTTagString	ne	ne	ne
+CLASS	net/minecraft/class_357	net/minecraft/src/NBTTagString	ne	ne
 FIELD	net/minecraft/class_357	Ljava/lang/String;	field_1486	field_1486	ne	ne
 METHOD	net/minecraft/class_357	(Ljava/lang/String;)V	method_1248	method_1248	ne	ne
-CLASS	net/minecraft/class_358	net/minecraft/src/EntityRainFX	nf	nf	nf
-CLASS	net/minecraft/class_359	net/minecraft/src/BlockSponge	ng	ng	ng
+CLASS	net/minecraft/class_358	net/minecraft/src/EntityRainFX	nf	nf
+CLASS	net/minecraft/class_359	net/minecraft/src/BlockSponge	ng	ng
 METHOD	net/minecraft/class_359	(I)V	method_1249	method_1249	ng	ng
-CLASS	net/minecraft/class_360	net/minecraft/src/NetworkMasterThread	nh	nh	nh
+CLASS	net/minecraft/class_360	net/minecraft/src/NetworkMasterThread	nh	nh
 FIELD	net/minecraft/class_360	Lii;	field_1487	field_1487	nh	nh
 METHOD	net/minecraft/class_360	(Lii;)V	method_1250	method_1250	nh	nh
-CLASS	net/minecraft/class_361	net/minecraft/src/NetworkReaderThread	ni	ni	ni
+CLASS	net/minecraft/class_361	net/minecraft/src/NetworkReaderThread	ni	ni
 FIELD	net/minecraft/class_361	Lii;	field_1488	field_1488	ni	ni
 METHOD	net/minecraft/class_361	(Lii;Ljava/lang/String;)V	method_1251	method_1251	ni	ni
-CLASS	net/minecraft/class_362	net/minecraft/src/PlayerControllerMP	nj	nj	nj
+CLASS	net/minecraft/class_362	net/minecraft/src/PlayerControllerMP	nj	nj
 FIELD	net/minecraft/class_362	I	field_1489	field_1489	nj	nj
 FIELD	net/minecraft/class_362	I	field_1490	field_1490	nj	nj
 FIELD	net/minecraft/class_362	I	field_1491	field_1491	nj	nj
@@ -3112,30 +3112,30 @@ FIELD	net/minecraft/class_362	Lgy;	field_1497	field_1497	nj	nj
 FIELD	net/minecraft/class_362	I	field_1498	field_1498	nj	nj
 METHOD	net/minecraft/class_362	(Lnet/minecraft/client/Minecraft;Lgy;)V	method_1252	method_1252	nj	nj
 METHOD	net/minecraft/class_362	()V	method_1253	method_1253	nj	nj
-CLASS	net/minecraft/class_363	net/minecraft/src/NetworkWriterThread	nk	nk	nk
+CLASS	net/minecraft/class_363	net/minecraft/src/NetworkWriterThread	nk	nk
 FIELD	net/minecraft/class_363	Lii;	field_1499	field_1499	nk	nk
 METHOD	net/minecraft/class_363	(Lii;Ljava/lang/String;)V	method_1254	method_1254	nk	nk
-CLASS	net/minecraft/class_364	net/minecraft/src/EntitySmokeFX	nl	nl	nl
+CLASS	net/minecraft/class_364	net/minecraft/src/EntitySmokeFX	nl	nl
 FIELD	net/minecraft/class_364	F	field_1500	field_1500	nl	nl
-CLASS	net/minecraft/class_365	net/minecraft/src/IBlockAccess	nm	nm	nm
+CLASS	net/minecraft/class_365	net/minecraft/src/IBlockAccess	nm	nm
 METHOD	net/minecraft/class_365	(III)I	method_1255	method_1255	nm	nm
 METHOD	net/minecraft/class_365	(III)Lic;	method_1256	method_1256	nm	nm
 METHOD	net/minecraft/class_365	(III)F	method_1257	method_1257	nm	nm
 METHOD	net/minecraft/class_365	(III)I	method_1258	method_1258	nm	nm
 METHOD	net/minecraft/class_365	(III)Lgb;	method_1259	method_1259	nm	nm
 METHOD	net/minecraft/class_365	(III)Z	method_1260	method_1260	nm	nm
-CLASS	net/minecraft/class_366	net/minecraft/src/WorldGenLiquids	nn	nn	nn
+CLASS	net/minecraft/class_366	net/minecraft/src/WorldGenLiquids	nn	nn
 FIELD	net/minecraft/class_366	I	field_1501	field_1501	nn	nn
-CLASS	net/minecraft/class_367	net/minecraft/src/BlockLever	no	no	no
+CLASS	net/minecraft/class_367	net/minecraft/src/BlockLever	no	no
 METHOD	net/minecraft/class_367	(II)V	method_1261	method_1261	no	no
 METHOD	net/minecraft/class_367	(Lcn;III)Z	method_1262	method_1262	no	no
-CLASS	net/minecraft/class_368	net/minecraft/src/RedstoneUpdateInfo	np	np	np
+CLASS	net/minecraft/class_368	net/minecraft/src/RedstoneUpdateInfo	np	np
 FIELD	net/minecraft/class_368	I	field_1502	field_1502	np	np
 FIELD	net/minecraft/class_368	I	field_1503	field_1503	np	np
 FIELD	net/minecraft/class_368	I	field_1504	field_1504	np	np
 FIELD	net/minecraft/class_368	J	field_1505	field_1505	np	np
 METHOD	net/minecraft/class_368	(IIIJ)V	method_1263	method_1263	np	np
-CLASS	net/minecraft/class_369	net/minecraft/src/EntityFX	nq	nq	nq
+CLASS	net/minecraft/class_369	net/minecraft/src/EntityFX	nq	nq
 FIELD	net/minecraft/class_369	I	field_1506	field_1506	nq	nq
 FIELD	net/minecraft/class_369	F	field_1507	field_1507	nq	nq
 FIELD	net/minecraft/class_369	F	field_1508	field_1508	nq	nq
@@ -3154,10 +3154,10 @@ METHOD	net/minecraft/class_369	(Lho;FFFFFF)V	method_1265	method_1265	nq	nq
 METHOD	net/minecraft/class_369	(F)Lnq;	method_1266	method_1266	nq	nq
 METHOD	net/minecraft/class_369	()I	method_1267	method_1267	nq	nq
 METHOD	net/minecraft/class_369	(F)Lnq;	method_1268	method_1268	nq	nq
-CLASS	net/minecraft/class_370	net/minecraft/src/MinecraftError	nr	nr	nr
-CLASS	net/minecraft/class_371	net/minecraft/src/RenderSheep	ns	ns	ns
+CLASS	net/minecraft/class_370	net/minecraft/src/MinecraftError	nr	nr
+CLASS	net/minecraft/class_371	net/minecraft/src/RenderSheep	ns	ns
 METHOD	net/minecraft/class_371	(Lbo;I)Z	method_1269	method_1269	ns	ns
-CLASS	net/minecraft/class_372	net/minecraft/src/EntityOtherPlayerMP	nt	nt	nt
+CLASS	net/minecraft/class_372	net/minecraft/src/EntityOtherPlayerMP	nt	nt
 FIELD	net/minecraft/class_372	F	field_1519	field_1519	nt	nt
 FIELD	net/minecraft/class_372	I	field_1520	field_1520	nt	nt
 FIELD	net/minecraft/class_372	D	field_1521	field_1521	nt	nt
@@ -3166,16 +3166,16 @@ FIELD	net/minecraft/class_372	D	field_1523	field_1523	nt	nt
 FIELD	net/minecraft/class_372	D	field_1524	field_1524	nt	nt
 FIELD	net/minecraft/class_372	D	field_1525	field_1525	nt	nt
 METHOD	net/minecraft/class_372	(Lcn;Ljava/lang/String;)V	method_1270	method_1270	nt	nt
-CLASS	net/minecraft/class_373	net/minecraft/src/IProgressUpdate	nu	nu	nu
+CLASS	net/minecraft/class_373	net/minecraft/src/IProgressUpdate	nu	nu
 METHOD	net/minecraft/class_373	(I)V	method_1271	method_1271	nu	nu
 METHOD	net/minecraft/class_373	(Ljava/lang/String;)V	method_1272	method_1272	nu	nu
 METHOD	net/minecraft/class_373	(Ljava/lang/String;)V	method_1273	method_1273	nu	nu
-CLASS	net/minecraft/class_374	net/minecraft/src/GuiEditSign	nv	nv	nv
+CLASS	net/minecraft/class_374	net/minecraft/src/GuiEditSign	nv	nv
 FIELD	net/minecraft/class_374	Ljava/lang/String;	field_1526	field_1526	nv	nv
 FIELD	net/minecraft/class_374	Lob;	field_1527	field_1527	nv	nv
 FIELD	net/minecraft/class_374	I	field_1528	field_1528	nv	nv
 FIELD	net/minecraft/class_374	I	field_1529	field_1529	nv	nv
-CLASS	net/minecraft/class_375	net/minecraft/src/ChunkProviderGenerate	nw	nw	nw
+CLASS	net/minecraft/class_375	net/minecraft/src/ChunkProviderGenerate	nw	nw
 FIELD	net/minecraft/class_375	Llp;	field_1530	field_1530	nw	nw
 FIELD	net/minecraft/class_375	Llp;	field_1531	field_1531	nw	nw
 FIELD	net/minecraft/class_375	Llp;	field_1532	field_1532	nw	nw
@@ -3201,23 +3201,23 @@ METHOD	net/minecraft/class_375	(Lcn;J)V	method_1274	method_1274	nw	nw
 METHOD	net/minecraft/class_375	(II[B)V	method_1275	method_1275	nw	nw
 METHOD	net/minecraft/class_375	([DIIIIII)[D	method_1276	method_1276	nw	nw
 METHOD	net/minecraft/class_375	(II[B)V	method_1277	method_1277	nw	nw
-CLASS	net/minecraft/class_376	net/minecraft/src/ItemFlintAndSteel	nx	nx	nx
-CLASS	net/minecraft/class_377	net/minecraft/src/Packet59ComplexEntity	ny	ny	ny
+CLASS	net/minecraft/class_376	net/minecraft/src/ItemFlintAndSteel	nx	nx
+CLASS	net/minecraft/class_377	net/minecraft/src/Packet59ComplexEntity	ny	ny
 FIELD	net/minecraft/class_377	I	field_1551	field_1551	ny	ny
 FIELD	net/minecraft/class_377	I	field_1552	field_1552	ny	ny
 FIELD	net/minecraft/class_377	I	field_1553	field_1553	ny	ny
 FIELD	net/minecraft/class_377	[B	field_1554	field_1554	ny	ny
 FIELD	net/minecraft/class_377	Lhm;	field_1555	field_1555	ny	ny
 METHOD	net/minecraft/class_377	(IIILic;)V	method_1278	method_1278	ny	ny
-CLASS	net/minecraft/class_378	net/minecraft/src/RenderGiantZombie	nz	nz	nz
+CLASS	net/minecraft/class_378	net/minecraft/src/RenderGiantZombie	nz	nz
 FIELD	net/minecraft/class_378	F	field_1556	field_1556	nz	nz
 METHOD	net/minecraft/class_378	(Lhl;F)V	method_1279	method_1279	nz	nz
-CLASS	net/minecraft/class_379	net/minecraft/src/GuiSmallButton	o	o	o
-CLASS	net/minecraft/class_380	net/minecraft/src/WorldGenTrees	oa	oa	oa
-CLASS	net/minecraft/class_381	net/minecraft/src/TileEntitySign	ob	ob	ob
+CLASS	net/minecraft/class_379	net/minecraft/src/GuiSmallButton	o	o
+CLASS	net/minecraft/class_380	net/minecraft/src/WorldGenTrees	oa	oa
+CLASS	net/minecraft/class_381	net/minecraft/src/TileEntitySign	ob	ob
 FIELD	net/minecraft/class_381	[Ljava/lang/String;	field_1557	field_1557	ob	ob
 FIELD	net/minecraft/class_381	I	field_1558	field_1558	ob	ob
-CLASS	net/minecraft/class_382	net/minecraft/src/EntityMinecart	oc	oc	oc
+CLASS	net/minecraft/class_382	net/minecraft/src/EntityMinecart	oc	oc
 FIELD	net/minecraft/class_382	I	field_1559	field_1559	oc	oc
 FIELD	net/minecraft/class_382	I	field_1560	field_1560	oc	oc
 FIELD	net/minecraft/class_382	I	field_1561	field_1561	oc	oc
@@ -3237,11 +3237,11 @@ FIELD	net/minecraft/class_382	D	field_1574	field_1574	oc	oc
 METHOD	net/minecraft/class_382	(Lcn;DDDI)V	method_1280	method_1280	oc	oc
 METHOD	net/minecraft/class_382	(DDDD)Laj;	method_1281	method_1281	oc	oc
 METHOD	net/minecraft/class_382	(DDD)Laj;	method_1282	method_1282	oc	oc
-CLASS	net/minecraft/class_383	net/minecraft/src/ItemPainting	od	od	od
-CLASS	net/minecraft/class_384	net/minecraft/src/ICamera	oe	oe	oe
+CLASS	net/minecraft/class_383	net/minecraft/src/ItemPainting	od	od
+CLASS	net/minecraft/class_384	net/minecraft/src/ICamera	oe	oe
 METHOD	net/minecraft/class_384	(DDD)V	method_1283	method_1283	oe	oe
 METHOD	net/minecraft/class_384	(Lcf;)Z	method_1284	method_1284	oe	oe
-CLASS	net/minecraft/class_385	net/minecraft/src/SoundManager	of	of	of
+CLASS	net/minecraft/class_385	net/minecraft/src/SoundManager	of	of
 FIELD	net/minecraft/class_385	Lpaulscode/sound/SoundSystem;	field_1575	field_1575	of	of
 FIELD	net/minecraft/class_385	Leb;	field_1576	field_1576	of	of
 FIELD	net/minecraft/class_385	Leb;	field_1577	field_1577	of	of
@@ -3263,7 +3263,7 @@ METHOD	net/minecraft/class_385	(Ljava/lang/String;Ljava/io/File;)V	method_1293	m
 METHOD	net/minecraft/class_385	()V	method_1294	method_1294	of	of
 METHOD	net/minecraft/class_385	(Ljava/lang/String;Ljava/io/File;)V	method_1295	method_1295	of	of
 METHOD	net/minecraft/class_385	()V	method_1296	method_1296	of	of
-CLASS	net/minecraft/class_386	net/minecraft/src/BlockFire	og	og	og
+CLASS	net/minecraft/class_386	net/minecraft/src/BlockFire	og	og
 FIELD	net/minecraft/class_386	[I	field_1584	field_1584	og	og
 FIELD	net/minecraft/class_386	[I	field_1585	field_1585	og	og
 METHOD	net/minecraft/class_386	(II)V	method_1297	method_1297	og	og
@@ -3273,35 +3273,35 @@ METHOD	net/minecraft/class_386	(Lnm;III)Z	method_1300	method_1300	og	og
 METHOD	net/minecraft/class_386	(Lcn;IIII)I	method_1301	method_1301	og	og
 METHOD	net/minecraft/class_386	(Lcn;III)Z	method_1302	method_1302	og	og
 METHOD	net/minecraft/class_386	(Lcn;III)I	method_1303	method_1303	og	og
-CLASS	net/minecraft/class_387	net/minecraft/src/PacketCLASS55KickDisconnect	oh	oh	oh
+CLASS	net/minecraft/class_387	net/minecraft/src/PacketCLASS55KickDisconnect	oh	oh
 FIELD	net/minecraft/class_387	Ljava/lang/String;	field_1586	field_1586	oh	oh
 METHOD	net/minecraft/class_387	(Ljava/lang/String;)V	method_1304	method_1304	oh	oh
-CLASS	net/minecraft/class_388	net/minecraft/src/BlockStep	oi	oi	oi
+CLASS	net/minecraft/class_388	net/minecraft/src/BlockStep	oi	oi
 FIELD	net/minecraft/class_388	Z	field_1587	field_1587	oi	oi
 METHOD	net/minecraft/class_388	(IZ)V	method_1305	method_1305	oi	oi
-CLASS	net/minecraft/class_389	net/minecraft/src/ItemFood	oj	oj	oj
+CLASS	net/minecraft/class_389	net/minecraft/src/ItemFood	oj	oj
 FIELD	net/minecraft/class_389	I	field_1588	field_1588	oj	oj
 METHOD	net/minecraft/class_389	(II)V	method_1306	method_1306	oj	oj
-CLASS	net/minecraft/class_390	net/minecraft/src/RenderSpider	ok	ok	ok
+CLASS	net/minecraft/class_390	net/minecraft/src/RenderSpider	ok	ok
 METHOD	net/minecraft/class_390	(Lax;)F	method_1307	method_1307	ok	ok
 METHOD	net/minecraft/class_390	(Lax;I)Z	method_1308	method_1308	ok	ok
-CLASS	net/minecraft/class_391	net/minecraft/src/ChunkCoordIntPair	ol	ol	ol
+CLASS	net/minecraft/class_391	net/minecraft/src/ChunkCoordIntPair	ol	ol
 FIELD	net/minecraft/class_391	I	field_1589	field_1589	ol	ol
 FIELD	net/minecraft/class_391	I	field_1590	field_1590	ol	ol
 METHOD	net/minecraft/class_391	(II)V	method_1309	method_1309	ol	ol
 METHOD	net/minecraft/class_391	(Ljava/lang/Object;)Z	method_1310	method_1310	ol	ol
-CLASS	net/minecraft/class_392	net/minecraft/src/BlockSnowBlock	p	p	p
+CLASS	net/minecraft/class_392	net/minecraft/src/BlockSnowBlock	p	p
 METHOD	net/minecraft/class_392	(II)V	method_1311	method_1311	p	p
-CLASS	net/minecraft/class_393	net/minecraft/src/BlockTNT	q	q	q
+CLASS	net/minecraft/class_393	net/minecraft/src/BlockTNT	q	q
 METHOD	net/minecraft/class_393	(II)V	method_1312	method_1312	q	q
-CLASS	net/minecraft/class_394	net/minecraft/src/TileEntityMobSpawnerRenderer	r	r	r
+CLASS	net/minecraft/class_394	net/minecraft/src/TileEntityMobSpawnerRenderer	r	r
 FIELD	net/minecraft/class_394	Ljava/util/Map;	field_1591	field_1591	r	r
 METHOD	net/minecraft/class_394	(Lbd;DDDF)V	method_1313	method_1313	r	r
-CLASS	net/minecraft/class_395	net/minecraft/src/PacketMETHODMETHODPlayerPosition	s	s	s
+CLASS	net/minecraft/class_395	net/minecraft/src/PacketMETHODMETHODPlayerPosition	s	s
 METHOD	net/minecraft/class_395	(DDDDZ)V	method_1314	method_1314	s	s
-CLASS	net/minecraft/class_396	net/minecraft/src/StepSoundSand	t	t	t
-CLASS	net/minecraft/class_397	net/minecraft/src/StepSoundGlass	u	u	u
-CLASS	net/minecraft/class_398	net/minecraft/src/NoiseGeneratorPerlin	v	v	v
+CLASS	net/minecraft/class_396	net/minecraft/src/StepSoundSand	t	t
+CLASS	net/minecraft/class_397	net/minecraft/src/StepSoundGlass	u	u
+CLASS	net/minecraft/class_398	net/minecraft/src/NoiseGeneratorPerlin	v	v
 FIELD	net/minecraft/class_398	D	field_1592	field_1592	v	v
 FIELD	net/minecraft/class_398	D	field_1593	field_1593	v	v
 FIELD	net/minecraft/class_398	D	field_1594	field_1594	v	v
@@ -3312,19 +3312,19 @@ METHOD	net/minecraft/class_398	(DDD)D	method_1317	method_1317	v	v
 METHOD	net/minecraft/class_398	(IDDD)D	method_1318	method_1318	v	v
 METHOD	net/minecraft/class_398	([DDDDIIIDDDD)V	method_1319	method_1319	v	v
 METHOD	net/minecraft/class_398	(DDD)D	method_1320	method_1320	v	v
-CLASS	net/minecraft/class_399	net/minecraft/src/MaterialLogic	w	w	w
-CLASS	net/minecraft/class_400	net/minecraft/src/CompressedStreamTools	x	x	x
+CLASS	net/minecraft/class_399	net/minecraft/src/MaterialLogic	w	w
+CLASS	net/minecraft/class_400	net/minecraft/src/CompressedStreamTools	x	x
 METHOD	net/minecraft/class_400	(Lhm;)[B	method_1321	method_1321	x	x
 METHOD	net/minecraft/class_400	(Lhm;Ljava/io/DataOutput;)V	method_1322	method_1322	x	x
 METHOD	net/minecraft/class_400	(Lhm;Ljava/io/OutputStream;)V	method_1323	method_1323	x	x
 METHOD	net/minecraft/class_400	(Ljava/io/DataInput;)Lhm;	method_1324	method_1324	x	x
 METHOD	net/minecraft/class_400	(Ljava/io/InputStream;)Lhm;	method_1325	method_1325	x	x
 METHOD	net/minecraft/class_400	([B)Lhm;	method_1326	method_1326	x	x
-CLASS	net/minecraft/class_401	net/minecraft/src/ItemPickaxe	y	y	y
+CLASS	net/minecraft/class_401	net/minecraft/src/ItemPickaxe	y	y
 FIELD	net/minecraft/class_401	[Lly;	field_1596	field_1596	y	y
 FIELD	net/minecraft/class_401	I	field_1597	field_1597	y	y
 METHOD	net/minecraft/class_401	(II)V	method_1327	method_1327	y	y
-CLASS	net/minecraft/class_402	net/minecraft/src/TextureFX	z	z	z
+CLASS	net/minecraft/class_402	net/minecraft/src/TextureFX	z	z
 FIELD	net/minecraft/class_402	[B	field_1598	field_1598	z	z
 FIELD	net/minecraft/class_402	I	field_1599	field_1599	z	z
 FIELD	net/minecraft/class_402	Z	field_1600	field_1600	z	z
