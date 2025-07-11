@@ -1,13 +1,13 @@
-v1	official	intermediary	named
+v1	official	intermediary
 CLASS	net/minecraft/src/PathPoint	a
-FIELD	I	a	xCoord	a
-FIELD	I	b	yCoord	a
-FIELD	I	c	zCoord	a
-FIELD	I	d	hash	a
-FIELD	I	e	index	a
-FIELD	F	f	totalPathDistance	a
-FIELD	F	g	distanceToNext	a
-FIELD	F	h	distanceToTarget	a
+FIELD	a	I	xCoord	a
+FIELD	b	I	yCoord	a
+FIELD	c	I	zCoord	a
+FIELD	d	I	hash	a
+FIELD	e	I	index	a
+FIELD	f	F	totalPathDistance	a
+FIELD	g	F	distanceToNext	a
+FIELD	h	F	distanceToTarget	a
 FIELD	La;	i	previous	a
 FIELD	Z	j	isFirst	a
 METHOD	(III)V	<init>	<init>	a
@@ -15,36 +15,36 @@ METHOD	()Z	a	isAssigned	a
 METHOD	(La;)F	a	distanceTo	a
 METHOD	(Ljava/lang/Object;)Z	equals	equals	a
 CLASS	net/minecraft/src/TextureCompassFX	aa
-FIELD	[F	g	currentFireFrame	aa
-FIELD	[F	h	lastFireFrame	aa
-FIELD	Lnet/minecraft/client/Minecraft;	i	mc	aa
-FIELD	[I	j	compassIconImageData	aa
-FIELD	D	k	currentAngle	aa
-FIELD	D	l	angleDelta	aa
+FIELD	g	[F	currentFireFrame	aa
+FIELD	h	[F	lastFireFrame	aa
+FIELD	i	Lnet/minecraft/client/Minecraft;	mc	aa
+FIELD	j	[I	compassIconImageData	aa
+FIELD	k	D	currentAngle	aa
+FIELD	l	D	angleDelta	aa
 CLASS	net/minecraft/src/RenderItem	ab
-FIELD	Lbc;	d	itemRenderBlocks	ab
-FIELD	Ljava/util/Random;	e	random	ab
+FIELD	d	Lbc;	itemRenderBlocks	ab
+FIELD	e	Ljava/util/Random;	random	ab
 METHOD	(IIIIII)V	a	renderIcon	ab
 METHOD	(Ldx;DDDFF)V	a	doRenderItem	ab
 METHOD	(Lho;IIIII)V	a	renderQuad	ab
 METHOD	(Lkd;Ley;Lev;II)V	a	renderItemIntoGUI	ab
 METHOD	(Lkd;Ley;Lev;II)V	b	renderItemOverlayIntoGUI	ab
 CLASS	net/minecraft/src/ItemBucket	ac
-FIELD	I	a	isFull	ac
+FIELD	a	I	isFull	ac
 METHOD	(II)V	<init>	<init>	ac
 CLASS	net/minecraft/src/CanvasIsomPreview	ad
-FIELD	I	a	currentRender	ad
-FIELD	I	b	zoomLevel	ad
-FIELD	Z	c	displayHelpText	ad
-FIELD	Lcn;	d	level	ad
-FIELD	Ljava/io/File;	e	dataFolder	ad
-FIELD	Z	f	running	ad
-FIELD	Ljava/util/List;	g	zonesToRender	ad
-FIELD	[[Ljj;	h	zoneMap	ad
-FIELD	I	i	translateX	ad
-FIELD	I	j	translateY	ad
-FIELD	I	k	xPosition	ad
-FIELD	I	l	yPosition	ad
+FIELD	a	I	currentRender	ad
+FIELD	b	I	zoomLevel	ad
+FIELD	c	Z	displayHelpText	ad
+FIELD	d	Lcn;	level	ad
+FIELD	e	Ljava/io/File;	dataFolder	ad
+FIELD	f	Z	running	ad
+FIELD	g	Ljava/util/List;	zonesToRender	ad
+FIELD	h	[[Ljj;	zoneMap	ad
+FIELD	i	I	translateX	ad
+FIELD	j	I	translateY	ad
+FIELD	k	I	xPosition	ad
+FIELD	l	I	yPosition	ad
 METHOD	()Ljava/io/File;	a	getWorkingDirectory	ad
 METHOD	(I)V	a	setBrightness	ad
 METHOD	(II)Ljj;	a	getZone	ad
@@ -69,7 +69,7 @@ METHOD	(Ljava/awt/event/MouseEvent;)V	mouseReleased	mouseReleased	ad
 METHOD	(Ljava/awt/Graphics;)V	paint	paint	ad
 METHOD	(Ljava/awt/Graphics;)V	update	update	ad
 CLASS	net/minecraft/src/WorldGenFlowers	ae
-FIELD	I	a	plantBlockId	ae
+FIELD	a	I	plantBlockId	ae
 CLASS	net/minecraft/src/IChunkLoader	af
 METHOD	()V	a	chunkTick	af
 METHOD	(Lcn;II)Lga;	a	loadChunk	af
@@ -78,19 +78,19 @@ METHOD	()V	b	saveExtraData	af
 METHOD	(Lcn;Lga;)V	b	saveExtraChunkData	af
 CLASS	net/minecraft/src/EntityAnimal	ag
 CLASS	net/minecraft/src/SoundPoolEntry	ah
-FIELD	Ljava/lang/String;	a	soundName	ah
-FIELD	Ljava/net/URL;	b	soundUrl	ah
+FIELD	a	Ljava/lang/String;	soundName	ah
+FIELD	b	Ljava/net/URL;	soundUrl	ah
 CLASS	net/minecraft/src/BlockRedstoneOre	ai
-FIELD	Z	a	glowing	ai
+FIELD	a	Z	glowing	ai
 METHOD	(IIZ)V	<init>	<init>	ai
 METHOD	(Lcn;III)V	h	glow	ai
 METHOD	(Lcn;III)V	i	sparkle	ai
 CLASS	net/minecraft/src/VecFIELDD	aj
-FIELD	D	a	xCoord	aj
-FIELD	D	b	yCoord	aj
-FIELD	D	c	zCoord	aj
-FIELD	Ljava/util/List;	d	vectorList	aj
-FIELD	I	e	nextVector	aj
+FIELD	a	D	xCoord	aj
+FIELD	b	D	yCoord	aj
+FIELD	c	D	zCoord	aj
+FIELD	d	Ljava/util/List;	vectorList	aj
+FIELD	e	I	nextVector	aj
 METHOD	(DDD)V	<init>	<init>	aj
 METHOD	()V	a	initialize	aj
 METHOD	(DDD)Laj;	a	createVectorHelper	aj
@@ -110,11 +110,11 @@ METHOD	(DDD)D	d	squareDistanceTo	aj
 METHOD	(Laj;)D	d	squareDistanceTo	aj
 METHOD	(DDD)Laj;	e	setComponents	aj
 CLASS	net/minecraft/src/Render	ak
-FIELD	Lkx;	a	renderManager	ak
-FIELD	F	b	shadowSize	ak
-FIELD	F	c	shadowOpaque	ak
-FIELD	Lfo;	d	modelBase	ak
-FIELD	Lbc;	e	renderBlocks	ak
+FIELD	a	Lkx;	renderManager	ak
+FIELD	b	F	shadowSize	ak
+FIELD	c	F	shadowOpaque	ak
+FIELD	d	Lfo;	modelBase	ak
+FIELD	e	Lbc;	renderBlocks	ak
 METHOD	()Lkd;	a	getFontRendererFromRenderManager	ak
 METHOD	(Lcf;)V	a	renderAABB	ak
 METHOD	(Lcf;DDD)V	a	renderOffsetAABB	ak
@@ -128,43 +128,43 @@ METHOD	()Lcn;	b	getWorldFromRenderManager	ak
 METHOD	(Lkh;DDDFF)V	b	doRenderShadowAndFire	ak
 METHOD	(Lkh;DDDFF)V	c	renderShadow	ak
 CLASS	net/minecraft/src/BlockPressurePlate	al
-FIELD	Ljs;	a	triggerMobType	al
+FIELD	a	Ljs;	triggerMobType	al
 METHOD	(IILjs;)V	<init>	<init>	al
 METHOD	(Lcn;III)V	h	setStateIfMobInteractsWithPlate	al
 CLASS	net/minecraft/src/EntityCow	am
-FIELD	Z	a	unusedBoolCLASS	am
+FIELD	a	Z	unusedBoolCLASS	am
 CLASS	net/minecraft/src/SlotCrafting	an
-FIELD	Lgh;	c	craftMatrix	an
+FIELD	c	Lgh;	craftMatrix	an
 METHOD	(Lee;Lgh;Lgh;III)V	<init>	<init>	an
 CLASS	net/minecraft/src/EntitySnowball	ao
-FIELD	I	a	throwableShake	ao
-FIELD	I	b	xTile	ao
-FIELD	I	c	yTile	ao
-FIELD	I	d	zTile	ao
-FIELD	I	e	inTile	ao
-FIELD	Z	f	inGround	ao
-FIELD	Lge;	g	thrower	ao
-FIELD	I	h	ticksInGround	ao
-FIELD	I	i	ticksInAir	ao
+FIELD	a	I	throwableShake	ao
+FIELD	b	I	xTile	ao
+FIELD	c	I	yTile	ao
+FIELD	d	I	zTile	ao
+FIELD	e	I	inTile	ao
+FIELD	f	Z	inGround	ao
+FIELD	g	Lge;	thrower	ao
+FIELD	h	I	ticksInGround	ao
+FIELD	i	I	ticksInAir	ao
 METHOD	(DDDFF)V	a	setThrowableHeading	ao
 CLASS	net/minecraft/src/ItemSoup	ap
 CLASS	net/minecraft/src/PanelCrashReport	aq
 METHOD	(Lgo;)V	<init>	<init>	aq
 CLASS	net/minecraft/src/CraftingInventoryCB	ar
-FIELD	Ljava/util/List;	c	list	ar
+FIELD	c	Ljava/util/List;	list	ar
 METHOD	(Ldm;)V	a	onCraftGuiClosed	ar
 METHOD	(Lgh;)V	a	onCraftMatrixChanged	ar
 CLASS	net/minecraft/src/GuiErrorScreen	as
-FIELD	Ljava/lang/String;	a	title	as
-FIELD	Ljava/lang/String;	h	text	as
+FIELD	a	Ljava/lang/String;	title	as
+FIELD	h	Ljava/lang/String;	text	as
 CLASS	net/minecraft/src/TextureLavaFX	at
-FIELD	[F	g	red	at
-FIELD	[F	h	green	at
-FIELD	[F	i	blue	at
-FIELD	[F	j	alpha	at
+FIELD	g	[F	red	at
+FIELD	h	[F	green	at
+FIELD	i	[F	blue	at
+FIELD	j	[F	alpha	at
 CLASS	net/minecraft/src/GuiGameOver	au
 CLASS	net/minecraft/src/ItemBlock	av
-FIELD	I	a	blockID	av
+FIELD	a	I	blockID	av
 CLASS	net/minecraft/src/IChunkProvider	aw
 METHOD	()Z	a	unloadMETHOD00OldestChunks	aw
 METHOD	(II)Z	a	chunkExists	aw
@@ -174,35 +174,35 @@ METHOD	()Z	b	canSave	aw
 METHOD	(II)Lga;	b	provideChunk	aw
 CLASS	net/minecraft/src/EntitySpider	ax
 CLASS	net/minecraft/src/GuiOptions	ay
-FIELD	Ljava/lang/String;	a	screenTitle	ay
-FIELD	Lbh;	h	parentScreen	ay
-FIELD	Lfr;	i	options	ay
+FIELD	a	Ljava/lang/String;	screenTitle	ay
+FIELD	h	Lbh;	parentScreen	ay
+FIELD	i	Lfr;	options	ay
 CLASS	net/minecraft/src/SpawnerAnimals	az
-FIELD	I	a	maxSpawns	az
-FIELD	Ljava/lang/CLASS;	b	entityType	az
-FIELD	[Ljava/lang/CLASS;	c	entities	az
-FIELD	Ljava/util/Set;	d	eligibleChunksForSpawning	az
+FIELD	a	I	maxSpawns	az
+FIELD	b	Ljava/lang/CLASS;	entityType	az
+FIELD	c	[Ljava/lang/CLASS;	entities	az
+FIELD	d	Ljava/util/Set;	eligibleChunksForSpawning	az
 METHOD	(Lcn;)V	a	onUpdate	az
 METHOD	(Lcn;II)Lmt;	a	getRandomSpawningPointInChunk	az
 METHOD	(Lcn;ILnu;)I	a	performSpawning	az
 CLASS	net/minecraft/src/BlockChest	b
-FIELD	Ljava/util/Random;	a	random	b
+FIELD	a	Ljava/util/Random;	random	b
 METHOD	(I)V	<init>	<init>	b
 METHOD	(Lcn;III)Z	h	isThereANeighborChest	b
 CLASS	net/minecraft/src/EntityBubbleFX	ba
 CLASS	net/minecraft/src/StepSound	bb
-FIELD	Ljava/lang/String;	a	stepSoundName	bb
-FIELD	F	b	stepSoundVolume	bb
-FIELD	F	c	stepSoundPitch	bb
+FIELD	a	Ljava/lang/String;	stepSoundName	bb
+FIELD	b	F	stepSoundVolume	bb
+FIELD	c	F	stepSoundPitch	bb
 METHOD	()Ljava/lang/String;	a	getBreakSound	bb
 METHOD	()F	b	getVolume	bb
 METHOD	()F	c	getPitch	bb
 METHOD	()Ljava/lang/String;	d	getStepSound	bb
 CLASS	net/minecraft/src/RenderBlocks	bc
-FIELD	Lnm;	a	blockAccess	bc
-FIELD	I	b	overrideBlockTexture	bc
-FIELD	Z	c	flipTexture	bc
-FIELD	Z	d	renderAllFaces	bc
+FIELD	a	Lnm;	blockAccess	bc
+FIELD	b	I	overrideBlockTexture	bc
+FIELD	c	Z	flipTexture	bc
+FIELD	d	Z	renderAllFaces	bc
 METHOD	(Lnm;)V	<init>	<init>	bc
 METHOD	(I)Z	a	renderItemInFIELDd	bc
 METHOD	(IIILgb;)F	a	getFluidHeight	bc
@@ -237,19 +237,19 @@ METHOD	(Lly;III)Z	m	renderBlockFence	bc
 METHOD	(Lly;III)Z	n	renderBlockStairs	bc
 METHOD	(Lly;III)Z	o	renderBlockDoor	bc
 CLASS	net/minecraft/src/TileEntityMobSpawner	bd
-FIELD	I	a	delay	bd
-FIELD	Ljava/lang/String;	b	mobID	bd
-FIELD	D	c	yaw	bd
-FIELD	D	d	prevYaw	bd
+FIELD	a	I	delay	bd
+FIELD	b	Ljava/lang/String;	mobID	bd
+FIELD	c	D	yaw	bd
+FIELD	d	D	prevYaw	bd
 METHOD	()Z	a	anyPlayerInRange	bd
 METHOD	()V	c	updateDelay	bd
 CLASS	net/minecraft/src/OpenGlCapsChecker	be
-FIELD	Z	a	tryCheckOcclusionCapable	be
+FIELD	a	Z	tryCheckOcclusionCapable	be
 METHOD	()Z	a	checkARBOcclusion	be
 CLASS	net/minecraft/src/ThreadDownloadResources	bf
-FIELD	Ljava/io/File;	a	resourcesFolder	bf
-FIELD	Lnet/minecraft/client/Minecraft;	b	mc	bf
-FIELD	Z	c	closing	bf
+FIELD	a	Ljava/io/File;	resourcesFolder	bf
+FIELD	b	Lnet/minecraft/client/Minecraft;	mc	bf
+FIELD	c	Z	closing	bf
 METHOD	(Ljava/io/File;Lnet/minecraft/client/Minecraft;)V	<init>	<init>	bf
 METHOD	()V	a	reloadResources	bf
 METHOD	(Ljava/io/File;Ljava/lang/String;)V	a	loadResource	bf
@@ -257,19 +257,19 @@ METHOD	(Ljava/net/URL;Ljava/io/File;J)V	a	downloadResource	bf
 METHOD	(Ljava/net/URL;Ljava/lang/String;JI)V	a	downloadAndInstallResource	bf
 METHOD	()V	b	closeMinecraft	bf
 CLASS	net/minecraft/src/BlockRedstoneTorch	bg
-FIELD	Z	a	torchActive	bg
-FIELD	Ljava/util/List;	b	torchUpdates	bg
+FIELD	a	Z	torchActive	bg
+FIELD	b	Ljava/util/List;	torchUpdates	bg
 METHOD	(IIZ)V	<init>	<init>	bg
 METHOD	(Lcn;IIIZ)Z	a	checkForBurnout	bg
 METHOD	(Lcn;III)Z	h	isIndirectlyPowered	bg
 CLASS	net/minecraft/src/GuiScreen	bh
-FIELD	Lfk;	a	selectedButton	bh
-FIELD	Lnet/minecraft/client/Minecraft;	b	mc	bh
-FIELD	I	c	width	bh
-FIELD	I	d	height	bh
-FIELD	Ljava/util/List;	e	controlList	bh
-FIELD	Z	f	allowUserInput	bh
-FIELD	Lkd;	g	fontRenderer	bh
+FIELD	a	Lfk;	selectedButton	bh
+FIELD	b	Lnet/minecraft/client/Minecraft;	mc	bh
+FIELD	c	I	width	bh
+FIELD	d	I	height	bh
+FIELD	e	Ljava/util/List;	controlList	bh
+FIELD	f	Z	allowUserInput	bh
+FIELD	g	Lkd;	fontRenderer	bh
 METHOD	()V	a	initGui	bh
 METHOD	(CI)V	a	keyTyped	bh
 METHOD	(I)V	a	drawWorldBackground	bh
@@ -289,8 +289,8 @@ METHOD	()V	g	updateScreen	bh
 METHOD	()V	h	onGuiClosed	bh
 METHOD	()V	i	drawDefaultBackground	bh
 CLASS	net/minecraft/src/EntityPlayerSP	bi
-FIELD	Llv;	a	movementInput	bi
-FIELD	Lnet/minecraft/client/Minecraft;	bg	mc	bi
+FIELD	a	Llv;	movementInput	bi
+FIELD	bg	Lnet/minecraft/client/Minecraft;	mc	bi
 METHOD	(Lnet/minecraft/client/Minecraft;Lcn;Ldl;)V	<init>	<init>	bi
 METHOD	(IZ)V	a	handleKeyPress	bi
 METHOD	(Ljava/lang/String;)V	a	sendChatMessage	bi
@@ -302,49 +302,49 @@ CLASS	net/minecraft/src/BlockMobSpawner	bj
 METHOD	(II)V	<init>	<init>	bj
 CLASS	net/minecraft/src/NoiseGenerator	bk
 CLASS	net/minecraft/src/PathEntity	bl
-FIELD	I	a	pathLength	bl
-FIELD	[La;	b	points	bl
-FIELD	I	c	pathIndex	bl
+FIELD	a	I	pathLength	bl
+FIELD	b	[La;	points	bl
+FIELD	c	I	pathIndex	bl
 METHOD	([La;)V	<init>	<init>	bl
 METHOD	()V	a	incrementPathIndex	bl
 METHOD	(Lkh;)Laj;	a	getPosition	bl
 METHOD	()Z	b	isFinished	bl
 CLASS	net/minecraft/src/PacketCLASSCLASSCollect	bm
-FIELD	I	a	collectedEntityId	bm
-FIELD	I	b	collectorEntityId	bm
+FIELD	a	I	collectedEntityId	bm
+FIELD	b	I	collectorEntityId	bm
 CLASS	net/minecraft/src/WorldRenderer	bn
-FIELD	Z	A	isChunkLit	bn
-FIELD	Ljava/util/List;	B	tileEntityRenderers	bn
-FIELD	I	C	glRenderList	bn
-FIELD	Lho;	D	tessellator	bn
-FIELD	Z	E	isInitialized	bn
-FIELD	Ljava/util/List;	F	tileEntities	bn
-FIELD	Lcn;	a	worldObj	bn
-FIELD	I	b	chunksUpdated	bn
-FIELD	I	c	posX	bn
-FIELD	I	d	posY	bn
-FIELD	I	e	posZ	bn
-FIELD	I	f	sizeWidth	bn
-FIELD	I	g	sizeHeight	bn
-FIELD	I	h	sizeDepth	bn
-FIELD	I	i	posXMinus	bn
-FIELD	I	j	posYMinus	bn
-FIELD	I	k	posZMinus	bn
-FIELD	I	l	posXClip	bn
-FIELD	I	m	posYClip	bn
-FIELD	I	n	posZClip	bn
-FIELD	Z	o	isInFrustum	bn
-FIELD	[Z	p	skipRenderPass	bn
-FIELD	I	q	posXPlus	bn
-FIELD	I	r	posYPlus	bn
-FIELD	I	s	posZPlus	bn
-FIELD	F	t	rendererRadius	bn
-FIELD	Z	u	needsUpdate	bn
-FIELD	Lcf;	v	rendererBoundingBox	bn
-FIELD	I	w	chunkIndex	bn
-FIELD	Z	x	isVisible	bn
-FIELD	Z	y	isWaitingOnOcclusionQuery	bn
-FIELD	I	z	glOcclusionQuery	bn
+FIELD	A	Z	isChunkLit	bn
+FIELD	B	Ljava/util/List;	tileEntityRenderers	bn
+FIELD	C	I	glRenderList	bn
+FIELD	D	Lho;	tessellator	bn
+FIELD	E	Z	isInitialized	bn
+FIELD	F	Ljava/util/List;	tileEntities	bn
+FIELD	a	Lcn;	worldObj	bn
+FIELD	b	I	chunksUpdated	bn
+FIELD	c	I	posX	bn
+FIELD	d	I	posY	bn
+FIELD	e	I	posZ	bn
+FIELD	f	I	sizeWidth	bn
+FIELD	g	I	sizeHeight	bn
+FIELD	h	I	sizeDepth	bn
+FIELD	i	I	posXMinus	bn
+FIELD	j	I	posYMinus	bn
+FIELD	k	I	posZMinus	bn
+FIELD	l	I	posXClip	bn
+FIELD	m	I	posYClip	bn
+FIELD	n	I	posZClip	bn
+FIELD	o	Z	isInFrustum	bn
+FIELD	p	[Z	skipRenderPass	bn
+FIELD	q	I	posXPlus	bn
+FIELD	r	I	posYPlus	bn
+FIELD	s	I	posZPlus	bn
+FIELD	t	F	rendererRadius	bn
+FIELD	u	Z	needsUpdate	bn
+FIELD	v	Lcf;	rendererBoundingBox	bn
+FIELD	w	I	chunkIndex	bn
+FIELD	x	Z	isVisible	bn
+FIELD	y	Z	isWaitingOnOcclusionQuery	bn
+FIELD	z	I	glOcclusionQuery	bn
 METHOD	()V	a	updateRenderer	bn
 METHOD	(I)I	a	getGLCallListForPass	bn
 METHOD	(III)V	a	setPosition	bn
@@ -357,13 +357,13 @@ METHOD	()Z	e	skipAllRenderPasses	bn
 METHOD	()V	f	markDirty	bn
 METHOD	()V	g	setupGLTranslation	bn
 CLASS	net/minecraft/src/EntitySheep	bo
-FIELD	Z	a	sheared	bo
+FIELD	a	Z	sheared	bo
 CLASS	net/minecraft/src/ItemSnowball	bp
 CLASS	net/minecraft/src/EffectRenderer	bq
-FIELD	Lcn;	a	worldObj	bq
-FIELD	[Ljava/util/List;	b	fxLayers	bq
-FIELD	Ley;	c	renderEngine	bq
-FIELD	Ljava/util/Random;	d	rand	bq
+FIELD	a	Lcn;	worldObj	bq
+FIELD	b	[Ljava/util/List;	fxLayers	bq
+FIELD	c	Ley;	renderEngine	bq
+FIELD	d	Ljava/util/Random;	rand	bq
 METHOD	(Lcn;Ley;)V	<init>	<init>	bq
 METHOD	()V	a	updateEffects	bq
 METHOD	(III)V	a	addBlockDestroyEffects	bq
@@ -376,85 +376,85 @@ METHOD	(Lkh;F)V	b	renderLitParticles	bq
 CLASS	net/minecraft/src/BlockLadder	br
 METHOD	(II)V	<init>	<init>	br
 CLASS	net/minecraft/src/ItemTool	bs
-FIELD	I	a	toolMaterial	bs
-FIELD	[Lly;	aX	blocksEffectiveAgainst	bs
-FIELD	F	aY	efficiencyOnProperMaterial	bs
-FIELD	I	aZ	damageVsEntity	bs
+FIELD	a	I	toolMaterial	bs
+FIELD	aX	[Lly;	blocksEffectiveAgainst	bs
+FIELD	aY	F	efficiencyOnProperMaterial	bs
+FIELD	aZ	I	damageVsEntity	bs
 METHOD	(III[Lly;)V	<init>	<init>	bs
 CLASS	net/minecraft/src/ClippingHelper	bt
-FIELD	[[F	a	frustum	bt
-FIELD	[F	b	projectionMatrix	bt
-FIELD	[F	c	modelviewMatrix	bt
-FIELD	[F	d	clippingMatrix	bt
+FIELD	a	[[F	frustum	bt
+FIELD	b	[F	projectionMatrix	bt
+FIELD	c	[F	modelviewMatrix	bt
+FIELD	d	[F	clippingMatrix	bt
 METHOD	(DDDDDD)Z	a	isBoxInFrustum	bt
 CLASS	net/minecraft/src/RenderPlayer	bu
-FIELD	Lcr;	f	modelBipedMain	bu
-FIELD	Lcr;	g	modelArmorChestplate	bu
-FIELD	Lcr;	h	modelArmor	bu
-FIELD	[Ljava/lang/String;	i	armorFilenamePrefix	bu
+FIELD	f	Lcr;	modelBipedMain	bu
+FIELD	g	Lcr;	modelArmorChestplate	bu
+FIELD	h	Lcr;	modelArmor	bu
+FIELD	i	[Ljava/lang/String;	armorFilenamePrefix	bu
 METHOD	(Ldm;DDDFF)V	a	renderPlayer	bu
 METHOD	(Ldm;F)V	a	renderSpecials	bu
 METHOD	(Ldm;I)Z	a	setArmorModel	bu
 METHOD	()V	b	drawFirstPersonHand	bu
 METHOD	(Ldm;F)V	b	scalePlayer	bu
 CLASS	net/minecraft/src/CraftingRecipe	bv
-FIELD	I	a	resultId	bv
-FIELD	I	b	width	bv
-FIELD	I	c	height	bv
-FIELD	[I	d	ingredientMap	bv
-FIELD	Lev;	e	resultStack	bv
+FIELD	a	I	resultId	bv
+FIELD	b	I	width	bv
+FIELD	c	I	height	bv
+FIELD	d	[I	ingredientMap	bv
+FIELD	e	Lev;	resultStack	bv
 METHOD	(II[ILev;)V	<init>	<init>	bv
 METHOD	()I	a	getRecipeSize	bv
 METHOD	([I)Z	a	matches	bv
 METHOD	([IIIZ)Z	a	checkMatch	bv
 METHOD	([I)Lev;	b	getCraftingResult	bv
 CLASS	net/minecraft/src/RenderPainting	bw
-FIELD	Ljava/util/Random;	d	rand	bw
+FIELD	d	Ljava/util/Random;	rand	bw
 METHOD	(Ljc;DDDFF)V	a	renderThePainting	bw
 METHOD	(Ljc;FF)V	a	getOffset	bw
 METHOD	(Ljc;IIII)V	a	setSizes	bw
 CLASS	net/minecraft/src/ModelSheepFur	bx
 CLASS	net/minecraft/src/EnumSkyBlock	by
-FIELD	Lby;	a	Sky	by
-FIELD	Lby;	b	Block	by
-FIELD	I	c	defaultLightValue	by
+FIELD	a	Lby;	Sky	by
+FIELD	b	Lby;	Block	by
+FIELD	c	I	defaultLightValue	by
 CLASS	net/minecraft/src/Packet5METHODMapChunk	bz
-FIELD	I	a	xPosition	bz
-FIELD	I	b	yPosition	bz
-FIELD	I	c	zPosition	bz
-FIELD	I	d	xSize	bz
-FIELD	I	e	ySize	bz
-FIELD	I	f	zSize	bz
-FIELD	[B	g	chunkData	bz
-FIELD	I	h	tempLength	bz
+FIELD	a	I	xPosition	bz
+FIELD	b	I	yPosition	bz
+FIELD	c	I	zPosition	bz
+FIELD	d	I	xSize	bz
+FIELD	e	I	ySize	bz
+FIELD	f	I	zSize	bz
+FIELD	g	[B	chunkData	bz
+FIELD	h	I	tempLength	bz
 CLASS	net/minecraft/src/BlockOreBlock	c
 METHOD	(II)V	<init>	<init>	c
 CLASS	net/minecraft/src/ModelPig	ca
 CLASS	net/minecraft/src/ModelZombie	cb
 CLASS	net/minecraft/src/ThreadDownloadImageData	cc
-FIELD	Ljava/awt/image/BufferedImage;	a	image	cc
-FIELD	I	b	referenceCount	cc
-FIELD	I	c	textureName	cc
-FIELD	Z	d	textureSetupComplete	cc
+FIELD	a	Ljava/awt/image/BufferedImage;	image	cc
+FIELD	b	I	referenceCount	cc
+FIELD	c	I	textureName	cc
+FIELD	d	Z	textureSetupComplete	cc
 METHOD	(Ljava/lang/String;Lhb;)V	<init>	<init>	cc
 CLASS	net/minecraft/src/EntityPickupFX	cd
-FIELD	Lkh;	a	entityToPickUp	cd
-FIELD	Lkh;	o	entityPickingUp	cd
-FIELD	I	p	age	cd
-FIELD	I	q	maxAge	cd
-FIELD	F	r	yOffs	cd
+FIELD	a	Lkh;	entityToPickUp	cd
+FIELD	o	Lkh;	entityPickingUp	cd
+FIELD	p	I	age	cd
+FIELD	q	I	maxAge	cd
+FIELD	r	F	yOffs	cd
 METHOD	(Lcn;Lkh;Lkh;F)V	<init>	<init>	cd
 CLASS	net/minecraft/src/BlockStone	ce
 METHOD	(II)V	<init>	<init>	ce
 CLASS	net/minecraft/src/AxisAlignedBB	cf
-FIELD	D	a	minX	cf
-FIELD	D	b	minY	cf
-FIELD	D	c	minZ	cf
-FIELD	D	d	maxX	cf
-FIELD	D	e	maxY	cf
-FIELD	D	f	maxZ	cf
-FIELD	Ljava/util/List;	g	boundingBoxes	cf
-FIELD	I	h	numBoundingBoxesInUse	cf
+FIELD	a	D	minX	cf
+FIELD	b	D	minY	cf
+FIELD	c	D	minZ	cf
+FIELD	d	D	maxX	cf
+FIELD	e	D	maxY	cf
+FIELD	f	D	maxZ	cf
+FIELD	g	Ljava/util/List;	boundingBoxes	cf
+FIELD	h	I	numBoundingBoxesInUse	cf
 METHOD	(DDDDDD)V	<init>	<init>	cf
 METHOD	()V	a	clearBoundingBoxPool	cf
 METHOD	(DDD)Lcf;	a	addCoord	cf
@@ -481,67 +481,67 @@ METHOD	(Ljava/util/Random;)Ljava/lang/String;	b	pickMobSpawner	cg
 CLASS	net/minecraft/src/PacketMETHODFIELDPlayerLookMove	ch
 METHOD	(DDDDFFZ)V	<init>	<init>	ch
 CLASS	net/minecraft/src/ChunkCache	ci
-FIELD	I	a	chunkX	ci
-FIELD	I	b	chunkZ	ci
-FIELD	[[Lga;	c	chunkArray	ci
-FIELD	Lcn;	d	worldObj	ci
+FIELD	a	I	chunkX	ci
+FIELD	b	I	chunkZ	ci
+FIELD	c	[[Lga;	chunkArray	ci
+FIELD	d	Lcn;	worldObj	ci
 METHOD	(Lcn;IIIIII)V	<init>	<init>	ci
 METHOD	(IIIZ)I	a	getLightValueExt	ci
 METHOD	(III)I	d	getLightValue	ci
 CLASS	net/minecraft/src/GuiConnectFailed	cj
-FIELD	Ljava/lang/String;	a	message	cj
-FIELD	Ljava/lang/String;	h	description	cj
+FIELD	a	Ljava/lang/String;	message	cj
+FIELD	h	Ljava/lang/String;	description	cj
 METHOD	(Ljava/lang/String;Ljava/lang/String;)V	<init>	<init>	cj
 CLASS	net/minecraft/src/ChunkProviderIso	ck
-FIELD	[B	a	blocks	ck
-FIELD	[Lga;	b	chunks	ck
-FIELD	Lcn;	c	worldObj	ck
-FIELD	Laf;	d	chunkLoader	ck
+FIELD	a	[B	blocks	ck
+FIELD	b	[Lga;	chunks	ck
+FIELD	c	Lcn;	worldObj	ck
+FIELD	d	Laf;	chunkLoader	ck
 METHOD	(Lcn;Laf;)V	<init>	<init>	ck
 METHOD	(II)Lga;	c	getChunkAt	ck
 CLASS	net/minecraft/src/ModelBoat	cl
-FIELD	[Lip;	a	boatSides	cl
+FIELD	a	[Lip;	boatSides	cl
 CLASS	net/minecraft/src/BlockObsidian	cm
 CLASS	net/minecraft/src/World	cn
-FIELD	Ljava/util/List;	A	unloadedEntityList	cn
-FIELD	Ljava/util/TreeSet;	B	scheduledTickTreeSet	cn
-FIELD	Ljava/util/Set;	C	scheduledTickSet	cn
-FIELD	J	D	skyColor	cn
-FIELD	J	E	fogColor	cn
-FIELD	J	F	cloudColor	cn
-FIELD	J	G	lockTimestamp	cn
-FIELD	Law;	H	chunkProvider	cn
-FIELD	Lhm;	I	nbtCompoundPlayer	cn
-FIELD	Ljava/util/ArrayList;	J	collidingBoundingBoxes	cn
-FIELD	Ljava/util/Set;	K	positionsToUpdate	cn
-FIELD	I	L	soundCounter	cn
-FIELD	Ljava/util/List;	M	entitiesWithinAABBExcludingEntity	cn
-FIELD	Ljava/util/List;	a	loadedEntityList	cn
-FIELD	Ljava/util/List;	b	loadedTileEntityList	cn
-FIELD	J	c	worldTime	cn
-FIELD	Z	d	snowCovered	cn
-FIELD	I	e	skylightSubtracted	cn
-FIELD	I	f	updateLCG	cn
-FIELD	I	g	DIST_HASH_MAGIC	cn
-FIELD	Z	h	editingBlocks	cn
-FIELD	[F	i	lightBrightnessTable	cn
-FIELD	I	j	autosavePeriod	cn
-FIELD	Ljava/util/List;	k	playerEntities	cn
-FIELD	I	l	difficultySetting	cn
-FIELD	Ljava/lang/Object;	m	fontRenderer	cn
-FIELD	Ljava/util/Random;	n	rand	cn
-FIELD	I	o	spawnX	cn
-FIELD	I	p	spawnY	cn
-FIELD	I	q	spawnZ	cn
-FIELD	Z	r	isNewWorld	cn
-FIELD	Ljava/util/List;	s	worldAccesses	cn
-FIELD	Ljava/io/File;	t	saveDirectory	cn
-FIELD	J	u	randomSeed	cn
-FIELD	J	v	sizeOnDisk	cn
-FIELD	Ljava/lang/String;	w	levelName	cn
-FIELD	Z	x	worldChunkLoadOverride	cn
-FIELD	Z	y	multiplayerWorld	cn
-FIELD	Ljava/util/List;	z	lightingToUpdate	cn
+FIELD	A	Ljava/util/List;	unloadedEntityList	cn
+FIELD	B	Ljava/util/TreeSet;	scheduledTickTreeSet	cn
+FIELD	C	Ljava/util/Set;	scheduledTickSet	cn
+FIELD	D	J	skyColor	cn
+FIELD	E	J	fogColor	cn
+FIELD	F	J	cloudColor	cn
+FIELD	G	J	lockTimestamp	cn
+FIELD	H	Law;	chunkProvider	cn
+FIELD	I	Lhm;	nbtCompoundPlayer	cn
+FIELD	J	Ljava/util/ArrayList;	collidingBoundingBoxes	cn
+FIELD	K	Ljava/util/Set;	positionsToUpdate	cn
+FIELD	L	I	soundCounter	cn
+FIELD	M	Ljava/util/List;	entitiesWithinAABBExcludingEntity	cn
+FIELD	a	Ljava/util/List;	loadedEntityList	cn
+FIELD	b	Ljava/util/List;	loadedTileEntityList	cn
+FIELD	c	J	worldTime	cn
+FIELD	d	Z	snowCovered	cn
+FIELD	e	I	skylightSubtracted	cn
+FIELD	f	I	updateLCG	cn
+FIELD	g	I	DIST_HASH_MAGIC	cn
+FIELD	h	Z	editingBlocks	cn
+FIELD	i	[F	lightBrightnessTable	cn
+FIELD	j	I	autosavePeriod	cn
+FIELD	k	Ljava/util/List;	playerEntities	cn
+FIELD	l	I	difficultySetting	cn
+FIELD	m	Ljava/lang/Object;	fontRenderer	cn
+FIELD	n	Ljava/util/Random;	rand	cn
+FIELD	o	I	spawnX	cn
+FIELD	p	I	spawnY	cn
+FIELD	q	I	spawnZ	cn
+FIELD	r	Z	isNewWorld	cn
+FIELD	s	Ljava/util/List;	worldAccesses	cn
+FIELD	t	Ljava/io/File;	saveDirectory	cn
+FIELD	u	J	randomSeed	cn
+FIELD	v	J	sizeOnDisk	cn
+FIELD	w	Ljava/lang/String;	levelName	cn
+FIELD	x	Z	worldChunkLoadOverride	cn
+FIELD	y	Z	multiplayerWorld	cn
+FIELD	z	Ljava/util/List;	lightingToUpdate	cn
 METHOD	(Ljava/io/File;Ljava/lang/String;)V	<init>	<init>	cn
 METHOD	(Ljava/io/File;Ljava/lang/String;J)V	<init>	<init>	cn
 METHOD	(Ljava/lang/String;)V	<init>	<init>	cn
@@ -652,50 +652,50 @@ METHOD	(III)Z	n	isBlockGettingPowered	cn
 METHOD	(III)Z	o	isBlockIndirectlyGettingPowered	cn
 CLASS	net/minecraft/src/IMobs	co
 CLASS	net/minecraft/src/RenderBoat	cp
-FIELD	Lfo;	d	modelBoat	cp
+FIELD	d	Lfo;	modelBoat	cp
 METHOD	(Ldc;DDDFF)V	a	renderBoat	cp
 CLASS	net/minecraft/src/EntityLavaFX	cq
-FIELD	F	a	lavaParticleScale	cq
+FIELD	a	F	lavaParticleScale	cq
 METHOD	(Lcn;DDD)V	<init>	<init>	cq
 CLASS	net/minecraft/src/ModelBiped	cr
-FIELD	Lip;	a	bipedHead	cr
-FIELD	Lip;	b	bipedHeadwear	cr
-FIELD	Lip;	c	bipedBody	cr
-FIELD	Lip;	d	bipedRightArm	cr
-FIELD	Lip;	e	bipedLeftArm	cr
-FIELD	Lip;	f	bipedRightLeg	cr
-FIELD	Lip;	g	bipedLeftLeg	cr
-FIELD	Z	h	heldItemLeft	cr
-FIELD	Z	i	heldItemRight	cr
-FIELD	Z	j	isSneak	cr
+FIELD	a	Lip;	bipedHead	cr
+FIELD	b	Lip;	bipedHeadwear	cr
+FIELD	c	Lip;	bipedBody	cr
+FIELD	d	Lip;	bipedRightArm	cr
+FIELD	e	Lip;	bipedLeftArm	cr
+FIELD	f	Lip;	bipedRightLeg	cr
+FIELD	g	Lip;	bipedLeftLeg	cr
+FIELD	h	Z	heldItemLeft	cr
+FIELD	i	Z	heldItemRight	cr
+FIELD	j	Z	isSneak	cr
 CLASS	net/minecraft/src/BlockWorkbench	cs
 METHOD	(I)V	<init>	<init>	cs
 CLASS	net/minecraft/src/BlockGlass	ct
 CLASS	net/minecraft/src/WorldGenMinable	cu
-FIELD	I	a	minableBlockId	cu
-FIELD	I	b	numberOfBlocks	cu
+FIELD	a	I	minableBlockId	cu
+FIELD	b	I	numberOfBlocks	cu
 CLASS	net/minecraft/src/BlockJukeBox	cv
 METHOD	(II)V	<init>	<init>	cv
 METHOD	(Lcn;IIII)V	e	ejectRecord	cv
 CLASS	net/minecraft/src/EntitySkeleton	cw
 CLASS	net/minecraft/src/GuiMainMenu	cx
-FIELD	[Ljava/lang/String;	a	logoBlockLayers	cx
-FIELD	Ljava/util/Random;	h	rand	cx
-FIELD	[[Lkc;	i	logoEffects	cx
-FIELD	F	j	updateCounter	cx
-FIELD	Ljava/lang/String;	l	splashString	cx
+FIELD	a	[Ljava/lang/String;	logoBlockLayers	cx
+FIELD	h	Ljava/util/Random;	rand	cx
+FIELD	i	[[Lkc;	logoEffects	cx
+FIELD	j	F	updateCounter	cx
+FIELD	l	Ljava/lang/String;	splashString	cx
 METHOD	(F)V	a	drawLogo	cx
 METHOD	()Ljava/util/Random;	j	getRandom	cx
 CLASS	net/minecraft/src/MapGenBase	cy
-FIELD	I	a	range	cy
-FIELD	Ljava/util/Random;	b	rand	cy
+FIELD	a	I	range	cy
+FIELD	b	Ljava/util/Random;	rand	cy
 METHOD	(Lcn;IIII[B)V	a	recursiveGenerate	cy
 METHOD	(Lnw;Lcn;II[B)V	a	generate	cy
 CLASS	net/minecraft/src/Pathfinder	cz
-FIELD	Lnm;	a	worldMap	cz
-FIELD	Lfx;	b	path	cz
-FIELD	Lfi;	c	pointMap	cz
-FIELD	[La;	d	pathOptions	cz
+FIELD	a	Lnm;	worldMap	cz
+FIELD	b	Lfx;	path	cz
+FIELD	c	Lfi;	pointMap	cz
+FIELD	d	[La;	pathOptions	cz
 METHOD	(Lnm;)V	<init>	<init>	cz
 METHOD	(III)La;	a	openPoint	cz
 METHOD	(La;La;)Lbl;	a	createEntityPath	cz
@@ -711,25 +711,25 @@ METHOD	(Ldd;F)V	a	updateCreeperScale	d
 METHOD	(Ldd;FF)I	a	updateCreeperColorMultiplier	d
 CLASS	net/minecraft/src/WorldGenCactus	da
 CLASS	net/minecraft/src/CanvasMojangLogo	db
-FIELD	Ljava/awt/image/BufferedImage;	a	logo	db
+FIELD	a	Ljava/awt/image/BufferedImage;	logo	db
 METHOD	(Ljava/awt/Graphics;)V	paint	paint	db
 CLASS	net/minecraft/src/EntityBoat	dc
-FIELD	I	a	damageTaken	dc
-FIELD	I	b	timeSinceHit	dc
-FIELD	I	c	forwardDirection	dc
+FIELD	a	I	damageTaken	dc
+FIELD	b	I	timeSinceHit	dc
+FIELD	c	I	forwardDirection	dc
 METHOD	(Lcn;DDD)V	<init>	<init>	dc
 CLASS	net/minecraft/src/EntityCreeper	dd
-FIELD	I	a	timeSinceIgnited	dd
-FIELD	I	b	lastActiveTime	dd
-FIELD	I	c	fuseDuration	dd
-FIELD	I	d	creeperState	dd
+FIELD	a	I	timeSinceIgnited	dd
+FIELD	b	I	lastActiveTime	dd
+FIELD	c	I	fuseDuration	dd
+FIELD	d	I	creeperState	dd
 METHOD	(F)F	b	getCreeperFlashTime	dd
 CLASS	net/minecraft/src/GuiChat	de
-FIELD	Ljava/lang/String;	a	message	de
-FIELD	I	h	updateCounter	de
+FIELD	a	Ljava/lang/String;	message	de
+FIELD	h	I	updateCounter	de
 CLASS	net/minecraft/src/GLAllocation	df
-FIELD	Ljava/util/List;	a	displayLists	df
-FIELD	Ljava/util/List;	b	textureNames	df
+FIELD	a	Ljava/util/List;	displayLists	df
+FIELD	b	Ljava/util/List;	textureNames	df
 METHOD	()V	a	deleteTexturesAndDisplayLists	df
 METHOD	(I)I	a	generateDisplayLists	df
 METHOD	(Ljava/nio/IntBuffer;)V	a	generateTextureNames	df
@@ -737,115 +737,115 @@ METHOD	(I)Ljava/nio/ByteBuffer;	b	createDirectByteBuffer	df
 METHOD	(I)Ljava/nio/IntBuffer;	c	createDirectIntBuffer	df
 METHOD	(I)Ljava/nio/FloatBuffer;	d	createDirectFloatBuffer	df
 CLASS	net/minecraft/src/GuiDownloadTerrain	dg
-FIELD	Lgy;	a	netHandler	dg
-FIELD	I	h	updateCounter	dg
+FIELD	a	Lgy;	netHandler	dg
+FIELD	h	I	updateCounter	dg
 METHOD	(Lgy;)V	<init>	<init>	dg
 CLASS	net/minecraft/src/BlockSand	dh
-FIELD	Z	a	fallInstantly	dh
+FIELD	a	Z	fallInstantly	dh
 METHOD	(II)V	<init>	<init>	dh
 METHOD	(Lcn;III)Z	a_	canFallBelow	dh
 METHOD	(Lcn;III)V	h	tryToFall	dh
 CLASS	net/minecraft/src/Item	di
-FIELD	Ldi;	A	axeDiamond	di
-FIELD	Ldi;	B	stick	di
-FIELD	Ldi;	C	bowlEmpty	di
-FIELD	Ldi;	D	bowlSoup	di
-FIELD	Ldi;	E	swordGold	di
-FIELD	Ldi;	F	shovelGold	di
-FIELD	Ldi;	G	pickaxeGold	di
-FIELD	Ldi;	H	axeGold	di
-FIELD	Ldi;	I	silk	di
-FIELD	Ldi;	J	feather	di
-FIELD	Ldi;	K	gunpowder	di
-FIELD	Ldi;	L	hoeWood	di
-FIELD	Ldi;	M	hoeStone	di
-FIELD	Ldi;	N	hoeSteel	di
-FIELD	Ldi;	O	hoeDiamond	di
-FIELD	Ldi;	P	hoeGold	di
-FIELD	Ldi;	Q	seeds	di
-FIELD	Ldi;	R	wheat	di
-FIELD	Ldi;	S	bread	di
-FIELD	Ldi;	T	helmetLeather	di
-FIELD	Ldi;	U	plateLeather	di
-FIELD	Ldi;	V	legsLeather	di
-FIELD	Ldi;	W	bootsLeather	di
-FIELD	Ldi;	X	helmetChain	di
-FIELD	Ldi;	Y	plateChain	di
-FIELD	Ldi;	Z	legsChain	di
-FIELD	Ldi;	aA	redstone	di
-FIELD	Ldi;	aB	snowball	di
-FIELD	Ldi;	aC	boat	di
-FIELD	Ldi;	aD	leather	di
-FIELD	Ldi;	aE	bucketMilk	di
-FIELD	Ldi;	aF	brick	di
-FIELD	Ldi;	aG	clay	di
-FIELD	Ldi;	aH	reed	di
-FIELD	Ldi;	aI	paper	di
-FIELD	Ldi;	aJ	book	di
-FIELD	Ldi;	aK	slimeBall	di
-FIELD	Ldi;	aL	minecartBox	di
-FIELD	Ldi;	aM	minecartEngine	di
-FIELD	Ldi;	aN	egg	di
-FIELD	Ldi;	aO	compass	di
-FIELD	Ldi;	aP	fishingRod	di
-FIELD	Ldi;	aQ	recordMETHODFIELD	di
-FIELD	Ldi;	aR	recordCat	di
-FIELD	I	aS	shiftedIndex	di
-FIELD	I	aT	maxStackSize	di
-FIELD	I	aU	maxDamage	di
-FIELD	I	aV	iconIndex	di
-FIELD	Z	aW	bFullFIELDD	di
-FIELD	Ldi;	aa	bootsChain	di
-FIELD	Ldi;	ab	helmetSteel	di
-FIELD	Ldi;	ac	plateSteel	di
-FIELD	Ldi;	ad	legsSteel	di
-FIELD	Ldi;	ae	bootsSteel	di
-FIELD	Ldi;	af	helmetDiamond	di
-FIELD	Ldi;	ag	plateDiamond	di
-FIELD	Ldi;	ah	legsDiamond	di
-FIELD	Ldi;	ai	bootsDiamond	di
-FIELD	Ldi;	aj	helmetGold	di
-FIELD	Ldi;	ak	plateGold	di
-FIELD	Ldi;	al	legsGold	di
-FIELD	Ldi;	am	bootsGold	di
-FIELD	Ldi;	an	flint	di
-FIELD	Ldi;	ao	porkRaw	di
-FIELD	Ldi;	ap	porkCooked	di
-FIELD	Ldi;	aq	painting	di
-FIELD	Ldi;	ar	appleGold	di
-FIELD	Ldi;	as	sign	di
-FIELD	Ldi;	at	doorWood	di
-FIELD	Ldi;	au	bucketEmpty	di
-FIELD	Ldi;	av	bucketWater	di
-FIELD	Ldi;	aw	bucketLava	di
-FIELD	Ldi;	ax	minecartEmpty	di
-FIELD	Ldi;	ay	saddle	di
-FIELD	Ldi;	az	doorSteel	di
-FIELD	Ljava/util/Random;	b	rand	di
-FIELD	[Ldi;	c	itemsList	di
-FIELD	Ldi;	d	shovel	di
-FIELD	Ldi;	e	pickaxeSteel	di
-FIELD	Ldi;	f	axeSteel	di
-FIELD	Ldi;	g	striker	di
-FIELD	Ldi;	h	appleRed	di
-FIELD	Ldi;	i	bow	di
-FIELD	Ldi;	j	arrow	di
-FIELD	Ldi;	k	coal	di
-FIELD	Ldi;	l	diamond	di
-FIELD	Ldi;	m	ingotIron	di
-FIELD	Ldi;	n	ingotGold	di
-FIELD	Ldi;	o	swordSteel	di
-FIELD	Ldi;	p	swordWood	di
-FIELD	Ldi;	q	shovelWood	di
-FIELD	Ldi;	r	pickaxeWood	di
-FIELD	Ldi;	s	axeWood	di
-FIELD	Ldi;	t	swordStone	di
-FIELD	Ldi;	u	shovelStone	di
-FIELD	Ldi;	v	pickaxeStone	di
-FIELD	Ldi;	w	axeStone	di
-FIELD	Ldi;	x	swordDiamond	di
-FIELD	Ldi;	y	shovelDiamond	di
-FIELD	Ldi;	z	pickaxeDiamond	di
+FIELD	A	Ldi;	axeDiamond	di
+FIELD	B	Ldi;	stick	di
+FIELD	C	Ldi;	bowlEmpty	di
+FIELD	D	Ldi;	bowlSoup	di
+FIELD	E	Ldi;	swordGold	di
+FIELD	F	Ldi;	shovelGold	di
+FIELD	G	Ldi;	pickaxeGold	di
+FIELD	H	Ldi;	axeGold	di
+FIELD	I	Ldi;	silk	di
+FIELD	J	Ldi;	feather	di
+FIELD	K	Ldi;	gunpowder	di
+FIELD	L	Ldi;	hoeWood	di
+FIELD	M	Ldi;	hoeStone	di
+FIELD	N	Ldi;	hoeSteel	di
+FIELD	O	Ldi;	hoeDiamond	di
+FIELD	P	Ldi;	hoeGold	di
+FIELD	Q	Ldi;	seeds	di
+FIELD	R	Ldi;	wheat	di
+FIELD	S	Ldi;	bread	di
+FIELD	T	Ldi;	helmetLeather	di
+FIELD	U	Ldi;	plateLeather	di
+FIELD	V	Ldi;	legsLeather	di
+FIELD	W	Ldi;	bootsLeather	di
+FIELD	X	Ldi;	helmetChain	di
+FIELD	Y	Ldi;	plateChain	di
+FIELD	Z	Ldi;	legsChain	di
+FIELD	aA	Ldi;	redstone	di
+FIELD	aB	Ldi;	snowball	di
+FIELD	aC	Ldi;	boat	di
+FIELD	aD	Ldi;	leather	di
+FIELD	aE	Ldi;	bucketMilk	di
+FIELD	aF	Ldi;	brick	di
+FIELD	aG	Ldi;	clay	di
+FIELD	aH	Ldi;	reed	di
+FIELD	aI	Ldi;	paper	di
+FIELD	aJ	Ldi;	book	di
+FIELD	aK	Ldi;	slimeBall	di
+FIELD	aL	Ldi;	minecartBox	di
+FIELD	aM	Ldi;	minecartEngine	di
+FIELD	aN	Ldi;	egg	di
+FIELD	aO	Ldi;	compass	di
+FIELD	aP	Ldi;	fishingRod	di
+FIELD	aQ	Ldi;	recordMETHODFIELD	di
+FIELD	aR	Ldi;	recordCat	di
+FIELD	aS	I	shiftedIndex	di
+FIELD	aT	I	maxStackSize	di
+FIELD	aU	I	maxDamage	di
+FIELD	aV	I	iconIndex	di
+FIELD	aW	Z	bFullFIELDD	di
+FIELD	aa	Ldi;	bootsChain	di
+FIELD	ab	Ldi;	helmetSteel	di
+FIELD	ac	Ldi;	plateSteel	di
+FIELD	ad	Ldi;	legsSteel	di
+FIELD	ae	Ldi;	bootsSteel	di
+FIELD	af	Ldi;	helmetDiamond	di
+FIELD	ag	Ldi;	plateDiamond	di
+FIELD	ah	Ldi;	legsDiamond	di
+FIELD	ai	Ldi;	bootsDiamond	di
+FIELD	aj	Ldi;	helmetGold	di
+FIELD	ak	Ldi;	plateGold	di
+FIELD	al	Ldi;	legsGold	di
+FIELD	am	Ldi;	bootsGold	di
+FIELD	an	Ldi;	flint	di
+FIELD	ao	Ldi;	porkRaw	di
+FIELD	ap	Ldi;	porkCooked	di
+FIELD	aq	Ldi;	painting	di
+FIELD	ar	Ldi;	appleGold	di
+FIELD	as	Ldi;	sign	di
+FIELD	at	Ldi;	doorWood	di
+FIELD	au	Ldi;	bucketEmpty	di
+FIELD	av	Ldi;	bucketWater	di
+FIELD	aw	Ldi;	bucketLava	di
+FIELD	ax	Ldi;	minecartEmpty	di
+FIELD	ay	Ldi;	saddle	di
+FIELD	az	Ldi;	doorSteel	di
+FIELD	b	Ljava/util/Random;	rand	di
+FIELD	c	[Ldi;	itemsList	di
+FIELD	d	Ldi;	shovel	di
+FIELD	e	Ldi;	pickaxeSteel	di
+FIELD	f	Ldi;	axeSteel	di
+FIELD	g	Ldi;	striker	di
+FIELD	h	Ldi;	appleRed	di
+FIELD	i	Ldi;	bow	di
+FIELD	j	Ldi;	arrow	di
+FIELD	k	Ldi;	coal	di
+FIELD	l	Ldi;	diamond	di
+FIELD	m	Ldi;	ingotIron	di
+FIELD	n	Ldi;	ingotGold	di
+FIELD	o	Ldi;	swordSteel	di
+FIELD	p	Ldi;	swordWood	di
+FIELD	q	Ldi;	shovelWood	di
+FIELD	r	Ldi;	pickaxeWood	di
+FIELD	s	Ldi;	axeWood	di
+FIELD	t	Ldi;	swordStone	di
+FIELD	u	Ldi;	shovelStone	di
+FIELD	v	Ldi;	pickaxeStone	di
+FIELD	w	Ldi;	axeStone	di
+FIELD	x	Ldi;	swordDiamond	di
+FIELD	y	Ldi;	shovelDiamond	di
+FIELD	z	Ldi;	pickaxeDiamond	di
 METHOD	(I)V	<init>	<init>	di
 METHOD	()Z	a	isFullFIELDD	di
 METHOD	(I)Ldi;	a	setIconIndex	di
@@ -862,11 +862,11 @@ METHOD	(Lev;Lge;)V	b	saddleEntity	di
 METHOD	()I	c	getMaxDamage	di
 METHOD	()Ldi;	d	setFullFIELDD	di
 CLASS	net/minecraft/src/RenderFallingSand	dj
-FIELD	Lbc;	d	sandRenderBlocks	dj
+FIELD	d	Lbc;	sandRenderBlocks	dj
 METHOD	(Lff;DDDFF)V	a	doRenderFallingSand	dj
 CLASS	net/minecraft/src/Slot	dk
-FIELD	I	a	slotIndex	dk
-FIELD	Lgh;	b	inventory	dk
+FIELD	a	I	slotIndex	dk
+FIELD	b	Lgh;	inventory	dk
 METHOD	(Lgh;I)V	<init>	<init>	dk
 METHOD	()V	a	onPickupFromSlot	dk
 METHOD	(Lev;)Z	a	isItemValid	dk
@@ -875,20 +875,20 @@ METHOD	(Lev;)V	b	putStack	dk
 METHOD	()I	c	getBackgroundIconIndex	dk
 METHOD	()V	d	onSlotChanged	dk
 CLASS	net/minecraft/src/Session	dl
-FIELD	Ljava/util/List;	a	registeredBlocksList	dl
-FIELD	Ljava/lang/String;	b	username	dl
-FIELD	Ljava/lang/String;	c	sessionId	dl
-FIELD	Ljava/lang/String;	d	mpPassParameter	dl
+FIELD	a	Ljava/util/List;	registeredBlocksList	dl
+FIELD	b	Ljava/lang/String;	username	dl
+FIELD	c	Ljava/lang/String;	sessionId	dl
+FIELD	d	Ljava/lang/String;	mpPassParameter	dl
 CLASS	net/minecraft/src/EntityPlayer	dm
-FIELD	I	a	damageRemainder	dm
-FIELD	Leu;	b	inventory	dm
-FIELD	B	c	unusedMiningCooldown	dm
-FIELD	I	d	score	dm
-FIELD	F	e	prevCameraYaw	dm
-FIELD	F	f	cameraYaw	dm
-FIELD	Z	g	isSwinging	dm
-FIELD	I	h	swingProgressInt	dm
-FIELD	Ljava/lang/String;	i	username	dm
+FIELD	a	I	damageRemainder	dm
+FIELD	b	Leu;	inventory	dm
+FIELD	c	B	unusedMiningCooldown	dm
+FIELD	d	I	score	dm
+FIELD	e	F	prevCameraYaw	dm
+FIELD	f	F	cameraYaw	dm
+FIELD	g	Z	isSwinging	dm
+FIELD	h	I	swingProgressInt	dm
+FIELD	i	Ljava/lang/String;	username	dm
 METHOD	(Ldx;)V	a	joinEntityItemWithWorld	dm
 METHOD	(Lev;)V	a	dropPlayerItem	dm
 METHOD	(Lev;Z)V	a	dropPlayerItemWithRandomChoice	dm
@@ -906,8 +906,8 @@ METHOD	()Lev;	t	getCurrentEquippedItem	dm
 METHOD	()V	u	destroyCurrentEquippedItem	dm
 METHOD	()V	w	swingItem	dm
 CLASS	net/minecraft/src/RenderLiving	dn
-FIELD	Lfo;	d	mainModel	dn
-FIELD	Lfo;	e	renderPassModel	dn
+FIELD	d	Lfo;	mainModel	dn
+FIELD	e	Lfo;	renderPassModel	dn
 METHOD	(Lfo;)V	a	setRenderPassModel	dn
 METHOD	(Lge;)F	a	getDeathMaxRotation	dn
 METHOD	(Lge;DDDFF)V	a	doRenderLiving	dn
@@ -918,96 +918,96 @@ METHOD	(Lge;F)V	b	renderEquippedItems	dn
 METHOD	(Lge;F)F	c	renderSwingProgress	dn
 METHOD	(Lge;F)F	d	handleRotationFloat	dn
 CLASS	net/minecraft/src/PacketMETHOD5Place	do
-FIELD	I	a	id	do
-FIELD	I	b	xPosition	do
-FIELD	I	c	yPosition	do
-FIELD	I	d	zPosition	do
-FIELD	I	e	direction	do
+FIELD	a	I	id	do
+FIELD	b	I	xPosition	do
+FIELD	c	I	yPosition	do
+FIELD	d	I	zPosition	do
+FIELD	e	I	direction	do
 METHOD	(IIIII)V	<init>	<init>	do
 CLASS	net/minecraft/src/EntityExplodeFX	dp
 CLASS	net/minecraft/src/EntityMob	dq
-FIELD	I	e	attackStrength	dq
+FIELD	e	I	attackStrength	dq
 CLASS	net/minecraft/src/RecipesTools	dr
-FIELD	[[Ljava/lang/String;	a	recipePatterns	dr
-FIELD	[[Ljava/lang/Object;	b	recipeItems	dr
+FIELD	a	[[Ljava/lang/String;	recipePatterns	dr
+FIELD	b	[[Ljava/lang/Object;	recipeItems	dr
 METHOD	(Ldw;)V	a	addRecipes	dr
 CLASS	net/minecraft/src/BlockBookshelf	ds
 METHOD	(II)V	<init>	<init>	ds
 CLASS	net/minecraft/src/BlockSapling	dt
 CLASS	net/minecraft/src/Packet4UpdateTime	du
-FIELD	J	a	time	du
+FIELD	a	J	time	du
 CLASS	net/minecraft/src/ModelCow	dv
-FIELD	Lip;	a	udders	dv
-FIELD	Lip;	b	hornMETHOD	dv
-FIELD	Lip;	c	hornCLASS	dv
+FIELD	a	Lip;	udders	dv
+FIELD	b	Lip;	hornMETHOD	dv
+FIELD	c	Lip;	hornCLASS	dv
 CLASS	net/minecraft/src/CraftingManager	dw
-FIELD	Ldw;	a	instance	dw
-FIELD	Ljava/util/List;	b	recipes	dw
+FIELD	a	Ldw;	instance	dw
+FIELD	b	Ljava/util/List;	recipes	dw
 METHOD	()Ldw;	a	getInstance	dw
 METHOD	(Lev;[Ljava/lang/Object;)V	a	addRecipe	dw
 METHOD	([I)Lev;	a	findMatchingRecipe	dw
 CLASS	net/minecraft/src/EntityItem	dx
-FIELD	Lev;	a	item	dx
-FIELD	I	b	age	dx
-FIELD	I	c	delayBeforeCanPickup	dx
-FIELD	F	d	hoverStart	dx
-FIELD	I	e	ageCLASS	dx
-FIELD	I	f	health	dx
+FIELD	a	Lev;	item	dx
+FIELD	b	I	age	dx
+FIELD	c	I	delayBeforeCanPickup	dx
+FIELD	d	F	hoverStart	dx
+FIELD	e	I	ageCLASS	dx
+FIELD	f	I	health	dx
 METHOD	(Lcn;DDDLev;)V	<init>	<init>	dx
 METHOD	(DDD)Z	g	pushOutOfBlocks	dx
 CLASS	net/minecraft/src/NBTTagByteArray	dy
-FIELD	[B	a	byteArray	dy
+FIELD	a	[B	byteArray	dy
 METHOD	([B)V	<init>	<init>	dy
 CLASS	net/minecraft/src/PacketMETHOD6BlockItemSwitch	dz
-FIELD	I	a	entityId	dz
-FIELD	I	b	id	dz
+FIELD	a	I	entityId	dz
+FIELD	b	I	id	dz
 METHOD	(II)V	<init>	<init>	dz
 CLASS	net/minecraft/src/RenderGlobal	e
-FIELD	I	A	glSkyListCLASS	e
-FIELD	I	B	minBlockX	e
-FIELD	I	C	minBlockY	e
-FIELD	I	D	minBlockZ	e
-FIELD	I	E	maxBlockX	e
-FIELD	I	F	maxBlockY	e
-FIELD	I	G	maxBlockZ	e
-FIELD	I	H	renderDistance	e
+FIELD	A	I	glSkyListCLASS	e
+FIELD	B	I	minBlockX	e
+FIELD	C	I	minBlockY	e
+FIELD	D	I	minBlockZ	e
+FIELD	E	I	maxBlockX	e
+FIELD	F	I	maxBlockY	e
+FIELD	G	I	maxBlockZ	e
+FIELD	H	I	renderDistance	e
 FIELD	I	I	renderEntitiesStartupCounter	e
-FIELD	I	J	countEntitiesTotal	e
-FIELD	I	K	countEntitiesRendered	e
-FIELD	I	L	countEntitiesHidden	e
-FIELD	I	M	renderersLoaded	e
-FIELD	I	N	renderersBeingClipped	e
-FIELD	I	O	renderersBeingOccluded	e
-FIELD	I	P	renderersBeingRendered	e
-FIELD	I	Q	renderersSkippingRenderPass	e
-FIELD	Ljava/util/List;	R	glRenderLists	e
-FIELD	[Lkw;	S	allRenderLists	e
-FIELD	Ljava/util/List;	a	tileEntities	e
-FIELD	[I	b	dummyBuf50k	e
-FIELD	Ljava/nio/IntBuffer;	c	occlusionResult	e
-FIELD	I	d	dummyRenderInt	e
-FIELD	I	e	unusedGLCallList	e
-FIELD	D	f	prevSortX	e
-FIELD	D	g	prevSortY	e
-FIELD	D	h	prevSortZ	e
-FIELD	F	i	damagePartialTime	e
-FIELD	I	j	frustumCheckOffset	e
-FIELD	Lcn;	k	theWorld	e
-FIELD	Ley;	l	renderEngine	e
-FIELD	Ljava/util/List;	m	worldRenderersToUpdate	e
-FIELD	[Lbn;	n	sortedWorldRenderers	e
-FIELD	[Lbn;	o	worldRenderers	e
-FIELD	I	p	renderChunksWide	e
-FIELD	I	q	renderChunksTall	e
-FIELD	I	r	renderChunksDeep	e
-FIELD	I	s	glRenderListBase	e
-FIELD	Lnet/minecraft/client/Minecraft;	t	mc	e
-FIELD	Lbc;	u	globalRenderBlocks	e
-FIELD	Ljava/nio/IntBuffer;	v	glOcclusionQueryBase	e
-FIELD	Z	w	occlusionEnabled	e
-FIELD	I	x	cloudTickCounter	e
-FIELD	I	y	starGLCallList	e
-FIELD	I	z	glSkyList	e
+FIELD	J	I	countEntitiesTotal	e
+FIELD	K	I	countEntitiesRendered	e
+FIELD	L	I	countEntitiesHidden	e
+FIELD	M	I	renderersLoaded	e
+FIELD	N	I	renderersBeingClipped	e
+FIELD	O	I	renderersBeingOccluded	e
+FIELD	P	I	renderersBeingRendered	e
+FIELD	Q	I	renderersSkippingRenderPass	e
+FIELD	R	Ljava/util/List;	glRenderLists	e
+FIELD	S	[Lkw;	allRenderLists	e
+FIELD	a	Ljava/util/List;	tileEntities	e
+FIELD	b	[I	dummyBuf50k	e
+FIELD	c	Ljava/nio/IntBuffer;	occlusionResult	e
+FIELD	d	I	dummyRenderInt	e
+FIELD	e	I	unusedGLCallList	e
+FIELD	f	D	prevSortX	e
+FIELD	g	D	prevSortY	e
+FIELD	h	D	prevSortZ	e
+FIELD	i	F	damagePartialTime	e
+FIELD	j	I	frustumCheckOffset	e
+FIELD	k	Lcn;	theWorld	e
+FIELD	l	Ley;	renderEngine	e
+FIELD	m	Ljava/util/List;	worldRenderersToUpdate	e
+FIELD	n	[Lbn;	sortedWorldRenderers	e
+FIELD	o	[Lbn;	worldRenderers	e
+FIELD	p	I	renderChunksWide	e
+FIELD	q	I	renderChunksTall	e
+FIELD	r	I	renderChunksDeep	e
+FIELD	s	I	glRenderListBase	e
+FIELD	t	Lnet/minecraft/client/Minecraft;	mc	e
+FIELD	u	Lbc;	globalRenderBlocks	e
+FIELD	v	Ljava/nio/IntBuffer;	glOcclusionQueryBase	e
+FIELD	w	Z	occlusionEnabled	e
+FIELD	x	I	cloudTickCounter	e
+FIELD	y	I	starGLCallList	e
+FIELD	z	I	glSkyList	e
 METHOD	()V	a	loadRenderers	e
 METHOD	(F)V	a	renderSky	e
 METHOD	(ID)V	a	renderAllRenderLists	e
@@ -1030,71 +1030,71 @@ METHOD	(F)V	c	renderCloudsFancy	e
 METHOD	()V	d	updateClouds	e
 METHOD	()V	f	renderStars	e
 CLASS	net/minecraft/src/GuiChest	ea
-FIELD	Lgh;	j	upperChestInventory	ea
-FIELD	Lgh;	l	lowerChestInventory	ea
-FIELD	I	m	inventoryRows	ea
+FIELD	j	Lgh;	upperChestInventory	ea
+FIELD	l	Lgh;	lowerChestInventory	ea
+FIELD	m	I	inventoryRows	ea
 CLASS	net/minecraft/src/SoundPool	eb
-FIELD	I	a	numberOfSoundPoolEntries	eb
-FIELD	Z	b	isGetRandomSound	eb
-FIELD	Ljava/util/Random;	c	rand	eb
-FIELD	Ljava/util/Map;	d	nameToSoundPoolEntriesMapping	eb
-FIELD	Ljava/util/List;	e	allSoundPoolEntries	eb
+FIELD	a	I	numberOfSoundPoolEntries	eb
+FIELD	b	Z	isGetRandomSound	eb
+FIELD	c	Ljava/util/Random;	rand	eb
+FIELD	d	Ljava/util/Map;	nameToSoundPoolEntriesMapping	eb
+FIELD	e	Ljava/util/List;	allSoundPoolEntries	eb
 METHOD	()Lah;	a	getRandomSound	eb
 METHOD	(Ljava/lang/String;)Lah;	a	getRandomSoundFromSoundPool	eb
 METHOD	(Ljava/lang/String;Ljava/io/File;)Lah;	a	addSound	eb
 CLASS	net/minecraft/src/ItemDoor	ec
-FIELD	Lgb;	a	material	ec
+FIELD	a	Lgb;	material	ec
 METHOD	(ILgb;)V	<init>	<init>	ec
 CLASS	net/minecraft/src/PositionTexureVertex	ed
-FIELD	Laj;	a	vectorFIELDD	ed
-FIELD	F	b	texturePositionX	ed
-FIELD	F	c	texturePositionY	ed
+FIELD	a	Laj;	vectorFIELDD	ed
+FIELD	b	F	texturePositionX	ed
+FIELD	c	F	texturePositionY	ed
 METHOD	(FF)Led;	a	setTexturePosition	ed
 CLASS	net/minecraft/src/GuiContainer	ee
-FIELD	I	a	xSize	ee
-FIELD	I	h	ySize	ee
-FIELD	Ljava/util/List;	i	inventorySlots	ee
-FIELD	Lab;	j	itemRenderer	ee
+FIELD	a	I	xSize	ee
+FIELD	h	I	ySize	ee
+FIELD	i	Ljava/util/List;	inventorySlots	ee
+FIELD	j	Lab;	itemRenderer	ee
 METHOD	(F)V	a	drawGuiContainerBackgroundLayer	ee
 METHOD	(II)Ldk;	a	getSlotAtPosition	ee
 METHOD	(Lmm;)V	a	drawSlotInventory	ee
 METHOD	()V	j	drawGuiContainerForegroundLayer	ee
 CLASS	net/minecraft/src/ItemRedstone	ef
 CLASS	net/minecraft/src/TextureLavaFlowFX	eg
-FIELD	[F	g	red	eg
-FIELD	[F	h	green	eg
-FIELD	[F	i	blue	eg
-FIELD	[F	j	alpha	eg
-FIELD	I	k	tickCounter	eg
+FIELD	g	[F	red	eg
+FIELD	h	[F	green	eg
+FIELD	i	[F	blue	eg
+FIELD	j	[F	alpha	eg
+FIELD	k	I	tickCounter	eg
 CLASS	net/minecraft/src/PacketMETHOD0Flying	eh
-FIELD	D	a	xPosition	eh
-FIELD	D	b	yPosition	eh
-FIELD	D	c	zPosition	eh
-FIELD	D	d	stance	eh
-FIELD	F	e	yaw	eh
-FIELD	F	f	pitch	eh
-FIELD	Z	g	onGround	eh
-FIELD	Z	h	moving	eh
-FIELD	Z	i	rotating	eh
+FIELD	a	D	xPosition	eh
+FIELD	b	D	yPosition	eh
+FIELD	c	D	zPosition	eh
+FIELD	d	D	stance	eh
+FIELD	e	F	yaw	eh
+FIELD	f	F	pitch	eh
+FIELD	g	Z	onGround	eh
+FIELD	h	Z	moving	eh
+FIELD	i	Z	rotating	eh
 METHOD	(Z)V	<init>	<init>	eh
 CLASS	net/minecraft/src/RenderSnowball	ei
 METHOD	(Lao;DDDFF)V	a	doRenderSnowball	ei
 CLASS	net/minecraft/src/WorldGenBigTree	ej
-FIELD	[B	a	otherCoordPairs	ej
-FIELD	Ljava/util/Random;	b	rand	ej
-FIELD	Lcn;	c	worldObj	ej
-FIELD	[I	d	basePos	ej
-FIELD	I	e	heightLimit	ej
-FIELD	I	f	height	ej
-FIELD	D	g	heightAttenuation	ej
-FIELD	D	h	branchDensity	ej
-FIELD	D	i	branchSlope	ej
-FIELD	D	j	scaleWidth	ej
-FIELD	D	k	leafDensity	ej
-FIELD	I	l	trunkSize	ej
-FIELD	I	m	heightLimitLimit	ej
-FIELD	I	n	leafDistanceLimit	ej
-FIELD	[[I	o	leafNodes	ej
+FIELD	a	[B	otherCoordPairs	ej
+FIELD	b	Ljava/util/Random;	rand	ej
+FIELD	c	Lcn;	worldObj	ej
+FIELD	d	[I	basePos	ej
+FIELD	e	I	heightLimit	ej
+FIELD	f	I	height	ej
+FIELD	g	D	heightAttenuation	ej
+FIELD	h	D	branchDensity	ej
+FIELD	i	D	branchSlope	ej
+FIELD	j	D	scaleWidth	ej
+FIELD	k	D	leafDensity	ej
+FIELD	l	I	trunkSize	ej
+FIELD	m	I	heightLimitLimit	ej
+FIELD	n	I	leafDistanceLimit	ej
+FIELD	o	[[I	leafNodes	ej
 METHOD	()V	a	generateLeafNodeList	ej
 METHOD	(I)F	a	layerSize	ej
 METHOD	(III)V	a	generateLeafNode	ej
@@ -1108,14 +1108,14 @@ METHOD	(I)Z	c	leafNodeNeedsBase	ej
 METHOD	()V	d	generateLeafNodeBases	ej
 METHOD	()Z	e	validTreeLocation	ej
 CLASS	net/minecraft/src/EntityCreature	ek
-FIELD	Lbl;	a	pathToEntity	ek
-FIELD	Lkh;	f	entityToAttack	ek
-FIELD	Z	g	hasAttacked	ek
+FIELD	a	Lbl;	pathToEntity	ek
+FIELD	f	Lkh;	entityToAttack	ek
+FIELD	g	Z	hasAttacked	ek
 METHOD	(III)F	a	getBlockPathWeight	ek
 METHOD	(Lkh;F)V	a	attackEntity	ek
 METHOD	()Lkh;	i	findPlayerToAttack	ek
 CLASS	net/minecraft/src/NBTBase	el
-FIELD	Ljava/lang/String;	a	key	el
+FIELD	a	Ljava/lang/String;	key	el
 METHOD	()B	a	getType	el
 METHOD	(B)Lel;	a	createTagOfType	el
 METHOD	(Lel;Ljava/io/DataOutput;)V	a	writeNamedTag	el
@@ -1126,17 +1126,17 @@ METHOD	()Ljava/lang/String;	b	getKey	el
 METHOD	(B)Ljava/lang/String;	b	getTagName	el
 METHOD	(Ljava/io/DataInput;)Lel;	b	readNamedTag	el
 CLASS	net/minecraft/src/ModelCreeper	em
-FIELD	Lip;	a	head	em
-FIELD	Lip;	b	headwear	em
-FIELD	Lip;	c	body	em
-FIELD	Lip;	d	legMETHOD	em
-FIELD	Lip;	e	legCLASS	em
-FIELD	Lip;	f	legFIELD	em
-FIELD	Lip;	g	leg4	em
+FIELD	a	Lip;	head	em
+FIELD	b	Lip;	headwear	em
+FIELD	c	Lip;	body	em
+FIELD	d	Lip;	legMETHOD	em
+FIELD	e	Lip;	legCLASS	em
+FIELD	f	Lip;	legFIELD	em
+FIELD	g	Lip;	leg4	em
 CLASS	net/minecraft/src/EntityReddustFX	en
-FIELD	F	a	reddustParticleScale	en
+FIELD	a	F	reddustParticleScale	en
 CLASS	net/minecraft/src/MathHelper	eo
-FIELD	[F	a	SIN_TABLE	eo
+FIELD	a	[F	SIN_TABLE	eo
 METHOD	(D)F	a	sqrt_double	eo
 METHOD	(DD)D	a	abs_max	eo
 METHOD	(F)F	a	sin	eo
@@ -1151,48 +1151,48 @@ CLASS	net/minecraft/src/RenderChicken	eq
 METHOD	(Lmz;DDDFF)V	a	renderChicken	eq
 METHOD	(Lmz;F)F	a	getWingRotation	eq
 CLASS	net/minecraft/src/EnumArt	er
-FIELD	I	A	sizeY	er
-FIELD	I	B	offsetX	er
-FIELD	I	C	offsetY	er
-FIELD	Ler;	a	Kebab	er
-FIELD	Ler;	b	Aztec	er
-FIELD	Ler;	c	Alban	er
-FIELD	Ler;	d	AztecCLASS	er
-FIELD	Ler;	e	Bomb	er
-FIELD	Ler;	f	Plant	er
-FIELD	Ler;	g	Wasteland	er
-FIELD	Ler;	h	Pool	er
-FIELD	Ler;	i	Courbet	er
-FIELD	Ler;	j	Sea	er
-FIELD	Ler;	k	Sunset	er
-FIELD	Ler;	l	Creebet	er
-FIELD	Ler;	m	Wanderer	er
-FIELD	Ler;	n	Graham	er
-FIELD	Ler;	o	Match	er
-FIELD	Ler;	p	Bust	er
-FIELD	Ler;	q	Stage	er
-FIELD	Ler;	r	Void	er
-FIELD	Ler;	s	SkullAndRoses	er
-FIELD	Ler;	t	Fighters	er
-FIELD	Ler;	u	Pointer	er
-FIELD	Ler;	v	Pigscene	er
-FIELD	Ler;	w	Skeleton	er
-FIELD	Ler;	x	DonkeyKong	er
-FIELD	Ljava/lang/String;	y	title	er
-FIELD	I	z	sizeX	er
+FIELD	A	I	sizeY	er
+FIELD	B	I	offsetX	er
+FIELD	C	I	offsetY	er
+FIELD	a	Ler;	Kebab	er
+FIELD	b	Ler;	Aztec	er
+FIELD	c	Ler;	Alban	er
+FIELD	d	Ler;	AztecCLASS	er
+FIELD	e	Ler;	Bomb	er
+FIELD	f	Ler;	Plant	er
+FIELD	g	Ler;	Wasteland	er
+FIELD	h	Ler;	Pool	er
+FIELD	i	Ler;	Courbet	er
+FIELD	j	Ler;	Sea	er
+FIELD	k	Ler;	Sunset	er
+FIELD	l	Ler;	Creebet	er
+FIELD	m	Ler;	Wanderer	er
+FIELD	n	Ler;	Graham	er
+FIELD	o	Ler;	Match	er
+FIELD	p	Ler;	Bust	er
+FIELD	q	Ler;	Stage	er
+FIELD	r	Ler;	Void	er
+FIELD	s	Ler;	SkullAndRoses	er
+FIELD	t	Ler;	Fighters	er
+FIELD	u	Ler;	Pointer	er
+FIELD	v	Ler;	Pigscene	er
+FIELD	w	Ler;	Skeleton	er
+FIELD	x	Ler;	DonkeyKong	er
+FIELD	y	Ljava/lang/String;	title	er
+FIELD	z	I	sizeX	er
 METHOD	(Ljava/lang/String;ILjava/lang/String;IIII)V	<init>	<init>	er
 CLASS	net/minecraft/src/WorldGenReed	es
 CLASS	net/minecraft/src/CraftingInventoryWorkbenchCB	et
-FIELD	Lgu;	a	craftMatrix	et
-FIELD	Lgh;	b	craftResult	et
+FIELD	a	Lgu;	craftMatrix	et
+FIELD	b	Lgh;	craftResult	et
 CLASS	net/minecraft/src/InventoryPlayer	eu
-FIELD	[Lev;	a	mainInventory	eu
-FIELD	[Lev;	b	armorInventory	eu
-FIELD	[Lev;	c	craftingInventory	eu
-FIELD	I	d	currentItem	eu
-FIELD	Lev;	e	draggedItemStack	eu
-FIELD	Z	f	inventoryChanged	eu
-FIELD	Ldm;	g	player	eu
+FIELD	a	[Lev;	mainInventory	eu
+FIELD	b	[Lev;	armorInventory	eu
+FIELD	c	[Lev;	craftingInventory	eu
+FIELD	d	I	currentItem	eu
+FIELD	e	Lev;	draggedItemStack	eu
+FIELD	f	Z	inventoryChanged	eu
+FIELD	g	Ldm;	player	eu
 METHOD	()Lev;	a	getCurrentItem	eu
 METHOD	(I)V	a	changeCurrentItem	eu
 METHOD	(IZ)V	a	setCurrentItem	eu
@@ -1216,10 +1216,10 @@ METHOD	(I)I	g	storeItemStack	eu
 METHOD	()Leu;	i	copyInventory	eu
 METHOD	()I	j	getFirstEmptyStack	eu
 CLASS	net/minecraft/src/ItemStack	ev
-FIELD	I	a	stackSize	ev
-FIELD	I	b	animationsToGo	ev
-FIELD	I	c	itemID	ev
-FIELD	I	d	itemDmg	ev
+FIELD	a	I	stackSize	ev
+FIELD	b	I	animationsToGo	ev
+FIELD	c	I	itemID	ev
+FIELD	d	I	itemDmg	ev
 METHOD	(I)V	<init>	<init>	ev
 METHOD	(II)V	<init>	<init>	ev
 METHOD	(III)V	<init>	<init>	ev
@@ -1247,10 +1247,10 @@ METHOD	()I	c	getMaxStackSize	ev
 METHOD	()I	d	getMaxDamage	ev
 METHOD	()Lev;	e	copy	ev
 CLASS	net/minecraft/src/EntityList	ew
-FIELD	Ljava/util/Map;	a	stringToCLASSMapping	ew
-FIELD	Ljava/util/Map;	b	CLASSToStringMapping	ew
-FIELD	Ljava/util/Map;	c	IDtoCLASSMapping	ew
-FIELD	Ljava/util/Map;	d	CLASSToIDMapping	ew
+FIELD	a	Ljava/util/Map;	stringToCLASSMapping	ew
+FIELD	b	Ljava/util/Map;	CLASSToStringMapping	ew
+FIELD	c	Ljava/util/Map;	IDtoCLASSMapping	ew
+FIELD	d	Ljava/util/Map;	CLASSToIDMapping	ew
 METHOD	(ILcn;)Lkh;	a	createEntityByID	ew
 METHOD	(Lhm;Lcn;)Lkh;	a	createEntityFromNBT	ew
 METHOD	(Ljava/lang/CLASS;Ljava/lang/String;I)V	a	addMapping	ew
@@ -1258,21 +1258,21 @@ METHOD	(Ljava/lang/String;Lcn;)Lkh;	a	createEntityByName	ew
 METHOD	(Lkh;)I	a	getEntityID	ew
 METHOD	(Lkh;)Ljava/lang/String;	b	getEntityString	ew
 CLASS	net/minecraft/src/TileEntitySpecialRenderer	ex
-FIELD	Lfz;	a	tileEntityRenderer	ex
+FIELD	a	Lfz;	tileEntityRenderer	ex
 METHOD	()Lkd;	a	getFontRenderer	ex
 METHOD	(Lfz;)V	a	setTileEntityRenderer	ex
 METHOD	(Lic;DDDF)V	a	renderTileEntityAt	ex
 METHOD	(Ljava/lang/String;)V	a	bindTextureByName	ex
 CLASS	net/minecraft/src/RenderEngine	ey
-FIELD	Z	a	useMipmaps	ey
-FIELD	Ljava/util/HashMap;	b	textureMap	ey
-FIELD	Ljava/util/HashMap;	c	textureContentsMap	ey
-FIELD	Ljava/nio/IntBuffer;	d	singleIntBuffer	ey
-FIELD	Ljava/nio/ByteBuffer;	e	imageData	ey
-FIELD	Ljava/util/List;	f	textureList	ey
-FIELD	Ljava/util/Map;	g	urlToImageDataMap	ey
-FIELD	Lfr;	h	options	ey
-FIELD	Z	i	clampTexture	ey
+FIELD	a	Z	useMipmaps	ey
+FIELD	b	Ljava/util/HashMap;	textureMap	ey
+FIELD	c	Ljava/util/HashMap;	textureContentsMap	ey
+FIELD	d	Ljava/nio/IntBuffer;	singleIntBuffer	ey
+FIELD	e	Ljava/nio/ByteBuffer;	imageData	ey
+FIELD	f	Ljava/util/List;	textureList	ey
+FIELD	g	Ljava/util/Map;	urlToImageDataMap	ey
+FIELD	h	Lfr;	options	ey
+FIELD	i	Z	clampTexture	ey
 METHOD	()V	a	updateDynamicTextures	ey
 METHOD	(I)V	a	deleteTexture	ey
 METHOD	(II)I	a	averageColor	ey
@@ -1288,54 +1288,54 @@ METHOD	(II)I	b	alphaBlend	ey
 METHOD	(Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;	b	unwrapImageByColumns	ey
 METHOD	(Ljava/lang/String;)V	b	releaseImageData	ey
 CLASS	net/minecraft/src/PacketCLASS4MobSpawn	ez
-FIELD	I	a	entityId	ez
-FIELD	B	b	type	ez
-FIELD	I	c	xPosition	ez
-FIELD	I	d	yPosition	ez
-FIELD	I	e	zPosition	ez
-FIELD	B	f	yaw	ez
-FIELD	B	g	pitch	ez
+FIELD	a	I	entityId	ez
+FIELD	b	B	type	ez
+FIELD	c	I	xPosition	ez
+FIELD	d	I	yPosition	ez
+FIELD	e	I	zPosition	ez
+FIELD	f	B	yaw	ez
+FIELD	g	B	pitch	ez
 METHOD	(Lge;)V	<init>	<init>	ez
 CLASS	net/minecraft/src/NBTTagFloat	f
-FIELD	F	a	floatValue	f
+FIELD	a	F	floatValue	f
 METHOD	(F)V	<init>	<init>	f
 CLASS	net/minecraft/src/EnumOSIsom	fa
-FIELD	Lfa;	a	linux	fa
-FIELD	Lfa;	b	solaris	fa
-FIELD	Lfa;	c	windows	fa
-FIELD	Lfa;	d	macos	fa
-FIELD	Lfa;	e	unknown	fa
+FIELD	a	Lfa;	linux	fa
+FIELD	b	Lfa;	solaris	fa
+FIELD	c	Lfa;	windows	fa
+FIELD	d	Lfa;	macos	fa
+FIELD	e	Lfa;	unknown	fa
 CLASS	net/minecraft/src/EntitySorter	fb
-FIELD	Lkh;	a	comparedEntity	fb
+FIELD	a	Lkh;	comparedEntity	fb
 METHOD	(Lbn;Lbn;)I	a	sortByDistanceToEntity	fb
 CLASS	net/minecraft/src/BlockBreakable	fc
-FIELD	Z	a	localFlag	fc
+FIELD	a	Z	localFlag	fc
 METHOD	(IILgb;Z)V	<init>	<init>	fc
 CLASS	net/minecraft/src/BlockSnow	fd
 METHOD	(II)V	<init>	<init>	fd
 METHOD	(Lcn;III)Z	h	canSnowStay	fd
 CLASS	net/minecraft/src/TileEntityChest	fe
-FIELD	[Lev;	a	chestContents	fe
+FIELD	a	[Lev;	chestContents	fe
 CLASS	net/minecraft/src/EntityFallingSand	ff
-FIELD	I	a	blockID	ff
-FIELD	I	b	fallTime	ff
+FIELD	a	I	blockID	ff
+FIELD	b	I	fallTime	ff
 METHOD	(Lcn;FFFI)V	<init>	<init>	ff
 METHOD	()Lcn;	i	getWorld	ff
 CLASS	net/minecraft/src/PacketMETHOD4BlockDig	fg
-FIELD	I	a	xPosition	fg
-FIELD	I	b	yPosition	fg
-FIELD	I	c	zPosition	fg
-FIELD	I	d	face	fg
-FIELD	I	e	status	fg
+FIELD	a	I	xPosition	fg
+FIELD	b	I	yPosition	fg
+FIELD	c	I	zPosition	fg
+FIELD	d	I	face	fg
+FIELD	e	I	status	fg
 METHOD	(IIIII)V	<init>	<init>	fg
 CLASS	net/minecraft/src/BlockFence	fh
 METHOD	(II)V	<init>	<init>	fh
 CLASS	net/minecraft/src/MCHashTable	fi
-FIELD	[Lmx;	a	slots	fi
-FIELD	I	b	count	fi
-FIELD	I	c	threshold	fi
-FIELD	F	d	growFactor	fi
-FIELD	I	e	versionStamp	fi
+FIELD	a	[Lmx;	slots	fi
+FIELD	b	I	count	fi
+FIELD	c	I	threshold	fi
+FIELD	d	F	growFactor	fi
+FIELD	e	I	versionStamp	fi
 METHOD	()V	a	clearMap	fi
 METHOD	(I)Ljava/lang/Object;	a	lookup	fi
 METHOD	(II)I	a	getSlotIndex	fi
@@ -1350,29 +1350,29 @@ METHOD	(I)V	f	grow	fi
 CLASS	net/minecraft/src/RecipesCrafting	fj
 METHOD	(Ldw;)V	a	addRecipes	fj
 CLASS	net/minecraft/src/GuiButton	fk
-FIELD	I	a	width	fk
-FIELD	I	b	height	fk
-FIELD	I	c	xPosition	fk
-FIELD	I	d	yPosition	fk
-FIELD	Ljava/lang/String;	e	displayString	fk
-FIELD	I	f	id	fk
-FIELD	Z	g	enabled	fk
-FIELD	Z	h	visible	fk
+FIELD	a	I	width	fk
+FIELD	b	I	height	fk
+FIELD	c	I	xPosition	fk
+FIELD	d	I	yPosition	fk
+FIELD	e	Ljava/lang/String;	displayString	fk
+FIELD	f	I	id	fk
+FIELD	g	Z	enabled	fk
+FIELD	h	Z	visible	fk
 METHOD	(II)V	a	mouseReleased	fk
 METHOD	(Lnet/minecraft/client/Minecraft;II)V	a	drawButton	fk
 METHOD	(Z)I	a	getHoverState	fk
 METHOD	(Lnet/minecraft/client/Minecraft;II)V	b	mouseDragged	fk
 METHOD	(Lnet/minecraft/client/Minecraft;II)Z	c	mousePressed	fk
 CLASS	net/minecraft/src/ThreadSleepForever	fl
-FIELD	Lnet/minecraft/client/Minecraft;	a	mc	fl
+FIELD	a	Lnet/minecraft/client/Minecraft;	mc	fl
 METHOD	(Lnet/minecraft/client/Minecraft;Ljava/lang/String;)V	<init>	<init>	fl
 CLASS	net/minecraft/src/MinecraftImpl	fm
-FIELD	Ljava/awt/Frame;	a	mcFrame	fm
+FIELD	a	Ljava/awt/Frame;	mcFrame	fm
 METHOD	(Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZLjava/awt/Frame;)V	<init>	<init>	fm
 CLASS	net/minecraft/src/Packet	fn
-FIELD	Ljava/util/Map;	a	packetIdToCLASSMap	fn
-FIELD	Ljava/util/Map;	b	packetCLASSToIdMap	fn
-FIELD	Z	j	isChunkDataPacket	fn
+FIELD	a	Ljava/util/Map;	packetIdToCLASSMap	fn
+FIELD	b	Ljava/util/Map;	packetCLASSToIdMap	fn
+FIELD	j	Z	isChunkDataPacket	fn
 METHOD	()I	a	getPacketSize	fn
 METHOD	(I)Lfn;	a	getNewPacket	fn
 METHOD	(ILjava/lang/CLASS;)V	a	addIdCLASSMapping	fn
@@ -1383,43 +1383,43 @@ METHOD	(Llb;)V	a	processPacket	fn
 METHOD	()I	b	getPacketId	fn
 METHOD	(Ljava/io/DataInputStream;)Lfn;	b	readPacket	fn
 CLASS	net/minecraft/src/ModelBase	fo
-FIELD	F	k	swingProgress	fo
-FIELD	Z	l	isRiding	fo
+FIELD	k	F	swingProgress	fo
+FIELD	l	Z	isRiding	fo
 METHOD	(FFFFFF)V	a	setRotationAngles	fo
 METHOD	(FFFFFF)V	b	render	fo
 CLASS	net/minecraft/src/GameWindowListener	fp
-FIELD	Lnet/minecraft/client/Minecraft;	a	mc	fp
-FIELD	Ljava/lang/Thread;	b	thread	fp
+FIELD	a	Lnet/minecraft/client/Minecraft;	mc	fp
+FIELD	b	Ljava/lang/Thread;	thread	fp
 CLASS	net/minecraft/src/OSMap	fq
-FIELD	[I	a	osValues	fq
+FIELD	a	[I	osValues	fq
 CLASS	net/minecraft/src/GameSettings	fr
-FIELD	Ljava/io/File;	A	optionsFile	fr
-FIELD	F	a	musicVolume	fr
-FIELD	F	b	soundVolume	fr
-FIELD	F	c	mouseSensitivity	fr
-FIELD	Z	d	invertMouse	fr
-FIELD	I	e	renderDistance	fr
-FIELD	Z	f	viewBobbing	fr
-FIELD	Z	g	anaglyph	fr
-FIELD	Z	h	limitFramerate	fr
-FIELD	Z	i	fancyGraphics	fr
-FIELD	Lit;	j	keyBindForward	fr
-FIELD	Lit;	k	keyBindLeft	fr
-FIELD	Lit;	l	keyBindBack	fr
-FIELD	Lit;	m	keyBindRight	fr
-FIELD	Lit;	n	keyBindJump	fr
-FIELD	Lit;	o	keyBindInventory	fr
-FIELD	Lit;	p	keyBindDrop	fr
-FIELD	Lit;	q	keyBindChat	fr
-FIELD	Lit;	r	keyBindToggleFog	fr
-FIELD	Lit;	s	keyBindSneak	fr
-FIELD	[Lit;	t	keyBindings	fr
-FIELD	Lnet/minecraft/client/Minecraft;	u	mc	fr
-FIELD	I	v	numberOfOptions	fr
-FIELD	I	w	difficulty	fr
-FIELD	Z	x	thirdPersonView	fr
-FIELD	[Ljava/lang/String;	y	RENDER_DISTANCES	fr
-FIELD	[Ljava/lang/String;	z	DIFFICULTY_LEVELS	fr
+FIELD	A	Ljava/io/File;	optionsFile	fr
+FIELD	a	F	musicVolume	fr
+FIELD	b	F	soundVolume	fr
+FIELD	c	F	mouseSensitivity	fr
+FIELD	d	Z	invertMouse	fr
+FIELD	e	I	renderDistance	fr
+FIELD	f	Z	viewBobbing	fr
+FIELD	g	Z	anaglyph	fr
+FIELD	h	Z	limitFramerate	fr
+FIELD	i	Z	fancyGraphics	fr
+FIELD	j	Lit;	keyBindForward	fr
+FIELD	k	Lit;	keyBindLeft	fr
+FIELD	l	Lit;	keyBindBack	fr
+FIELD	m	Lit;	keyBindRight	fr
+FIELD	n	Lit;	keyBindJump	fr
+FIELD	o	Lit;	keyBindInventory	fr
+FIELD	p	Lit;	keyBindDrop	fr
+FIELD	q	Lit;	keyBindChat	fr
+FIELD	r	Lit;	keyBindToggleFog	fr
+FIELD	s	Lit;	keyBindSneak	fr
+FIELD	t	[Lit;	keyBindings	fr
+FIELD	u	Lnet/minecraft/client/Minecraft;	mc	fr
+FIELD	v	I	numberOfOptions	fr
+FIELD	w	I	difficulty	fr
+FIELD	x	Z	thirdPersonView	fr
+FIELD	y	[Ljava/lang/String;	RENDER_DISTANCES	fr
+FIELD	z	[Ljava/lang/String;	DIFFICULTY_LEVELS	fr
 METHOD	(Lnet/minecraft/client/Minecraft;Ljava/io/File;)V	<init>	<init>	fr
 METHOD	()V	a	loadOptions	fr
 METHOD	(I)Ljava/lang/String;	a	getKeyBindingDescription	fr
@@ -1432,18 +1432,18 @@ METHOD	(II)V	b	setOptionValue	fr
 METHOD	(I)F	c	getOptionFloatValue	fr
 METHOD	(I)Ljava/lang/String;	d	getOptionDisplayString	fr
 CLASS	net/minecraft/src/RecipeSorter	fs
-FIELD	Ldw;	a	craftingManager	fs
+FIELD	a	Ldw;	craftingManager	fs
 METHOD	(Ldw;)V	<init>	<init>	fs
 METHOD	(Lbv;Lbv;)I	a	compareRecipes	fs
 CLASS	net/minecraft/src/ChunkProviderLoadOrGenerate	ft
-FIELD	I	a	lastQueriedChunkXPos	ft
-FIELD	I	b	lastQueriedChunkZPos	ft
-FIELD	Lga;	c	blankChunk	ft
-FIELD	Law;	d	chunkProvider	ft
-FIELD	Laf;	e	chunkLoader	ft
-FIELD	[Lga;	f	chunks	ft
-FIELD	Lcn;	g	worldObj	ft
-FIELD	Lga;	h	lastQueriedChunk	ft
+FIELD	a	I	lastQueriedChunkXPos	ft
+FIELD	b	I	lastQueriedChunkZPos	ft
+FIELD	c	Lga;	blankChunk	ft
+FIELD	d	Law;	chunkProvider	ft
+FIELD	e	Laf;	chunkLoader	ft
+FIELD	f	[Lga;	chunks	ft
+FIELD	g	Lcn;	worldObj	ft
+FIELD	h	Lga;	lastQueriedChunk	ft
 METHOD	(Lcn;Laf;Law;)V	<init>	<init>	ft
 METHOD	(Lga;)V	a	saveExtraChunkData	ft
 METHOD	(Lga;)V	b	saveChunk	ft
@@ -1456,8 +1456,8 @@ METHOD	(Lcn;IIIZ)V	a	onPoweredBlockChange	fw
 METHOD	(I)V	b	setDoorRotation	fw
 METHOD	(I)I	c	getState	fw
 CLASS	net/minecraft/src/Path	fx
-FIELD	[La;	a	pathPoints	fx
-FIELD	I	b	count	fx
+FIELD	a	[La;	pathPoints	fx
+FIELD	b	I	count	fx
 METHOD	()V	a	clearPath	fx
 METHOD	(I)V	a	sortBack	fx
 METHOD	(La;)La;	a	addPoint	fx
@@ -1467,20 +1467,20 @@ METHOD	(I)V	b	sortForward	fx
 METHOD	()Z	c	isPathEmpty	fx
 CLASS	net/minecraft/src/NBTTagEnd	fy
 CLASS	net/minecraft/src/TileEntityRenderer	fz
-FIELD	Lfz;	a	instance	fz
-FIELD	D	b	staticPlayerX	fz
-FIELD	D	c	staticPlayerY	fz
-FIELD	D	d	staticPlayerZ	fz
-FIELD	Ley;	e	renderEngine	fz
-FIELD	Lcn;	f	worldObj	fz
-FIELD	Ldm;	g	entityPlayer	fz
-FIELD	F	h	playerYaw	fz
-FIELD	F	i	playerPitch	fz
-FIELD	D	j	playerX	fz
-FIELD	D	k	playerY	fz
-FIELD	D	l	playerZ	fz
-FIELD	Ljava/util/Map;	m	specialRendererMap	fz
-FIELD	Lkd;	n	fontRenderer	fz
+FIELD	a	Lfz;	instance	fz
+FIELD	b	D	staticPlayerX	fz
+FIELD	c	D	staticPlayerY	fz
+FIELD	d	D	staticPlayerZ	fz
+FIELD	e	Ley;	renderEngine	fz
+FIELD	f	Lcn;	worldObj	fz
+FIELD	g	Ldm;	entityPlayer	fz
+FIELD	h	F	playerYaw	fz
+FIELD	i	F	playerPitch	fz
+FIELD	j	D	playerX	fz
+FIELD	k	D	playerY	fz
+FIELD	l	D	playerZ	fz
+FIELD	m	Ljava/util/Map;	specialRendererMap	fz
+FIELD	n	Lkd;	fontRenderer	fz
 METHOD	()Lkd;	a	getFontRenderer	fz
 METHOD	(Lcn;Ley;Lkd;Ldm;F)V	a	cacheActiveRenderInfo	fz
 METHOD	(Lic;)Z	a	hasSpecialRenderer	fz
@@ -1489,28 +1489,28 @@ METHOD	(Lic;F)V	a	renderTileEntity	fz
 METHOD	(Ljava/lang/CLASS;)Lex;	a	getSpecialRendererForCLASS	fz
 METHOD	(Lic;)Lex;	b	getSpecialRendererForEntity	fz
 CLASS	net/minecraft/src/MinecraftAppletImpl	g
-FIELD	Lnet/minecraft/client/MinecraftApplet;	a	mainFrame	g
+FIELD	a	Lnet/minecraft/client/MinecraftApplet;	mainFrame	g
 METHOD	(Lnet/minecraft/client/MinecraftApplet;Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V	<init>	<init>	g
 CLASS	net/minecraft/src/Chunk	ga
-FIELD	Z	a	isLit	ga
-FIELD	[B	b	blocks	ga
-FIELD	Z	c	isChunkLoaded	ga
-FIELD	Lcn;	d	worldObj	ga
-FIELD	Lmu;	e	data	ga
-FIELD	Lmu;	f	skylightMap	ga
-FIELD	Lmu;	g	blocklightMap	ga
-FIELD	[B	h	heightMap	ga
-FIELD	I	i	height	ga
-FIELD	I	j	xPosition	ga
-FIELD	I	k	zPosition	ga
-FIELD	Ljava/util/Map;	l	chunkTileEntityMap	ga
-FIELD	[Ljava/util/List;	m	entities	ga
-FIELD	Z	n	isTerrainPopulated	ga
-FIELD	Z	o	isModified	ga
-FIELD	Z	p	neverSave	ga
-FIELD	Z	q	isChunkRendered	ga
-FIELD	Z	r	hasEntities	ga
-FIELD	J	s	lastSaveTime	ga
+FIELD	a	Z	isLit	ga
+FIELD	b	[B	blocks	ga
+FIELD	c	Z	isChunkLoaded	ga
+FIELD	d	Lcn;	worldObj	ga
+FIELD	e	Lmu;	data	ga
+FIELD	f	Lmu;	skylightMap	ga
+FIELD	g	Lmu;	blocklightMap	ga
+FIELD	h	[B	heightMap	ga
+FIELD	i	I	height	ga
+FIELD	j	I	xPosition	ga
+FIELD	k	I	zPosition	ga
+FIELD	l	Ljava/util/Map;	chunkTileEntityMap	ga
+FIELD	m	[Ljava/util/List;	entities	ga
+FIELD	n	Z	isTerrainPopulated	ga
+FIELD	o	Z	isModified	ga
+FIELD	p	Z	neverSave	ga
+FIELD	q	Z	isChunkRendered	ga
+FIELD	r	Z	hasEntities	ga
+FIELD	s	J	lastSaveTime	ga
 METHOD	(Lcn;II)V	<init>	<init>	ga
 METHOD	(Lcn;[BII)V	<init>	<init>	ga
 METHOD	()V	a	doNothing	ga
@@ -1546,29 +1546,29 @@ METHOD	()V	f	setChunkModified	ga
 METHOD	(III)V	f	checkSkylightNeighborUpdate	ga
 METHOD	(III)V	g	relightBlock	ga
 CLASS	net/minecraft/src/Material	gb
-FIELD	Lgb;	a	air	gb
-FIELD	Lgb;	b	grass	gb
-FIELD	Lgb;	c	wood	gb
-FIELD	Lgb;	d	rock	gb
-FIELD	Lgb;	e	iron	gb
-FIELD	Lgb;	f	water	gb
-FIELD	Lgb;	g	lava	gb
-FIELD	Lgb;	h	leaves	gb
-FIELD	Lgb;	i	plants	gb
-FIELD	Lgb;	j	sponge	gb
-FIELD	Lgb;	k	cloth	gb
-FIELD	Lgb;	l	fire	gb
-FIELD	Lgb;	m	sand	gb
-FIELD	Lgb;	n	circuits	gb
-FIELD	Lgb;	o	glass	gb
-FIELD	Lgb;	p	tnt	gb
-FIELD	Lgb;	q	unused	gb
-FIELD	Lgb;	r	ice	gb
-FIELD	Lgb;	s	snow	gb
-FIELD	Lgb;	t	craftedSnow	gb
-FIELD	Lgb;	u	cactus	gb
-FIELD	Lgb;	v	clay	gb
-FIELD	Z	w	canBurn	gb
+FIELD	a	Lgb;	air	gb
+FIELD	b	Lgb;	grass	gb
+FIELD	c	Lgb;	wood	gb
+FIELD	d	Lgb;	rock	gb
+FIELD	e	Lgb;	iron	gb
+FIELD	f	Lgb;	water	gb
+FIELD	g	Lgb;	lava	gb
+FIELD	h	Lgb;	leaves	gb
+FIELD	i	Lgb;	plants	gb
+FIELD	j	Lgb;	sponge	gb
+FIELD	k	Lgb;	cloth	gb
+FIELD	l	Lgb;	fire	gb
+FIELD	m	Lgb;	sand	gb
+FIELD	n	Lgb;	circuits	gb
+FIELD	o	Lgb;	glass	gb
+FIELD	p	Lgb;	tnt	gb
+FIELD	q	Lgb;	unused	gb
+FIELD	r	Lgb;	ice	gb
+FIELD	s	Lgb;	snow	gb
+FIELD	t	Lgb;	craftedSnow	gb
+FIELD	u	Lgb;	cactus	gb
+FIELD	v	Lgb;	clay	gb
+FIELD	w	Z	canBurn	gb
 METHOD	()Z	a	isSolid	gb
 METHOD	()Z	b	getCanBlockGrass	gb
 METHOD	()Z	c	getIsSolid	gb
@@ -1576,67 +1576,67 @@ METHOD	()Z	d	getIsLiquid	gb
 METHOD	()Z	e	getCanBurn	gb
 METHOD	()Lgb;	f	setBurning	gb
 CLASS	net/minecraft/src/GuiMultiplayer	gc
-FIELD	Lbh;	a	parentScreen	gc
-FIELD	I	h	updateCounter	gc
-FIELD	Ljava/lang/String;	i	ipText	gc
+FIELD	a	Lbh;	parentScreen	gc
+FIELD	h	I	updateCounter	gc
+FIELD	i	Ljava/lang/String;	ipText	gc
 CLASS	net/minecraft/src/MovementInputFromOptions	gd
-FIELD	[Z	f	movementKeyStates	gd
-FIELD	Lfr;	g	gameSettings	gd
+FIELD	f	[Z	movementKeyStates	gd
+FIELD	g	Lfr;	gameSettings	gd
 METHOD	(Lfr;)V	<init>	<init>	gd
 CLASS	net/minecraft/src/EntityLiving	ge
-FIELD	F	A	unusedFloatCLASS	ge
-FIELD	Z	B	isAIEnabled	ge
-FIELD	F	C	prevSwingProgress	ge
-FIELD	F	D	swingProgress	ge
-FIELD	I	E	health	ge
-FIELD	I	F	prevHealth	ge
-FIELD	I	G	hurtTime	ge
-FIELD	I	H	maxHurtTime	ge
-FIELD	F	I	attackedAtYaw	ge
-FIELD	I	J	deathTime	ge
-FIELD	I	K	attackTime	ge
-FIELD	F	L	prevCameraPitch	ge
-FIELD	F	M	cameraPitch	ge
-FIELD	Z	N	dead	ge
-FIELD	I	O	unusedInt	ge
-FIELD	F	P	unusedFloat4	ge
-FIELD	F	Q	prevLimbYaw	ge
-FIELD	F	R	limbYaw	ge
-FIELD	F	S	limbSwing	ge
-FIELD	F	T	unusedFloatFIELD	ge
-FIELD	I	U	entityAge	ge
-FIELD	F	V	moveStrafing	ge
-FIELD	F	W	moveForward	ge
-FIELD	F	X	randomYawVelocity	ge
-FIELD	Z	Y	isJumping	ge
-FIELD	F	Z	defaultPitch	ge
-FIELD	I	a	livingSoundTime	ge
-FIELD	F	aa	moveSpeed	ge
-FIELD	I	b	newPosRotationIncrements	ge
-FIELD	D	c	newPosX	ge
-FIELD	D	d	newPosY	ge
-FIELD	D	e	newPosZ	ge
-FIELD	D	f	newRotationYaw	ge
-FIELD	D	g	newRotationPitch	ge
-FIELD	Lkh;	h	currentTarget	ge
-FIELD	I	i	numTicksToChaseTarget	ge
-FIELD	I	j	heartsHalvesLife	ge
-FIELD	F	k	unusedRotationPitchCLASS	ge
-FIELD	F	l	unusedFloat	ge
-FIELD	F	m	unusedRotationPitch	ge
-FIELD	F	n	renderYawOffset	ge
-FIELD	F	o	prevRenderYawOffset	ge
-FIELD	F	p	ridingRotUnused	ge
-FIELD	F	q	prevRidingRotUnused	ge
-FIELD	F	r	rotationUnused	ge
-FIELD	F	s	prevRotationUnused	ge
-FIELD	Z	t	unusedBoolMETHOD	ge
-FIELD	Ljava/lang/String;	u	texture	ge
-FIELD	Z	v	unusedBoolCLASS	ge
-FIELD	F	w	unusedRotation	ge
-FIELD	Ljava/lang/String;	x	entityType	ge
-FIELD	F	y	unusedFloatMETHOD	ge
-FIELD	I	z	scoreValue	ge
+FIELD	A	F	unusedFloatCLASS	ge
+FIELD	B	Z	isAIEnabled	ge
+FIELD	C	F	prevSwingProgress	ge
+FIELD	D	F	swingProgress	ge
+FIELD	E	I	health	ge
+FIELD	F	I	prevHealth	ge
+FIELD	G	I	hurtTime	ge
+FIELD	H	I	maxHurtTime	ge
+FIELD	I	F	attackedAtYaw	ge
+FIELD	J	I	deathTime	ge
+FIELD	K	I	attackTime	ge
+FIELD	L	F	prevCameraPitch	ge
+FIELD	M	F	cameraPitch	ge
+FIELD	N	Z	dead	ge
+FIELD	O	I	unusedInt	ge
+FIELD	P	F	unusedFloat4	ge
+FIELD	Q	F	prevLimbYaw	ge
+FIELD	R	F	limbYaw	ge
+FIELD	S	F	limbSwing	ge
+FIELD	T	F	unusedFloatFIELD	ge
+FIELD	U	I	entityAge	ge
+FIELD	V	F	moveStrafing	ge
+FIELD	W	F	moveForward	ge
+FIELD	X	F	randomYawVelocity	ge
+FIELD	Y	Z	isJumping	ge
+FIELD	Z	F	defaultPitch	ge
+FIELD	a	I	livingSoundTime	ge
+FIELD	aa	F	moveSpeed	ge
+FIELD	b	I	newPosRotationIncrements	ge
+FIELD	c	D	newPosX	ge
+FIELD	d	D	newPosY	ge
+FIELD	e	D	newPosZ	ge
+FIELD	f	D	newRotationYaw	ge
+FIELD	g	D	newRotationPitch	ge
+FIELD	h	Lkh;	currentTarget	ge
+FIELD	i	I	numTicksToChaseTarget	ge
+FIELD	j	I	heartsHalvesLife	ge
+FIELD	k	F	unusedRotationPitchCLASS	ge
+FIELD	l	F	unusedFloat	ge
+FIELD	m	F	unusedRotationPitch	ge
+FIELD	n	F	renderYawOffset	ge
+FIELD	o	F	prevRenderYawOffset	ge
+FIELD	p	F	ridingRotUnused	ge
+FIELD	q	F	prevRidingRotUnused	ge
+FIELD	r	F	rotationUnused	ge
+FIELD	s	F	prevRotationUnused	ge
+FIELD	t	Z	unusedBoolMETHOD	ge
+FIELD	u	Ljava/lang/String;	texture	ge
+FIELD	v	Z	unusedBoolCLASS	ge
+FIELD	w	F	unusedRotation	ge
+FIELD	x	Ljava/lang/String;	entityType	ge
+FIELD	y	F	unusedFloatMETHOD	ge
+FIELD	z	I	scoreValue	ge
 METHOD	()Z	A	isOnLadder	ge
 METHOD	()V	C	jump	ge
 METHOD	()V	D	onEntityDeath	ge
@@ -1662,7 +1662,7 @@ METHOD	()I	g	getDropItemId	ge
 METHOD	()V	j	onLivingUpdate	ge
 METHOD	()V	z	spawnExplosionParticle	ge
 CLASS	net/minecraft/src/ItemReed	gf
-FIELD	I	a	spawnID	gf
+FIELD	a	I	spawnID	gf
 METHOD	(ILly;)V	<init>	<init>	gf
 CLASS	net/minecraft/src/MaterialTransparent	gg
 CLASS	net/minecraft/src/IInventory	gh
@@ -1678,48 +1678,48 @@ CLASS	net/minecraft/src/RenderEntity	gj
 CLASS	net/minecraft/src/RenderArrow	gk
 METHOD	(Lkg;DDDFF)V	a	renderArrow	gk
 CLASS	net/minecraft/src/RenderSorter	gl
-FIELD	Ldm;	a	baseEntity	gl
+FIELD	a	Ldm;	baseEntity	gl
 METHOD	(Lbn;Lbn;)I	a	doCompare	gl
 CLASS	net/minecraft/src/RenderPig	gm
 METHOD	(Lmv;I)Z	a	renderSaddledPig	gm
 CLASS	net/minecraft/src/NBTTagLong	gn
-FIELD	J	a	longValue	gn
+FIELD	a	J	longValue	gn
 METHOD	(J)V	<init>	<init>	gn
 CLASS	net/minecraft/src/UnexpectedThrowable	go
-FIELD	Ljava/lang/String;	a	description	go
-FIELD	Ljava/lang/Throwable;	b	exception	go
+FIELD	a	Ljava/lang/String;	description	go
+FIELD	b	Ljava/lang/Throwable;	exception	go
 METHOD	(Ljava/lang/String;Ljava/lang/Throwable;)V	<init>	<init>	go
 CLASS	net/minecraft/src/PacketCLASS0NamedEntitySpawn	gp
-FIELD	I	a	entityId	gp
-FIELD	Ljava/lang/String;	b	name	gp
-FIELD	I	c	xPosition	gp
-FIELD	I	d	yPosition	gp
-FIELD	I	e	zPosition	gp
-FIELD	B	f	rotation	gp
-FIELD	B	g	pitch	gp
-FIELD	I	h	currentItem	gp
+FIELD	a	I	entityId	gp
+FIELD	b	Ljava/lang/String;	name	gp
+FIELD	c	I	xPosition	gp
+FIELD	d	I	yPosition	gp
+FIELD	e	I	zPosition	gp
+FIELD	f	B	rotation	gp
+FIELD	g	B	pitch	gp
+FIELD	h	I	currentItem	gp
 METHOD	(Ldm;)V	<init>	<init>	gp
 CLASS	net/minecraft/src/RenderSlime	gq
-FIELD	Lfo;	f	modelSlime	gq
+FIELD	f	Lfo;	modelSlime	gq
 METHOD	(Lma;F)V	a	squishSlime	gq
 METHOD	(Lma;I)Z	a	renderSlimePassModel	gq
 CLASS	net/minecraft/src/LoadingScreenRenderer	gr
-FIELD	Ljava/lang/String;	a	currentlyDisplayedProgress	gr
-FIELD	Lnet/minecraft/client/Minecraft;	b	mc	gr
-FIELD	Ljava/lang/String;	c	currentlyDisplayedText	gr
-FIELD	J	d	systemTime	gr
-FIELD	Z	e	noError	gr
+FIELD	a	Ljava/lang/String;	currentlyDisplayedProgress	gr
+FIELD	b	Lnet/minecraft/client/Minecraft;	mc	gr
+FIELD	c	Ljava/lang/String;	currentlyDisplayedText	gr
+FIELD	d	J	systemTime	gr
+FIELD	e	Z	noError	gr
 METHOD	(Lnet/minecraft/client/Minecraft;)V	<init>	<init>	gr
 METHOD	(Ljava/lang/String;)V	a	resetProgressAndMessage	gr
 METHOD	(Ljava/lang/String;)V	c	drawScreen	gr
 CLASS	net/minecraft/src/WorldClient	gs
-FIELD	Lgy;	A	sendQueue	gs
-FIELD	Llz;	B	clientChunkProvider	gs
-FIELD	Z	C	noTileEntityUpdates	gs
-FIELD	Lfi;	D	entityHashTable	gs
-FIELD	Ljava/util/Set;	E	entityList	gs
-FIELD	Ljava/util/Set;	F	entitySpawnQueue	gs
-FIELD	Ljava/util/LinkedList;	z	blocksToReceive	gs
+FIELD	A	Lgy;	sendQueue	gs
+FIELD	B	Llz;	clientChunkProvider	gs
+FIELD	C	Z	noTileEntityUpdates	gs
+FIELD	D	Lfi;	entityHashTable	gs
+FIELD	E	Ljava/util/Set;	entityList	gs
+FIELD	F	Ljava/util/Set;	entitySpawnQueue	gs
+FIELD	z	Ljava/util/LinkedList;	blocksToReceive	gs
 METHOD	(Lgy;)V	<init>	<init>	gs
 METHOD	(IIZ)V	a	doPreChunk	gs
 METHOD	(ILkh;)V	a	addEntityToWorld	gs
@@ -1728,50 +1728,50 @@ METHOD	(I)Lkh;	c	removeEntityFromWorld	gs
 METHOD	(IIIII)Z	c	handleBlockChange	gs
 METHOD	(IIIIII)V	c	invalidateBlockReceiveRegion	gs
 CLASS	net/minecraft/src/PacketCLASSHandshake	gt
-FIELD	Ljava/lang/String;	a	username	gt
+FIELD	a	Ljava/lang/String;	username	gt
 METHOD	(Ljava/lang/String;)V	<init>	<init>	gt
 CLASS	net/minecraft/src/InventoryCrafting	gu
-FIELD	[Lev;	a	stackList	gu
-FIELD	I	b	gridSize	gu
-FIELD	Lar;	c	craftingInventory	gu
+FIELD	a	[Lev;	stackList	gu
+FIELD	b	I	gridSize	gu
+FIELD	c	Lar;	craftingInventory	gu
 CLASS	net/minecraft/src/WorldGenClay	gv
-FIELD	I	a	clayBlockId	gv
-FIELD	I	b	numberOfBlocks	gv
+FIELD	a	I	clayBlockId	gv
+FIELD	b	I	numberOfBlocks	gv
 CLASS	net/minecraft/src/BlockOre	gw
 METHOD	(II)V	<init>	<init>	gw
 CLASS	net/minecraft/src/ModelSheep	gx
 CLASS	net/minecraft/src/NetClientHandler	gy
-FIELD	Ljava/lang/String;	a	loginProgress	gy
-FIELD	Ljava/util/Random;	b	rand	gy
-FIELD	Z	c	disconnected	gy
-FIELD	Lii;	d	netManager	gy
-FIELD	Lnet/minecraft/client/Minecraft;	e	mc	gy
-FIELD	Lgs;	f	worldClient	gy
-FIELD	Z	g	posUpdated	gy
+FIELD	a	Ljava/lang/String;	loginProgress	gy
+FIELD	b	Ljava/util/Random;	rand	gy
+FIELD	c	Z	disconnected	gy
+FIELD	d	Lii;	netManager	gy
+FIELD	e	Lnet/minecraft/client/Minecraft;	mc	gy
+FIELD	f	Lgs;	worldClient	gy
+FIELD	g	Z	posUpdated	gy
 METHOD	(Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V	<init>	<init>	gy
 METHOD	()V	a	processReadPackets	gy
 METHOD	(Lfn;)V	a	addToSendQueue	gy
 METHOD	()V	b	disconnect	gy
 CLASS	net/minecraft/src/BlockGravel	gz
 CLASS	net/minecraft/src/CanvasMinecraftApplet	h
-FIELD	Lnet/minecraft/client/MinecraftApplet;	a	mcApplet	h
+FIELD	a	Lnet/minecraft/client/MinecraftApplet;	mcApplet	h
 METHOD	(Lnet/minecraft/client/MinecraftApplet;)V	<init>	<init>	h
 CLASS	net/minecraft/src/PacketCLASSMETHODPickupSpawn	ha
-FIELD	I	a	entityId	ha
-FIELD	I	b	xPosition	ha
-FIELD	I	c	yPosition	ha
-FIELD	I	d	zPosition	ha
-FIELD	B	e	rotation	ha
-FIELD	B	f	pitch	ha
-FIELD	B	g	roll	ha
-FIELD	I	h	itemID	ha
-FIELD	I	i	count	ha
+FIELD	a	I	entityId	ha
+FIELD	b	I	xPosition	ha
+FIELD	c	I	yPosition	ha
+FIELD	d	I	zPosition	ha
+FIELD	e	B	rotation	ha
+FIELD	f	B	pitch	ha
+FIELD	g	B	roll	ha
+FIELD	h	I	itemID	ha
+FIELD	i	I	count	ha
 METHOD	(Ldx;)V	<init>	<init>	ha
 CLASS	net/minecraft/src/ImageBuffer	hb
 METHOD	(Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;	a	parseUserSkin	hb
 CLASS	net/minecraft/src/ChunkCoordinates	hc
-FIELD	I	a	posX	hc
-FIELD	I	b	posZ	hc
+FIELD	a	I	posX	hc
+FIELD	b	I	posZ	hc
 METHOD	(II)V	<init>	<init>	hc
 METHOD	(Ljava/lang/Object;)Z	equals	equals	hc
 CLASS	net/minecraft/src/BlockCrops	hd
@@ -1779,35 +1779,35 @@ METHOD	(Lcn;III)F	i	getGrowthRate	hd
 CLASS	net/minecraft/src/BlockIce	he
 METHOD	(II)V	<init>	<init>	he
 CLASS	net/minecraft/src/PacketMETHOD8ArmAnimation	hf
-FIELD	I	a	entityId	hf
-FIELD	I	b	animate	hf
+FIELD	a	I	entityId	hf
+FIELD	b	I	animate	hf
 METHOD	(Lkh;I)V	<init>	<init>	hf
 CLASS	net/minecraft/src/ModelQuadraped	hg
-FIELD	Lip;	d	head	hg
-FIELD	Lip;	e	body	hg
-FIELD	Lip;	f	legMETHOD	hg
-FIELD	Lip;	g	legCLASS	hg
-FIELD	Lip;	h	legFIELD	hg
-FIELD	Lip;	i	leg4	hg
+FIELD	d	Lip;	head	hg
+FIELD	e	Lip;	body	hg
+FIELD	f	Lip;	legMETHOD	hg
+FIELD	g	Lip;	legCLASS	hg
+FIELD	h	Lip;	legFIELD	hg
+FIELD	i	Lip;	leg4	hg
 CLASS	net/minecraft/src/ModelSlime	hh
-FIELD	Lip;	a	slimeBodies	hh
-FIELD	Lip;	b	slimeRightEye	hh
-FIELD	Lip;	c	slimeLeftEye	hh
-FIELD	Lip;	d	slimeMouth	hh
+FIELD	a	Lip;	slimeBodies	hh
+FIELD	b	Lip;	slimeRightEye	hh
+FIELD	c	Lip;	slimeLeftEye	hh
+FIELD	d	Lip;	slimeMouth	hh
 CLASS	net/minecraft/src/BlockLeavesBase	hi
-FIELD	Z	a	graphicsLevel	hi
+FIELD	a	Z	graphicsLevel	hi
 METHOD	(IILgb;Z)V	<init>	<init>	hi
 CLASS	net/minecraft/src/ModelMinecart	hj
-FIELD	[Lip;	a	sideModels	hj
+FIELD	a	[Lip;	sideModels	hj
 CLASS	net/minecraft/src/MusInputStream	hk
-FIELD	[B	a	buffer	hk
-FIELD	Lep;	b	codec	hk
-FIELD	I	c	hash	hk
-FIELD	Ljava/io/InputStream;	d	inputStream	hk
+FIELD	a	[B	buffer	hk
+FIELD	b	Lep;	codec	hk
+FIELD	c	I	hash	hk
+FIELD	d	Ljava/io/InputStream;	inputStream	hk
 METHOD	(Lep;Ljava/net/URL;Ljava/io/InputStream;)V	<init>	<init>	hk
 CLASS	net/minecraft/src/EntityGiantZombie	hl
 CLASS	net/minecraft/src/NBTTagCompound	hm
-FIELD	Ljava/util/Map;	a	tagMap	hm
+FIELD	a	Ljava/util/Map;	tagMap	hm
 METHOD	(Ljava/lang/String;B)V	a	setByte	hm
 METHOD	(Ljava/lang/String;D)V	a	setDouble	hm
 METHOD	(Ljava/lang/String;F)V	a	setFloat	hm
@@ -1835,34 +1835,34 @@ CLASS	net/minecraft/src/BlockStationary	hn
 METHOD	(Lcn;III)V	j	setNotStationary	hn
 METHOD	(Lcn;III)Z	k	isFlammable	hn
 CLASS	net/minecraft/src/Tessellator	ho
-FIELD	I	A	vboCount	ho
-FIELD	I	B	bufferSize	ho
-FIELD	Lho;	a	instance	ho
-FIELD	Z	b	convertQuadsToTriangles	ho
-FIELD	Z	c	tryVBO	ho
-FIELD	Ljava/nio/ByteBuffer;	d	byteBuffer	ho
-FIELD	Ljava/nio/IntBuffer;	e	intBuffer	ho
-FIELD	Ljava/nio/FloatBuffer;	f	floatBuffer	ho
-FIELD	[I	g	rawBuffer	ho
-FIELD	I	h	vertexCount	ho
-FIELD	D	i	textureU	ho
-FIELD	D	j	textureV	ho
-FIELD	I	k	color	ho
-FIELD	Z	l	hasColor	ho
-FIELD	Z	m	hasTexture	ho
-FIELD	Z	n	hasNormals	ho
-FIELD	I	o	rawBufferIndex	ho
-FIELD	I	p	addedVertices	ho
-FIELD	Z	q	isColorDisabled	ho
-FIELD	I	r	drawMode	ho
-FIELD	D	s	xOffset	ho
-FIELD	D	t	yOffset	ho
-FIELD	D	u	zOffset	ho
-FIELD	I	v	normal	ho
-FIELD	Z	w	isDrawing	ho
-FIELD	Z	x	useVBO	ho
-FIELD	Ljava/nio/IntBuffer;	y	vertexBuffers	ho
-FIELD	I	z	vboIndex	ho
+FIELD	A	I	vboCount	ho
+FIELD	B	I	bufferSize	ho
+FIELD	a	Lho;	instance	ho
+FIELD	b	Z	convertQuadsToTriangles	ho
+FIELD	c	Z	tryVBO	ho
+FIELD	d	Ljava/nio/ByteBuffer;	byteBuffer	ho
+FIELD	e	Ljava/nio/IntBuffer;	intBuffer	ho
+FIELD	f	Ljava/nio/FloatBuffer;	floatBuffer	ho
+FIELD	g	[I	rawBuffer	ho
+FIELD	h	I	vertexCount	ho
+FIELD	i	D	textureU	ho
+FIELD	j	D	textureV	ho
+FIELD	k	I	color	ho
+FIELD	l	Z	hasColor	ho
+FIELD	m	Z	hasTexture	ho
+FIELD	n	Z	hasNormals	ho
+FIELD	o	I	rawBufferIndex	ho
+FIELD	p	I	addedVertices	ho
+FIELD	q	Z	isColorDisabled	ho
+FIELD	r	I	drawMode	ho
+FIELD	s	D	xOffset	ho
+FIELD	t	D	yOffset	ho
+FIELD	u	D	zOffset	ho
+FIELD	v	I	normal	ho
+FIELD	w	Z	isDrawing	ho
+FIELD	x	Z	useVBO	ho
+FIELD	y	Ljava/nio/IntBuffer;	vertexBuffers	ho
+FIELD	z	I	vboIndex	ho
 METHOD	()V	a	draw	ho
 METHOD	(DD)V	a	setTextureUV	ho
 METHOD	(DDD)V	a	addVertex	ho
@@ -1880,13 +1880,13 @@ METHOD	()V	c	disableColor	ho
 METHOD	(FFF)V	c	setTranslationF	ho
 METHOD	()V	d	reset	ho
 CLASS	net/minecraft/src/PacketMETHODLogin	hp
-FIELD	I	a	protocolVersion	hp
-FIELD	Ljava/lang/String;	b	username	hp
-FIELD	Ljava/lang/String;	c	password	hp
+FIELD	a	I	protocolVersion	hp
+FIELD	b	Ljava/lang/String;	username	hp
+FIELD	c	Ljava/lang/String;	password	hp
 METHOD	(Ljava/lang/String;Ljava/lang/String;I)V	<init>	<init>	hp
 CLASS	net/minecraft/src/PlayerController	hq
-FIELD	Lnet/minecraft/client/Minecraft;	a	mc	hq
-FIELD	Z	b	isInTestMode	hq
+FIELD	a	Lnet/minecraft/client/Minecraft;	mc	hq
+FIELD	b	Z	isInTestMode	hq
 METHOD	(Lnet/minecraft/client/Minecraft;)V	<init>	<init>	hq
 METHOD	()V	a	resetBlockRemoving	hq
 METHOD	(F)V	a	setPartialTime	hq
@@ -1904,22 +1904,22 @@ METHOD	()Z	d	shouldDrawHUD	hq
 CLASS	net/minecraft/src/RecipesFood	hr
 METHOD	(Ldw;)V	a	addRecipes	hr
 CLASS	net/minecraft/src/InventoryLargeChest	hs
-FIELD	Ljava/lang/String;	a	name	hs
-FIELD	Lgh;	b	upperChest	hs
-FIELD	Lgh;	c	lowerChest	hs
+FIELD	a	Ljava/lang/String;	name	hs
+FIELD	b	Lgh;	upperChest	hs
+FIELD	c	Lgh;	lowerChest	hs
 CLASS	net/minecraft/src/TextureWaterFlowFX	ht
-FIELD	[F	g	red	ht
-FIELD	[F	h	green	ht
-FIELD	[F	i	blue	ht
-FIELD	[F	j	alpha	ht
-FIELD	I	k	tickCounter	ht
+FIELD	g	[F	red	ht
+FIELD	h	[F	green	ht
+FIELD	i	[F	blue	ht
+FIELD	j	[F	alpha	ht
+FIELD	k	I	tickCounter	ht
 CLASS	net/minecraft/src/BlockButton	hu
 METHOD	(II)V	<init>	<init>	hu
 METHOD	(Lcn;III)Z	h	checkIfAttachedToBlock	hu
 CLASS	net/minecraft/src/BlockFlowing	hv
-FIELD	I	a	numAdjacentSources	hv
-FIELD	[Z	b	isOptimalFlowDirection	hv
-FIELD	[I	c	flowCost	hv
+FIELD	a	I	numAdjacentSources	hv
+FIELD	b	[Z	isOptimalFlowDirection	hv
+FIELD	c	[I	flowCost	hv
 METHOD	(Lcn;IIIII)I	a	calculateFlowCost	hv
 METHOD	(Lcn;IIII)I	f	getSmallestFlowDecay	hv
 METHOD	(Lcn;IIII)V	g	flowIntoBlock	hv
@@ -1928,38 +1928,38 @@ METHOD	(Lcn;III)[Z	k	getOptimalFlowDirections	hv
 METHOD	(Lcn;III)Z	l	blockBlocksFlow	hv
 METHOD	(Lcn;III)Z	m	liquidCanDisplaceBlock	hv
 CLASS	net/minecraft/src/RenderTNTPrimed	hw
-FIELD	Lbc;	d	blockRenderer	hw
+FIELD	d	Lbc;	blockRenderer	hw
 METHOD	(Ljd;DDDFF)V	a	doRenderTNT	hw
 CLASS	net/minecraft/src/GuiCrafting	hx
-FIELD	Let;	j	craftingInventory	hx
+FIELD	j	Let;	craftingInventory	hx
 CLASS	net/minecraft/src/BlockCactus	hy
 METHOD	(II)V	<init>	<init>	hy
 CLASS	net/minecraft/src/BlockDirt	hz
 METHOD	(II)V	<init>	<init>	hz
 CLASS	net/minecraft/src/RenderHelper	i
-FIELD	Ljava/nio/FloatBuffer;	a	colorBuffer	i
+FIELD	a	Ljava/nio/FloatBuffer;	colorBuffer	i
 METHOD	()V	a	disableStandardItemLighting	i
 METHOD	(DDDD)Ljava/nio/FloatBuffer;	a	setColorBuffer	i
 METHOD	(FFFF)Ljava/nio/FloatBuffer;	a	setColorBuffer	i
 METHOD	()V	b	enableStandardItemLighting	i
 CLASS	net/minecraft/src/PlayerControllerSP	ia
-FIELD	I	c	curBlockX	ia
-FIELD	I	d	curBlockY	ia
-FIELD	I	e	curBlockZ	ia
-FIELD	F	f	curBlockDamage	ia
-FIELD	F	g	prevBlockDamage	ia
-FIELD	F	h	blockDestroySoundCounter	ia
-FIELD	I	i	blockHitWait	ia
-FIELD	Laz;	j	monsterSpawner	ia
-FIELD	Laz;	k	animalSpawner	ia
+FIELD	c	I	curBlockX	ia
+FIELD	d	I	curBlockY	ia
+FIELD	e	I	curBlockZ	ia
+FIELD	f	F	curBlockDamage	ia
+FIELD	g	F	prevBlockDamage	ia
+FIELD	h	F	blockDestroySoundCounter	ia
+FIELD	i	I	blockHitWait	ia
+FIELD	j	Laz;	monsterSpawner	ia
+FIELD	k	Laz;	animalSpawner	ia
 CLASS	net/minecraft/src/GuiDeleteWorld	ib
 CLASS	net/minecraft/src/TileEntity	ic
-FIELD	Ljava/util/Map;	a	nameToCLASSMap	ic
-FIELD	Ljava/util/Map;	b	CLASSToNameMap	ic
-FIELD	Lcn;	e	worldObj	ic
-FIELD	I	f	xCoord	ic
-FIELD	I	g	yCoord	ic
-FIELD	I	h	zCoord	ic
+FIELD	a	Ljava/util/Map;	nameToCLASSMap	ic
+FIELD	b	Ljava/util/Map;	CLASSToNameMap	ic
+FIELD	e	Lcn;	worldObj	ic
+FIELD	f	I	xCoord	ic
+FIELD	g	I	yCoord	ic
+FIELD	h	I	zCoord	ic
 METHOD	(DDD)D	a	getDistanceFrom	ic
 METHOD	(Lhm;)V	a	readFromNBT	ic
 METHOD	(Ljava/lang/CLASS;Ljava/lang/String;)V	a	addMapping	ic
@@ -1970,41 +1970,41 @@ METHOD	()I	f	getBlockMetadata	ic
 METHOD	()Lly;	g	getBlockType	ic
 METHOD	()V	j_	onInventoryChanged	ic
 CLASS	net/minecraft/src/GuiFurnace	id
-FIELD	Lke;	j	furnaceInventory	id
+FIELD	j	Lke;	furnaceInventory	id
 CLASS	net/minecraft/src/GuiIngameMenu	ie
-FIELD	I	a	updateCounterCLASS	ie
-FIELD	I	h	updateCounter	ie
+FIELD	a	I	updateCounterCLASS	ie
+FIELD	h	I	updateCounter	ie
 CLASS	net/minecraft/src/BlockMinecartTrack	if
 METHOD	(II)V	<init>	<init>	if
 METHOD	(Lcn;III)V	h	refreshTrackShape	if
 CLASS	net/minecraft/src/EntitySlimeFX	ig
 CLASS	net/minecraft/src/EnumOS	ih
-FIELD	Lih;	a	linux	ih
-FIELD	Lih;	b	solaris	ih
-FIELD	Lih;	c	windows	ih
-FIELD	Lih;	d	macos	ih
-FIELD	Lih;	e	unknown	ih
+FIELD	a	Lih;	linux	ih
+FIELD	b	Lih;	solaris	ih
+FIELD	c	Lih;	windows	ih
+FIELD	d	Lih;	macos	ih
+FIELD	e	Lih;	unknown	ih
 CLASS	net/minecraft/src/NetworkManager	ii
-FIELD	Ljava/lang/Object;	a	threadSyncObject	ii
-FIELD	I	b	numReadThreads	ii
-FIELD	I	c	numWriteThreads	ii
-FIELD	Ljava/lang/Object;	d	sendQueueLock	ii
-FIELD	Ljava/net/Socket;	e	networkSocket	ii
-FIELD	Ljava/io/DataInputStream;	f	socketInputStream	ii
-FIELD	Ljava/io/DataOutputStream;	g	socketOutputStream	ii
-FIELD	Z	h	isRunning	ii
-FIELD	Ljava/util/List;	i	readPackets	ii
-FIELD	Ljava/util/List;	j	dataPackets	ii
-FIELD	Ljava/util/List;	k	chunkDataPackets	ii
-FIELD	Llb;	l	netHandler	ii
-FIELD	Z	m	isServerTerminating	ii
-FIELD	Ljava/lang/Thread;	n	writeThread	ii
-FIELD	Ljava/lang/Thread;	o	readThread	ii
-FIELD	Z	p	isTerminating	ii
-FIELD	Ljava/lang/String;	q	terminationReason	ii
-FIELD	I	r	timeSinceLastRead	ii
-FIELD	I	s	sendQueueByteLength	ii
-FIELD	I	t	chunkDataSendCounter	ii
+FIELD	a	Ljava/lang/Object;	threadSyncObject	ii
+FIELD	b	I	numReadThreads	ii
+FIELD	c	I	numWriteThreads	ii
+FIELD	d	Ljava/lang/Object;	sendQueueLock	ii
+FIELD	e	Ljava/net/Socket;	networkSocket	ii
+FIELD	f	Ljava/io/DataInputStream;	socketInputStream	ii
+FIELD	g	Ljava/io/DataOutputStream;	socketOutputStream	ii
+FIELD	h	Z	isRunning	ii
+FIELD	i	Ljava/util/List;	readPackets	ii
+FIELD	j	Ljava/util/List;	dataPackets	ii
+FIELD	k	Ljava/util/List;	chunkDataPackets	ii
+FIELD	l	Llb;	netHandler	ii
+FIELD	m	Z	isServerTerminating	ii
+FIELD	n	Ljava/lang/Thread;	writeThread	ii
+FIELD	o	Ljava/lang/Thread;	readThread	ii
+FIELD	p	Z	isTerminating	ii
+FIELD	q	Ljava/lang/String;	terminationReason	ii
+FIELD	r	I	timeSinceLastRead	ii
+FIELD	s	I	sendQueueByteLength	ii
+FIELD	t	I	chunkDataSendCounter	ii
 METHOD	(Ljava/net/Socket;Ljava/lang/String;Llb;)V	<init>	<init>	ii
 METHOD	()V	a	processReadPackets	ii
 METHOD	(Lfn;)V	a	addToSendQueue	ii
@@ -2019,7 +2019,7 @@ METHOD	(Lii;)V	d	sendNetworkPacket	ii
 METHOD	(Lii;)Ljava/lang/Thread;	e	getReadThread	ii
 METHOD	(Lii;)Ljava/lang/Thread;	f	getWriteThread	ii
 CLASS	net/minecraft/src/PacketFIELDChat	ij
-FIELD	Ljava/lang/String;	a	message	ij
+FIELD	a	Ljava/lang/String;	message	ij
 METHOD	(Ljava/lang/String;)V	<init>	<init>	ij
 CLASS	net/minecraft/src/WorldGenerator	ik
 METHOD	(DDD)V	a	setScale	ik
@@ -2036,27 +2036,27 @@ METHOD	(IIIIII)V	b	markBlockRangeNeedsUpdate	im
 METHOD	(Lkh;)V	b	releaseEntitySkin	im
 METHOD	()V	e	updateAllRenderers	im
 CLASS	net/minecraft/src/TileEntitySignRenderer	in
-FIELD	Ljk;	b	modelSign	in
+FIELD	b	Ljk;	modelSign	in
 METHOD	(Lob;DDDF)V	a	renderTileEntitySignAt	in
 CLASS	net/minecraft/src/NBTTagInt	io
-FIELD	I	a	intValue	io
+FIELD	a	I	intValue	io
 METHOD	(I)V	<init>	<init>	io
 CLASS	net/minecraft/src/ModelRenderer	ip
-FIELD	F	a	rotationPointX	ip
-FIELD	F	b	rotationPointY	ip
-FIELD	F	c	rotationPointZ	ip
-FIELD	F	d	rotateAngleX	ip
-FIELD	F	e	rotateAngleY	ip
-FIELD	F	f	rotateAngleZ	ip
-FIELD	Z	g	mirror	ip
-FIELD	Z	h	showModel	ip
-FIELD	Z	i	isHidden	ip
-FIELD	[Led;	j	corners	ip
-FIELD	[Lll;	k	faces	ip
-FIELD	I	l	textureOffsetX	ip
-FIELD	I	m	textureOffsetY	ip
-FIELD	Z	n	compiled	ip
-FIELD	I	o	displayList	ip
+FIELD	a	F	rotationPointX	ip
+FIELD	b	F	rotationPointY	ip
+FIELD	c	F	rotationPointZ	ip
+FIELD	d	F	rotateAngleX	ip
+FIELD	e	F	rotateAngleY	ip
+FIELD	f	F	rotateAngleZ	ip
+FIELD	g	Z	mirror	ip
+FIELD	h	Z	showModel	ip
+FIELD	i	Z	isHidden	ip
+FIELD	j	[Led;	corners	ip
+FIELD	k	[Lll;	faces	ip
+FIELD	l	I	textureOffsetX	ip
+FIELD	m	I	textureOffsetY	ip
+FIELD	n	Z	compiled	ip
+FIELD	o	I	displayList	ip
 METHOD	(F)V	a	render	ip
 METHOD	(FFF)V	a	setRotationPoint	ip
 METHOD	(FFFIII)V	a	addBox	ip
@@ -2064,21 +2064,21 @@ METHOD	(FFFIIIF)V	a	addBox	ip
 METHOD	(F)V	b	renderWithRotation	ip
 METHOD	(F)V	c	compileDisplayList	ip
 CLASS	net/minecraft/src/EntityRenderer	iq
-FIELD	Ljh;	a	itemRenderer	iq
-FIELD	I	b	unusedIntMETHOD	iq
-FIELD	I	c	unusedIntCLASS	iq
-FIELD	Ljava/nio/FloatBuffer;	d	fogColorBuffer	iq
-FIELD	F	e	fogColorRed	iq
-FIELD	F	f	fogColorGreen	iq
-FIELD	F	g	fogColorBlue	iq
-FIELD	Lnet/minecraft/client/Minecraft;	h	mc	iq
-FIELD	F	i	farPlaneDistance	iq
-FIELD	I	j	rendererUpdateCount	iq
-FIELD	Lkh;	k	pointedEntity	iq
-FIELD	J	l	prevFrameTime	iq
-FIELD	Ljava/util/Random;	m	random	iq
-FIELD	F	n	prevFogColor	iq
-FIELD	F	o	fogColor	iq
+FIELD	a	Ljh;	itemRenderer	iq
+FIELD	b	I	unusedIntMETHOD	iq
+FIELD	c	I	unusedIntCLASS	iq
+FIELD	d	Ljava/nio/FloatBuffer;	fogColorBuffer	iq
+FIELD	e	F	fogColorRed	iq
+FIELD	f	F	fogColorGreen	iq
+FIELD	g	F	fogColorBlue	iq
+FIELD	h	Lnet/minecraft/client/Minecraft;	mc	iq
+FIELD	i	F	farPlaneDistance	iq
+FIELD	j	I	rendererUpdateCount	iq
+FIELD	k	Lkh;	pointedEntity	iq
+FIELD	l	J	prevFrameTime	iq
+FIELD	m	Ljava/util/Random;	random	iq
+FIELD	n	F	prevFogColor	iq
+FIELD	o	F	fogColor	iq
 METHOD	(Lnet/minecraft/client/Minecraft;)V	<init>	<init>	iq
 METHOD	()V	a	updateRenderer	iq
 METHOD	(F)V	a	getMouseOver	iq
@@ -2097,41 +2097,41 @@ METHOD	(F)V	g	orientCamera	iq
 METHOD	(F)V	h	renderSnow	iq
 METHOD	(F)V	i	updateFogColor	iq
 CLASS	net/minecraft/src/Timer	ir
-FIELD	F	a	ticksPerSecond	ir
-FIELD	I	b	elapsedTicks	ir
-FIELD	F	c	renderPartialTicks	ir
-FIELD	F	d	timerSpeed	ir
-FIELD	F	e	elapsedPartialTicks	ir
-FIELD	D	f	lastHRTime	ir
-FIELD	J	g	lastSyncSysClock	ir
-FIELD	J	h	lastSyncHRClock	ir
-FIELD	D	i	timeSyncAdjustment	ir
+FIELD	a	F	ticksPerSecond	ir
+FIELD	b	I	elapsedTicks	ir
+FIELD	c	F	renderPartialTicks	ir
+FIELD	d	F	timerSpeed	ir
+FIELD	e	F	elapsedPartialTicks	ir
+FIELD	f	D	lastHRTime	ir
+FIELD	g	J	lastSyncSysClock	ir
+FIELD	h	J	lastSyncHRClock	ir
+FIELD	i	D	timeSyncAdjustment	ir
 METHOD	(F)V	<init>	<init>	ir
 METHOD	()V	a	updateTimer	ir
 CLASS	net/minecraft/src/PacketFIELDFIELDRelEntityMoveLook	is
 CLASS	net/minecraft/src/KeyBinding	it
-FIELD	Ljava/lang/String;	a	keyDescription	it
-FIELD	I	b	keyCode	it
+FIELD	a	Ljava/lang/String;	keyDescription	it
+FIELD	b	I	keyCode	it
 METHOD	(Ljava/lang/String;I)V	<init>	<init>	it
 CLASS	net/minecraft/src/ItemSword	iu
-FIELD	I	a	weaponDamage	iu
+FIELD	a	I	weaponDamage	iu
 METHOD	(II)V	<init>	<init>	iu
 CLASS	net/minecraft/src/GuiConflictWarning	iv
-FIELD	I	a	updateCounter	iv
+FIELD	a	I	updateCounter	iv
 CLASS	net/minecraft/src/EntityDiggingFX	iw
 METHOD	(Lcn;DDDDDDLly;)V	<init>	<init>	iw
 CLASS	net/minecraft/src/NBTTagByte	ix
-FIELD	B	a	byteValue	ix
+FIELD	a	B	byteValue	ix
 METHOD	(B)V	<init>	<init>	ix
 CLASS	net/minecraft/src/ScaledResolution	iy
-FIELD	I	a	scaleFactor	iy
-FIELD	I	b	scaledWidth	iy
-FIELD	I	c	scaledHeight	iy
+FIELD	a	I	scaleFactor	iy
+FIELD	b	I	scaledWidth	iy
+FIELD	c	I	scaledHeight	iy
 METHOD	()I	a	getScaledWidth	iy
 METHOD	()I	b	getScaledHeight	iy
 CLASS	net/minecraft/src/BlockLeaves	iz
-FIELD	I	b	leafTexIndex	iz
-FIELD	I	c	decayCounter	iz
+FIELD	b	I	leafTexIndex	iz
+FIELD	c	I	decayCounter	iz
 METHOD	(II)V	<init>	<init>	iz
 METHOD	(Z)V	a	setGraphicsLevel	iz
 METHOD	(Lcn;IIII)V	f	updateConnectedLeaves	iz
@@ -2139,44 +2139,44 @@ METHOD	(Lcn;IIII)I	g	getConnectionStrength	iz
 METHOD	(Lcn;III)V	h	updateCurrentLeaves	iz
 METHOD	(Lcn;III)V	i	removeLeaves	iz
 CLASS	net/minecraft/src/ClippingHelperImplementation	j
-FIELD	Lj;	e	instance	j
-FIELD	Ljava/nio/FloatBuffer;	f	projectionMatrixBuffer	j
-FIELD	Ljava/nio/FloatBuffer;	g	modelviewMatrixBuffer	j
-FIELD	Ljava/nio/FloatBuffer;	h	floatBuffer	j
+FIELD	e	Lj;	instance	j
+FIELD	f	Ljava/nio/FloatBuffer;	projectionMatrixBuffer	j
+FIELD	g	Ljava/nio/FloatBuffer;	modelviewMatrixBuffer	j
+FIELD	h	Ljava/nio/FloatBuffer;	floatBuffer	j
 METHOD	()Lbt;	a	getInstance	j
 METHOD	([[FI)V	a	normalize	j
 METHOD	()V	b	init	j
 CLASS	net/minecraft/src/GuiYesNo	ja
-FIELD	Lbh;	a	parentScreen	ja
-FIELD	Ljava/lang/String;	h	messageMETHOD	ja
-FIELD	Ljava/lang/String;	i	messageCLASS	ja
-FIELD	I	j	worldNumber	ja
+FIELD	a	Lbh;	parentScreen	ja
+FIELD	h	Ljava/lang/String;	messageMETHOD	ja
+FIELD	i	Ljava/lang/String;	messageCLASS	ja
+FIELD	j	I	worldNumber	ja
 CLASS	net/minecraft/src/EntityFlameFX	jb
-FIELD	F	a	flameScale	jb
+FIELD	a	F	flameScale	jb
 CLASS	net/minecraft/src/EntityPainting	jc
-FIELD	I	a	direction	jc
-FIELD	Ler;	b	art	jc
-FIELD	I	c	tickCounter	jc
-FIELD	I	d	xPosition	jc
-FIELD	I	e	yPosition	jc
-FIELD	I	f	zPosition	jc
+FIELD	a	I	direction	jc
+FIELD	b	Ler;	art	jc
+FIELD	c	I	tickCounter	jc
+FIELD	d	I	xPosition	jc
+FIELD	e	I	yPosition	jc
+FIELD	f	I	zPosition	jc
 METHOD	(Lcn;IIII)V	<init>	<init>	jc
 METHOD	(I)V	b	setDirection	jc
 METHOD	(I)F	c	getArtSize	jc
 METHOD	()Z	i	onValidSurface	jc
 CLASS	net/minecraft/src/EntityTNTPrimed	jd
-FIELD	I	a	fuse	jd
+FIELD	a	I	fuse	jd
 METHOD	()V	i	explode	jd
 CLASS	net/minecraft/src/Explosion	je
 METHOD	(Lcn;Lkh;DDDF)V	a	doExplosion	je
 CLASS	net/minecraft/src/NextTickListEntry	jf
-FIELD	I	a	xCoord	jf
-FIELD	I	b	yCoord	jf
-FIELD	I	c	zCoord	jf
-FIELD	I	d	blockID	jf
-FIELD	J	e	scheduledTime	jf
-FIELD	J	f	nextTickEntryID	jf
-FIELD	J	g	tickEntryID	jf
+FIELD	a	I	xCoord	jf
+FIELD	b	I	yCoord	jf
+FIELD	c	I	zCoord	jf
+FIELD	d	I	blockID	jf
+FIELD	e	J	scheduledTime	jf
+FIELD	f	J	nextTickEntryID	jf
+FIELD	g	J	tickEntryID	jf
 METHOD	(IIII)V	<init>	<init>	jf
 METHOD	(J)Ljf;	a	setScheduledTime	jf
 METHOD	(Ljf;)I	a	comparer	jf
@@ -2184,11 +2184,11 @@ METHOD	(Ljava/lang/Object;)I	compareTo	compareTo	jf
 METHOD	(Ljava/lang/Object;)Z	equals	equals	jf
 CLASS	net/minecraft/src/ItemBow	jg
 CLASS	net/minecraft/src/ItemRenderer	jh
-FIELD	Lnet/minecraft/client/Minecraft;	a	mc	jh
-FIELD	Lev;	b	itemToRender	jh
-FIELD	F	c	equippedProgress	jh
-FIELD	F	d	prevEquippedProgress	jh
-FIELD	Lbc;	e	renderBlocksInstance	jh
+FIELD	a	Lnet/minecraft/client/Minecraft;	mc	jh
+FIELD	b	Lev;	itemToRender	jh
+FIELD	c	F	equippedProgress	jh
+FIELD	d	F	prevEquippedProgress	jh
+FIELD	e	Lbc;	renderBlocksInstance	jh
 METHOD	(Lnet/minecraft/client/Minecraft;)V	<init>	<init>	jh
 METHOD	()V	a	updateEquippedItem	jh
 METHOD	(F)V	a	renderItemInFirstPerson	jh
@@ -2200,43 +2200,43 @@ METHOD	()V	c	resetEquippedProgressCLASS	jh
 METHOD	(F)V	c	renderWarpedTextureOverlay	jh
 METHOD	(F)V	d	renderFireInFirstPerson	jh
 CLASS	net/minecraft/src/Packet6SpawnPosition	ji
-FIELD	I	a	xPosition	ji
-FIELD	I	b	yPosition	ji
-FIELD	I	c	zPosition	ji
+FIELD	a	I	xPosition	ji
+FIELD	b	I	yPosition	ji
+FIELD	c	I	zPosition	ji
 CLASS	net/minecraft/src/IsoImageBuffer	jj
-FIELD	Ljava/awt/image/BufferedImage;	a	image	jj
-FIELD	Lcn;	b	level	jj
-FIELD	I	c	x	jj
-FIELD	I	d	y	jj
-FIELD	Z	e	rendered	jj
-FIELD	Z	f	noContent	jj
-FIELD	I	g	lastVisible	jj
-FIELD	Z	h	addedToRenderQueue	jj
+FIELD	a	Ljava/awt/image/BufferedImage;	image	jj
+FIELD	b	Lcn;	level	jj
+FIELD	c	I	x	jj
+FIELD	d	I	y	jj
+FIELD	e	Z	rendered	jj
+FIELD	f	Z	noContent	jj
+FIELD	g	I	lastVisible	jj
+FIELD	h	Z	addedToRenderQueue	jj
 METHOD	(II)V	a	init	jj
 METHOD	(Lcn;II)V	a	setLevel	jj
 CLASS	net/minecraft/src/SignModel	jk
-FIELD	Lip;	a	signBoard	jk
-FIELD	Lip;	b	signStick	jk
+FIELD	a	Lip;	signBoard	jk
+FIELD	b	Lip;	signStick	jk
 METHOD	()V	a	renderSign	jk
 CLASS	net/minecraft/src/PacketFIELD4EntityTeleport	jl
-FIELD	I	a	entityId	jl
-FIELD	I	b	xPosition	jl
-FIELD	I	c	yPosition	jl
-FIELD	I	d	zPosition	jl
-FIELD	B	e	yaw	jl
-FIELD	B	f	pitch	jl
+FIELD	a	I	entityId	jl
+FIELD	b	I	xPosition	jl
+FIELD	c	I	yPosition	jl
+FIELD	d	I	zPosition	jl
+FIELD	e	B	yaw	jl
+FIELD	f	B	pitch	jl
 METHOD	(Lkh;)V	<init>	<init>	jl
 CLASS	net/minecraft/src/BlockReed	jm
 METHOD	(II)V	<init>	<init>	jm
 METHOD	(Lcn;III)V	h	checkBlockCoordValid	jm
 CLASS	net/minecraft/src/ItemSeeds	jn
-FIELD	I	a	blockType	jn
+FIELD	a	I	blockType	jn
 METHOD	(II)V	<init>	<init>	jn
 CLASS	net/minecraft/src/ItemMinecart	jo
-FIELD	I	a	minecartType	jo
+FIELD	a	I	minecartType	jo
 METHOD	(II)V	<init>	<init>	jo
 CLASS	net/minecraft/src/BlockFluid	jp
-FIELD	I	d	fluidType	jp
+FIELD	d	I	fluidType	jp
 METHOD	(Lnm;IIILgb;)D	a	getFlowDirection	jp
 METHOD	(I)F	b	getFluidHeightPercent	jp
 METHOD	(Lnm;III)I	b	getEffectiveFlowDecay	jp
@@ -2245,74 +2245,74 @@ METHOD	(Lcn;III)I	h	getFlowDecay	jp
 METHOD	(Lcn;III)V	i	triggerLavaMixEffects	jp
 METHOD	(Lcn;III)V	j	checkForHarden	jp
 CLASS	net/minecraft/src/GuiSelectWorld	jq
-FIELD	Lbh;	a	parentScreen	jq
-FIELD	Ljava/lang/String;	h	screenTitle	jq
-FIELD	Z	i	selected	jq
+FIELD	a	Lbh;	parentScreen	jq
+FIELD	h	Ljava/lang/String;	screenTitle	jq
+FIELD	i	Z	selected	jq
 METHOD	(I)V	c	selectWorld	jq
 METHOD	(I)Ljava/lang/String;	d	getSaveName	jq
 METHOD	()V	j	initButtons	jq
 CLASS	net/minecraft/src/ImageBufferDownload	jr
-FIELD	[I	a	imageData	jr
-FIELD	I	b	imageWidth	jr
-FIELD	I	c	imageHeight	jr
+FIELD	a	[I	imageData	jr
+FIELD	b	I	imageWidth	jr
+FIELD	c	I	imageHeight	jr
 METHOD	(IIII)V	a	setAreaTransparent	jr
 METHOD	(IIII)V	b	setAreaOpaque	jr
 METHOD	(IIII)Z	c	hasTransparency	jr
 CLASS	net/minecraft/src/EnumMobType	js
-FIELD	Ljs;	a	everything	js
-FIELD	Ljs;	b	mobs	js
-FIELD	Ljs;	c	players	js
+FIELD	a	Ljs;	everything	js
+FIELD	b	Ljs;	mobs	js
+FIELD	c	Ljs;	players	js
 CLASS	net/minecraft/src/BlockContainer	jt
 METHOD	()Lic;	a_	getBlockEntity	jt
 CLASS	net/minecraft/src/PacketCLASS9DestroyEntity	ju
-FIELD	I	a	entityId	ju
+FIELD	a	I	entityId	ju
 CLASS	net/minecraft/src/BlockClay	jv
 METHOD	(II)V	<init>	<init>	jv
 CLASS	net/minecraft/src/ItemSaddle	jw
 CLASS	net/minecraft/src/PacketFIELDCLASSEntityLook	jx
 CLASS	net/minecraft/src/ModelSpider	jy
-FIELD	Lip;	a	spiderHead	jy
-FIELD	Lip;	b	spiderNeck	jy
-FIELD	Lip;	c	spiderBody	jy
-FIELD	Lip;	d	spiderLegMETHOD	jy
-FIELD	Lip;	e	spiderLegCLASS	jy
-FIELD	Lip;	f	spiderLegFIELD	jy
-FIELD	Lip;	g	spiderLeg4	jy
-FIELD	Lip;	h	spiderLeg5	jy
-FIELD	Lip;	i	spiderLeg6	jy
-FIELD	Lip;	j	spiderLeg7	jy
-FIELD	Lip;	m	spiderLeg8	jy
+FIELD	a	Lip;	spiderHead	jy
+FIELD	b	Lip;	spiderNeck	jy
+FIELD	c	Lip;	spiderBody	jy
+FIELD	d	Lip;	spiderLegMETHOD	jy
+FIELD	e	Lip;	spiderLegCLASS	jy
+FIELD	f	Lip;	spiderLegFIELD	jy
+FIELD	g	Lip;	spiderLeg4	jy
+FIELD	h	Lip;	spiderLeg5	jy
+FIELD	i	Lip;	spiderLeg6	jy
+FIELD	j	Lip;	spiderLeg7	jy
+FIELD	m	Lip;	spiderLeg8	jy
 CLASS	net/minecraft/src/TextureFlamesFX	jz
-FIELD	[F	g	currentFireFrame	jz
-FIELD	[F	h	lastFireFrame	jz
+FIELD	g	[F	currentFireFrame	jz
+FIELD	h	[F	lastFireFrame	jz
 CLASS	net/minecraft/src/SpawnerClient	k
-FIELD	Lia;	a	playerController	k
+FIELD	a	Lia;	playerController	k
 CLASS	net/minecraft/src/Packet50PreChunk	ka
-FIELD	I	a	xPosition	ka
-FIELD	I	b	yPosition	ka
-FIELD	Z	c	mode	ka
+FIELD	a	I	xPosition	ka
+FIELD	b	I	yPosition	ka
+FIELD	c	Z	mode	ka
 CLASS	net/minecraft/src/MaterialLiquid	kb
 CLASS	net/minecraft/src/LogoEffectRandomizer	kc
-FIELD	D	a	height	kc
-FIELD	D	b	prevHeight	kc
-FIELD	D	c	dropSpeed	kc
-FIELD	Lcx;	d	mainMenu	kc
+FIELD	a	D	height	kc
+FIELD	b	D	prevHeight	kc
+FIELD	c	D	dropSpeed	kc
+FIELD	d	Lcx;	mainMenu	kc
 METHOD	(Lcx;II)V	<init>	<init>	kc
 METHOD	()V	a	updateLogoEffects	kc
 CLASS	net/minecraft/src/FontRenderer	kd
-FIELD	I	a	fontTextureName	kd
-FIELD	[I	b	charWidth	kd
-FIELD	I	c	fontDisplayLists	kd
-FIELD	Ljava/nio/IntBuffer;	d	buffer	kd
+FIELD	a	I	fontTextureName	kd
+FIELD	b	[I	charWidth	kd
+FIELD	c	I	fontDisplayLists	kd
+FIELD	d	Ljava/nio/IntBuffer;	buffer	kd
 METHOD	(Ljava/lang/String;)I	a	getStringWidth	kd
 METHOD	(Ljava/lang/String;III)V	a	drawStringWithShadow	kd
 METHOD	(Ljava/lang/String;IIIZ)V	a	renderString	kd
 METHOD	(Ljava/lang/String;III)V	b	drawString	kd
 CLASS	net/minecraft/src/TileEntityFurnace	ke
-FIELD	[Lev;	a	furnaceItemStacks	ke
-FIELD	I	b	furnaceBurnTime	ke
-FIELD	I	c	currentItemBurnTime	ke
-FIELD	I	d	furnaceCookTime	ke
+FIELD	a	[Lev;	furnaceItemStacks	ke
+FIELD	b	I	furnaceBurnTime	ke
+FIELD	c	I	currentItemBurnTime	ke
+FIELD	d	I	furnaceCookTime	ke
 METHOD	()Z	a	isBurning	ke
 METHOD	(I)I	a	getCookProgressScaled	ke
 METHOD	(Lev;)I	a	getItemBurnTime	ke
@@ -2321,87 +2321,87 @@ METHOD	(I)I	d	getCookedItem	ke
 METHOD	()V	i	smeltItem	ke
 METHOD	()Z	j	canSmelt	ke
 CLASS	net/minecraft/src/BlockRedstoneWire	kf
-FIELD	Z	a	wiresProvidePower	kf
+FIELD	a	Z	wiresProvidePower	kf
 METHOD	(II)V	<init>	<init>	kf
 METHOD	(Lnm;III)Z	b	isPowerProviderOrWire	kf
 METHOD	(Lcn;IIII)I	g	getMaxCurrentStrength	kf
 METHOD	(Lcn;III)V	h	updateAndPropagateCurrentStrength	kf
 METHOD	(Lcn;III)V	i	notifyWireNeighborsOfNeighborChange	kf
 CLASS	net/minecraft/src/EntityArrow	kg
-FIELD	I	a	arrowShake	kg
-FIELD	I	b	xTile	kg
-FIELD	I	c	yTile	kg
-FIELD	I	d	zTile	kg
-FIELD	I	e	inTile	kg
-FIELD	Z	f	inData	kg
-FIELD	Lge;	g	shootingEntity	kg
-FIELD	I	h	ticksInGround	kg
-FIELD	I	i	ticksInAir	kg
+FIELD	a	I	arrowShake	kg
+FIELD	b	I	xTile	kg
+FIELD	c	I	yTile	kg
+FIELD	d	I	zTile	kg
+FIELD	e	I	inTile	kg
+FIELD	f	Z	inData	kg
+FIELD	g	Lge;	shootingEntity	kg
+FIELD	h	I	ticksInGround	kg
+FIELD	i	I	ticksInAir	kg
 METHOD	(Lcn;Lge;)V	<init>	<init>	kg
 METHOD	(DDDFF)V	a	setArrowHeading	kg
 CLASS	net/minecraft/src/Entity	kh
-FIELD	Z	aA	isDead	kh
-FIELD	F	aB	yOffset	kh
-FIELD	F	aC	width	kh
-FIELD	F	aD	height	kh
-FIELD	F	aE	prevDistanceWalkedModified	kh
-FIELD	F	aF	distanceWalkedModified	kh
-FIELD	Z	aG	canTriggerWalking	kh
-FIELD	F	aH	fallDistance	kh
-FIELD	I	a	nextEntityID	kh
-FIELD	D	aI	lastTickPosX	kh
-FIELD	D	aJ	lastTickPosY	kh
-FIELD	D	aK	lastTickPosZ	kh
-FIELD	F	aL	ySize	kh
-FIELD	F	aM	stepHeight	kh
-FIELD	Z	aN	noClip	kh
-FIELD	F	aO	entityCollisionReduction	kh
-FIELD	Z	aP	unusedBool	kh
-FIELD	Ljava/util/Random;	aQ	rand	kh
-FIELD	I	aR	ticksExisted	kh
-FIELD	I	aS	fireResistance	kh
-FIELD	I	aT	fire	kh
-FIELD	I	aU	maxAir	kh
-FIELD	Z	aV	inWater	kh
-FIELD	I	aW	heartsLife	kh
-FIELD	I	aX	air	kh
-FIELD	Ljava/lang/String;	aY	skinUrl	kh
-FIELD	Z	aZ	addedToChunk	kh
-FIELD	I	ab	entityID	kh
-FIELD	D	ac	renderDistanceWeight	kh
-FIELD	Z	ad	preventEntitySpawning	kh
-FIELD	Lkh;	ae	riddenByEntity	kh
-FIELD	Lkh;	af	ridingEntity	kh
-FIELD	Lcn;	ag	worldObj	kh
-FIELD	D	ah	prevPosX	kh
-FIELD	D	ai	prevPosY	kh
-FIELD	D	aj	prevPosZ	kh
-FIELD	D	ak	posX	kh
-FIELD	D	al	posY	kh
-FIELD	D	am	posZ	kh
-FIELD	D	an	motionX	kh
-FIELD	D	ao	motionY	kh
-FIELD	D	ap	motionZ	kh
-FIELD	F	aq	rotationYaw	kh
-FIELD	F	ar	rotationPitch	kh
-FIELD	F	as	prevRotationYaw	kh
-FIELD	F	at	prevRotationPitch	kh
-FIELD	Lcf;	au	boundingBox	kh
-FIELD	Z	av	onGround	kh
-FIELD	Z	aw	isCollidedHorizontally	kh
-FIELD	Z	ax	isCollidedVertically	kh
-FIELD	Z	ay	isCollided	kh
-FIELD	Z	az	surfaceCollision	kh
-FIELD	I	b	nextStepDistance	kh
-FIELD	I	ba	chunkCoordX	kh
-FIELD	I	bb	chunkCoordY	kh
-FIELD	I	bc	chunkCoordZ	kh
-FIELD	I	bd	serverPosX	kh
-FIELD	I	be	serverPosY	kh
-FIELD	I	bf	serverPosZ	kh
-FIELD	Z	c	firstUpdate	kh
-FIELD	D	d	entityRiderPitchDelta	kh
-FIELD	D	e	entityRiderYawDelta	kh
+FIELD	aA	Z	isDead	kh
+FIELD	aB	F	yOffset	kh
+FIELD	aC	F	width	kh
+FIELD	aD	F	height	kh
+FIELD	aE	F	prevDistanceWalkedModified	kh
+FIELD	aF	F	distanceWalkedModified	kh
+FIELD	aG	Z	canTriggerWalking	kh
+FIELD	aH	F	fallDistance	kh
+FIELD	a	I	nextEntityID	kh
+FIELD	aI	D	lastTickPosX	kh
+FIELD	aJ	D	lastTickPosY	kh
+FIELD	aK	D	lastTickPosZ	kh
+FIELD	aL	F	ySize	kh
+FIELD	aM	F	stepHeight	kh
+FIELD	aN	Z	noClip	kh
+FIELD	aO	F	entityCollisionReduction	kh
+FIELD	aP	Z	unusedBool	kh
+FIELD	aQ	Ljava/util/Random;	rand	kh
+FIELD	aR	I	ticksExisted	kh
+FIELD	aS	I	fireResistance	kh
+FIELD	aT	I	fire	kh
+FIELD	aU	I	maxAir	kh
+FIELD	aV	Z	inWater	kh
+FIELD	aW	I	heartsLife	kh
+FIELD	aX	I	air	kh
+FIELD	aY	Ljava/lang/String;	skinUrl	kh
+FIELD	aZ	Z	addedToChunk	kh
+FIELD	ab	I	entityID	kh
+FIELD	ac	D	renderDistanceWeight	kh
+FIELD	ad	Z	preventEntitySpawning	kh
+FIELD	ae	Lkh;	riddenByEntity	kh
+FIELD	af	Lkh;	ridingEntity	kh
+FIELD	ag	Lcn;	worldObj	kh
+FIELD	ah	D	prevPosX	kh
+FIELD	ai	D	prevPosY	kh
+FIELD	aj	D	prevPosZ	kh
+FIELD	ak	D	posX	kh
+FIELD	al	D	posY	kh
+FIELD	am	D	posZ	kh
+FIELD	an	D	motionX	kh
+FIELD	ao	D	motionY	kh
+FIELD	ap	D	motionZ	kh
+FIELD	aq	F	rotationYaw	kh
+FIELD	ar	F	rotationPitch	kh
+FIELD	as	F	prevRotationYaw	kh
+FIELD	at	F	prevRotationPitch	kh
+FIELD	au	Lcf;	boundingBox	kh
+FIELD	av	Z	onGround	kh
+FIELD	aw	Z	isCollidedHorizontally	kh
+FIELD	ax	Z	isCollidedVertically	kh
+FIELD	ay	Z	isCollided	kh
+FIELD	az	Z	surfaceCollision	kh
+FIELD	b	I	nextStepDistance	kh
+FIELD	ba	I	chunkCoordX	kh
+FIELD	bb	I	chunkCoordY	kh
+FIELD	bc	I	chunkCoordZ	kh
+FIELD	bd	I	serverPosX	kh
+FIELD	be	I	serverPosY	kh
+FIELD	bf	I	serverPosZ	kh
+FIELD	c	Z	firstUpdate	kh
+FIELD	d	D	entityRiderPitchDelta	kh
+FIELD	e	D	entityRiderYawDelta	kh
 METHOD	(Lcn;)V	<init>	<init>	kh
 METHOD	()Z	B	isEntityAlive	kh
 METHOD	()V	E	kill	kh
@@ -2464,104 +2464,104 @@ METHOD	()D	v	getYOffset	kh
 METHOD	()Ljava/lang/String;	x	getTexture	kh
 METHOD	()V	y	onEntityUpdate	kh
 CLASS	net/minecraft/src/NBTTagList	ki
-FIELD	Ljava/util/List;	a	tagList	ki
-FIELD	B	b	tagType	ki
+FIELD	a	Ljava/util/List;	tagList	ki
+FIELD	b	B	tagType	ki
 METHOD	(I)Lel;	a	tagAt	ki
 METHOD	(Lel;)V	a	setTag	ki
 METHOD	()I	c	tagCount	ki
 CLASS	net/minecraft/src/PacketCLASSFIELDVehicleSpawn	kj
-FIELD	I	a	entityId	kj
-FIELD	I	b	xPosition	kj
-FIELD	I	c	yPosition	kj
-FIELD	I	d	zPosition	kj
-FIELD	I	e	type	kj
+FIELD	a	I	entityId	kj
+FIELD	b	I	xPosition	kj
+FIELD	c	I	yPosition	kj
+FIELD	d	I	zPosition	kj
+FIELD	e	I	type	kj
 CLASS	net/minecraft/src/MapGenCaves	kk
 METHOD	(II[BDDD)V	a	generateLargeCaveNode	kk
 METHOD	(II[BDDDFFFIID)V	a	generateCaveNode	kk
 CLASS	net/minecraft/src/Frustum	kl
-FIELD	Lbt;	a	clippingHelper	kl
-FIELD	D	b	xPosition	kl
-FIELD	D	c	yPosition	kl
-FIELD	D	d	zPosition	kl
+FIELD	a	Lbt;	clippingHelper	kl
+FIELD	b	D	xPosition	kl
+FIELD	c	D	yPosition	kl
+FIELD	d	D	zPosition	kl
 METHOD	(DDDDDD)Z	a	isBoxInFrustum	kl
 CLASS	net/minecraft/src/BlockStairs	km
-FIELD	Lly;	a	modelBlock	km
+FIELD	a	Lly;	modelBlock	km
 METHOD	(ILly;)V	<init>	<init>	km
 METHOD	(Lcn;III)V	h	updateState	km
 METHOD	(Lcn;III)Z	i	isBlockSolid	km
 METHOD	(Lcn;III)Z	j	isBlockStair	km
 CLASS	net/minecraft/src/MetadataChunkBlock	kn
-FIELD	Lby;	a	skyBlock	kn
-FIELD	I	b	minX	kn
-FIELD	I	c	minY	kn
-FIELD	I	d	minZ	kn
-FIELD	I	e	maxX	kn
-FIELD	I	f	maxY	kn
-FIELD	I	g	maxZ	kn
+FIELD	a	Lby;	skyBlock	kn
+FIELD	b	I	minX	kn
+FIELD	c	I	minY	kn
+FIELD	d	I	minZ	kn
+FIELD	e	I	maxX	kn
+FIELD	f	I	maxY	kn
+FIELD	g	I	maxZ	kn
 METHOD	(Lby;IIIIII)V	<init>	<init>	kn
 METHOD	(IIIIII)Z	a	getLightUpdated	kn
 METHOD	(Lcn;)V	a	updateLight	kn
 CLASS	net/minecraft/src/ChatLine	ko
-FIELD	Ljava/lang/String;	a	message	ko
-FIELD	I	b	updateCounter	ko
+FIELD	a	Ljava/lang/String;	message	ko
+FIELD	b	I	updateCounter	ko
 METHOD	(Ljava/lang/String;)V	<init>	<init>	ko
 CLASS	net/minecraft/src/PacketFIELDMETHODRelEntityMove	kp
 CLASS	net/minecraft/src/EntitySplashFX	kq
 CLASS	net/minecraft/src/NBTTagDouble	kr
-FIELD	D	a	doubleValue	kr
+FIELD	a	D	doubleValue	kr
 METHOD	(D)V	<init>	<init>	kr
 CLASS	net/minecraft/src/ItemAxe	ks
-FIELD	[Lly;	aX	blocksEffectiveAgainst	ks
+FIELD	aX	[Lly;	blocksEffectiveAgainst	ks
 METHOD	(II)V	<init>	<init>	ks
 CLASS	net/minecraft/src/RenderMinecart	kt
-FIELD	Lfo;	d	modelMinecart	kt
+FIELD	d	Lfo;	modelMinecart	kt
 METHOD	(Loc;DDDFF)V	a	renderMinecart	kt
 CLASS	net/minecraft/src/BlockFurnace	ku
-FIELD	Z	a	isActive	ku
+FIELD	a	Z	isActive	ku
 METHOD	(IZ)V	<init>	<init>	ku
 METHOD	(ZLcn;III)V	a	updateFurnaceBlockState	ku
 METHOD	(Lcn;III)V	h	setDefaultDirection	ku
 CLASS	net/minecraft/src/ModelChicken	kv
-FIELD	Lip;	a	head	kv
-FIELD	Lip;	b	body	kv
-FIELD	Lip;	c	rightLeg	kv
-FIELD	Lip;	d	leftLeg	kv
-FIELD	Lip;	e	rightWing	kv
-FIELD	Lip;	f	leftWing	kv
-FIELD	Lip;	g	bill	kv
-FIELD	Lip;	h	chin	kv
+FIELD	a	Lip;	head	kv
+FIELD	b	Lip;	body	kv
+FIELD	c	Lip;	rightLeg	kv
+FIELD	d	Lip;	leftLeg	kv
+FIELD	e	Lip;	rightWing	kv
+FIELD	f	Lip;	leftWing	kv
+FIELD	g	Lip;	bill	kv
+FIELD	h	Lip;	chin	kv
 CLASS	net/minecraft/src/RenderList	kw
-FIELD	I	a	posX	kw
-FIELD	I	b	posY	kw
-FIELD	I	c	posZ	kw
-FIELD	F	d	playerPosX	kw
-FIELD	F	e	playerPosY	kw
-FIELD	F	f	playerPosZ	kw
-FIELD	Ljava/nio/IntBuffer;	g	buffer	kw
-FIELD	Z	h	render	kw
-FIELD	Z	i	isCached	kw
+FIELD	a	I	posX	kw
+FIELD	b	I	posY	kw
+FIELD	c	I	posZ	kw
+FIELD	d	F	playerPosX	kw
+FIELD	e	F	playerPosY	kw
+FIELD	f	F	playerPosZ	kw
+FIELD	g	Ljava/nio/IntBuffer;	buffer	kw
+FIELD	h	Z	render	kw
+FIELD	i	Z	isCached	kw
 METHOD	()V	a	render	kw
 METHOD	(I)V	a	render	kw
 METHOD	(III)Z	a	isRenderedAt	kw
 METHOD	(IIIDDD)V	a	setLocation	kw
 METHOD	()V	b	reset	kw
 CLASS	net/minecraft/src/RenderManager	kx
-FIELD	Lkx;	a	instance	kx
-FIELD	D	b	renderPosX	kx
-FIELD	D	c	renderPosY	kx
-FIELD	D	d	renderPosZ	kx
-FIELD	Ley;	e	renderEngine	kx
-FIELD	Ljh;	f	itemRenderer	kx
-FIELD	Lcn;	g	worldObj	kx
-FIELD	Ldm;	h	player	kx
-FIELD	F	i	playerViewY	kx
-FIELD	F	j	playerViewX	kx
-FIELD	Lfr;	k	options	kx
-FIELD	D	l	viewerPosX	kx
-FIELD	D	m	viewerPosY	kx
-FIELD	D	n	viewerPosZ	kx
-FIELD	Ljava/util/Map;	o	entityRenderMap	kx
-FIELD	Lkd;	p	fontRenderer	kx
+FIELD	a	Lkx;	instance	kx
+FIELD	b	D	renderPosX	kx
+FIELD	c	D	renderPosY	kx
+FIELD	d	D	renderPosZ	kx
+FIELD	e	Ley;	renderEngine	kx
+FIELD	f	Ljh;	itemRenderer	kx
+FIELD	g	Lcn;	worldObj	kx
+FIELD	h	Ldm;	player	kx
+FIELD	i	F	playerViewY	kx
+FIELD	j	F	playerViewX	kx
+FIELD	k	Lfr;	options	kx
+FIELD	l	D	viewerPosX	kx
+FIELD	m	D	viewerPosY	kx
+FIELD	n	D	viewerPosZ	kx
+FIELD	o	Ljava/util/Map;	entityRenderMap	kx
+FIELD	p	Lkd;	fontRenderer	kx
 METHOD	()Lkd;	a	getFontRenderer	kx
 METHOD	(DDD)D	a	getDistanceToCamera	kx
 METHOD	(Lcn;)V	a	set	kx
@@ -2572,24 +2572,24 @@ METHOD	(Lkh;DDDFF)V	a	renderEntityWithPosYaw	kx
 METHOD	(Lkh;F)V	a	renderEntity	kx
 CLASS	net/minecraft/src/BlockMushroom	ky
 CLASS	net/minecraft/src/ThreadDownloadImage	kz
-FIELD	Ljava/lang/String;	a	location	kz
-FIELD	Lhb;	b	buffer	kz
-FIELD	Lcc;	c	imageData	kz
+FIELD	a	Ljava/lang/String;	location	kz
+FIELD	b	Lhb;	buffer	kz
+FIELD	c	Lcc;	imageData	kz
 METHOD	(Lcc;Ljava/lang/String;Lhb;)V	<init>	<init>	kz
 CLASS	net/minecraft/src/RecipesArmor	l
-FIELD	[[Ljava/lang/String;	a	recipePatterns	l
-FIELD	[[Ljava/lang/Object;	b	recipeItems	l
+FIELD	a	[[Ljava/lang/String;	recipePatterns	l
+FIELD	b	[[Ljava/lang/Object;	recipeItems	l
 METHOD	(Ldw;)V	a	addRecipes	l
 CLASS	net/minecraft/src/EntityClientPlayerMP	la
-FIELD	Lgy;	bg	sendQueue	la
-FIELD	I	bh	motionUpdateCounter	la
-FIELD	D	bi	oldPosX	la
-FIELD	D	bj	oldBasePos	la
-FIELD	D	bk	oldPosY	la
-FIELD	D	bl	oldPosZ	la
-FIELD	F	bm	oldRotationYaw	la
-FIELD	F	bn	oldRotationPitch	la
-FIELD	Leu;	bo	serverSideInventory	la
+FIELD	bg	Lgy;	sendQueue	la
+FIELD	bh	I	motionUpdateCounter	la
+FIELD	bi	D	oldPosX	la
+FIELD	bj	D	oldBasePos	la
+FIELD	bk	D	oldPosY	la
+FIELD	bl	D	oldPosZ	la
+FIELD	bm	F	oldRotationYaw	la
+FIELD	bn	F	oldRotationPitch	la
+FIELD	bo	Leu;	serverSideInventory	la
 METHOD	(Lnet/minecraft/client/Minecraft;Lcn;Ldl;Lgy;)V	<init>	<init>	la
 METHOD	()V	J	sendMotionUpdates	la
 CLASS	net/minecraft/src/NetHandler	lb
@@ -2622,106 +2622,106 @@ METHOD	(Lny;)V	a	handleComplexEntity	lb
 METHOD	(Loh;)V	a	handleKickDisconnect	lb
 METHOD	(Lfn;)V	b	registerPacket	lb
 CLASS	net/minecraft/src/WorldBlockPositionType	lc
-FIELD	I	a	posX	lc
-FIELD	I	b	posY	lc
-FIELD	I	c	posZ	lc
-FIELD	I	d	acceptCountdown	lc
-FIELD	I	e	blockID	lc
-FIELD	I	f	metadata	lc
-FIELD	Lgs;	g	worldClient	lc
+FIELD	a	I	posX	lc
+FIELD	b	I	posY	lc
+FIELD	c	I	posZ	lc
+FIELD	d	I	acceptCountdown	lc
+FIELD	e	I	blockID	lc
+FIELD	f	I	metadata	lc
+FIELD	g	Lgs;	worldClient	lc
 METHOD	(Lgs;IIIII)V	<init>	<init>	lc
 CLASS	net/minecraft/src/PacketMETHOD7AddToInventory	ld
-FIELD	I	a	itemID	ld
-FIELD	I	b	count	ld
-FIELD	I	c	itemDamage	ld
+FIELD	a	I	itemID	ld
+FIELD	b	I	count	ld
+FIELD	c	I	itemDamage	ld
 CLASS	net/minecraft/src/ChunkLoader	le
-FIELD	Ljava/io/File;	a	saveDir	le
-FIELD	Z	b	createIfNecessary	le
+FIELD	a	Ljava/io/File;	saveDir	le
+FIELD	b	Z	createIfNecessary	le
 METHOD	(Ljava/io/File;Z)V	<init>	<init>	le
 METHOD	(II)Ljava/io/File;	a	chunkFileForXZ	le
 METHOD	(Lcn;Lhm;)Lga;	a	loadChunkIntoWorldFromCompound	le
 METHOD	(Lga;Lcn;Lhm;)V	a	storeChunkInCompound	le
 CLASS	net/minecraft/src/RecipesIngots	lf
-FIELD	[[Ljava/lang/Object;	a	recipeItems	lf
+FIELD	a	[[Ljava/lang/Object;	recipeItems	lf
 METHOD	(Ldw;)V	a	addRecipes	lf
 CLASS	net/minecraft/src/ItemRecord	lg
-FIELD	Ljava/lang/String;	a	recordName	lg
+FIELD	a	Ljava/lang/String;	recordName	lg
 METHOD	(ILjava/lang/String;)V	<init>	<init>	lg
 CLASS	net/minecraft/src/ThreadRunIsoClient	lh
-FIELD	Lad;	a	isomPreview	lh
+FIELD	a	Lad;	isomPreview	lh
 METHOD	(Lad;)V	<init>	<init>	lh
 CLASS	net/minecraft/src/Packet5FIELDBlockChange	li
-FIELD	I	a	xPosition	li
-FIELD	I	b	yPosition	li
-FIELD	I	c	zPosition	li
-FIELD	I	d	type	li
-FIELD	I	e	metadata	li
+FIELD	a	I	xPosition	li
+FIELD	b	I	yPosition	li
+FIELD	c	I	zPosition	li
+FIELD	d	I	type	li
+FIELD	e	I	metadata	li
 CLASS	net/minecraft/src/SlotArmor	lj
-FIELD	I	c	armorType	lj
-FIELD	Llo;	d	guiInventory	lj
+FIELD	c	I	armorType	lj
+FIELD	d	Llo;	guiInventory	lj
 CLASS	net/minecraft/src/WorldIso	lk
-FIELD	Lad;	z	isomPreview	lk
+FIELD	z	Lad;	isomPreview	lk
 CLASS	net/minecraft/src/TexturedQuad	ll
-FIELD	[Led;	a	vertexPositions	ll
-FIELD	I	b	nVertices	ll
-FIELD	Z	c	invertNormal	ll
+FIELD	a	[Led;	vertexPositions	ll
+FIELD	b	I	nVertices	ll
+FIELD	c	Z	invertNormal	ll
 METHOD	()V	a	flipFace	ll
 METHOD	(Lho;F)V	a	draw	ll
 CLASS	net/minecraft/src/Gui	lm
-FIELD	F	k	zLevel	lm
+FIELD	k	F	zLevel	lm
 METHOD	(IIIII)V	a	drawRect	lm
 METHOD	(IIIIII)V	a	drawGradientRect	lm
 METHOD	(Lkd;Ljava/lang/String;III)V	a	drawCenteredString	lm
 METHOD	(IIIIII)V	b	drawTexturedModalRect	lm
 METHOD	(Lkd;Ljava/lang/String;III)V	b	drawString	lm
 CLASS	net/minecraft/src/OSMapIsom	ln
-FIELD	[I	a	osValues	ln
+FIELD	a	[I	osValues	ln
 CLASS	net/minecraft/src/GuiInventory	lo
-FIELD	Ln;	j	craftingInventory	lo
-FIELD	F	l	xSize_lo	lo
-FIELD	F	m	ySize_lo	lo
+FIELD	j	Ln;	craftingInventory	lo
+FIELD	l	F	xSize_lo	lo
+FIELD	m	F	ySize_lo	lo
 CLASS	net/minecraft/src/NoiseGeneratorOctaves	lp
-FIELD	[Lv;	a	generatorCollection	lp
-FIELD	I	b	octaves	lp
+FIELD	a	[Lv;	generatorCollection	lp
+FIELD	b	I	octaves	lp
 METHOD	(Ljava/util/Random;I)V	<init>	<init>	lp
 METHOD	(DD)D	a	generateNoiseOctaves	lp
 METHOD	([DDDDIIIDDD)[D	a	generateNoiseOctaves	lp
 CLASS	net/minecraft/src/PacketFIELD0Entity	lq
-FIELD	I	a	entityId	lq
-FIELD	B	b	xPosition	lq
-FIELD	B	c	yPosition	lq
-FIELD	B	d	zPosition	lq
-FIELD	B	e	yaw	lq
-FIELD	B	f	pitch	lq
-FIELD	Z	g	rotating	lq
+FIELD	a	I	entityId	lq
+FIELD	b	B	xPosition	lq
+FIELD	c	B	yPosition	lq
+FIELD	d	B	zPosition	lq
+FIELD	e	B	yaw	lq
+FIELD	f	B	pitch	lq
+FIELD	g	Z	rotating	lq
 CLASS	net/minecraft/src/BlockSign	lr
-FIELD	Ljava/lang/CLASS;	a	signEntityCLASS	lr
-FIELD	Z	b	isFreestanding	lr
+FIELD	a	Ljava/lang/CLASS;	signEntityCLASS	lr
+FIELD	b	Z	isFreestanding	lr
 METHOD	(ILjava/lang/CLASS;Z)V	<init>	<init>	lr
 CLASS	net/minecraft/src/NBTTagShort	ls
-FIELD	S	a	shortValue	ls
+FIELD	a	S	shortValue	ls
 METHOD	(S)V	<init>	<init>	ls
 CLASS	net/minecraft/src/TerrainTextureManager	lt
-FIELD	[F	a	texCols	lt
-FIELD	[I	b	pixels	lt
-FIELD	[I	c	zBuf	lt
-FIELD	[I	d	waterBuf	lt
-FIELD	[I	e	waterBr	lt
-FIELD	[I	f	yBuf	lt
-FIELD	[I	g	textures	lt
+FIELD	a	[F	texCols	lt
+FIELD	b	[I	pixels	lt
+FIELD	c	[I	zBuf	lt
+FIELD	d	[I	waterBuf	lt
+FIELD	e	[I	waterBr	lt
+FIELD	f	[I	yBuf	lt
+FIELD	g	[I	textures	lt
 METHOD	()V	a	postProcess	lt
 METHOD	(Ljj;)V	a	render	lt
 CLASS	net/minecraft/src/GuiIngame	lu
-FIELD	Ljava/lang/String;	a	testMessage	lu
-FIELD	F	b	damageGuiPartialTime	lu
-FIELD	F	c	prevVignetteBrightness	lu
-FIELD	Lab;	d	itemRenderer	lu
-FIELD	Ljava/util/List;	e	chatMessageList	lu
-FIELD	Ljava/util/Random;	f	rand	lu
-FIELD	Lnet/minecraft/client/Minecraft;	g	mc	lu
-FIELD	I	h	updateCounter	lu
-FIELD	Ljava/lang/String;	i	recordPlaying	lu
-FIELD	I	j	recordPlayingUpFor	lu
+FIELD	a	Ljava/lang/String;	testMessage	lu
+FIELD	b	F	damageGuiPartialTime	lu
+FIELD	c	F	prevVignetteBrightness	lu
+FIELD	d	Lab;	itemRenderer	lu
+FIELD	e	Ljava/util/List;	chatMessageList	lu
+FIELD	f	Ljava/util/Random;	rand	lu
+FIELD	g	Lnet/minecraft/client/Minecraft;	mc	lu
+FIELD	h	I	updateCounter	lu
+FIELD	i	Ljava/lang/String;	recordPlaying	lu
+FIELD	j	I	recordPlayingUpFor	lu
 METHOD	(Lnet/minecraft/client/Minecraft;)V	<init>	<init>	lu
 METHOD	()V	a	updateTick	lu
 METHOD	(FII)V	a	renderVignette	lu
@@ -2730,138 +2730,138 @@ METHOD	(IIIF)V	a	renderInventorySlot	lu
 METHOD	(Ljava/lang/String;)V	a	addChatMessage	lu
 METHOD	(Ljava/lang/String;)V	b	setRecordPlayingMessage	lu
 CLASS	net/minecraft/src/MovementInput	lv
-FIELD	F	a	moveStrafe	lv
-FIELD	F	b	moveForward	lv
-FIELD	Z	c	unused	lv
-FIELD	Z	d	jump	lv
-FIELD	Z	e	sneak	lv
+FIELD	a	F	moveStrafe	lv
+FIELD	b	F	moveForward	lv
+FIELD	c	Z	unused	lv
+FIELD	d	Z	jump	lv
+FIELD	e	Z	sneak	lv
 METHOD	()V	a	resetKeyState	lv
 METHOD	(IZ)V	a	checkKeyForMovementInput	lv
 METHOD	(Ldm;)V	a	updatePlayerMoveState	lv
 CLASS	net/minecraft/src/GuiControls	lw
-FIELD	Ljava/lang/String;	a	screenTitle	lw
-FIELD	Lbh;	h	parentScreen	lw
-FIELD	Lfr;	i	options	lw
-FIELD	I	j	buttonId	lw
+FIELD	a	Ljava/lang/String;	screenTitle	lw
+FIELD	h	Lbh;	parentScreen	lw
+FIELD	i	Lfr;	options	lw
+FIELD	j	I	buttonId	lw
 METHOD	(Lbh;Lfr;)V	<init>	<init>	lw
 CLASS	net/minecraft/src/MinecraftException	lx
 METHOD	(Ljava/lang/String;)V	<init>	<init>	lx
 CLASS	net/minecraft/src/Block	ly
-FIELD	Lly;	A	bedrock	ly
-FIELD	Lly;	B	waterMoving	ly
-FIELD	Lly;	C	waterStill	ly
-FIELD	Lly;	D	lavaMoving	ly
-FIELD	Lly;	E	lavaStill	ly
-FIELD	Lly;	F	sand	ly
-FIELD	Lly;	G	gravel	ly
-FIELD	Lly;	H	oreGold	ly
-FIELD	Lly;	I	oreIron	ly
-FIELD	Lly;	J	oreCoal	ly
-FIELD	Lly;	K	wood	ly
-FIELD	Liz;	L	leaves	ly
-FIELD	Lly;	M	sponge	ly
-FIELD	Lly;	N	glass	ly
-FIELD	Lly;	O	clothRed	ly
-FIELD	Lly;	P	clothOrange	ly
-FIELD	Lly;	Q	clothYellow	ly
-FIELD	Lly;	R	clothChartreuse	ly
-FIELD	Lly;	S	clothGreen	ly
-FIELD	Lly;	T	clothSpringGreen	ly
-FIELD	Lly;	U	clothCyan	ly
-FIELD	Lly;	V	clothCapri	ly
-FIELD	Lly;	W	clothUltramarine	ly
-FIELD	Lly;	X	clothViolet	ly
-FIELD	Lly;	Y	clothPurple	ly
-FIELD	Lly;	Z	clothMagenta	ly
-FIELD	Lly;	aA	crops	ly
-FIELD	Lly;	aB	tilledFIELD	ly
-FIELD	Lly;	aC	stoneOvenIdle	ly
-FIELD	Lly;	aD	stoneOvenActive	ly
-FIELD	Lly;	aE	signStanding	ly
-FIELD	Lly;	aF	doorWood	ly
-FIELD	Lly;	aG	ladder	ly
-FIELD	Lly;	aH	minecartTrack	ly
-FIELD	Lly;	aI	stairCompactStone	ly
-FIELD	Lly;	aJ	signWall	ly
-FIELD	Lly;	aK	lever	ly
-FIELD	Lly;	aL	pressurePlateStone	ly
-FIELD	Lly;	aM	doorSteel	ly
-FIELD	Lly;	aN	pressurePlateWood	ly
-FIELD	Lly;	aO	oreRedstone	ly
-FIELD	Lly;	aP	oreRedstoneGlowing	ly
-FIELD	Lly;	aQ	torchRedstoneIdle	ly
-FIELD	Lly;	aR	torchRedstoneActive	ly
-FIELD	Lly;	aS	button	ly
-FIELD	Lly;	aT	snow	ly
-FIELD	Lly;	aU	ice	ly
-FIELD	Lly;	aV	blockSnow	ly
-FIELD	Lly;	aW	cactus	ly
-FIELD	Lly;	aX	blockClay	ly
-FIELD	Lly;	aY	reed	ly
-FIELD	Lly;	aZ	jukebox	ly
-FIELD	Lly;	aa	clothRose	ly
-FIELD	Lly;	ab	clothDarkGray	ly
-FIELD	Lly;	ac	cloth	ly
-FIELD	Lly;	ad	clothWhite	ly
-FIELD	Lmq;	ae	plantYellow	ly
-FIELD	Lmq;	af	plantRed	ly
-FIELD	Lmq;	ag	mushroomBrown	ly
-FIELD	Lmq;	ah	mushroomRed	ly
-FIELD	Lly;	ai	blockGold	ly
-FIELD	Lly;	aj	blockSteel	ly
-FIELD	Lly;	ak	stairDouble	ly
-FIELD	Lly;	al	stairSingle	ly
-FIELD	Lly;	am	brick	ly
-FIELD	Lly;	an	tnt	ly
-FIELD	Lly;	ao	bookshelf	ly
-FIELD	Lly;	ap	cobblestoneMossy	ly
-FIELD	Lly;	aq	obsidian	ly
-FIELD	Lly;	ar	torch	ly
-FIELD	Log;	as	fire	ly
-FIELD	Lly;	at	mobSpawner	ly
-FIELD	Lly;	au	stairCompactWood	ly
-FIELD	Lly;	av	chest	ly
-FIELD	Lly;	aw	redstoneWire	ly
-FIELD	Lly;	ax	oreDiamond	ly
-FIELD	Lly;	ay	blockDiamond	ly
-FIELD	Lly;	az	workbench	ly
-FIELD	Lly;	ba	fence	ly
-FIELD	I	bb	blockIndexInTexture	ly
-FIELD	I	bc	blockID	ly
-FIELD	F	bd	hardness	ly
-FIELD	F	be	resistance	ly
-FIELD	D	bf	minX	ly
-FIELD	D	bg	minY	ly
-FIELD	D	bh	minZ	ly
-FIELD	D	bi	maxX	ly
-FIELD	D	bj	maxY	ly
-FIELD	D	bk	maxZ	ly
-FIELD	Lbb;	bl	stepSound	ly
-FIELD	F	bm	blockParticleGravity	ly
-FIELD	Lgb;	bn	material	ly
-FIELD	F	bo	slipperiness	ly
-FIELD	Lbb;	e	soundPowderFootstep	ly
-FIELD	Lbb;	f	soundWoodFootstep	ly
-FIELD	Lbb;	g	soundGravelFootstep	ly
-FIELD	Lbb;	h	soundGrassFootstep	ly
-FIELD	Lbb;	i	soundStoneFootstep	ly
-FIELD	Lbb;	j	soundMetalFootstep	ly
-FIELD	Lbb;	k	soundGlassFootstep	ly
-FIELD	Lbb;	l	soundClothFootstep	ly
-FIELD	Lbb;	m	soundSandFootstep	ly
-FIELD	[Lly;	n	blocksList	ly
-FIELD	[Z	o	tickOnLoad	ly
-FIELD	[Z	p	opaqueCubeLookup	ly
-FIELD	[Z	q	isBlockContainer	ly
-FIELD	[I	r	lightOpacity	ly
-FIELD	[Z	s	canBlockGrass	ly
-FIELD	[I	t	lightValue	ly
-FIELD	Lly;	u	stone	ly
-FIELD	Lmy;	v	grass	ly
-FIELD	Lly;	w	dirt	ly
-FIELD	Lly;	x	cobblestone	ly
-FIELD	Lly;	y	planks	ly
-FIELD	Lly;	z	sapling	ly
+FIELD	A	Lly;	bedrock	ly
+FIELD	B	Lly;	waterMoving	ly
+FIELD	C	Lly;	waterStill	ly
+FIELD	D	Lly;	lavaMoving	ly
+FIELD	E	Lly;	lavaStill	ly
+FIELD	F	Lly;	sand	ly
+FIELD	G	Lly;	gravel	ly
+FIELD	H	Lly;	oreGold	ly
+FIELD	I	Lly;	oreIron	ly
+FIELD	J	Lly;	oreCoal	ly
+FIELD	K	Lly;	wood	ly
+FIELD	L	Liz;	leaves	ly
+FIELD	M	Lly;	sponge	ly
+FIELD	N	Lly;	glass	ly
+FIELD	O	Lly;	clothRed	ly
+FIELD	P	Lly;	clothOrange	ly
+FIELD	Q	Lly;	clothYellow	ly
+FIELD	R	Lly;	clothChartreuse	ly
+FIELD	S	Lly;	clothGreen	ly
+FIELD	T	Lly;	clothSpringGreen	ly
+FIELD	U	Lly;	clothCyan	ly
+FIELD	V	Lly;	clothCapri	ly
+FIELD	W	Lly;	clothUltramarine	ly
+FIELD	X	Lly;	clothViolet	ly
+FIELD	Y	Lly;	clothPurple	ly
+FIELD	Z	Lly;	clothMagenta	ly
+FIELD	aA	Lly;	crops	ly
+FIELD	aB	Lly;	tilledFIELD	ly
+FIELD	aC	Lly;	stoneOvenIdle	ly
+FIELD	aD	Lly;	stoneOvenActive	ly
+FIELD	aE	Lly;	signStanding	ly
+FIELD	aF	Lly;	doorWood	ly
+FIELD	aG	Lly;	ladder	ly
+FIELD	aH	Lly;	minecartTrack	ly
+FIELD	aI	Lly;	stairCompactStone	ly
+FIELD	aJ	Lly;	signWall	ly
+FIELD	aK	Lly;	lever	ly
+FIELD	aL	Lly;	pressurePlateStone	ly
+FIELD	aM	Lly;	doorSteel	ly
+FIELD	aN	Lly;	pressurePlateWood	ly
+FIELD	aO	Lly;	oreRedstone	ly
+FIELD	aP	Lly;	oreRedstoneGlowing	ly
+FIELD	aQ	Lly;	torchRedstoneIdle	ly
+FIELD	aR	Lly;	torchRedstoneActive	ly
+FIELD	aS	Lly;	button	ly
+FIELD	aT	Lly;	snow	ly
+FIELD	aU	Lly;	ice	ly
+FIELD	aV	Lly;	blockSnow	ly
+FIELD	aW	Lly;	cactus	ly
+FIELD	aX	Lly;	blockClay	ly
+FIELD	aY	Lly;	reed	ly
+FIELD	aZ	Lly;	jukebox	ly
+FIELD	aa	Lly;	clothRose	ly
+FIELD	ab	Lly;	clothDarkGray	ly
+FIELD	ac	Lly;	cloth	ly
+FIELD	ad	Lly;	clothWhite	ly
+FIELD	ae	Lmq;	plantYellow	ly
+FIELD	af	Lmq;	plantRed	ly
+FIELD	ag	Lmq;	mushroomBrown	ly
+FIELD	ah	Lmq;	mushroomRed	ly
+FIELD	ai	Lly;	blockGold	ly
+FIELD	aj	Lly;	blockSteel	ly
+FIELD	ak	Lly;	stairDouble	ly
+FIELD	al	Lly;	stairSingle	ly
+FIELD	am	Lly;	brick	ly
+FIELD	an	Lly;	tnt	ly
+FIELD	ao	Lly;	bookshelf	ly
+FIELD	ap	Lly;	cobblestoneMossy	ly
+FIELD	aq	Lly;	obsidian	ly
+FIELD	ar	Lly;	torch	ly
+FIELD	as	Log;	fire	ly
+FIELD	at	Lly;	mobSpawner	ly
+FIELD	au	Lly;	stairCompactWood	ly
+FIELD	av	Lly;	chest	ly
+FIELD	aw	Lly;	redstoneWire	ly
+FIELD	ax	Lly;	oreDiamond	ly
+FIELD	ay	Lly;	blockDiamond	ly
+FIELD	az	Lly;	workbench	ly
+FIELD	ba	Lly;	fence	ly
+FIELD	bb	I	blockIndexInTexture	ly
+FIELD	bc	I	blockID	ly
+FIELD	bd	F	hardness	ly
+FIELD	be	F	resistance	ly
+FIELD	bf	D	minX	ly
+FIELD	bg	D	minY	ly
+FIELD	bh	D	minZ	ly
+FIELD	bi	D	maxX	ly
+FIELD	bj	D	maxY	ly
+FIELD	bk	D	maxZ	ly
+FIELD	bl	Lbb;	stepSound	ly
+FIELD	bm	F	blockParticleGravity	ly
+FIELD	bn	Lgb;	material	ly
+FIELD	bo	F	slipperiness	ly
+FIELD	e	Lbb;	soundPowderFootstep	ly
+FIELD	f	Lbb;	soundWoodFootstep	ly
+FIELD	g	Lbb;	soundGravelFootstep	ly
+FIELD	h	Lbb;	soundGrassFootstep	ly
+FIELD	i	Lbb;	soundStoneFootstep	ly
+FIELD	j	Lbb;	soundMetalFootstep	ly
+FIELD	k	Lbb;	soundGlassFootstep	ly
+FIELD	l	Lbb;	soundClothFootstep	ly
+FIELD	m	Lbb;	soundSandFootstep	ly
+FIELD	n	[Lly;	blocksList	ly
+FIELD	o	[Z	tickOnLoad	ly
+FIELD	p	[Z	opaqueCubeLookup	ly
+FIELD	q	[Z	isBlockContainer	ly
+FIELD	r	[I	lightOpacity	ly
+FIELD	s	[Z	canBlockGrass	ly
+FIELD	t	[I	lightValue	ly
+FIELD	u	Lly;	stone	ly
+FIELD	v	Lmy;	grass	ly
+FIELD	w	Lly;	dirt	ly
+FIELD	x	Lly;	cobblestone	ly
+FIELD	y	Lly;	planks	ly
+FIELD	z	Lly;	sapling	ly
 METHOD	(IILgb;)V	<init>	<init>	ly
 METHOD	(ILgb;)V	<init>	<init>	ly
 METHOD	()I	a	tickRate	ly
@@ -2920,22 +2920,22 @@ METHOD	(Lcn;III)Z	g	canBlockStay	ly
 METHOD	()Z	h	isCollidable	ly
 METHOD	()Z	i	getCanBlockGrass	ly
 CLASS	net/minecraft/src/ChunkProviderClient	lz
-FIELD	Lga;	a	blankChunk	lz
-FIELD	Ljava/util/Map;	b	chunkMapping	lz
-FIELD	Ljava/util/List;	c	chunkListing	lz
-FIELD	Lcn;	d	worldObj	lz
+FIELD	a	Lga;	blankChunk	lz
+FIELD	b	Ljava/util/Map;	chunkMapping	lz
+FIELD	c	Ljava/util/List;	chunkListing	lz
+FIELD	d	Lcn;	worldObj	lz
 METHOD	(Lcn;)V	<init>	<init>	lz
 METHOD	(II)V	c	unloadChunk	lz
 METHOD	(II)Lga;	d	loadChunk	lz
 CLASS	net/minecraft/src/Packet5PlayerInventory	m
-FIELD	I	a	inventoryType	m
-FIELD	[Lev;	b	inventory	m
+FIELD	a	I	inventoryType	m
+FIELD	b	[Lev;	inventory	m
 METHOD	(I[Lev;)V	<init>	<init>	m
 CLASS	net/minecraft/src/EntitySlime	ma
-FIELD	F	a	squishFactor	ma
-FIELD	F	b	prevSquishFactor	ma
-FIELD	I	c	size	ma
-FIELD	I	d	slimeJumpDelay	ma
+FIELD	a	F	squishFactor	ma
+FIELD	b	F	prevSquishFactor	ma
+FIELD	c	I	size	ma
+FIELD	d	I	slimeJumpDelay	ma
 METHOD	(I)V	c	setSlimeSize	ma
 CLASS	net/minecraft/src/EntityZombie	mb
 CLASS	net/minecraft/src/RenderCow	mc
@@ -2943,13 +2943,13 @@ METHOD	(Lam;DDDFF)V	a	renderCow	mc
 CLASS	net/minecraft/src/ItemSign	md
 CLASS	net/minecraft/src/ItemBoat	me
 CLASS	net/minecraft/src/MovingObjectPosition	mf
-FIELD	I	a	typeOfHit	mf
-FIELD	I	b	blockX	mf
-FIELD	I	c	blockY	mf
-FIELD	I	d	blockZ	mf
-FIELD	I	e	sideHit	mf
-FIELD	Laj;	f	hitVec	mf
-FIELD	Lkh;	g	entityHit	mf
+FIELD	a	I	typeOfHit	mf
+FIELD	b	I	blockX	mf
+FIELD	c	I	blockY	mf
+FIELD	d	I	blockZ	mf
+FIELD	e	I	sideHit	mf
+FIELD	f	Laj;	hitVec	mf
+FIELD	g	Lkh;	entityHit	mf
 METHOD	(IIIILaj;)V	<init>	<init>	mf
 METHOD	(Lkh;)V	<init>	<init>	mf
 CLASS	net/minecraft/src/BlockLog	mg
@@ -2964,13 +2964,13 @@ CLASS	net/minecraft/src/BlockTorch	mj
 METHOD	(II)V	<init>	<init>	mj
 METHOD	(Lcn;III)Z	h	checkIfAttachedToBlock	mj
 CLASS	net/minecraft/src/MinecartTrackLogic	mk
-FIELD	Lif;	a	minecartTrack	mk
-FIELD	Lcn;	b	worldObj	mk
-FIELD	I	c	trackX	mk
-FIELD	I	d	trackY	mk
-FIELD	I	e	trackZ	mk
-FIELD	I	f	trackMetadata	mk
-FIELD	Ljava/util/List;	g	connectedTracks	mk
+FIELD	a	Lif;	minecartTrack	mk
+FIELD	b	Lcn;	worldObj	mk
+FIELD	c	I	trackX	mk
+FIELD	d	I	trackY	mk
+FIELD	e	I	trackZ	mk
+FIELD	f	I	trackMetadata	mk
+FIELD	g	Ljava/util/List;	connectedTracks	mk
 METHOD	(Lif;Lcn;III)V	<init>	<init>	mk
 METHOD	()V	a	calculateConnectedTracks	mk
 METHOD	(III)Z	a	isMinecartTrack	mk
@@ -2985,33 +2985,33 @@ METHOD	(III)Z	c	canConnectFrom	mk
 METHOD	(Lmk;)Z	c	canConnectTo	mk
 METHOD	(Lmk;)V	d	connectToNeighbor	mk
 CLASS	net/minecraft/src/TextureWaterFX	ml
-FIELD	[F	g	red	ml
-FIELD	[F	h	green	ml
-FIELD	[F	i	blue	ml
-FIELD	[F	j	alpha	ml
-FIELD	I	k	tickCounter	ml
+FIELD	g	[F	red	ml
+FIELD	h	[F	green	ml
+FIELD	i	[F	blue	ml
+FIELD	j	[F	alpha	ml
+FIELD	k	I	tickCounter	ml
 CLASS	net/minecraft/src/SlotInventory	mm
-FIELD	Lee;	c	guiContainer	mm
-FIELD	I	e	xDisplayPosition	mm
-FIELD	I	f	yDisplayPosition	mm
+FIELD	c	Lee;	guiContainer	mm
+FIELD	e	I	xDisplayPosition	mm
+FIELD	f	I	yDisplayPosition	mm
 METHOD	(Lee;Lgh;III)V	<init>	<init>	mm
 METHOD	(II)Z	a	getIsMouseOverSlot	mm
 CLASS	net/minecraft/src/GuiConnecting	mn
-FIELD	Lgy;	a	clientHandler	mn
-FIELD	Z	h	cancelled	mn
+FIELD	a	Lgy;	clientHandler	mn
+FIELD	h	Z	cancelled	mn
 METHOD	(Lmn;)Z	a	isCancelled	mn
 METHOD	(Lmn;Lgy;)Lgy;	a	setNetClientHandler	mn
 METHOD	(Lmn;)Lgy;	b	getNetClientHandler	mn
 CLASS	net/minecraft/src/GuiSlider	mo
-FIELD	F	i	sliderValue	mo
-FIELD	Z	j	dragging	mo
-FIELD	I	l	idFloat	mo
+FIELD	i	F	sliderValue	mo
+FIELD	j	Z	dragging	mo
+FIELD	l	I	idFloat	mo
 CLASS	net/minecraft/src/MouseHelper	mp
-FIELD	I	a	deltaX	mp
-FIELD	I	b	deltaY	mp
-FIELD	Ljava/awt/Component;	c	windowComponent	mp
-FIELD	Lorg/lwjgl/input/Cursor;	d	cursor	mp
-FIELD	I	e	mouseInt	mp
+FIELD	a	I	deltaX	mp
+FIELD	b	I	deltaY	mp
+FIELD	c	Ljava/awt/Component;	windowComponent	mp
+FIELD	d	Lorg/lwjgl/input/Cursor;	cursor	mp
+FIELD	e	I	mouseInt	mp
 METHOD	(Ljava/awt/Component;)V	<init>	<init>	mp
 METHOD	()V	a	grabMouseCursor	mp
 METHOD	()V	b	ungrabMouseCursor	mp
@@ -3021,74 +3021,74 @@ METHOD	(II)V	<init>	<init>	mq
 METHOD	(I)Z	b	canThisPlantGrowOnThisBlockID	mq
 METHOD	(Lcn;III)V	h	checkFlowerChange	mq
 CLASS	net/minecraft/src/ItemArmor	mr
-FIELD	I	a	armorLevel	mr
-FIELD	I	aX	armorType	mr
-FIELD	I	aY	damageReduceAmount	mr
-FIELD	I	aZ	renderIndex	mr
-FIELD	[I	ba	damageReduceAmountArray	mr
-FIELD	[I	bb	maxDamageArray	mr
+FIELD	a	I	armorLevel	mr
+FIELD	aX	I	armorType	mr
+FIELD	aY	I	damageReduceAmount	mr
+FIELD	aZ	I	renderIndex	mr
+FIELD	ba	[I	damageReduceAmountArray	mr
+FIELD	bb	[I	maxDamageArray	mr
 METHOD	(IIII)V	<init>	<init>	mr
 CLASS	net/minecraft/src/ItemSpade	ms
-FIELD	[Lly;	aX	blocksEffectiveAgainst	ms
+FIELD	aX	[Lly;	blocksEffectiveAgainst	ms
 METHOD	(II)V	<init>	<init>	ms
 CLASS	net/minecraft/src/ChunkPosition	mt
-FIELD	I	a	x	mt
-FIELD	I	b	y	mt
-FIELD	I	c	z	mt
+FIELD	a	I	x	mt
+FIELD	b	I	y	mt
+FIELD	c	I	z	mt
 METHOD	(III)V	<init>	<init>	mt
 METHOD	(Ljava/lang/Object;)Z	equals	equals	mt
 CLASS	net/minecraft/src/NibbleArray	mu
-FIELD	[B	a	data	mu
+FIELD	a	[B	data	mu
 METHOD	(I)V	<init>	<init>	mu
 METHOD	([B)V	<init>	<init>	mu
 METHOD	()Z	a	isValid	mu
 METHOD	(III)I	a	get	mu
 METHOD	(IIII)V	a	set	mu
 CLASS	net/minecraft/src/EntityPig	mv
-FIELD	Z	a	saddled	mv
+FIELD	a	Z	saddled	mv
 CLASS	net/minecraft/src/InventoryCraftResult	mw
-FIELD	[Lev;	a	stackResult	mw
+FIELD	a	[Lev;	stackResult	mw
 CLASS	net/minecraft/src/MCHashEntry	mx
-FIELD	I	a	hashEntry	mx
-FIELD	Ljava/lang/Object;	b	valueEntry	mx
-FIELD	Lmx;	c	nextEntry	mx
-FIELD	I	d	slotHash	mx
+FIELD	a	I	hashEntry	mx
+FIELD	b	Ljava/lang/Object;	valueEntry	mx
+FIELD	c	Lmx;	nextEntry	mx
+FIELD	d	I	slotHash	mx
 METHOD	()I	a	getHash	mx
 METHOD	()Ljava/lang/Object;	b	getValue	mx
 CLASS	net/minecraft/src/BlockGrass	my
 METHOD	(I)V	<init>	<init>	my
 CLASS	net/minecraft/src/EntityChicken	mz
-FIELD	Z	a	unusedBoolCLASS	mz
-FIELD	F	b	wingRotation	mz
-FIELD	F	c	destPos	mz
-FIELD	F	d	prevDestPos	mz
-FIELD	F	e	prevWingRotation	mz
-FIELD	F	h	moveWings	mz
-FIELD	I	i	timeUntilNextEgg	mz
+FIELD	a	Z	unusedBoolCLASS	mz
+FIELD	b	F	wingRotation	mz
+FIELD	c	F	destPos	mz
+FIELD	d	F	prevDestPos	mz
+FIELD	e	F	prevWingRotation	mz
+FIELD	h	F	moveWings	mz
+FIELD	i	I	timeUntilNextEgg	mz
 CLASS	net/minecraft/src/CraftingInventoryPlayerCB	n
-FIELD	Lgu;	a	craftMatrix	n
-FIELD	Lgh;	b	craftResult	n
+FIELD	a	Lgu;	craftMatrix	n
+FIELD	b	Lgh;	craftResult	n
 CLASS	net/minecraft/src/Packet5CLASSMultiBlockChange	na
-FIELD	I	a	xPosition	na
-FIELD	I	b	zPosition	na
-FIELD	[S	c	coordinateArray	na
-FIELD	[B	d	typeArray	na
-FIELD	[B	e	metadataArray	na
-FIELD	I	f	size	na
+FIELD	a	I	xPosition	na
+FIELD	b	I	zPosition	na
+FIELD	c	[S	coordinateArray	na
+FIELD	d	[B	typeArray	na
+FIELD	e	[B	metadataArray	na
+FIELD	f	I	size	na
 CLASS	net/minecraft/src/CanvasCrashReport	nb
 METHOD	(I)V	<init>	<init>	nb
 CLASS	net/minecraft/src/ThreadConnectToServer	nc
-FIELD	Lnet/minecraft/client/Minecraft;	a	mc	nc
-FIELD	Ljava/lang/String;	b	ip	nc
-FIELD	I	c	port	nc
-FIELD	Lmn;	d	connectingGui	nc
+FIELD	a	Lnet/minecraft/client/Minecraft;	mc	nc
+FIELD	b	Ljava/lang/String;	ip	nc
+FIELD	c	I	port	nc
+FIELD	d	Lmn;	connectingGui	nc
 METHOD	(Lmn;Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V	<init>	<init>	nc
 CLASS	net/minecraft/src/RecipesWeapons	nd
-FIELD	[[Ljava/lang/String;	a	recipePatterns	nd
-FIELD	[[Ljava/lang/Object;	b	recipeItems	nd
+FIELD	a	[[Ljava/lang/String;	recipePatterns	nd
+FIELD	b	[[Ljava/lang/Object;	recipeItems	nd
 METHOD	(Ldw;)V	a	addRecipes	nd
 CLASS	net/minecraft/src/NBTTagString	ne
-FIELD	Ljava/lang/String;	a	stringValue	ne
+FIELD	a	Ljava/lang/String;	stringValue	ne
 METHOD	(Ljava/lang/String;)V	<init>	<init>	ne
 CLASSt/minecraft/client/Minecraft	net/minecraft/client/Minecraft	ne
 FIELDt/minecraft/client/Minecraft	Lof;	A	sndManager	ne
@@ -3193,29 +3193,29 @@ CLASS	net/minecraft/src/EntityRainFX	nf
 CLASS	net/minecraft/src/BlockSponge	ng
 METHOD	(I)V	<init>	<init>	ng
 CLASS	net/minecraft/src/NetworkMasterThread	nh
-FIELD	Lii;	a	netManager	nh
+FIELD	a	Lii;	netManager	nh
 METHOD	(Lii;)V	<init>	<init>	nh
 CLASS	net/minecraft/src/NetworkReaderThread	ni
-FIELD	Lii;	a	netManager	ni
+FIELD	a	Lii;	netManager	ni
 METHOD	(Lii;Ljava/lang/String;)V	<init>	<init>	ni
 CLASS	net/minecraft/src/PlayerControllerMP	nj
-FIELD	I	c	currentBlockX	nj
-FIELD	I	d	currentBlockY	nj
-FIELD	I	e	currentBlockZ	nj
-FIELD	F	f	curBlockDamageMP	nj
-FIELD	F	g	prevBlockDamageMP	nj
-FIELD	F	h	stepSoundTickCounter	nj
-FIELD	I	i	blockHitDelay	nj
-FIELD	Z	j	isHittingBlock	nj
-FIELD	Lgy;	k	netClientHandler	nj
-FIELD	I	l	currentPlayerItem	nj
+FIELD	c	I	currentBlockX	nj
+FIELD	d	I	currentBlockY	nj
+FIELD	e	I	currentBlockZ	nj
+FIELD	f	F	curBlockDamageMP	nj
+FIELD	g	F	prevBlockDamageMP	nj
+FIELD	h	F	stepSoundTickCounter	nj
+FIELD	i	I	blockHitDelay	nj
+FIELD	j	Z	isHittingBlock	nj
+FIELD	k	Lgy;	netClientHandler	nj
+FIELD	l	I	currentPlayerItem	nj
 METHOD	(Lnet/minecraft/client/Minecraft;Lgy;)V	<init>	<init>	nj
 METHOD	()V	e	syncCurrentPlayItem	nj
 CLASS	net/minecraft/src/NetworkWriterThread	nk
-FIELD	Lii;	a	netManager	nk
+FIELD	a	Lii;	netManager	nk
 METHOD	(Lii;Ljava/lang/String;)V	<init>	<init>	nk
 CLASS	net/minecraft/src/EntitySmokeFX	nl
-FIELD	F	a	smokeParticleScale	nl
+FIELD	a	F	smokeParticleScale	nl
 CLASS	net/minecraft/src/IBlockAccess	nm
 METHOD	(III)I	a	getBlockId	nm
 METHOD	(III)Lic;	b	getBlockTileEntity	nm
@@ -3224,30 +3224,30 @@ METHOD	(III)I	e	getBlockMetadata	nm
 METHOD	(III)Lgb;	f	getBlockMaterial	nm
 METHOD	(III)Z	g	isBlockNormalCube	nm
 CLASS	net/minecraft/src/WorldGenLiquids	nn
-FIELD	I	a	liquidBlockId	nn
+FIELD	a	I	liquidBlockId	nn
 CLASS	net/minecraft/src/BlockLever	no
 METHOD	(II)V	<init>	<init>	no
 METHOD	(Lcn;III)Z	h	checkIfAttachedToBlock	no
 CLASS	net/minecraft/src/RedstoneUpdateInfo	np
-FIELD	I	a	x	np
-FIELD	I	b	y	np
-FIELD	I	c	z	np
-FIELD	J	d	updateTime	np
+FIELD	a	I	x	np
+FIELD	b	I	y	np
+FIELD	c	I	z	np
+FIELD	d	J	updateTime	np
 METHOD	(IIIJ)V	<init>	<init>	np
 CLASS	net/minecraft/src/EntityFX	nq
-FIELD	I	b	particleTextureIndex	nq
-FIELD	F	c	particleTextureJitterX	nq
-FIELD	F	d	particleTextureJitterY	nq
-FIELD	I	e	particleAge	nq
-FIELD	I	f	particleMaxAge	nq
-FIELD	F	g	particleScale	nq
-FIELD	F	h	particleGravity	nq
-FIELD	F	i	particleRed	nq
-FIELD	F	j	particleGreen	nq
-FIELD	F	k	particleBlue	nq
-FIELD	D	l	interpPosX	nq
-FIELD	D	m	interpPosY	nq
-FIELD	D	n	interpPosZ	nq
+FIELD	b	I	particleTextureIndex	nq
+FIELD	c	F	particleTextureJitterX	nq
+FIELD	d	F	particleTextureJitterY	nq
+FIELD	e	I	particleAge	nq
+FIELD	f	I	particleMaxAge	nq
+FIELD	g	F	particleScale	nq
+FIELD	h	F	particleGravity	nq
+FIELD	i	F	particleRed	nq
+FIELD	j	F	particleGreen	nq
+FIELD	k	F	particleBlue	nq
+FIELD	l	D	interpPosX	nq
+FIELD	m	D	interpPosY	nq
+FIELD	n	D	interpPosZ	nq
 METHOD	(Lcn;DDDDDD)V	<init>	<init>	nq
 METHOD	(Lho;FFFFFF)V	a	renderParticle	nq
 METHOD	(F)Lnq;	b	multiplyVelocity	nq
@@ -3257,82 +3257,82 @@ CLASS	net/minecraft/src/MinecraftError	nr
 CLASS	net/minecraft/src/RenderSheep	ns
 METHOD	(Lbo;I)Z	a	renderFur	ns
 CLASS	net/minecraft/src/EntityOtherPlayerMP	nt
-FIELD	F	a	unusedFloat	nt
-FIELD	I	bg	otherPlayerMPPosRotationIncrements	nt
-FIELD	D	bh	otherPlayerMPX	nt
-FIELD	D	bi	otherPlayerMPY	nt
-FIELD	D	bj	otherPlayerMPZ	nt
-FIELD	D	bk	otherPlayerMPYaw	nt
-FIELD	D	bl	otherPlayerMPPitch	nt
+FIELD	a	F	unusedFloat	nt
+FIELD	bg	I	otherPlayerMPPosRotationIncrements	nt
+FIELD	bh	D	otherPlayerMPX	nt
+FIELD	bi	D	otherPlayerMPY	nt
+FIELD	bj	D	otherPlayerMPZ	nt
+FIELD	bk	D	otherPlayerMPYaw	nt
+FIELD	bl	D	otherPlayerMPPitch	nt
 METHOD	(Lcn;Ljava/lang/String;)V	<init>	<init>	nt
 CLASS	net/minecraft/src/IProgressUpdate	nu
 METHOD	(I)V	a	setLoadingProgress	nu
 METHOD	(Ljava/lang/String;)V	b	displayProgressMessage	nu
 METHOD	(Ljava/lang/String;)V	d	displayLoadingString	nu
 CLASS	net/minecraft/src/GuiEditSign	nv
-FIELD	Ljava/lang/String;	a	screenTitle	nv
-FIELD	Lob;	h	entitySign	nv
-FIELD	I	i	updateCounter	nv
-FIELD	I	j	editLine	nv
+FIELD	a	Ljava/lang/String;	screenTitle	nv
+FIELD	h	Lob;	entitySign	nv
+FIELD	i	I	updateCounter	nv
+FIELD	j	I	editLine	nv
 CLASS	net/minecraft/src/ChunkProviderGenerate	nw
-FIELD	Llp;	a	noiseGen6	nw
-FIELD	Llp;	b	noiseGen7	nw
-FIELD	Llp;	c	mobSpawnerNoise	nw
-FIELD	[D	d	noiseFIELD	nw
-FIELD	[D	e	noiseMETHOD	nw
-FIELD	[D	f	noiseCLASS	nw
-FIELD	[D	g	noise6	nw
-FIELD	[D	h	noise7	nw
-FIELD	[[I	i	unused	nw
-FIELD	Ljava/util/Random;	j	rand	nw
-FIELD	Llp;	k	noiseGenMETHOD	nw
-FIELD	Llp;	l	noiseGenCLASS	nw
-FIELD	Llp;	m	noiseGenFIELD	nw
-FIELD	Llp;	n	noiseGen4	nw
-FIELD	Llp;	o	noiseGen5	nw
-FIELD	Lcn;	p	worldObj	nw
-FIELD	[D	q	noiseArray	nw
-FIELD	[D	r	sandNoise	nw
-FIELD	[D	s	gravelNoise	nw
-FIELD	[D	t	stoneNoise	nw
-FIELD	Lcy;	u	caveGenerator	nw
+FIELD	a	Llp;	noiseGen6	nw
+FIELD	b	Llp;	noiseGen7	nw
+FIELD	c	Llp;	mobSpawnerNoise	nw
+FIELD	d	[D	noiseFIELD	nw
+FIELD	e	[D	noiseMETHOD	nw
+FIELD	f	[D	noiseCLASS	nw
+FIELD	g	[D	noise6	nw
+FIELD	h	[D	noise7	nw
+FIELD	i	[[I	unused	nw
+FIELD	j	Ljava/util/Random;	rand	nw
+FIELD	k	Llp;	noiseGenMETHOD	nw
+FIELD	l	Llp;	noiseGenCLASS	nw
+FIELD	m	Llp;	noiseGenFIELD	nw
+FIELD	n	Llp;	noiseGen4	nw
+FIELD	o	Llp;	noiseGen5	nw
+FIELD	p	Lcn;	worldObj	nw
+FIELD	q	[D	noiseArray	nw
+FIELD	r	[D	sandNoise	nw
+FIELD	s	[D	gravelNoise	nw
+FIELD	t	[D	stoneNoise	nw
+FIELD	u	Lcy;	caveGenerator	nw
 METHOD	(Lcn;J)V	<init>	<init>	nw
 METHOD	(II[B)V	a	generateTerrain	nw
 METHOD	([DIIIIII)[D	a	initializeNoiseFIELD	nw
 METHOD	(II[B)V	b	replaceSurfaceBlocks	nw
 CLASS	net/minecraft/src/ItemFlintAndSteel	nx
 CLASS	net/minecraft/src/Packet59ComplexEntity	ny
-FIELD	I	a	xCoord	ny
-FIELD	I	b	yCoord	ny
-FIELD	I	c	zCoord	ny
-FIELD	[B	d	compressedNBT	ny
-FIELD	Lhm;	e	tileEntityNBT	ny
+FIELD	a	I	xCoord	ny
+FIELD	b	I	yCoord	ny
+FIELD	c	I	zCoord	ny
+FIELD	d	[B	compressedNBT	ny
+FIELD	e	Lhm;	tileEntityNBT	ny
 METHOD	(IIILic;)V	<init>	<init>	ny
 CLASS	net/minecraft/src/RenderGiantZombie	nz
-FIELD	F	f	scale	nz
+FIELD	f	F	scale	nz
 METHOD	(Lhl;F)V	a	preRenderScale	nz
 CLASS	net/minecraft/src/GuiSmallButton	o
 CLASS	net/minecraft/src/WorldGenTrees	oa
 CLASS	net/minecraft/src/TileEntitySign	ob
-FIELD	[Ljava/lang/String;	a	signText	ob
-FIELD	I	b	lineBeingEdited	ob
+FIELD	a	[Ljava/lang/String;	signText	ob
+FIELD	b	I	lineBeingEdited	ob
 CLASS	net/minecraft/src/EntityMinecart	oc
-FIELD	I	a	damageTaken	oc
-FIELD	I	b	timeSinceHit	oc
-FIELD	I	c	forwardDirection	oc
-FIELD	I	d	minecartType	oc
-FIELD	I	e	fuel	oc
-FIELD	D	f	pushX	oc
-FIELD	D	g	pushZ	oc
-FIELD	[Lev;	h	cargoItems	oc
-FIELD	Z	i	isInReverse	oc
-FIELD	[[[I	j	matrix	oc
-FIELD	I	k	turnProgress	oc
-FIELD	D	l	minecartX	oc
-FIELD	D	m	minecartY	oc
-FIELD	D	n	minecartZ	oc
-FIELD	D	o	minecartYaw	oc
-FIELD	D	p	minecartPitch	oc
+FIELD	a	I	damageTaken	oc
+FIELD	b	I	timeSinceHit	oc
+FIELD	c	I	forwardDirection	oc
+FIELD	d	I	minecartType	oc
+FIELD	e	I	fuel	oc
+FIELD	f	D	pushX	oc
+FIELD	g	D	pushZ	oc
+FIELD	h	[Lev;	cargoItems	oc
+FIELD	i	Z	isInReverse	oc
+FIELD	j	[[[I	matrix	oc
+FIELD	k	I	turnProgress	oc
+FIELD	l	D	minecartX	oc
+FIELD	m	D	minecartY	oc
+FIELD	n	D	minecartZ	oc
+FIELD	o	D	minecartYaw	oc
+FIELD	p	D	minecartPitch	oc
 METHOD	(Lcn;DDDI)V	<init>	<init>	oc
 METHOD	(DDDD)Laj;	a	getPosOffset	oc
 METHOD	(DDD)Laj;	g	getPos	oc
@@ -3341,15 +3341,15 @@ CLASS	net/minecraft/src/ICamera	oe
 METHOD	(DDD)V	a	setPosition	oe
 METHOD	(Lcf;)Z	a	isBoundingBoxInFrustum	oe
 CLASS	net/minecraft/src/SoundManager	of
-FIELD	Lpaulscode/sound/SoundSystem;	a	sndSystem	of
-FIELD	Leb;	b	soundPoolSounds	of
-FIELD	Leb;	c	soundPoolStreaming	of
-FIELD	Leb;	d	soundPoolMusic	of
-FIELD	I	e	playedSoundsCount	of
-FIELD	Lfr;	f	options	of
-FIELD	Z	g	loaded	of
-FIELD	Ljava/util/Random;	h	rand	of
-FIELD	I	i	ticksBeforeMusic	of
+FIELD	a	Lpaulscode/sound/SoundSystem;	sndSystem	of
+FIELD	b	Leb;	soundPoolSounds	of
+FIELD	c	Leb;	soundPoolStreaming	of
+FIELD	d	Leb;	soundPoolMusic	of
+FIELD	e	I	playedSoundsCount	of
+FIELD	f	Lfr;	options	of
+FIELD	g	Z	loaded	of
+FIELD	h	Ljava/util/Random;	rand	of
+FIELD	i	I	ticksBeforeMusic	of
 METHOD	()V	a	onSoundOptionsChanged	of
 METHOD	(Lfr;)V	a	loadSoundSettings	of
 METHOD	(Lge;F)V	a	setListener	of
@@ -3363,8 +3363,8 @@ METHOD	()V	c	playRandomMusicIfReady	of
 METHOD	(Ljava/lang/String;Ljava/io/File;)V	c	addMusic	of
 METHOD	()V	d	tryToSetLibraryAndCodecs	of
 CLASS	net/minecraft/src/BlockFire	og
-FIELD	[I	a	chanceToEncourageFire	og
-FIELD	[I	b	abilityToCatchFire	og
+FIELD	a	[I	chanceToEncourageFire	og
+FIELD	b	[I	abilityToCatchFire	og
 METHOD	(II)V	<init>	<init>	og
 METHOD	(III)V	a	initializeBlock	og
 METHOD	(Lcn;IIIILjava/util/Random;)V	a	tryToCatchBlockOnFire	og
@@ -3373,20 +3373,20 @@ METHOD	(Lcn;IIII)I	g	getChanceToEncourageFire	og
 METHOD	(Lcn;III)Z	h	canNeighborBurn	og
 METHOD	(Lcn;III)I	i	getChanceOfNeighborsEncouragingFire	og
 CLASS	net/minecraft/src/PacketCLASS55KickDisconnect	oh
-FIELD	Ljava/lang/String;	a	reason	oh
+FIELD	a	Ljava/lang/String;	reason	oh
 METHOD	(Ljava/lang/String;)V	<init>	<init>	oh
 CLASS	net/minecraft/src/BlockStep	oi
-FIELD	Z	a	blockType	oi
+FIELD	a	Z	blockType	oi
 METHOD	(IZ)V	<init>	<init>	oi
 CLASS	net/minecraft/src/ItemFood	oj
-FIELD	I	a	healAmount	oj
+FIELD	a	I	healAmount	oj
 METHOD	(II)V	<init>	<init>	oj
 CLASS	net/minecraft/src/RenderSpider	ok
 METHOD	(Lax;)F	a	setSpiderDeathMaxRotation	ok
 METHOD	(Lax;I)Z	a	setSpiderEyeBrightness	ok
 CLASS	net/minecraft/src/ChunkCoordIntPair	ol
-FIELD	I	a	chunkXPos	ol
-FIELD	I	b	chunkZPos	ol
+FIELD	a	I	chunkXPos	ol
+FIELD	b	I	chunkZPos	ol
 METHOD	(II)V	<init>	<init>	ol
 METHOD	(Ljava/lang/Object;)Z	equals	equals	ol
 CLASS	net/minecraft/src/BlockSnowBlock	p
@@ -3394,17 +3394,17 @@ METHOD	(II)V	<init>	<init>	p
 CLASS	net/minecraft/src/BlockTNT	q
 METHOD	(II)V	<init>	<init>	q
 CLASS	net/minecraft/src/TileEntityMobSpawnerRenderer	r
-FIELD	Ljava/util/Map;	b	entityHashMap	r
+FIELD	b	Ljava/util/Map;	entityHashMap	r
 METHOD	(Lbd;DDDF)V	a	renderTileEntityMobSpawner	r
 CLASS	net/minecraft/src/PacketMETHODMETHODPlayerPosition	s
 METHOD	(DDDDZ)V	<init>	<init>	s
 CLASS	net/minecraft/src/StepSoundSand	t
 CLASS	net/minecraft/src/StepSoundGlass	u
 CLASS	net/minecraft/src/NoiseGeneratorPerlin	v
-FIELD	D	a	xCoord	v
-FIELD	D	b	yCoord	v
-FIELD	D	c	zCoord	v
-FIELD	[I	d	permutations	v
+FIELD	a	D	xCoord	v
+FIELD	b	D	yCoord	v
+FIELD	c	D	zCoord	v
+FIELD	d	[I	permutations	v
 METHOD	(Ljava/util/Random;)V	<init>	<init>	v
 METHOD	(DD)D	a	generateNoise	v
 METHOD	(DDD)D	a	generateNoise	v
@@ -3420,16 +3420,16 @@ METHOD	(Ljava/io/DataInput;)Lhm;	a	read	x
 METHOD	(Ljava/io/InputStream;)Lhm;	a	readCompressed	x
 METHOD	([B)Lhm;	a	decompress	x
 CLASS	net/minecraft/src/ItemPickaxe	y
-FIELD	[Lly;	aX	blocksEffectiveAgainst	y
-FIELD	I	aY	harvestLevel	y
+FIELD	aX	[Lly;	blocksEffectiveAgainst	y
+FIELD	aY	I	harvestLevel	y
 METHOD	(II)V	<init>	<init>	y
 CLASS	net/minecraft/src/TextureFX	z
-FIELD	[B	a	imageData	z
-FIELD	I	b	iconIndex	z
-FIELD	Z	c	anaglyphEnabled	z
-FIELD	I	d	textureId	z
-FIELD	I	e	tileSize	z
-FIELD	I	f	tileImage	z
+FIELD	a	[B	imageData	z
+FIELD	b	I	iconIndex	z
+FIELD	c	Z	anaglyphEnabled	z
+FIELD	d	I	textureId	z
+FIELD	e	I	tileSize	z
+FIELD	f	I	tileImage	z
 METHOD	(I)V	<init>	<init>	z
 METHOD	()V	a	onTick	z
 METHOD	(Ley;)V	a	bindImage	z
