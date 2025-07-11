@@ -1,4 +1,4 @@
-v1	official	intermediary    named
+v1	official	intermediary	named
 CLASS	net/minecraft/src/PathPoint	a
 FIELD	I	a	xCoord	a
 FIELD	I	b	yCoord	a
