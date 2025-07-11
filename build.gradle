@@ -57,10 +57,12 @@ file('mappings').eachFile {
 		outputs.file(v2MappingFile)
 
 		doLast {
-			MappingWriter.create(v2MappingFile.toPath(), MappingFormat.TINY_2).withCloseable {
-				def visitor = new MappingNsCompleter(it, ["intermediary": "official"], true)
-				MappingReader.read(v1MappingFile.toPath(), visitor)
-			}
+            def memoryMappingTree = new MemoryMappingTree()
+            MappingNsCompleter nsCompleter = new MappingNsCompleter(memoryMappingTree, Map.of("glue", "intermediary", "server", "intermediary", "client", "intermediary"));
+            MappingReader.read(v1MappingFile.toPath(), nsCompleter)
+            try (MappingWriter mappingWriter = MappingWriter.create(v2MappingFile.toPath(), MappingFormat.TINY_2)) {
+                memoryMappingTree.accept(mappingWriter)
+            }
 		}
 	}
 
