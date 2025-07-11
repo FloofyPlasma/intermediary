@@ -8,7 +8,7 @@ FIELD	class_1	I	field_005	field_005	a	a
 FIELD	class_1	F	field_006	field_006	a	a
 FIELD	class_1	F	field_007	field_007	a	a
 FIELD	class_1	F	field_008	field_008	a	a
-FIELD	class_1	La	field_009	field_009	a	a
+FIELD	class_1	La;	field_009	field_009	a	a
 FIELD	class_1	Z	field_010	field_010	a	a
 METHOD	class_1	(III)V	method_001	method_001	a	a
 METHOD	class_1	()Z	method_002	method_002	a	a
