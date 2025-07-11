@@ -34,6 +34,8 @@ static List<String> getPublishedVersions() {
     return versions
 }
 
+tasks.register("build")
+
 def publishedVersions = getPublishedVersions()
 
 def ENV = System.getenv()
@@ -42,57 +44,59 @@ def published = false
 def localMappingsPath = "$buildDir/v2Mappings"
 new File(localMappingsPath).mkdirs()
 file('mappings').eachFile {
-    if (!it.name.endsWith(".tiny")) return
+	if (!it.name.endsWith(".tiny")) return
 
-    def mcVer = it.name.replace(".tiny", "")
+	def mcVer = it.name.replace(".tiny", "")
 
-    if (publishedVersions.contains(mcVer) && !(ENV.FORCE_PUBLISH == mcVer)) {
-        project.logger.lifecycle("Skipping ${mcVer} as it has already been released")
-        return
-    } else {
-        project.logger.lifecycle("Building ${mcVer}")
-    }
+	File v1MappingFile = it
+	File v2MappingFile = new File("$localMappingsPath/${it.name}")
 
-    published = true
+	def conversionTask = tasks.register("convert${it.name}ToV2") {
+		group = "V2 Conversion"
+		inputs.file(v1MappingFile)
+		outputs.file(v2MappingFile)
 
-    File v1MappingFile = it
-    File v2MappingFile = new File("$localMappingsPath/${it.name}")
-
-    def conversionTask = "convert${it.name}ToV2"
-    tasks.register(conversionTask) {
-        group = "V2 Conversion"
-        inputs.file(v1MappingFile)
-        outputs.file(v2MappingFile)
-
-        doLast {
+		doLast {
 			MappingWriter.create(v2MappingFile.toPath(), MappingFormat.TINY_2).withCloseable {
 				def visitor = new MappingNsCompleter(it, ["intermediary": "official"], true)
 				MappingReader.read(v1MappingFile.toPath(), visitor)
 			}
-        }
-    }
+		}
+	}
 
-    Jar makeV1Jar = makeJar(mcVer, v1MappingFile, false)
-    Jar makeV2Jar = makeJar(mcVer, v2MappingFile, true)
+	def makeV1Jar = makeJar(mcVer, v1MappingFile, false)
+	def makeV2Jar = makeJar(mcVer, v2MappingFile, true)
+	makeV2Jar.configure {
+		dependsOn conversionTask
+	}
 
-    makeV2Jar.dependsOn conversionTask
+	if (publishedVersions.contains(mcVer) && !(ENV.FORCE_PUBLISH == mcVer)) {
+		project.logger.lifecycle("Skipping ${mcVer} as it has already been released")
+		return
+	}
 
-    publishing {
-        publications {
-            create("${mcVer.replace(" ", "")}_mavenJava", MavenPublication) {
-                groupId "aabric"
-                artifactId "intermediary"
-                version mcVer
-                artifact(makeV1Jar.archiveFile) {
-                    builtBy makeV1Jar
-                }
-                artifact(makeV2Jar.archiveFile) {
-                    builtBy makeV2Jar
-                    classifier = "v2"
-                }
-            }
-        }
-    }
+	project.logger.lifecycle("Publishing ${mcVer}")
+	published = true
+
+	build.dependsOn makeV1Jar
+	build.dependsOn makeV2Jar
+
+	publishing {
+		publications {
+			create("${mcVer.replace(" ", "")}_mavenJava", MavenPublication) {
+				groupId 'aabric'
+				artifactId "intermediary"
+				version mcVer
+				artifact(makeV1Jar.get().archiveFile) {
+					builtBy makeV1Jar
+				}
+				artifact(makeV2Jar.get().archiveFile) {
+					builtBy makeV2Jar
+					classifier = "v2"
+				}
+			}
+		}
+	}
 }
 
 if (!published) {
@@ -100,17 +104,17 @@ if (!published) {
 }
 
 def makeJar(String mcVersion, File mappings, boolean v2) {
-    def jarFilename = "intermediary-" + mcVersion + (v2 ? "-v2" : "")
-    return task("${mcVersion}_makeJar" + (v2 ? "v2" : ""), type: Jar) {
-        baseName jarFilename
-        from(file(mappings)) {
-            into "mappings"
-            rename mappings.name, "mappings.tiny"
-        }
-        destinationDirectory = file("build/jars")
-    }
+	def jarFilename = "intermediary-" + mcVersion + (v2 ? "-v2" : "") + ".jar"
+	return tasks.register("${mcVersion}_makeJar" + (v2 ? "v2" : ""), Jar) {
+		archiveFileName = jarFilename
+		group = "jar"
+		from(file(mappings)) {
+			into "mappings"
+			rename mappings.name, "mappings.tiny"
+		}
+		destinationDirectory = file("build/jars")
+	}
 }
-
 publishing {
     repositories {
         mavenLocal()
