@@ -1168,7 +1168,7 @@ FIELD	net/minecraft/unmapped/C_4286596	I	f_2096892	f_2096892	eu	eu
 FIELD	net/minecraft/unmapped/C_4286596	Ldm;	f_2629489	f_2629489	eu	eu
 FIELD	net/minecraft/unmapped/C_4286596	Z	f_6398230	f_6398230	eu	eu
 FIELD	net/minecraft/unmapped/C_4286596	[Lev;	f_4113055	f_4113055	eu	eu
-FIELD	net/minecraft/unmapped/C_4286596	Lev;	f_4113055	f_4113055	eu	eu
+FIELD	net/minecraft/unmapped/C_4286596	Lev;	f_4113056	f_4113056	eu	eu
 METHOD	net/minecraft/unmapped/C_4286596	(Ldm;)V	<init>	<init>	eu	eu
 METHOD	net/minecraft/unmapped/C_4286596	()Lev;	m_1328672	m_1328672	eu	eu
 METHOD	net/minecraft/unmapped/C_4286596	(I)I	m_9683374	m_9683374	eu	eu
