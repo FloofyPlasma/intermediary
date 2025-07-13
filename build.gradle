@@ -119,7 +119,7 @@ file('mappings').eachFile {
     publishing {
         publications {
             create("${mcVer.replace(" ", "")}_mavenJava", MavenPublication) {
-                groupId "aabric-experimental"
+                groupId "aabric"
                 artifactId "intermediary"
                 version mcVer
                 artifact(makeV1Jar.archiveFile) {
@@ -131,7 +131,7 @@ file('mappings').eachFile {
                 }
             }
             create("${mcVer.replace(" ", "")}Upstream_mavenJava", MavenPublication) {
-                groupId "aabric-experimental"
+                groupId "aabric"
                 artifactId "intermediary-upstream"
                 version mcVer
                 artifact(makeUpstreamedV1Jar.archiveFile) {
